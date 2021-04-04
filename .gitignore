@@ -1,0 +1,10 @@
+_site
+
+*.codekit3
+*.codekit-cache
+*.sql
+
+.jekyll-cache
+.sass-cache
+
+.DS_Store
