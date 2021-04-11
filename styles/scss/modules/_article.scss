@@ -57,7 +57,7 @@
   .date {
     display: block;
 
-    margin-bottom: em($m-small-line*2, $m-small-size);
+    margin-top: em($m-small-line/2, $m-small-size);
 
     @include font-size($m-small-size, $m-small-line);
   }
@@ -74,7 +74,7 @@
       @include font-size($d-medium-size, $d-medium-line);
     }
     .date {
-      margin-bottom: em($d-small-line*2, $d-small-size);
+      margin-top: em($d-small-line/2, $d-small-size);
 
       @include font-size($d-small-size, $d-small-line);
     }
