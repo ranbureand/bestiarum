@@ -58,12 +58,12 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-jekyll_admin:
-  homepage: posts
-  hidden_links:
-    - staticfiles
-    - datafiles
-    - configuration
+#jekyll_admin:
+#  homepage: posts
+#  hidden_links:
+#    - staticfiles
+#    - datafiles
+#    - configuration
 
 defaults:
   -
