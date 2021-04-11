@@ -52,8 +52,30 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
-- .sass-cache/
-- .jekyll-cache/
-- gemfiles/
-- Gemfile
-- Gemfile.lock
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+
+jekyll_admin:
+  homepage: posts
+  hidden_links:
+    - staticfiles
+    - datafiles
+    - configuration
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: article
+      title: ""
+      subtitle: ""
+      description: ""
+      date: ""
+      language: "en"
+      publish: "no"
+      number: 0
