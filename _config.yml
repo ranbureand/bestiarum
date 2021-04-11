@@ -66,17 +66,17 @@ plugins:
 #    - datafiles
 #    - configuration
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: article
-      title: ""
-      subtitle: ""
-      description: ""
-      date: ""
-      language: "en"
-      publish: "no"
-      number: 0
+#defaults:
+#  -
+#    scope:
+#      path: ""
+#      type: posts
+#    values:
+#      layout: article
+#      title: ""
+#      subtitle: ""
+#      description: ""
+#      date: ""
+#      language: "en"
+#      publish: "no"
+#      number: 0
