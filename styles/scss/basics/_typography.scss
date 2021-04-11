@@ -1,0 +1,415 @@
+/* Copyright (c) 2019 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Typography
+*/
+
+[class*="typo"] {
+  position: relative;
+
+  h1,
+  h2,
+  h3,
+  h5 {
+    font-weight: $bold;
+
+    text-align: center;
+  }
+  h4,
+  h6 {
+    font-weight: $normal;
+
+    text-align: center;
+  }
+
+  ul,
+  ol,
+  blockquote,
+  .indent {
+    padding-left: em($m-gut);
+  }
+  ul {
+    li {
+      &:before {
+        float: left;
+        content: "\2022";
+      }
+    }
+  }
+  ol {
+    counter-reset: ordered-list;
+    li {
+      counter-increment: ordered-list;
+      &:before {
+        float: left;
+        font-variant-numeric: normal;
+        content: counter(ordered-list);
+      }
+    }
+  }
+  ul ul,
+  ol ol {
+    margin-bottom: 0;
+    padding-left: em($m-gut);
+  }
+  blockquote {
+    border-left-width: $m-border-width;
+    border-left-style: $border-style;
+  }
+  .indent {
+    font-style: italic;
+  }
+  a {
+    @include link(normal);
+  }
+  a.footnote {
+
+  }
+  sup[id *= "fnref:"] {
+    margin-left: 0.2em;
+  }
+  img {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  hr {
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  > *:first-child {
+    margin-top: 0;
+  }
+  > *:last-child {
+    margin-bottom: 0;
+  }
+  @include min-screen(col(8)) {
+    ul,
+    ol,
+    blockquote,
+    .indent {
+      padding-left: em($d-gut);
+    }
+    blockquote {
+      border-left-width: $d-border-width;
+    }
+    hr {
+      width: col(2);
+    }
+  }
+}
+
+[id*="fnref:"] {
+  margin-left: 0.2em;
+}
+
+.typo-m {
+  h1,
+  h2 {
+    margin-bottom: em($m-large-line/2, $m-large-size);
+
+    @include font-size($m-large-size, $m-large-line);
+  }
+  h3,
+  h4,
+  p,
+  dd {
+    margin-bottom: em($m-medium-line/2, $m-medium-size);
+
+    @include font-size($m-medium-size, $m-medium-line);
+  }
+  h5,
+  h6 {
+    margin-bottom: em($m-small-line/2, $m-small-size);
+
+    @include font-size($m-small-size, $m-small-line);
+  }
+  ul,
+  ol,
+  blockquote {
+    margin-bottom: em($m-medium-line/2);
+  }
+  ul,
+  ol {
+    padding-left: em($m-gut*2, $m-medium-size);
+  }
+  li,
+  dt {
+    @include font-size($m-medium-size, $m-medium-line);
+  }
+  dt {
+    padding-right: em($m-gut/2, $m-medium-size);
+  }
+  li:before {
+    width: em($m-gut*2, $m-medium-size);
+    margin-left: em(-$m-gut*2, $m-medium-size);
+  }
+  ul ul,
+  ol ol {
+    padding-left: em($m-gut*2, $m-medium-size);
+  }
+  li li {
+    font-size: 1em;
+  }
+  pre {
+    margin-top: em($m-medium-line/2, $m-medium-size);
+    margin-bottom: em($m-medium-line/2, $m-medium-size);
+    padding-top: em($m-medium-line/2, $m-medium-size);
+    padding-right: em($m-gut*2, $m-medium-size);
+    padding-bottom: em($m-medium-line/2, $m-medium-size);
+    padding-left: em($m-gut*2, $m-medium-size);
+
+    @include font-size($m-medium-size, $m-medium-line);
+  }
+  img {
+    margin-bottom: em($m-medium-line/2, $m-tiny-size);
+
+    @include font-size($m-tiny-size, $m-tiny-line);
+  }
+  hr {
+    margin-top: em($m-medium-line);
+    margin-bottom: em($m-medium-line);
+  }
+  .footnotes > ol > li {
+    &:before {
+      width: em($m-gut*2, $m-small-size);
+      margin-left: em(-$m-gut*2, $m-small-size);
+    }
+  }
+  @include min-screen(col(8)) {
+    h1,
+    h2 {
+      margin-bottom: em($d-large-line/2, $d-large-size);
+
+      @include font-size($d-large-size, $d-large-line);
+    }
+    h3,
+    h4,
+    p,
+    dd {
+      margin-bottom: em($d-medium-line/2, $d-medium-size);
+
+      @include font-size($d-medium-size, $d-medium-line);
+    }
+    h5,
+    h6 {
+      margin-bottom: em($d-small-line/2, $d-small-size);
+
+      @include font-size($d-small-size, $d-small-line);
+    }
+    ul,
+    ol,
+    blockquote {
+      margin-bottom: em($d-medium-line/2);
+    }
+    ul,
+    ol {
+      padding-left: em($d-gut/2*3);
+    }
+    li,
+    dt {
+      @include font-size($d-medium-size, $d-medium-line);
+    }
+    li:before {
+      width: em($d-gut/2*3, $d-medium-size);
+      margin-left: em(-$d-gut/2*3, $d-medium-size);
+    }
+    dt {
+      padding-right: em($d-gut/2, $d-medium-size);
+    }
+    ul ul,
+    ol ol {
+      padding-left: em($d-gut, $d-medium-size);
+    }
+    li li {
+      font-size: 1em;
+    }
+    pre {
+      margin-top: em($d-medium-line/2, $d-medium-size);
+      margin-bottom: em($d-medium-line/2, $d-medium-size);
+      padding-top: em($d-medium-line/2, $d-medium-size);
+      padding-right: em($d-gut, $d-medium-size);
+      padding-bottom: em($d-medium-line/2, $d-medium-size);
+      padding-left: em($d-gut, $d-medium-size);
+
+      @include font-size($d-medium-size, $d-medium-line);
+    }
+    img {
+      margin-bottom: em($d-medium-line/2, $d-tiny-size);
+
+      @include font-size($d-tiny-size, $d-tiny-line);
+    }
+    hr {
+      margin-top: em($d-medium-line);
+      margin-bottom: em($d-medium-line);
+    }
+    .footnotes > ol > li {
+      &:before {
+        width: em($d-gut/2*3, $d-small-size);
+        margin-left: em(-$d-gut/2*3, $d-small-size);
+      }
+    }
+  }
+}
+
+.typo-s,
+.footnotes > ol > li {
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin-bottom: em($m-medium-line/4, $m-medium-size);
+
+    @include font-size($m-medium-size, $m-medium-line);
+  }
+  h5,
+  h6,
+  p,
+  dd {
+    margin-bottom: em($m-small-line/4, $m-small-size);
+
+    @include font-size($m-small-size, $m-small-line);
+  }
+  ul,
+  ol,
+  blockquote {
+    margin-bottom: em($m-small-line/2);
+  }
+  ul,
+  ol {
+    padding-left: em($m-gut*2, $m-small-size);
+  }
+  li,
+  dt {
+    @include font-size($m-small-size, $m-small-line);
+  }
+  dt {
+    padding-right: em($m-gut/2, $m-small-size);
+  }
+  li:before {
+    width: em($m-gut*2, $m-small-size);
+    margin-left: em(-$m-gut*2, $m-small-size);
+  }
+  ul ul,
+  ol ol {
+    padding-left: em($m-gut*2, $m-small-size);
+  }
+  li li {
+    font-size: 1em;
+  }
+  pre {
+    margin-top: em($m-small-line/2, $m-small-size);
+    margin-bottom: em($m-small-line/2, $m-small-size);
+    padding-top: em($m-small-line/2, $m-small-size);
+    padding-right: em($m-gut*2, $m-small-size);
+    padding-bottom: em($m-small-line/2, $m-small-size);
+    padding-left: em($m-gut*2, $m-small-size);
+
+    @include font-size($m-small-size, $m-small-line);
+  }
+  @include min-screen(col(8)) {
+    h1,
+    h2,
+    h3,
+    h4 {
+      margin-bottom: em($d-medium-line/4, $d-medium-size);
+
+      @include font-size($d-medium-size, $d-medium-line);
+    }
+    h5,
+    h6,
+    p,
+    dd {
+      margin-bottom: em($d-small-line/4, $d-small-size);
+
+      @include font-size($d-small-size, $d-small-line);
+    }
+    ul,
+    ol,
+    blockquote {
+      margin-bottom: em($d-small-line/2);
+    }
+    ul,
+    ol {
+      padding-left: em($d-gut/2*3);
+    }
+    li,
+    dt {
+      @include font-size($d-small-size, $d-small-line);
+    }
+    li:before {
+      width: em($d-gut/2*3, $d-small-size);
+      margin-left: em(-$d-gut/2*3, $d-small-size);
+    }
+    dt {
+      padding-right: em($d-gut/2, $d-small-size);
+    }
+    ul ul,
+    ol ol {
+      padding-left: em($d-gut, $d-small-size);
+    }
+    li li {
+      font-size: 1em;
+    }
+    pre {
+      margin-top: em($d-small-line/2, $d-small-size);
+      margin-bottom: em($d-small-line/2, $d-small-size);
+      padding-top: em($d-small-line/2, $d-small-size);
+      padding-right: em($d-gut, $d-small-size);
+      padding-bottom: em($d-small-line/2, $d-small-size);
+      padding-left: em($d-gut, $d-small-size);
+
+      @include font-size($d-small-size, $d-small-line);
+    }
+  }
+}
+
+.footnotes {
+  margin-top: em($m-large-line);
+  padding-top: em($m-large-line);
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: $m-border-width;
+    border-top: $m-border-width $border-style $border-color;
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  > ol {
+    margin-bottom: 0;
+    counter-reset: footnotes;
+     > li {
+      font-size: 1em;
+      counter-increment: footnotes;
+      &:before {
+        content: counter(footnotes);
+
+        @include font-size($m-small-size, $m-small-line);
+      }
+    }
+  }
+  @include min-screen(col(8)) {
+    margin-top: em($d-large-line);
+    padding-top: em($d-large-line);
+    &:before {
+      width: col(2);
+      height: $m-border-width;
+      border-top-width: $m-border-width;
+    }
+     > ol {
+       > li {
+        font-size: 1em;
+        &:before {
+          @include font-size($d-small-size, $d-small-line);
+        }
+      }
+    }
+  }
+}

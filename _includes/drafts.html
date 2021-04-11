@@ -1,0 +1,11 @@
+        <ul class="references">
+          {%- assign posts = site.posts | where: 'publish', 'no' %}
+          {% for post in posts %}
+            <li class="c{{post.number}}">
+              <a class="reference" href="{{ post.url | prepend: site.baseurl }}">
+                <strong class="title">{{ post.title }}</strong>
+                <div class="subtitle">{{ post.description }}</div>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>

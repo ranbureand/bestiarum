@@ -1,0 +1,32 @@
+      {%- assign posts = site.posts | where: 'publish', include.publish %}
+      {%- for post in posts %}
+        {%- if page.url == '/' %}
+          {%- assign currentPostIndex = 1 %}
+        {%- elsif post.title == page.title %}
+          {%- assign currentPostIndex = forloop.index %}
+        {%- endif %}
+      {%- endfor %}
+      {%- assign prevPostIndex = currentPostIndex | plus: 1 %}
+      {%- assign nextPostIndex = currentPostIndex | minus: 1 %}
+      <div class="pagination-canvas c{{page.number}}">
+        <div class="pagination">
+          {%- for post in posts %}
+          {%- if forloop.index == prevPostIndex %}
+          <div class="page-prev">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              <strong>{{ post.title }}</strong>
+              <span>{{ post.description }}</span>
+            </a>
+          </div>
+          {%- endif %}
+          {%- if forloop.index == nextPostIndex %}
+          <div class="page-next">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              <strong>{{ post.title }}</strong>
+              <span>{{ post.description }}</span>
+            </a>
+          </div>
+          {%- endif %}
+          {%- endfor %}
+        </div>
+      </div>

@@ -1,0 +1,314 @@
+/* Copyright (c) 2019 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Variables
+*/
+
+$base-unit:                 4px;
+
+$browser-default-font-size: 16px;
+
+$base-font-size:            16px;
+$base-font-line:            $base-unit*6;
+
+$m-base-rhythm:             $base-unit*6;
+$d-base-rhythm:             $base-unit*10;
+
+/*
+** Font sizes and line heights
+** m : mobile
+** t : tablet
+** d : desktop
+*/
+
+$m-extra-large-size:          48px;
+$m-extra-large-line:          $base-unit*14; //56px
+$d-extra-large-size:          64px;
+$d-extra-large-line:          $base-unit*20; //80px
+
+$m-large-size:          28px;
+$m-large-line:          $base-unit*10; //40px
+$d-large-size:          36px;
+$d-large-line:          $base-unit*12; //48px
+
+$m-medium-size:         20px;
+$m-medium-line:         $base-unit*8; //32px
+$d-medium-size:         24px;
+$d-medium-line:         $base-unit*10; //40px
+
+$m-small-size:          18px;
+$m-small-line:          $base-unit*6; //24px
+$d-small-size:          20px;
+$d-small-line:          $base-unit*8; //32px
+
+$m-extra-small-size:    14px;
+$m-extra-small-line:    $base-unit*5; //20px
+$d-extra-small-size:    14px;
+$d-extra-small-line:    $base-unit*5; //20px
+
+$m-tiny-size:           12px;
+$m-tiny-line:           $base-unit*4;  //16px
+$d-tiny-size:           12px;
+$d-tiny-line:           $base-unit*4;  //16px
+
+/*
+** Font weights
+*/
+
+$bold:      600;
+$normal:    400;
+
+/*
+** Icon sizes
+*/
+
+
+$l-icon-width:          32px;
+$l-icon-height:         24px;
+$m-l-icon-width:        $l-icon-width*2.5;
+$m-l-icon-height:       $l-icon-height*2.5;
+$d-l-icon-width:        $l-icon-width*3;
+$d-l-icon-height:       $l-icon-height*3;
+
+$m-icon-width:          16px;
+$m-icon-height:         12px;
+$m-m-icon-width:        $m-icon-width*2.5;
+$m-m-icon-height:       $m-icon-height*2.5;
+$d-m-icon-width:        $m-icon-width*3;
+$d-m-icon-height:       $m-icon-height*3;
+
+/*
+** Grid
+*/
+
+$column-width: 64px;
+
+/*
+** Guts and indents
+*/
+
+$m-gut: 16px; // mobile gut
+$d-gut: 24px; // desktop gut
+
+/*
+** Borders
+*/
+
+$m-border-width:        2.5px;
+$d-border-width:        3px;
+
+$border-style:          dashed;
+
+/*
+** Strip units
+*/
+
+@function strip($number) {
+  @return $number / ($number * 0 + 1);
+}
+
+/*
+** Convert pxs to ems
+*/
+
+@function em($px, $base: $base-font-size) {
+  @return strip($px / $base) * 1em;
+}
+
+/*
+** Column-width function, in ems
+*/
+
+@function col($number-columns, $base: $base-font-size) {
+  @return em($column-width * $number-columns, $base);
+}
+
+/*
+** Column-width function, in pxs
+*/
+
+@function col-px($number-columns) {
+  @return $column-width * $number-columns * 1px;
+}
+
+/*
+** Typefaces
+*/
+
+@mixin font-face($type-name, $file-name, $weight, $style) {
+  @font-face {
+    font-family: "#{$type-name}";
+    src: url("../../fonts/woff2/#{$file-name}.woff2") format("woff2"),
+         url("../../fonts/woff/#{$file-name}.woff") format("woff");
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
+
+@mixin face($status: sans) {
+  @if $status == "sans" {
+  font-family: "Faune", "Helvetica Neue", Arial, sans-serif;
+  } @else if $status == "serif" {
+  font-family: "Faune", Georgia, serif;
+  } @else if $status == "mono" {
+  font-family: "Roboto Mono", "Andale Mono", "Monaco", monospace;
+  }
+}
+
+/*
+** Font size
+*/
+
+@mixin font-size($to-size, $lines: auto, $from-size: $base-font-size) {
+  font-size: em($to-size, $from-size);
+  @if $lines != auto {
+    line-height: em($lines, $to-size);
+  }
+}
+
+@mixin fluid-font-size($min-font-size, $font-size-scaler, $max-font-size, $line-height) {
+  font-size: clamp(#{$min-font-size}, #{$font-size-scaler}, #{$max-font-size});
+  line-height: $line-height;
+}
+
+/*
+** Adjust the width of an element (to accomodate for CSS Comb)
+*/
+
+@mixin adjust-dimension($dimension, $to-gut, $from-size: $base-font-size) {
+  #{$dimension}: calc(100% - #{em($to-gut*2, $from-size)});
+}
+
+/*
+** Link
+*/
+
+@mixin link($status: normal) {
+  font-weight: $bold;
+
+  transition-timing-function: ease-out;
+  transition-duration: $duration;
+  transition-property: text-decoration-color;
+  text-decoration: underline;
+
+  text-decoration-thickness: from-font;
+  @if $status == "normal" {
+    &:hover {
+    }
+  } @else if $status == "current" {
+  }
+}
+
+
+/*
+** Tempo
+*/
+
+$duration: 0.2s;
+
+/*
+** Rainbow
+*/
+
+@mixin rainbow($col-number, $direction: "to right") {
+  $gradient: ();
+
+  $column-width: 100/$col-number*1%; //width of a column in percentage
+
+  @each $hour, $deg in $colors {
+    $dump: ();
+
+    $dump:
+    adjust-hue($background-color, $deg) $column-width * ($hour - 1),
+    adjust-hue($background-color, $deg) $column-width * ($hour);
+
+    $gradient: join($gradient, $dump, comma);
+  }
+
+  background-image: linear-gradient(to right, $gradient);
+}
+
+@mixin clip-head($col-number) {
+  $points: ();
+
+  @for $i from 0 through $col-number {
+    $dump: ();
+
+    @if $i % 2 == 0 {
+      $dump: 100/$col-number*$i*1% 0%,
+    } @else {
+      $dump: 100/$col-number*$i*1% 100%,
+    }
+
+    $points: join($points, $dump, comma);
+  }
+
+  clip-path: polygon(0% 0%, $points, 100% 0%);
+}
+
+@mixin clip-feet($col-number) {
+  $points: ();
+
+  @for $i from 0 through $col-number {
+    $dump: ();
+
+    @if $i % 2 == 0 {
+      $dump: 100/$col-number*$i*1% 100%,
+    } @else {
+      $dump: 100/$col-number*$i*1% 0%,
+    }
+
+    $points: join($points, $dump, comma);
+  }
+
+  clip-path: polygon(0 100%, $points, 100% 100%);
+}
+
+/*
+** Math
+*/
+
+@function ssqrt($r) {
+  $x0: 1; // initial value
+  $solution: false;
+
+  @for $i from 1 through 10 {
+    @if abs(2 * $x0) < 0,00000000000001 { // Don't want to divide by a number smaller than this
+      $solution: false;
+    }
+
+    $x1: $x0 - ($x0 * $x0 - abs($r)) / (2 * $x0) !global;
+
+    @if ( abs($x1 - $x0) / abs($x1)) < 0,0000001 { // 7 digit accuracy is desired
+      $solution: true;
+    }
+
+    $x0: $x1;
+  }
+
+  @if $solution == true {
+    // If $r is negative, then the output will be multiplied with <a href="http://en.wikipedia.org/wiki/Imaginary_number">i = √-1</a>
+    // (√xy = √x√y) => √-$r = √-1√$r
+    @if $r < 0 {
+      @return $x1 #{i};
+    }
+    @else {
+      @return $x1;
+    }
+  }
+  @else {
+    @return "No solution";
+  }
+}
+
+@function sqrt($r) {
+  $x0: 1;
+  $x1: $x0;
+
+  @for $i from 1 through 10 {
+    $x1: $x0 - ($x0 * $x0 - abs($r)) / (2 * $x0);
+    $x0: $x1;
+  }
+
+  @return $x1;
+}

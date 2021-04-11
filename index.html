@@ -1,0 +1,21 @@
+---
+layout: base
+
+title: 'Index'
+subtitle: '…'
+
+description: '…'
+---
+
+{%- assign counter = 0 %}
+{%- for post in site.posts %}
+  {%- unless post.publish == 'no' %}
+    {%- assign counter=counter | plus:1 %}
+  {%- endunless %}
+{%- endfor %}
+
+      <div class="references-canvas">
+
+{% include references.html %}
+
+      </div>

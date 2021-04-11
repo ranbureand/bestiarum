@@ -1,0 +1,138 @@
+/* Copyright (c) 2019 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Pagination
+*/
+
+.pagination {
+  position: relative;
+
+  display: grid;
+
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: em($m-gut);
+  padding-left: em($m-gut);
+
+  animation-name: element-in-up;
+  animation-duration: $duration*4;
+
+  animation-fill-mode: both;
+  grid-column-gap: em($m-gut);
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto;
+  @include min-screen(col(8)) {
+    padding-right: em($d-gut);
+    padding-left: em($d-gut);
+
+    grid-column-gap: em($d-gut);
+  }
+  @include min-screen(col(12)) {
+    width: col(12);
+  }
+}
+
+[class*="page"] {
+  text-align: center;
+
+  grid-column: 1 / 9;
+
+  a {
+    display: block;
+
+    @include font-size($m-small-size, $m-small-line);
+  }
+  .arrow {
+    width: em($m-m-icon-width, $m-small-size);
+    height: em($m-m-icon-height, $m-small-size);
+  }
+  strong,
+  span {
+    display: block;
+  }
+  strong {
+    &:after {
+      font-weight: $normal;
+
+      margin-left: 0.1em;
+
+      content: "]";
+    }
+    &:before {
+      font-weight: $normal;
+
+      margin-right: 0.1em;
+
+      content: "[";
+    }
+  }
+  &:hover {
+    strong {
+      &:after {
+        content: "[";
+      }
+      &:before {
+        content: "]";
+      }
+    }
+  }
+  &:not(:first-child) {
+    &:before {
+      display: block;
+
+      width: 25%;
+      height: $m-border-width;
+      margin-top: em($d-small-line);
+      margin-right: auto;
+      margin-bottom: em($d-small-line);
+      margin-left: auto;
+
+      content: "";
+
+      border-top: $m-border-width $border-style $border-color;
+    }
+  }
+  @include min-screen(col(8)) {
+    grid-column: 2 / 8;
+
+    a {
+      @include font-size($d-small-size, $d-small-line);
+    }
+    .arrow {
+      width: em($d-m-icon-width, $d-small-size);
+      height: em($d-m-icon-height, $d-small-size);
+    }
+    &:not(:first-child) {
+      &:before {
+        top: em(-$d-small-line*3/4, $d-small-size);
+
+        height: $d-border-width;
+
+        border-top-width: $d-border-width;
+      }
+    }
+  }
+}
+
+.page-next {
+  .arrow {
+    margin-bottom: em($m-small-line/4, $m-small-size);
+  }
+  @include min-screen(col(8)) {
+    .arrow {
+      margin-bottom: em($d-small-line/4, $d-small-size);
+    }
+  }
+}
+
+.page-prev {
+  .arrow {
+    margin-top: em($m-small-line/4, $m-small-size);
+  }
+  @include min-screen(col(8)) {
+    .arrow {
+      margin-top: em($d-small-line/4, $d-small-size);
+    }
+  }
+}

@@ -1,0 +1,24 @@
+---
+layout: base
+---
+
+      <div class="article-canvas c{{page.number}}">
+        <article class="article">
+
+          <header class="head">
+
+{% include date.html date=page.date %}
+            <h2 class="title">{{ page.title }}</h2>
+            <div class="subtitle">{{ page.subtitle }}</div>
+
+          </header>
+
+          <div class="body typo-m">
+
+{{ page.content }}
+          </div>
+
+        </article>
+      </div>
+
+<!--{% include pagination.html publish=page.publish %}-->

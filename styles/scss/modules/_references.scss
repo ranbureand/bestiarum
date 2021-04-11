@@ -1,0 +1,118 @@
+/* Copyright (c) 2019 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** References
+*/
+
+.references {
+  grid-column: 1 / 9;
+
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-flow: row wrap;
+
+  justify-content: flex-start;
+
+  li {
+    flex-grow: 0;
+    flex-shrink: 1;
+    position: relative;
+    width: 100/1*1%;
+    padding-bottom: 100/1*1%;
+  }
+  > li:last-child {
+    margin-bottom: 0;
+  }
+  @include min-screen(col(8)) {
+    li {
+      width: 100/2*1%;
+      padding-bottom: 100/2*1%;
+    }
+  }
+  @include min-screen(col(12)) {
+    li {
+      width: 100/3*1%;
+      padding-bottom: 100/3*1%;
+    }
+  }
+  @include min-screen(col(16)) {
+    li {
+      width: 100/4*1%;
+      padding-bottom: 100/4*1%;
+    }
+  }
+  @include min-screen(col(24)) {
+    li {
+      width: 100/5*1%;
+      padding-bottom: 100/5*1%;
+    }
+  }
+}
+
+.reference {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  padding-right: em($m-gut);
+  padding-left: em($m-gut);
+
+  .title {
+    font-weight: 900;
+    display: block;
+
+    text-align: center;
+
+    @include fluid-font-size(
+      em($m-medium-size),
+      2.25*4*1vw,
+      em($m-large-size),
+      (($m-medium-line/$m-medium-size) - ($m-large-line/$m-large-size)) / 4 + ($m-large-line/$m-large-size)*1em
+    );
+  }
+  .subtitle {
+    display: block;
+
+    font-style: italic;
+    margin-top: em($m-small-line/4, $m-small-size);
+
+    text-align: center;
+
+    @include font-size($m-small-size, $m-small-line);
+  }
+  @include min-screen(col(8)) {
+    padding-right: em($d-gut);
+    padding-left: em($d-gut);
+    .title {
+      @include fluid-font-size(
+        em($m-medium-size),
+        2.25*2*1vw,
+        em($m-extra-large-size),
+        (($m-medium-line/$m-medium-size) - ($m-extra-large-line/$m-extra-large-size)) / 4 + ($m-extra-large-line/$m-extra-large-size)*1em
+      );
+    }
+  }
+  @include min-screen(col(12)) {
+    .title {
+      @include fluid-font-size(
+        $d-medium-size,
+        2.25*1*1vw,
+        $d-large-size,
+        (($d-medium-line/$d-medium-size) - ($d-large-line/$d-large-size)) / 4 + ($d-large-line/$d-large-size)*1em
+      );
+    }
+    .subtitle {
+      margin-top: em($d-small-line/4, $d-small-size);
+
+      @include font-size($d-small-size, $d-small-line);
+    }
+  }
+}

@@ -1,0 +1,97 @@
+/* Copyright (c) 2019 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Colors
+*/
+
+body {
+  color: $type-color;
+  background-color: $background-color;
+  a {
+    &:link,
+    &:visited {
+      text-decoration-color: $light-type-color;
+    }
+    &:hover {
+      text-decoration-color: $type-color;
+    }
+  }
+}
+
+@each $hour, $deg in $colors {
+  $l-background: adjust-hue(
+    $color, $deg
+  );
+  $d-background: desaturate(
+    darken(
+      $l-background, 80
+    ), 20
+  );
+
+  $l-foreground: adjust-hue(
+    $color, $deg+180
+  );
+  $d-foreground: desaturate(
+    darken(
+      $l-foreground, 80
+    ), 20
+  );
+  $m-foreground: saturate(
+    darken(
+      $l-foreground, 40
+    ), 60
+  );
+
+  $l-background-solid: $l-background;
+  $d-background-solid: mix(
+    $d-background, $l-foreground, 80
+  );
+  $d-background-transparent: rgba(
+    $d-background, 0.80
+  );
+
+  $l-foreground-solid: $l-foreground;
+
+  $d-foreground-solid: mix(
+    $d-foreground, $l-background, 80
+  );
+  $d-foreground-transparent: rgba(
+    $d-foreground, 0.80
+  );
+
+  .c#{$hour} {
+    ::-moz-selection {
+      background-color: $l-foreground;
+    }
+    ::selection {
+      background-color: $l-foreground;
+    }
+
+    color: $d-foreground-transparent;
+    background-color: $l-background-solid;
+
+    blockquote {
+      border-left-color: $d-foreground-transparent;
+    }
+    hr,
+    .footnotes:before {
+      border-top-color: $d-foreground-transparent;
+    }
+    pre,
+    code,
+    mark,
+    kbd {
+      background-color: $l-foreground;
+    }
+    pre {
+      code {
+        background-color: transparent;
+      }
+    }
+    .page-prev {
+      &:before {
+        border-top-color: $d-foreground-transparent;
+      }
+    }
+  }
+}
