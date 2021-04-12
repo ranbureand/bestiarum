@@ -22,7 +22,7 @@ title: "Bestiarum"
 #email: your-email@example.com
 description: ""
 author: "Dilek Dilaver"
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 version: "2021-04-11"
 
