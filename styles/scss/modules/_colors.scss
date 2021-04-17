@@ -18,70 +18,64 @@ body {
   }
 }
 
-@each $hour, $deg in $colors {
-  $l-background: adjust-hue(
-    $color, $deg
+@each $number, $shade, $deg in $colors {
+
+  $background: null;
+  $foreground: null;
+
+  @if $shade == "light" {
+    $background: adjust-hue(
+      $color-light, $deg
+    );
+    $foreground: adjust-hue(
+      $color-dark, $deg + 45deg
+    );
+    /*$foreground: darken(
+      adjust-hue(
+        $color-light, $deg + 45
+      ), 52%
+    );*/
+  } @else {
+    $background: adjust-hue(
+      $color-dark, $deg
+    );
+    $foreground: adjust-hue(
+      $color-light, $deg + 45deg
+    );
+  };
+
+  $selected-background: adjust-hue(
+    $background, 180
   );
-  $d-background: desaturate(
-    darken(
-      $l-background, 80
-    ), 20
+  $selected-foreground: adjust-hue(
+    $foreground, 180
   );
 
-  $l-foreground: adjust-hue(
-    $color, $deg+180
-  );
-  $d-foreground: desaturate(
-    darken(
-      $l-foreground, 80
-    ), 20
-  );
-  $m-foreground: saturate(
-    darken(
-      $l-foreground, 40
-    ), 60
-  );
-
-  $l-background-solid: $l-background;
-  $d-background-solid: mix(
-    $d-background, $l-foreground, 80
-  );
-  $d-background-transparent: rgba(
-    $d-background, 0.80
-  );
-
-  $l-foreground-solid: $l-foreground;
-
-  $d-foreground-solid: mix(
-    $d-foreground, $l-background, 80
-  );
-  $d-foreground-transparent: rgba(
-    $d-foreground, 0.80
-  );
-
-  .c#{$hour} {
+  .c#{$number} {
     ::-moz-selection {
-      background-color: $l-foreground;
+      color: $selected-foreground;
+      background-color: $selected-background;
     }
     ::selection {
-      background-color: $l-foreground;
+      color: $selected-foreground;
+      background-color: $selected-background;
     }
 
-    color: $d-foreground-transparent;
-    background-color: $l-background-solid;
+    color: $foreground;
+    background-color: $background;
 
     blockquote {
-      border-left-color: $d-foreground-transparent;
+      border-left-color: $foreground;
     }
     hr,
     .footnotes:before {
-      border-top-color: $d-foreground-transparent;
+      border-top-color: $foreground;
     }
     pre,
     code,
     mark,
     kbd {
-      background-color: $l-foreground;
+      background-color: $foreground;
     }
     pre {
       code {
@@ -90,7 +84,7 @@ body {
     }
     .page-prev {
       &:before {
-        border-top-color: $d-foreground-transparent;
+        border-top-color: $foreground;
       }
     }
   }

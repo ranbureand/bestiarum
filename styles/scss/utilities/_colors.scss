@@ -26,33 +26,93 @@ $background-color:              darken($white, 0.5%);
 $selected-background-color:     rgba($black, 0.05);
 $code-background-color:         rgba($black, 0.1);
 
-$color:                         hsl(0, 64%, 88%);
+$color-light:                   hsl(0, 48%, 72%);
+$color-dark:                    hsl(0, 40%, 28%);
 
-$colors:                        (0,  180deg),
-                                (1,  195deg),
-                                (2,  210deg),
-                                (3,  225deg),
-                                (4,  240deg),
-                                (5,  255deg),
-                                (6,  270deg),
-                                (7,  285deg),
-                                (8,  300deg),
-                                (9,  315deg),
-                                (10, 330deg),
-                                (11, 345deg),
-                                (12,   0deg),
-                                (13,  15deg),
-                                (14,  30deg),
-                                (15,  45deg),
-                                (16,  60deg),
-                                (17,  75deg),
-                                (18,  90deg),
-                                (19, 105deg),
-                                (20, 120deg),
-                                (21, 135deg),
-                                (22, 150deg),
-                                (23, 165deg),
-                                (24, 180deg);
+$colors:                        (0,  "light", 180deg),
+                                (1, "dark",  0deg),
+
+                                (2,  "light", 210deg),
+                                (3, "dark",  30deg),
+
+                                (4,  "light", 240deg),
+                                (5, "dark",  60deg),
+
+                                (6, "light", 270deg),
+                                (7, "dark",  90deg),
+
+                                (8, "light", 300deg),
+                                (9, "dark",  120deg),
+
+                                (10, "light", 330deg),
+                                (11, "dark",  150deg),
+
+                                (12, "light", 0deg),
+                                (13,  "dark",  180deg),
+
+                                (14, "light", 30deg),
+                                (15,  "dark",  210deg),
+
+                                (16, "light", 60deg),
+                                (17,  "dark",  240deg),
+
+                                (18, "light", 90deg),
+                                (19, "dark",  270deg),
+
+                                (20, "light", 120deg),
+                                (21, "dark",  300deg),
+
+                                (22, "light", 150deg),
+                                (23, "dark",  330deg);
+
+/*$colors:                        (0,  "light", 180deg),
+                                (1,  "dark",  180deg),
+                                (2,  "light", 195deg),
+                                (3,  "dark",  195deg),
+                                (4,  "light", 210deg),
+                                (5,  "dark",  210deg),
+                                (6,  "light", 225deg),
+                                (7,  "dark",  225deg),
+                                (8,  "light", 240deg),
+                                (9,  "dark",  240deg),
+                                (10, "light", 255deg),
+                                (11, "dark",  255deg),
+                                (12, "light", 270deg),
+                                (13, "dark",  270deg),
+                                (14, "light", 285deg),
+                                (15, "dark",  285deg),
+                                (16, "light", 300deg),
+                                (17, "dark",  300deg),
+                                (18, "light", 315deg),
+                                (19, "dark",  315deg),
+                                (20, "light", 330deg),
+                                (21, "dark",  330deg),
+                                (22, "light", 345deg),  // middle
+                                (23, "dark",  345deg),
+                                (24, "light", 0deg),
+                                (25, "dark",  0deg),
+                                (26, "light", 15deg),
+                                (27, "dark",  15deg),
+                                (28, "light", 30deg),
+                                (29, "dark",  30deg),
+                                (30, "light", 45deg),
+                                (31, "dark",  45deg),
+                                (32, "light", 60deg),
+                                (33, "dark",  60deg),
+                                (34, "light", 75deg),
+                                (35, "dark",  75deg),
+                                (36, "light", 90deg),
+                                (37, "dark",  90deg),
+                                (38, "light", 105deg),
+                                (39, "dark",  105deg),
+                                (40, "light", 120deg),
+                                (41, "dark",  120deg),
+                                (42, "light", 135deg),
+                                (43, "dark",  135deg),
+                                (44, "light", 150deg),
+                                (45, "dark",  150deg),
+                                (46, "light", 165deg),
+                                (47, "dark",  165deg);*/
 
 /*
 ** Borders

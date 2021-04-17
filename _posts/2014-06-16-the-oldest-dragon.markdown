@@ -9,7 +9,7 @@ description: ''
 date: 2014-06-16 18:55:00 +0300
 language: 'en'
 
-publish: 'yes'
+publish: 'no'
 
 number: 2
 ---
