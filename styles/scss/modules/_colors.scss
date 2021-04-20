@@ -18,23 +18,26 @@ body {
   }
 }
 
-@each $number, $shade, $deg in $colors {
+@each $number, $shade, $color-1, $color-2 in $colors {
 
   $background: null;
   $foreground: null;
 
   @if $shade == "light" {
+    $background: $color-1;
+    $foreground: $color-2;
+  } @else {
+    $background: $color-2;
+    $foreground: $color-1;
+  };
+
+  /*@if $shade == "light" {
     $background: adjust-hue(
       $color-light, $deg
     );
     $foreground: adjust-hue(
       $color-dark, $deg + 45deg
     );
-    /*$foreground: darken(
-      adjust-hue(
-        $color-light, $deg + 45
-      ), 52%
-    );*/
   } @else {
     $background: adjust-hue(
       $color-dark, $deg
@@ -42,14 +45,10 @@ body {
     $foreground: adjust-hue(
       $color-light, $deg + 45deg
     );
-  };
+  };*/
 
-  $selected-background: adjust-hue(
-    $background, 180
-  );
-  $selected-foreground: adjust-hue(
-    $foreground, 180
-  );
+  $selected-background: $background;
+  $selected-foreground: $foreground;
 
   .c#{$number} {
     ::-moz-selection {

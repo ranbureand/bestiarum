@@ -30,31 +30,31 @@ $color-light:                   hsl(0, 48%, 72%);
 $color-dark:                    hsl(0, 40%, 28%);
 
 $colors:                        (0,  "light", 180deg),
-                                (1, "dark",  0deg),
+                                (1,  "dark",  0deg),
 
                                 (2,  "light", 210deg),
-                                (3, "dark",  30deg),
+                                (3,  "dark",  30deg),
 
                                 (4,  "light", 240deg),
-                                (5, "dark",  60deg),
+                                (5,  "dark",  60deg),
 
-                                (6, "light", 270deg),
-                                (7, "dark",  90deg),
+                                (6,  "light", 270deg),
+                                (7,  "dark",  90deg),
 
-                                (8, "light", 300deg),
-                                (9, "dark",  120deg),
+                                (8,  "light", 300deg),
+                                (9,  "dark",  120deg),
 
                                 (10, "light", 330deg),
                                 (11, "dark",  150deg),
 
                                 (12, "light", 0deg),
-                                (13,  "dark",  180deg),
+                                (13, "dark",  180deg),
 
                                 (14, "light", 30deg),
-                                (15,  "dark",  210deg),
+                                (15, "dark",  210deg),
 
                                 (16, "light", 60deg),
-                                (17,  "dark",  240deg),
+                                (17, "dark",  240deg),
 
                                 (18, "light", 90deg),
                                 (19, "dark",  270deg),
@@ -65,54 +65,110 @@ $colors:                        (0,  "light", 180deg),
                                 (22, "light", 150deg),
                                 (23, "dark",  330deg);
 
-/*$colors:                        (0,  "light", 180deg),
-                                (1,  "dark",  180deg),
-                                (2,  "light", 195deg),
-                                (3,  "dark",  195deg),
-                                (4,  "light", 210deg),
-                                (5,  "dark",  210deg),
-                                (6,  "light", 225deg),
-                                (7,  "dark",  225deg),
-                                (8,  "light", 240deg),
-                                (9,  "dark",  240deg),
-                                (10, "light", 255deg),
-                                (11, "dark",  255deg),
-                                (12, "light", 270deg),
-                                (13, "dark",  270deg),
-                                (14, "light", 285deg),
-                                (15, "dark",  285deg),
-                                (16, "light", 300deg),
-                                (17, "dark",  300deg),
-                                (18, "light", 315deg),
-                                (19, "dark",  315deg),
-                                (20, "light", 330deg),
-                                (21, "dark",  330deg),
-                                (22, "light", 345deg),  // middle
-                                (23, "dark",  345deg),
-                                (24, "light", 0deg),
-                                (25, "dark",  0deg),
-                                (26, "light", 15deg),
-                                (27, "dark",  15deg),
-                                (28, "light", 30deg),
-                                (29, "dark",  30deg),
-                                (30, "light", 45deg),
-                                (31, "dark",  45deg),
-                                (32, "light", 60deg),
-                                (33, "dark",  60deg),
-                                (34, "light", 75deg),
-                                (35, "dark",  75deg),
-                                (36, "light", 90deg),
-                                (37, "dark",  90deg),
-                                (38, "light", 105deg),
-                                (39, "dark",  105deg),
-                                (40, "light", 120deg),
-                                (41, "dark",  120deg),
-                                (42, "light", 135deg),
-                                (43, "dark",  135deg),
-                                (44, "light", 150deg),
-                                (45, "dark",  150deg),
-                                (46, "light", 165deg),
-                                (47, "dark",  165deg);*/
+                                                 // https://www.hsluv.org/
+
+$l-colors: (                                     //  H    S    L
+                                "s1"  : #e5adb7, //  0    56   76
+                                "s2"  : #e6af9c, //  30   56   76
+                                "s3"  : #d8b77c, //  60   56   76
+                                "s4"  : #bbc17b, //  90   56   76
+                                "s5"  : #90cb7b, //  120  56   76
+                                "s6"  : #7ecba6, //  150  56   76
+                                "s7"  : #81c8bf, //  180  56   76
+                                "s8"  : #84c6d4, //  210  56   76
+                                "s9"  : #9cbfe2, //  240  56   76
+                                "s10" : #bcb7e2, //  270  56   76
+                                "s11" : #d9ade2, //  300  56   76
+                                "s12" : #e3abcd, //  330  56   76
+);
+$d-colors: (                                     //  H    S    L
+                                "s1"  : #7e3145, //  0    56   32
+                                "s2"  : #6a412f, //  30   56   32
+                                "s3"  : #58492f, //  60   56   32
+                                "s4"  : #4b4e2f, //  90   56   32
+                                "s5"  : #38522f, //  120  56   32
+                                "s6"  : #305242, //  150  56   32
+                                "s7"  : #31514d, //  180  56   32
+                                "s8"  : #325056, //  210  56   32
+                                "s9"  : #344e64, //  240  56   32
+                                "s10" : #4c3d96, //  270  56   32
+                                "s11" : #6a3773, //  300  56   32
+                                "s12" : #75345f, //  330  56   32
+);
+
+/*
+$colors:                        (0,  "light", #e5adb7, #58492f), // 0,56,76 | 60,56,32
+                                (1,  "dark",  #),
+
+                                (2,  "light", #e6af9c, #4b4e2f), // 30,56,76 | 90,56,32
+                                (3,  "dark",  #),
+
+                                (4,  "light", #d8b77c, #38522f), // 60,56,76 | 120,56,32
+                                (5,  "dark",  #),
+
+                                (6,  "light", #bbc17b, #305242), // 90,56,76 | 150,56,32
+                                (7,  "dark",  #),
+
+                                (8,  "light", #90cb7b, #31514d), // 120,56,76 | 180,56,32
+                                (9,  "dark",  #),
+
+                                (10, "light", #7ecba6, #325056), // 150,56,76 | 210,56,32
+                                (11, "dark",  #),
+
+                                (12, "light", #81c8bf, #344e64), // 180,56,76 | 240,56,32
+                                (13, "dark",  #),
+
+                                (14, "light", #84c6d4, #4c3d96), // 210,56,76 | 270,56,32
+                                (15, "dark",  #),
+
+                                (16, "light", #9cbfe2, #6a3773), // 240,56,76 | 300,56,32
+                                (17, "dark",  #),
+
+                                (18, "light", #bcb7e2, #75345f), // 270,56,76 | 330,56,32
+                                (19, "dark",  #),
+
+                                (20, "light", #d9ade2, #7e3145), // 300,56,76 | 0,56,32
+                                (21, "dark",  #),
+
+                                (22, "light", #e3abcd, #6a412f), // 330,56,76 | 30,56,32
+                                (23, "dark",  #);
+*/
+
+$colors:                        (0,  "light", map-get($l-colors, "s1"),  map-get($d-colors, "s3")),
+                                (1,  "dark",  map-get($l-colors, "s1"),  map-get($d-colors, "s3")),
+
+                                (2,  "light", map-get($l-colors, "s2"),  map-get($d-colors, "s4")),
+                                (3,  "dark",  map-get($l-colors, "s2"),  map-get($d-colors, "s4")),
+
+                                (4,  "light", map-get($l-colors, "s3"),  map-get($d-colors, "s5")),
+                                (5,  "dark",  map-get($l-colors, "s3"),  map-get($d-colors, "s5")),
+
+                                (6,  "light", map-get($l-colors, "s4"),  map-get($d-colors, "s7")),
+                                (7,  "dark",  map-get($l-colors, "s4"),  map-get($d-colors, "s7")),
+
+                                (8,  "light", map-get($l-colors, "s5"),  map-get($d-colors, "s8")),
+                                (9,  "dark",  map-get($l-colors, "s5"),  map-get($d-colors, "s8")),
+
+                                (10, "light", map-get($l-colors, "s6"),  map-get($d-colors, "s9")),
+                                (11, "dark",  map-get($l-colors, "s6"),  map-get($d-colors, "s9")),
+
+                                (12, "light", map-get($l-colors, "s7"),  map-get($d-colors, "s10")),
+                                (13, "dark",  map-get($l-colors, "s7"),  map-get($d-colors, "s10")),
+
+                                (14, "light", map-get($l-colors, "s8"),  map-get($d-colors, "s11")),
+                                (15, "dark",  map-get($l-colors, "s8"),  map-get($d-colors, "s11")),
+
+                                (16, "light", map-get($l-colors, "s9"),  map-get($d-colors, "s12")),
+                                (17, "dark",  map-get($l-colors, "s9"),  map-get($d-colors, "s12")),
+
+                                (18, "light", map-get($l-colors, "s10"), map-get($d-colors, "s1")),
+                                (19, "dark",  map-get($l-colors, "s10"), map-get($d-colors, "s1")),
+
+                                (20, "light", map-get($l-colors, "s11"), map-get($d-colors, "s2")),
+                                (21, "dark",  map-get($l-colors, "s11"), map-get($d-colors, "s2")),
+
+                                (22, "light", map-get($l-colors, "s12"), map-get($d-colors, "s3")),
+                                (23, "dark",  map-get($l-colors, "s12"), map-get($d-colors, "s3"));
 
 /*
 ** Borders
