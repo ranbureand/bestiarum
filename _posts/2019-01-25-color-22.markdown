@@ -1,7 +1,7 @@
 ---
 layout: article
 
-title: 'This text is a title.'
+title: '22 This text is a title.'
 subtitle: 'This text is a subtitle.'
 
 description: 'This text is a meta description.'
@@ -10,8 +10,6 @@ date: 2019-01-25 00:22:00 +0300
 language: 'en'
 
 publish: 'yes'
-
-number: 22
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

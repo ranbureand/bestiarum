@@ -26,6 +26,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 version: "2021-04-11"
 language: "en"
+colors: 24
 
 timezone: Europe/Rome
 encoding: utf-8
@@ -80,4 +81,3 @@ plugins:
 #      date: ""
 #      language: "en"
 #      publish: "no"
-#      number: 0

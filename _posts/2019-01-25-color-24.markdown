@@ -1,12 +1,12 @@
 ---
 layout: article
 
-title: '18 This text is a title.'
+title: '24 This text is a title.'
 subtitle: 'This text is a subtitle.'
 
 description: 'This text is a meta description.'
 
-date: 2019-01-25 00:18:00 +0300
+date: 2019-01-25 00:24:00 +0300
 language: 'en'
 
 publish: 'yes'
