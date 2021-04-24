@@ -14,12 +14,27 @@
 
   justify-content: flex-start;
 
+  animation-name: element-up;
+  animation-duration: $duration*4;
+  animation-fill-mode: both;
+
   li {
     flex-grow: 0;
     flex-shrink: 1;
     position: relative;
     width: 100/1*1%;
     padding-bottom: 100/1*1%;
+
+    //animation-name: element-zoom-out;
+    //animation-duration: $duration;
+
+    &:hover {
+      animation-name: element-zoom-in;
+      animation-duration: $duration;
+      animation-fill-mode: both;
+    }
+
+    /**/
   }
   > li:last-child {
     margin-bottom: 0;
@@ -64,6 +79,11 @@
 
   padding-right: em($m-gut);
   padding-left: em($m-gut);
+  z-index: 0;
+
+  animation-name: element-in;
+  animation-duration: $duration*4;
+  animation-fill-mode: both;
 
   .title {
     font-weight: 900;
@@ -113,6 +133,16 @@
       margin-top: em($d-small-line/4, $d-small-size);
 
       @include font-size($d-small-size, $d-small-line);
+    }
+  }
+}
+
+@for $i from 1 through 96 {
+  .references {
+    li:nth-child(#{$i}n) {
+      .reference {
+        animation-delay: #{$i * $duration/8};
+      }
     }
   }
 }

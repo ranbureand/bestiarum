@@ -96,79 +96,41 @@ $d-colors: (                                     //  H    S    L
                                 "s12" : #75345f, //  330  56   32
 );
 
-/*
-$colors:                        (0,  "light", #e5adb7, #58492f), // 0,56,76 | 60,56,32
-                                (1,  "dark",  #),
+$colors:                        (0,  "light", map-get($l-colors, "s1"),  map-get($d-colors, "s3"),  map-get($l-colors, "s7"),  map-get($d-colors, "s10")),
+                                (1,  "dark",  map-get($l-colors, "s1"),  map-get($d-colors, "s3"),  map-get($l-colors, "s7"),  map-get($d-colors, "s10")),
 
-                                (2,  "light", #e6af9c, #4b4e2f), // 30,56,76 | 90,56,32
-                                (3,  "dark",  #),
+                                (2,  "light", map-get($l-colors, "s2"),  map-get($d-colors, "s4"),  map-get($l-colors, "s8"),  map-get($d-colors, "s11")),
+                                (3,  "dark",  map-get($l-colors, "s2"),  map-get($d-colors, "s4"),  map-get($l-colors, "s8"),  map-get($d-colors, "s11")),
 
-                                (4,  "light", #d8b77c, #38522f), // 60,56,76 | 120,56,32
-                                (5,  "dark",  #),
+                                (4,  "light", map-get($l-colors, "s3"),  map-get($d-colors, "s5"),  map-get($l-colors, "s9"),  map-get($d-colors, "s12")),
+                                (5,  "dark",  map-get($l-colors, "s3"),  map-get($d-colors, "s5"),  map-get($l-colors, "s9"),  map-get($d-colors, "s12")),
 
-                                (6,  "light", #bbc17b, #305242), // 90,56,76 | 150,56,32
-                                (7,  "dark",  #),
+                                (6,  "light", map-get($l-colors, "s4"),  map-get($d-colors, "s7"),  map-get($l-colors, "s10"), map-get($d-colors, "s1")),
+                                (7,  "dark",  map-get($l-colors, "s4"),  map-get($d-colors, "s7"),  map-get($l-colors, "s10"), map-get($d-colors, "s1")),
 
-                                (8,  "light", #90cb7b, #31514d), // 120,56,76 | 180,56,32
-                                (9,  "dark",  #),
+                                (8,  "light", map-get($l-colors, "s5"),  map-get($d-colors, "s8"),  map-get($l-colors, "s11"), map-get($d-colors, "s2")),
+                                (9,  "dark",  map-get($l-colors, "s5"),  map-get($d-colors, "s8"),  map-get($l-colors, "s11"), map-get($d-colors, "s2")),
 
-                                (10, "light", #7ecba6, #325056), // 150,56,76 | 210,56,32
-                                (11, "dark",  #),
+                                (10, "light", map-get($l-colors, "s6"),  map-get($d-colors, "s9"),  map-get($l-colors, "s12"), map-get($d-colors, "s3")),
+                                (11, "dark",  map-get($l-colors, "s6"),  map-get($d-colors, "s9"),  map-get($l-colors, "s12"), map-get($d-colors, "s3")),
 
-                                (12, "light", #81c8bf, #344e64), // 180,56,76 | 240,56,32
-                                (13, "dark",  #),
+                                (12, "light", map-get($l-colors, "s7"),  map-get($d-colors, "s10"), map-get($l-colors, "s1"),  map-get($d-colors, "s4")),
+                                (13, "dark",  map-get($l-colors, "s7"),  map-get($d-colors, "s10"), map-get($l-colors, "s1"),  map-get($d-colors, "s4")),
 
-                                (14, "light", #84c6d4, #4c3d96), // 210,56,76 | 270,56,32
-                                (15, "dark",  #),
+                                (14, "light", map-get($l-colors, "s8"),  map-get($d-colors, "s11"), map-get($l-colors, "s2"),  map-get($d-colors, "s5")),
+                                (15, "dark",  map-get($l-colors, "s8"),  map-get($d-colors, "s11"), map-get($l-colors, "s2"),  map-get($d-colors, "s5")),
 
-                                (16, "light", #9cbfe2, #6a3773), // 240,56,76 | 300,56,32
-                                (17, "dark",  #),
+                                (16, "light", map-get($l-colors, "s9"),  map-get($d-colors, "s12"), map-get($l-colors, "s3"),  map-get($d-colors, "s6")),
+                                (17, "dark",  map-get($l-colors, "s9"),  map-get($d-colors, "s12"), map-get($l-colors, "s3"),  map-get($d-colors, "s6")),
 
-                                (18, "light", #bcb7e2, #75345f), // 270,56,76 | 330,56,32
-                                (19, "dark",  #),
+                                (18, "light", map-get($l-colors, "s10"), map-get($d-colors, "s1"),  map-get($l-colors, "s4"),  map-get($d-colors, "s7")),
+                                (19, "dark",  map-get($l-colors, "s10"), map-get($d-colors, "s1"),  map-get($l-colors, "s4"),  map-get($d-colors, "s7")),
 
-                                (20, "light", #d9ade2, #7e3145), // 300,56,76 | 0,56,32
-                                (21, "dark",  #),
+                                (20, "light", map-get($l-colors, "s11"), map-get($d-colors, "s2"),  map-get($l-colors, "s5"),  map-get($d-colors, "s8")),
+                                (21, "dark",  map-get($l-colors, "s11"), map-get($d-colors, "s2"),  map-get($l-colors, "s5"),  map-get($d-colors, "s8")),
 
-                                (22, "light", #e3abcd, #6a412f), // 330,56,76 | 30,56,32
-                                (23, "dark",  #);
-*/
-
-$colors:                        (0,  "light", map-get($l-colors, "s1"),  map-get($d-colors, "s3")),
-                                (1,  "dark",  map-get($l-colors, "s1"),  map-get($d-colors, "s3")),
-
-                                (2,  "light", map-get($l-colors, "s2"),  map-get($d-colors, "s4")),
-                                (3,  "dark",  map-get($l-colors, "s2"),  map-get($d-colors, "s4")),
-
-                                (4,  "light", map-get($l-colors, "s3"),  map-get($d-colors, "s5")),
-                                (5,  "dark",  map-get($l-colors, "s3"),  map-get($d-colors, "s5")),
-
-                                (6,  "light", map-get($l-colors, "s4"),  map-get($d-colors, "s7")),
-                                (7,  "dark",  map-get($l-colors, "s4"),  map-get($d-colors, "s7")),
-
-                                (8,  "light", map-get($l-colors, "s5"),  map-get($d-colors, "s8")),
-                                (9,  "dark",  map-get($l-colors, "s5"),  map-get($d-colors, "s8")),
-
-                                (10, "light", map-get($l-colors, "s6"),  map-get($d-colors, "s9")),
-                                (11, "dark",  map-get($l-colors, "s6"),  map-get($d-colors, "s9")),
-
-                                (12, "light", map-get($l-colors, "s7"),  map-get($d-colors, "s10")),
-                                (13, "dark",  map-get($l-colors, "s7"),  map-get($d-colors, "s10")),
-
-                                (14, "light", map-get($l-colors, "s8"),  map-get($d-colors, "s11")),
-                                (15, "dark",  map-get($l-colors, "s8"),  map-get($d-colors, "s11")),
-
-                                (16, "light", map-get($l-colors, "s9"),  map-get($d-colors, "s12")),
-                                (17, "dark",  map-get($l-colors, "s9"),  map-get($d-colors, "s12")),
-
-                                (18, "light", map-get($l-colors, "s10"), map-get($d-colors, "s1")),
-                                (19, "dark",  map-get($l-colors, "s10"), map-get($d-colors, "s1")),
-
-                                (20, "light", map-get($l-colors, "s11"), map-get($d-colors, "s2")),
-                                (21, "dark",  map-get($l-colors, "s11"), map-get($d-colors, "s2")),
-
-                                (22, "light", map-get($l-colors, "s12"), map-get($d-colors, "s3")),
-                                (23, "dark",  map-get($l-colors, "s12"), map-get($d-colors, "s3"));
+                                (22, "light", map-get($l-colors, "s12"), map-get($d-colors, "s3"),  map-get($l-colors, "s6"),  map-get($d-colors, "s9")),
+                                (23, "dark",  map-get($l-colors, "s12"), map-get($d-colors, "s3"),  map-get($l-colors, "s6"),  map-get($d-colors, "s9"));
 
 /*
 ** Borders

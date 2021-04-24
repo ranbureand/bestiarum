@@ -34,3 +34,33 @@
     transform: translateY(0);
   }
 }
+
+@keyframes element-zoom-in {
+  0% {
+    transform: perspective(0px) translate3d(0px, 0px, 0px);
+    z-index: 0;
+  }
+  99% {
+    transform: perspective(200px) translate3d(0px, 0px, 16px);
+    z-index: 1;
+  }
+  100% {
+    transform: perspective(200px) translate3d(0px, 0px, 16px);
+    z-index: 1;
+  }
+}
+
+@keyframes element-zoom-out {
+  0% {
+    transform: perspective(200px) translate3d(0px, 0px, 16px);
+    z-index: 1;
+  }
+  99% {
+    transform: perspective(200px) translate3d(0px, 0px, 16px);
+    z-index: 1;
+  }
+  100% {
+    transform: perspective(0px) translate3d(0px, 0px, 0px);
+    z-index: 0;
+  }
+}

@@ -18,37 +18,28 @@ body {
   }
 }
 
-@each $number, $shade, $color-1, $color-2 in $colors {
+.references {
+  background-color: $selected-background-color;
+}
+
+@each $number, $shade, $color-1, $color-2, $color-3, $color-4 in $colors {
 
   $background: null;
   $foreground: null;
+  $selected-background: null;
+  $selected-foreground: null;
 
   @if $shade == "light" {
     $background: $color-1;
     $foreground: $color-2;
+    $selected-background: $color-3;
+    $selected-foreground: $color-4;
   } @else {
     $background: $color-2;
     $foreground: $color-1;
+    $selected-background: $color-3;
+    $selected-foreground: $color-4;
   };
-
-  /*@if $shade == "light" {
-    $background: adjust-hue(
-      $color-light, $deg
-    );
-    $foreground: adjust-hue(
-      $color-dark, $deg + 45deg
-    );
-  } @else {
-    $background: adjust-hue(
-      $color-dark, $deg
-    );
-    $foreground: adjust-hue(
-      $color-light, $deg + 45deg
-    );
-  };*/
-
-  $selected-background: $background;
-  $selected-foreground: $foreground;
 
   .c#{$number} {
     ::-moz-selection {
@@ -85,6 +76,18 @@ body {
       &:before {
         border-top-color: $foreground;
       }
+    }
+
+    /*.references {
+      li {
+        color: inherit;
+        background-color: inherit;
+      }
+    }*/
+
+    .reference {
+      color: $foreground;
+      background-color: $background;
     }
   }
 }

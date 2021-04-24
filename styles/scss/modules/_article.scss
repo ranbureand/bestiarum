@@ -4,6 +4,13 @@
 ** Article
 */
 
+.article-canvas {
+  animation-name: element-up;
+  animation-duration: $duration*4;
+
+  animation-fill-mode: both;
+}
+
 .article {
   display: grid;
 
@@ -14,7 +21,7 @@
   padding-bottom: em($m-base-rhythm*6);
   padding-left: em($m-gut);
 
-  animation-name: element-in-up;
+  animation-name: element-in;
   animation-duration: $duration*4;
 
   animation-fill-mode: both;
