@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 
 title: 'The Oldest Dragon'
 subtitle: 'The dragons are as ancient as the history of mankind.'
@@ -10,8 +10,6 @@ date: 2014-06-16 18:55:00 +0300
 language: 'en'
 
 publish: 'no'
-
-number: 2
 ---
 
 The dragons are as ancient as the history of mankind. They are in many mythologies in different places and/or with different names. However when and where did the earliest known myth of “dragons” originate?

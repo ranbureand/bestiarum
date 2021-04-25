@@ -26,8 +26,10 @@
     padding-bottom: 100/1*1%;
     -webkit-font-smoothing: subpixel-antialiased;
 
-    //animation-name: element-zoom-out;
-    //animation-duration: $duration;
+    /*animation-name: element-zoom-in;
+    animation-duration: $duration;
+    animation-fill-mode: backwards;
+    animation-direction: reverse;*/
 
     &:hover {
       animation-name: element-zoom-in;

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 
 title: 'Typographic Styles'
 subtitle: 'This text is a subtitle.'
@@ -10,8 +10,6 @@ date: 2014-06-15 18:55:00 +0300
 language: 'en'
 
 publish: 'no'
-
-number: 1
 ---
 
 # Heading Level #1

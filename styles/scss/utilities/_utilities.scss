@@ -21,35 +21,35 @@ $d-base-rhythm:             $base-unit*10;
 ** d : desktop
 */
 
-$m-extra-large-size:          48px;
-$m-extra-large-line:          $base-unit*14; //56px
-$d-extra-large-size:          64px;
-$d-extra-large-line:          $base-unit*20; //80px
+$m-extra-large-size:        48px;
+$m-extra-large-line:        $base-unit*14; //56px
+$d-extra-large-size:        64px;
+$d-extra-large-line:        $base-unit*20; //80px
 
-$m-large-size:          28px;
-$m-large-line:          $base-unit*10; //40px
-$d-large-size:          36px;
-$d-large-line:          $base-unit*12; //48px
+$m-large-size:              28px;
+$m-large-line:              $base-unit*10; //40px
+$d-large-size:              36px;
+$d-large-line:              $base-unit*12; //48px
 
-$m-medium-size:         20px;
-$m-medium-line:         $base-unit*8; //32px
-$d-medium-size:         24px;
-$d-medium-line:         $base-unit*10; //40px
+$m-medium-size:             20px;
+$m-medium-line:             $base-unit*8; //32px
+$d-medium-size:             24px;
+$d-medium-line:             $base-unit*10; //40px
 
-$m-small-size:          18px;
-$m-small-line:          $base-unit*6; //24px
-$d-small-size:          20px;
-$d-small-line:          $base-unit*8; //32px
+$m-small-size:              18px;
+$m-small-line:              $base-unit*6; //24px
+$d-small-size:              20px;
+$d-small-line:              $base-unit*8; //32px
 
-$m-extra-small-size:    16px;
-$m-extra-small-line:    $base-unit*6; //24px
-$d-extra-small-size:    16px;
-$d-extra-small-line:    $base-unit*6; //24px
+$m-extra-small-size:        16px;
+$m-extra-small-line:        $base-unit*6; //24px
+$d-extra-small-size:        16px;
+$d-extra-small-line:        $base-unit*6; //24px
 
-$m-tiny-size:           14px;
-$m-tiny-line:           $base-unit*5;  //20px
-$d-tiny-size:           14px;
-$d-tiny-line:           $base-unit*5;  //20px
+$m-tiny-size:               14px;
+$m-tiny-line:               $base-unit*5;  //20px
+$d-tiny-size:               14px;
+$d-tiny-line:               $base-unit*5;  //20px
 
 /*
 ** Font weights
@@ -185,13 +185,12 @@ $border-style:          dashed;
 
 @mixin link($status: normal) {
   font-weight: $bold;
-
   transition-timing-function: ease-out;
   transition-duration: $duration;
   transition-property: text-decoration-color;
   text-decoration: underline;
-
   text-decoration-thickness: from-font;
+
   @if $status == "normal" {
     &:hover {
     }
@@ -199,70 +198,11 @@ $border-style:          dashed;
   }
 }
 
-
 /*
 ** Tempo
 */
 
 $duration: 0.2s;
-
-/*
-** Rainbow
-*/
-
-@mixin rainbow($col-number, $direction: "to right") {
-  $gradient: ();
-
-  $column-width: 100/$col-number*1%; //width of a column in percentage
-
-  @each $hour, $deg in $colors {
-    $dump: ();
-
-    $dump:
-    adjust-hue($background-color, $deg) $column-width * ($hour - 1),
-    adjust-hue($background-color, $deg) $column-width * ($hour);
-
-    $gradient: join($gradient, $dump, comma);
-  }
-
-  background-image: linear-gradient(to right, $gradient);
-}
-
-@mixin clip-head($col-number) {
-  $points: ();
-
-  @for $i from 0 through $col-number {
-    $dump: ();
-
-    @if $i % 2 == 0 {
-      $dump: 100/$col-number*$i*1% 0%,
-    } @else {
-      $dump: 100/$col-number*$i*1% 100%,
-    }
-
-    $points: join($points, $dump, comma);
-  }
-
-  clip-path: polygon(0% 0%, $points, 100% 0%);
-}
-
-@mixin clip-feet($col-number) {
-  $points: ();
-
-  @for $i from 0 through $col-number {
-    $dump: ();
-
-    @if $i % 2 == 0 {
-      $dump: 100/$col-number*$i*1% 100%,
-    } @else {
-      $dump: 100/$col-number*$i*1% 0%,
-    }
-
-    $points: join($points, $dump, comma);
-  }
-
-  clip-path: polygon(0 100%, $points, 100% 100%);
-}
 
 /*
 ** Math

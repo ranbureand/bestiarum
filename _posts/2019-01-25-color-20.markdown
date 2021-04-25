@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 
 title: '20 This text is a title.'
 subtitle: 'This text is a subtitle.'

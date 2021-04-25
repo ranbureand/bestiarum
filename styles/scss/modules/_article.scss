@@ -44,44 +44,55 @@
 .head {
   position: relative;
 
-  padding-top: em($m-base-rhythm*4);
+  padding-top: em($m-base-rhythm*6);
 
   text-align: center;
 
   grid-column: 1 / 9;
+
   .title {
-    @include font-size($m-extra-large-size, $m-extra-large-line);
     font-weight: 900;
+
+    @include font-size($m-extra-large-size, $m-extra-large-line);
   }
+
   .subtitle {
-    display: block;
     font-style: italic;
+
+    display: block;
 
     margin-top: em($m-medium-line/2, $m-medium-size);
 
     @include font-size($m-medium-size, $m-medium-line);
   }
+
   .date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+
     display: block;
 
-    margin-top: em($m-small-line/2, $m-small-size);
+    margin-top: em($m-small-line*2, $m-small-size);
 
     @include font-size($m-small-size, $m-small-line);
   }
   @include min-screen(col(8)) {
-    padding-top: em($d-base-rhythm*3);
+    padding-top: em($d-base-rhythm*4);
 
-    //grid-column: 2 / 8;
     .title {
       @include font-size($d-extra-large-size, $d-extra-large-line);
     }
+
     .subtitle {
       margin-top: em($d-medium-line/2, $d-medium-size);
 
       @include font-size($d-medium-size, $d-medium-line);
     }
+
     .date {
-      margin-top: em($d-small-line/2, $d-small-size);
+      margin-top: em($d-small-line*2, $d-small-size);
 
       @include font-size($d-small-size, $d-small-line);
     }
@@ -89,8 +100,9 @@
 }
 
 .body {
-  grid-column: 1 / 9;
   padding-top: em($m-base-rhythm*3);
+
+  grid-column: 1 / 9;
   @include min-screen(col(8)) {
     padding-top: em($d-base-rhythm*2);
   }

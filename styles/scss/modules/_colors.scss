@@ -42,52 +42,51 @@ body {
   };
 
   .c#{$number} {
+    color: $foreground;
+    background-color: $background;
+
     ::-moz-selection {
       color: $selected-foreground;
       background-color: $selected-background;
     }
+
     ::selection {
       color: $selected-foreground;
       background-color: $selected-background;
     }
 
-    color: $foreground;
-    background-color: $background;
-
     blockquote {
       border-left-color: $foreground;
     }
+
     hr,
     .footnotes:before {
       border-top-color: $foreground;
     }
+
     pre,
     code,
     mark,
     kbd {
       background-color: $foreground;
     }
+
     pre {
       code {
         background-color: transparent;
       }
     }
+
     .page-prev {
       &:before {
         border-top-color: $foreground;
       }
     }
 
-    /*.references {
-      li {
-        color: inherit;
-        background-color: inherit;
-      }
-    }*/
-
     .reference {
       color: $foreground;
       background-color: $background;
     }
   }
+
 }

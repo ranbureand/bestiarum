@@ -9,11 +9,11 @@
   padding-top: em($m-base-rhythm/2);
   padding-bottom: em($m-base-rhythm/2);
 
-  @include min-screen(col(8)) {
+  @include min-screen(col(12)) {
     padding-top: em($d-base-rhythm/2);
     padding-bottom: em($d-base-rhythm/2);
   }
-  @include min-screen(col(12)) {
+  @include min-screen(col(8)) {
     padding-top: em($d-base-rhythm/2);
     padding-bottom: em($d-base-rhythm/2);
   }
@@ -22,10 +22,10 @@
 .footer-canvas {
   padding-top: em($m-base-rhythm*4);
 
-  @include min-screen(col(8)) {
+  @include min-screen(col(12)) {
     padding-top: em($d-base-rhythm*2.5);
   }
-  @include min-screen(col(12)) {
+  @include min-screen(col(8)) {
     padding-top: em($d-base-rhythm*2.5);
   }
 }
@@ -47,14 +47,14 @@
   grid-column-gap: em($m-gut);
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
+  @include min-screen((col(20) + em($d-gut))) {
+    width: col(20);
+  }
   @include min-screen(col(8)) {
     padding-right: em($d-gut);
     padding-left: em($d-gut);
 
     grid-column-gap: em($d-gut);
-  }
-  @include min-screen((col(20) + em($d-gut))) {
-    width: col(20);
   }
 }
 
@@ -63,6 +63,7 @@
 .footer-copyright,
 .footer-scroll {
   @include font-size($m-small-size, $m-small-line);
+
   a,
   div {
     display: block;
@@ -70,14 +71,17 @@
     padding-top: em($m-small-line/2, $m-small-size);
     padding-bottom: em($m-small-line/2, $m-small-size);
   }
+
   a {
     @include link(normal);
   }
+
   .current {
     @include link(normal);
   }
   @include min-screen(col(8)) {
     @include font-size($d-small-size, $d-small-line);
+
     a,
     div {
       padding-top: em($d-small-line/2, $d-small-size);
@@ -88,6 +92,7 @@
 
 .header-title {
   grid-column: 1 / 2;
+
   .logo {
     width: em($base-unit*4, $m-small-size);
     height: em($base-unit*4, $m-small-size);
@@ -112,6 +117,7 @@
 
 .footer-copyright {
   grid-column: 1 / 2;
+
   span {
     display: none;
   }

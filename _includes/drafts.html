@@ -1,7 +1,7 @@
         <ul class="references">
           {%- assign posts = site.posts | where: 'publish', 'no' %}
           {% for post in posts %}
-            <li class="c{{post.number}}">
+            <li class="c{{ site.colors | plus: 1 | minus: forloop.index | modulo: site.colors }}">
               <a class="reference" href="{{ post.url | prepend: site.baseurl }}">
                 <strong class="title">{{ post.title }}</strong>
                 <div class="subtitle">{{ post.description }}</div>

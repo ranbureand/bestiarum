@@ -2,16 +2,21 @@
 layout: base
 ---
 
+{%- if page.publish == 'yes' %}
 {%- assign these_posts = site.posts | where: 'publish', 'yes' %}
+{%- else %}
+{%- assign these_posts = site.posts | where: 'publish', 'no' %}
+{%- endif %}
+
 
       <div class="article-canvas c{% for this_post in these_posts %}{% if this_post.title == page.title and this_post.date == page.date %}{{ site.colors | plus: 1 | minus: forloop.index | modulo: site.colors }}{% endif %}{% endfor %}">
         <article class="article">
 
           <header class="head">
 
+{% include date.html date=page.date %}
             <h2 class="title">{{ page.title }}</h2>
             <div class="subtitle">{{ page.subtitle }}</div>
-{% include date.html date=page.date %}
 
           </header>
 

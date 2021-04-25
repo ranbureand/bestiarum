@@ -68,16 +68,16 @@ plugins:
 #    - datafiles
 #    - configuration
 
-#defaults:
-#  -
-#    scope:
-#      path: ""
-#      type: posts
-#    values:
-#      layout: article
-#      title: ""
-#      subtitle: ""
-#      description: ""
-#      date: ""
-#      language: "en"
-#      publish: "no"
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: article
+      title: "This is a title."
+      subtitle: "This is a subtitle."
+      description: "This is a meta description."
+      date: 2019-01-25 16:40:00 +0300
+      language: "en"
+      publish: "no"
