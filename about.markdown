@@ -4,7 +4,7 @@ layout: page
 title: 'About'
 subtitle: 'This is a subtitle.'
 
-permalink: /about/
+permalink: /about.html
 
 description: '…'
 ---
