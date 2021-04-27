@@ -18,10 +18,6 @@ body {
   }
 }
 
-.references {
-  background-color: $selected-background-color;
-}
-
 @each $number, $shade, $color-1, $color-2, $color-3, $color-4 in $colors {
 
   $background: null;
@@ -82,11 +78,5 @@ body {
         border-top-color: $foreground;
       }
     }
-
-    .reference {
-      color: $foreground;
-      background-color: $background;
-    }
   }
-
 }

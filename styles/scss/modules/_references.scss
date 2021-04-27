@@ -26,18 +26,24 @@
     padding-bottom: 100/1*1%;
     -webkit-font-smoothing: subpixel-antialiased;
 
-    /*animation-name: element-zoom-in;
-    animation-duration: $duration;
-    animation-fill-mode: backwards;
-    animation-direction: reverse;*/
+    animation-name: element-zoom-out;
+    animation-duration: $duration/4*3;
+    animation-fill-mode: forwards;
+
+    //background-color: $background-color;
 
     &:hover {
       animation-name: element-zoom-in;
-      animation-duration: $duration;
-      animation-fill-mode: both;
+      animation-duration: $duration/4*3;
+      animation-fill-mode: forwards;
     }
 
-    /**/
+    &:active {
+      animation-name: element-zoom-out;
+      animation-duration: $duration/8;
+      animation-fill-mode: forwards;
+    }
+
   }
   > li:last-child {
     margin-bottom: 0;
@@ -88,6 +94,12 @@
   animation-duration: $duration*4;
   animation-fill-mode: both;
 
+  .title,
+  .subtitle {
+    animation-name: element-in;
+    animation-duration: $duration*4;
+    animation-fill-mode: both;
+  }
   .title {
     font-weight: 900;
     display: block;
@@ -144,7 +156,11 @@
   .references {
     li:nth-child(#{$i}n) {
       .reference {
-        animation-delay: #{$i * $duration/8};
+        animation-delay: #{$duration/4*3 + ($i * $duration/8)};
+        .title,
+        .subtitle {
+          animation-delay: #{$duration/4*3 + ($i * $duration/8) + $duration/8*4};
+        }
       }
     }
   }
