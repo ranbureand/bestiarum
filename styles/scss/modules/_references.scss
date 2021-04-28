@@ -26,11 +26,9 @@
     padding-bottom: 100/1*1%;
     -webkit-font-smoothing: subpixel-antialiased;
 
-    animation-name: element-zoom-out;
+    /*animation-name: element-zoom-out;
     animation-duration: $duration/4*3;
-    animation-fill-mode: forwards;
-
-    //background-color: $background-color;
+    animation-fill-mode: forwards;*/
 
     &:hover {
       animation-name: element-zoom-in;
@@ -74,6 +72,12 @@
   }
 }
 
+.zoom-out {
+  animation-name: element-zoom-out;
+  animation-duration: $duration/4*3;
+  animation-fill-mode: forwards;
+}
+
 .reference {
   display: block;
   position: absolute;
@@ -90,9 +94,9 @@
   padding-left: em($m-gut);
   z-index: 0;
 
-  animation-name: element-in;
+  /*animation-name: element-in;
   animation-duration: $duration*4;
-  animation-fill-mode: both;
+  animation-fill-mode: both;*/
 
   .title,
   .subtitle {
