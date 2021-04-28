@@ -160,10 +160,11 @@
   .references {
     li:nth-child(#{$i}n) {
       .reference {
-        animation-delay: #{$duration/4*3 + ($i * $duration/8)};
+        //animation-delay: #{$duration/4*3 + ($i * $duration/8)};
         .title,
         .subtitle {
-          animation-delay: #{$duration/4*3 + ($i * $duration/8) + $duration/8*4};
+          //animation-delay: #{$duration/4*3 + ($i * $duration/8) + $duration/8*4};
+          animation-delay: #{$i * $duration/8};
         }
       }
     }
