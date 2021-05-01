@@ -43,7 +43,7 @@
       &:before {
         float: left;
         font-variant-numeric: normal;
-        content: counter(ordered-list);
+        content: counter(ordered-list)".";
       }
     }
   }

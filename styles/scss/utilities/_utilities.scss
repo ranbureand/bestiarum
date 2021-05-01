@@ -97,7 +97,7 @@ $d-gut: 24px; // desktop gut
 $m-border-width:        2.5px;
 $d-border-width:        3px;
 
-$border-style:          dashed;
+$border-style:          solid;
 
 /*
 ** Strip units
@@ -185,18 +185,22 @@ $border-style:          dashed;
 
 @mixin link($status: normal) {
   font-weight: $bold;
-  transition-timing-function: ease-out;
-  transition-duration: $duration;
-  transition-property: text-decoration-color;
+
+  transition-timing-function: ease-out, ease-out;
+  transition-duration: $duration, $duration;
+  transition-property: color, text-decoration-color;
   text-decoration: underline;
+
   text-decoration-thickness: from-font;
 
   @if $status == "normal" {
     &:hover {
     }
   } @else if $status == "current" {
+
   }
 }
+
 
 /*
 ** Tempo

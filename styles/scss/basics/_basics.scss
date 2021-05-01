@@ -117,9 +117,6 @@ template {
 */
 
 a {
-  transition-timing-function: ease-out;
-  transition-duration: $duration;
-  transition-property: opacity;
   text-decoration: none;
 
   color: inherit;

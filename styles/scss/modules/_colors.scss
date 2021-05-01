@@ -44,15 +44,52 @@ body {
     ::-moz-selection {
       color: $selected-foreground;
       background-color: $selected-background;
+      a {
+        &:link,
+        &:visited,
+        &:hover {
+          text-decoration-color: $selected-foreground;
+        }
+      }
     }
 
     ::selection {
       color: $selected-foreground;
       background-color: $selected-background;
+      a {
+        &:link,
+        &:visited,
+        &:hover {
+          text-decoration-color: $selected-foreground;
+        }
+      }
+    }
+
+    a {
+      &:link,
+      &:visited {
+        text-decoration-color: $selected-background;
+      }
+      &:hover {
+        color: $selected-background;
+      }
+    }
+
+    q {
+      color: $selected-background;
+    }
+
+    ul,
+    ol {
+      li {
+        &:before {
+          color: $selected-background;
+        }
+      }
     }
 
     blockquote {
-      border-left-color: $foreground;
+      border-left-color: $selected-background;
     }
 
     hr,
@@ -65,6 +102,7 @@ body {
     mark,
     kbd {
       background-color: $foreground;
+      color: $background;
     }
 
     pre {
