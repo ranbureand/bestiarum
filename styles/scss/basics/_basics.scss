@@ -188,7 +188,6 @@ strong {
 q {
   font-style: italic;
 
-  color: $strong-type-color;
   &:before {
     content: "“";
   }
@@ -250,7 +249,7 @@ kbd,
 mark {
   padding: 0 0.32em;
 
-  border-radius: 2px 2px;
+  border-radius: $base-unit*2 $base-unit*2;
   background-color: $code-background-color;
 }
 pre {
@@ -259,7 +258,7 @@ pre {
 
   white-space: normal;
 
-  border-radius: 2px 2px;
+  border-radius: $base-unit*2 $base-unit*2;
   background-color: $code-background-color;
   code {
     display: block;

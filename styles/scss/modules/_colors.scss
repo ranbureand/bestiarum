@@ -24,17 +24,20 @@ body {
   $foreground: null;
   $selected-background: null;
   $selected-foreground: null;
+  $emphasis: null;
 
   @if $shade == "light" {
     $background: $color-1;
     $foreground: $color-2;
     $selected-background: $color-3;
     $selected-foreground: $color-4;
+    $emphasis: darken($color-3, 12);
   } @else {
     $background: $color-2;
     $foreground: $color-1;
     $selected-background: $color-3;
     $selected-foreground: $color-4;
+    $emphasis: $color-3;
   };
 
   .c#{$number} {
@@ -68,28 +71,15 @@ body {
     a {
       &:link,
       &:visited {
-        text-decoration-color: $selected-background;
+        text-decoration-color: $emphasis;
       }
       &:hover {
-        color: $selected-background;
-      }
-    }
-
-    q {
-      color: $selected-background;
-    }
-
-    ul,
-    ol {
-      li {
-        &:before {
-          color: $selected-background;
-        }
+        color: $emphasis;
       }
     }
 
     blockquote {
-      border-left-color: $selected-background;
+      border-left-color: $emphasis;
     }
 
     hr,
