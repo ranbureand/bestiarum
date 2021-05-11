@@ -4,7 +4,7 @@ description: Ejderha kelimesi Geleneksel Çince’de 龍 olarak yazılır ve “
   okunur. Bu form ejderhanın vücudu ve kafası olmak üzere iki şekilden oluşur.
 layout: post
 date: '2020-09-21 16:40:00'
-language: tur
+language: tr
 publish: 'yes'
 subtitle: Çince
 ---
