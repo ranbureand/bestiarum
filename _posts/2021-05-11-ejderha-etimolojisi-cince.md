@@ -3,7 +3,7 @@ title: Ejderha Etimolojisi-I
 description: Ejderha kelimesi Geleneksel Çince’de 龍 olarak yazılır ve “Lóng” olarak
   okunur. Bu form ejderhanın vücudu ve kafası olmak üzere iki şekilden oluşur.
 layout: post
-date: '2020-09-21 16:40:00'
+date: '2020-09-21 00:00:00'
 language: tr
 publish: 'yes'
 subtitle: Çince
@@ -11,7 +11,7 @@ subtitle: Çince
 
 Ejderhalar pek çok mitolojide karşımıza çıktıklarından etimolojilerinin kaynakları dilden dile farklılık gösterir. Bilinen en yaşlı ejderhanın Çin’de bulunduğunu bir önceki postta yazmıştım. Bu nedenle etimoloji için ilk olarak Çince’ye bakalım. Ejderha kelimesi Geleneksel Çince’de 龍 olarak yazılır ve “Lóng” olarak okunur. Bu form ejderhanın vücudu ve kafası olmak üzere iki şekilden oluşur. Ejderhanın vücudu sağda (kuyruğu üst sağda ve bacakları sağda), sivri dişli/bıyıklı ağzı sol altta ve gözleri/başın üst kısmı üst soldadır. Bu karakter aynı zamanda imparator, hükümdar, kral, kahraman, gök gürültüsü veya gök gürültüsü sesi anlamına gelmektedir.
 
-Meraklısına küçük bir not: Türkçe'de vahşi hayvan yapma eki olan -lan ekinin (örn. aslan, kaplan, sırtlan)Çince'de ejderha anlamina gelen Long kelimesinden geldiği düşünülmektedir.
+Meraklısına küçük bir not: Türkçe'de vahşi hayvan yapma eki olan -lan ekinin (örn. aslan, kaplan, sırtlan)Çince'de ejderha anlamına gelen "Long" kelimesinden geldiği düşünülmektedir.
 
 Bir sonraki postta İngilizce kelime kökenini anlatacağım.
 
