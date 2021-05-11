@@ -73,6 +73,8 @@
   }
 
   a {
+    font-weight: $bold;
+    
     @include link(normal);
   }
 
