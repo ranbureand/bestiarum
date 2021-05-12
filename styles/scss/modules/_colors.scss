@@ -83,7 +83,8 @@ body {
     }
 
     hr,
-    .footnotes:before {
+    .footnotes:before,
+    .sources:before {
       border-top-color: $foreground;
     }
 
