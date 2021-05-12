@@ -7,7 +7,7 @@
                 href="{{ post.url | prepend: site.baseurl }}"
                 >
                 <strong class="title">{{ post.title }}</strong>
-                <div class="subtitle">{{ post.subtitle }}</div>
+                {%- if post.subtitle %}<div class="subtitle">{{ post.subtitle }}</div>{%- endif %}
               </a>
             </li>
           {% endfor %}

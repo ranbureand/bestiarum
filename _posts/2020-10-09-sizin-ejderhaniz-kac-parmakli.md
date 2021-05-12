@@ -5,7 +5,6 @@ description: Ejderha resimlerinde ya da çizimlerinde parmak sayısının çok �
 date: '2020-10-09 15:30:00'
 language: tr
 publish: 'yes'
-subtitle: Say Bak Say Bak
 ---
 
 Ejderha resimlerinde ya da çizimlerinde parmak sayısının çok önemli olduğunu biliyor muydunuz?
