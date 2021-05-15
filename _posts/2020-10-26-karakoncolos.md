@@ -1,10 +1,11 @@
 ---
-title: "Tarakları Sakla <br/> Balkabaklarını Pişir <br/> ve <br/> KARAKONCOLOS'u bekle"
+title: Karakoncolos
 layout: post
 description: Karakoncolos kış cinidir. Zemheride yani kışın en soğun olduğu zamanda sokaklarda gezer. Çocuk, kedi ya da maymun büyüklüğündedir. Vücudu tüylerle kaplıdır ve kara renktedir. Çoğu yerde zararsız olduğuna inanılsa da çirkinliğiyle insanlara korku verir.
 date: '2020-10-26 13:40:00'
 language: tr
 publish: 'yes'
+subtitle: Tarakları Sakla, Balkabaklarını Pişir ve Onu Bekle
 ---
 Karakoncolos kış cinidir. Zemheride yani kışın en soğun olduğu zamanda sokaklarda gezer. Çocuk, kedi ya da maymun büyüklüğündedir. Vücudu tüylerle kaplıdır ve kara renktedir. Çoğu yerde zararsız olduğuna inanılsa da çirkinliğiyle insanlara korku verir. Sokakta Karakoncolos’a rastladığınızda sizi durdurup sorular sorar. “Nereden geliyorsun?”, “Nereye gidiyorsun?” gibi. Hayatınız vereceğiniz cevaplara bağlıdır. Cevapların hepsinde Kara kelimesi geçmelidir. Örneğin “Karaköy’den geliyorum”, “Karaburun’a gidiyorum”  demeniz lazım. Yoksa Karakoncolos elindeki kocaman tarakla sizi yaralayabilir ya da öldürebilir(İyiki de zararsızmış!). Bu yüzden kışın evlerde taraklar ortada bırakılmaz.
 
