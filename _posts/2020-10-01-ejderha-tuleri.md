@@ -23,7 +23,6 @@ Ejderhaların doğu kültüründe gruplandırmasını bir başka postta paylaşa
 
 + *[Dragons, Wyverns, Drakes, Wyrms](https://auroswords.com/2017/04/14/dragons-wyverns-drakes-wyrms/)*, Auroswords
 + *[Drake](https://www.blackdrago.com/types/drake.htm)*, Blackdrago
-+ *[What is a Dragon?](http://www.draconian.com/whatis/)*, Draconian
 + *[European Dragon](https://en.wikipedia.org/wiki/European_dragon)*, Wikipedia
 + *[Níðhöggr](https://en.wikipedia.org/wiki/N%C3%AD%C3%B0h%C3%B6ggr)*, Wikipedia
 + *[Dragons of Middle Earth](http://academickids.com/encyclopedia/index.php/Dragons_%28Middle-earth%29)*, Academic Kids
