@@ -1,5 +1,5 @@
 ---
-title: Ejderha Etimolojisi-I
+title: "Ejderha Etimolojisi <br/>I"
 description: Ejderha kelimesi Geleneksel Çince’de 龍 olarak yazılır ve “Lóng” olarak
   okunur. Bu form ejderhanın vücudu ve kafası olmak üzere iki şekilden oluşur.
 layout: post
