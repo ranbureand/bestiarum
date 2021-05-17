@@ -10,7 +10,7 @@ description: '…'
 
 Merhaba Dünyalı,
 
-Ben Ejderhalar düşkünü, mitoloji aşığı, gece olunca ateş başında hikayeler anlatan meraklı bir gezginim. Saksağanlar gibi gördüğüm parlak şeyleri toplamayı severim. Çocukluğumdan beri takma adım takatukacı. Burası da o parlak ve sihirli olduğuna inandığım takatukaları biriktirdiğim yuvam.
+Ejderha düşkünü, mitoloji aşığı, gece olunca ateş başında hikayeler anlatan meraklı bir gezginim. Saksağanlar gibi gördüğüm parlak şeyleri toplamayı severim. Çocukluğumdan beri takma adım takatukacıdır. Burası da o parlak ve sihirli olduğuna inandığım takatukaları biriktirdiğim yuvam.
 
 **Takatukacı Ne Demek?**
 
