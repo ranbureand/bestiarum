@@ -51,7 +51,7 @@
   grid-column: 1 / 9;
 
   .title {
-    font-weight: 900;
+    font-weight: $bold;
 
     @include font-size($m-extra-large-size, $m-extra-large-line);
   }
