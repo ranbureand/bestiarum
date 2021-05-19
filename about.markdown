@@ -22,6 +22,7 @@ Buradakiler gibi sizin de bildiğiniz, dedenizden dinlediğiniz, ailece inandı�
 ***
 
 Hello Dreamer,
+
 I am a curious wanderer who tells stories by the fire at night. I like collecting shiny things like magpies. My nickname is “takatukaci” since my childhood. And this is my nest where I collect those shiny and magical “takatuka”s.
 
 **What does Takatukaci means?**
