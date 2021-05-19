@@ -14,9 +14,6 @@ Son Grootslang’ın halen Güney Afrika’da Richtersveld’te bir mağarada ya
 1917 yılında Peter Grayson adındaki İngiliz bir işadamının bu mağarada hazine ararken kaybolmuş olması ve ekibindeki kişilerin ise aslanlar tarafından saldırıya uğramış olması Grootslang’ın o mağarada yaşadığı inancını daha da kuvvetlendirmiştir.   
 
 
-https://cryptidz.fandom.com/wiki/Grootslang
-https://allthatsinteresting.com/mythological-creatures/8
-
 + *[Grootslang](https://cryptidz.fandom.com/wiki/Grootslang)*, Fandom.com
 + *[11 Terrifying Mythological Creatures That Expose Humanity’s Worst Fears](https://allthatsinteresting.com/mythological-creatures/8)*, Allthatsinteresting.com
 {: .sources}
