@@ -21,6 +21,7 @@ Bazı kaynaklar ejderhaları “wyvern”, “drake” ve “wyrm” olarak 3 ba
 Ejderha türleri gruplandırması en basit olarak bu şekilde. Tabi bu gruplandırma çoğunlukla Avrupa kaynaklı. Siz isterseniz böyle devam edersiniz istersiniz Tolkien gibi çok da şeetmeden hepsine “Urulóki” der geçersiniz.
 Ejderhaların doğu kültüründe gruplandırmasını bir başka postta paylaşacağım.
 
+
 + *[Dragons, Wyverns, Drakes, Wyrms](https://auroswords.com/2017/04/14/dragons-wyverns-drakes-wyrms/)*, Auroswords
 + *[Drake](https://www.blackdrago.com/types/drake.htm)*, Blackdrago
 + *[European Dragon](https://en.wikipedia.org/wiki/European_dragon)*, Wikipedia

@@ -16,6 +16,7 @@ Ejderha tanımlarındaki doğu-batı arasındaki bu farkın dini inanışların 
 
 Unutmayın: Hayal edebildiğiniz her şey gerçektir (P.Picasso). Görüşmek üzere :)
 
+
 + *[Chinese Dragon](https://www.languagewire.com/en/blog/chinese-dragon)*, LanguageWire
 + *[Introduction to Chinese Characters](https://www.brown.edu/about/administration/international-affairs/year-of-china/language-and-cultural-resources/introduction-chinese-characters/introduction-chinese-characters)*, Brown University Website
 + *[Etymology of Dragon](https://uselessetymology.com/2017/11/20/etymology-of-dragon/)*, Useless Mythology

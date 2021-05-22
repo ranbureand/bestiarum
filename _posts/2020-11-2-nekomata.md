@@ -16,6 +16,8 @@ Büyü güçlerini kullanarak kukla ustaları gibi ölü bedenleri kontrol edebi
 Genellikle başka bir kedi yokai türü olan Bakeneko ile karıştırılırlar. Ancak Bakeneko'nun aksine Nekomata her zaman kötücül ve şiddet yanlısıdır.
 
 Şimdi elinizdeki telefonu yavaşca yere bırakıp kedinize hakettiği saygıyı ve sevgiyi gösterin. O da Nekomata olunca sizi görür.
+
+
 + *[Nekomata](http://yokai.com/nekomata/)*, Yokai.com
 + *[Nekomata](https://mythology.wikia.org/wiki/Nekomata)*, Fandom.com
 {: .sources}

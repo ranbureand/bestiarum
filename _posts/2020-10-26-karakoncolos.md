@@ -13,6 +13,7 @@ Türkiye’nin pek çok yerinde de benzer isimlerle bu cinden bahsedilir. Doğu 
 
 Demem o ki, siz ister Bocuk gecesi deyin ister Cadılar Bayramı, ama mutlaka o gece kabak yemeyi unutmayın ne olur ne olmaz.
 
+
 + *Türk Söylence Sözlüğü*, Deniz Karakurt
 + *Karadeniz Ansiklopedik Sözlük*, Özhan Öztürk
 + *[Karakancoloz ve Halloween](https://www.sabah.com.tr/sofra/yazarlar/ayfer-unsal/2011/10/29/arakancoloz-ve-halloween)*, Ayfer T. Ünsal

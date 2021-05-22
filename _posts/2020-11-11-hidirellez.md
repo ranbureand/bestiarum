@@ -19,6 +19,7 @@ Hıdrellez günü herkes mutlaka salıncakta sallanır. Bundan amaç günahlarda
 
 Hıdırellez kırsal bir gelenekmiş gibi gözükse de halen büyük şehirlerde bile renkli törenler ve eğlencelerle, kendine has ritüelleriyle kutlanan bir bahar bayramıdır.
 
+
 + *[Türk Toplumunda Hıdırellez](https://dergipark.org.tr/tr/download/article-file/33076)*, Alaattin Uca, A.Ü. Türkiyat Araştırmaları Enstitüsü Dergisi Sayı 34 Erzurum 2007
 + *[Baharın Müjdecisi Hızır ile İlyas’ın Binlerce Yıldır Gerçekleşen Mistik Buluşması Hıdırellez Bayramı](https://muzipmasalcini.com/baharin-mujdecisi-hizir-ile-ilyasin-binlerce-yildir/)*, muzipmasalcini.com
 + *[Türk Halk Kültüründe Hıdrellez](http://turkoloji.cu.edu.tr/HALKBILIM/erman_artun_turk_halk_kulturunde_hidrellez.pdf)*, Prof. Dr. Erman Artun, Çukurova Üniversitesi Türkoloji Araştırmaları Merkezi

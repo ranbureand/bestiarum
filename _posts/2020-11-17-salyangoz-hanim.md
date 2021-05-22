@@ -16,10 +16,6 @@ Bir süre karı-koca mutlu mesut yaşarlarken kötü adamımız olan ülkenin kr
 Kazanırsa karısını alacağına, kaybederse de krallığını vereceğine dair söz vermiş. Salyangoz Hanımkızımız bakmış kral kocasını hile hurda ile altedecek, okyanusta yaşayan babası Ejderha Kralı’na hemen haber salmış. Ejderha Kral’ın yardımıyla çiftçi, yarışmalarda çamura yatıp hile hurdayla kazanmaya çalışan kralı altetmiş. Çiftçi hem karısını hem de krallığı nüfusu altına almış. Salyangoz Hanım da hem kralın karısı olmaktan hem de her gün üç öğün yemek yapmaktan kurtulduğu için çok mutlu olmuş. Sonrasında onlar ermiş muradına bir çıkalım tahtına.
 
 
-
-
-
-
 + *[The Snail-Shell Bride: bad things come to those who can't wait](http://www.korea.net/NewsFocus/Culture/view?articleId=123841)*, Korea.net
 + *[Salyangoz Hanım Masalı: Kore Mitolojisi](http://ozhanozturk.com/2018/04/29/salyangoz-hanim-masali-kore-mitolojisi/)*, Orhan Öztürk
 + *[Snail Bride](https://folkency.nfm.go.kr/en/topic/detail/5924)*, Encyclopedia of Korean Folk Culture

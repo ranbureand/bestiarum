@@ -7,16 +7,14 @@ language: tr
 publish: 'yes'
 subtitle: Cadıların neden hep kedisi vardır?
 ---
-Büyülü hayvanlar (İng: Familiars), Orta Çağ ve Erken Modern dönemlerinde Avrupa folklorunda genellikle hayvan biçiminde görülen ve bir cadıya, büyücüye veya bir şifacıya büyü ve sihirlerinde yardım eden doğa üstü ruhlardır.  
+Büyülü hayvanlar (İng: *Familiars*), Orta Çağ ve Erken Modern dönemlerinde Avrupa folklorunda genellikle hayvan biçiminde görülen ve bir cadıya, büyücüye veya bir şifacıya büyü ve sihirlerinde yardım eden doğa üstü ruhlardır.  
 
 Cadılara hizmet ettiklerinde, genellikle kötü niyetli iblisler oldukları düşünülür, ancak bir şifacı için çalışırken genellikle yardımsever periler olarak kabul edilirler. Bu ruhların asıl amacı, hizmet ettiği kişiye (cadı, büyücü, şifacı) koruma sağlamaktır.
 
 Büyülü hayvanlarla üç şekilde karşılabilirsiniz:
 
 + Günün herhangi bir saatinde herhangi bir yerde kendiliğinden karşınıza çıkabilir. Sizinle ruhsal olarak eğer siz de hazırsanız iletişime geçecektir.
-
 + Size bazen ailenizden biri bazen de daha güçlü bir ruh tarafından verilebilir.  
-
 + Veya ritüeller ile çağrılabilirler.
 
 Kedilerin, özellikle siyah kedilerin, kötücül büyülü hayvanlar olduğuna inanılır.  Nitekim bu Ortaçağ Avrupası’ndaki ünlü toplu kedi katliamlarının temel nedenlerinden biri de bu yaygın inanıştır. Aynı zamanda siyah kedilerin uğursuzluk getireceği inancının da altında yatak sebeptir.
