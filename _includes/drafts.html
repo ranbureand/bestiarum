@@ -3,7 +3,7 @@
           {% for post in posts %}
             <li class="reference-canvas">
               <a
-                class="reference c{{ site.colors | plus: 1 | minus: forloop.index | modulo: site.colors }}"
+                class="reference c{{ posts | size | minus: forloop.index | modulo: site.colors }}"
                 href="{{ post.url | prepend: site.baseurl }}"
                 >
                 <strong class="title">{{ post.title }}</strong>
