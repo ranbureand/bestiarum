@@ -1,7 +1,7 @@
 ---
 title: Bulgasari
 layout: post
-description: Bulgasari (Çince: bu ke sha:öldürülemez) Kore halk hikayelerindeki ender canavarlardan biridir. Canavar sadece metal yer ve her yediği metalle daha da büyür. Hikayeye göre Songdo’nun şeytani valisi tüm Budist rahiplerin hapse atılmasını emreder. Valinin askerlerinden kaçan bir rahip kardeşinin evinde bir dolaba saklanır.
+description: Bulgasari Kore halk hikayelerindeki ender canavarlardan biridir. Canavar sadece metal yer ve her yediği metalle daha da büyür. Hikayeye göre Songdo’nun şeytani valisi tüm Budist rahiplerin hapse atılmasını emreder. Valinin askerlerinden kaçan bir rahip kardeşinin evinde bir dolaba saklanır.
 date: '2021-04-01 13:40:00'
 language: tr
 publish: 'yes'
@@ -22,7 +22,7 @@ Filmleri çekmesi için Güney Koreli yönetmen Sang-ok ve ünlü bir oyuncu ola
 Pulgasari filmi 2006 yılında tüm yıl süren Godzilla festivali sırasında New York’ta ilk defa gösterilmiştir.
 
 
-+ *[Familiar](https://en.wikipedia.org/wiki/Familiar)*, Wikipedia
-+ *[Familiar Species](https://theworldofshadowfell.fandom.com/wiki/Familiars_(Species))*, fandom.com
-+ *[Familiar](https://wicca.wikia.org/wiki/Familiar)*, wikia.org
++ *[Impossible-to-Kill](https://folkency.nfm.go.kr/en/topic/detail/5534)*, Encyclopedia of Korean Culture
++ *[Pulgasari](https://en.wikipedia.org/wiki/Pulgasari)*, Wikipedia
++ *[11 Terrifying Mythological Creatures That Expose Humanity’s Worst Fears](https://allthatsinteresting.com/mythological-creatures/11 )*, allthatsinteresting.com
 {: .sources}
