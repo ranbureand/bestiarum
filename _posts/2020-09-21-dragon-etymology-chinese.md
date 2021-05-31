@@ -3,7 +3,7 @@ title: "Dragon Etymology <br/>I"
 description: In Traditional Chinese, “dragon” is written as 龍 and pronounced as "Lóng".
 layout: post
 date: '2020-09-21 00:00:00'
-language: eng
+language: en
 publish: 'yes'
 subtitle: Chinese
 ---
@@ -13,6 +13,7 @@ Since the dragons appear in many mythologies, the sources of their etymology var
 A little note to those eager to learn more: it is thought that the -lan suffix which denotes a wild, predatory animal in Turkish (i.e. aslan, kaplan, sırtlan) originates from the word Long, which means dragon in Chinese.
 
 I am gonna write the etymology of “Dragon” in English on the next post.
+
 
 + *[Chinese Dragon](https://www.languagewire.com/en/blog/chinese-dragon)*, LanguageWire
 + *[Introduction to Chinese Characters](https://www.brown.edu/about/administration/international-affairs/year-of-china/language-and-cultural-resources/introduction-chinese-characters/introduction-chinese-characters)*, Brown University Website

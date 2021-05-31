@@ -3,7 +3,7 @@ title: How Many Toes Does Your Dragon Have?
 layout: post
 description: Adding an extra toe to a Chinese dragon might be a fatal mistake in Ancient China because the five-toed dragon was a symbol of the imperial family.
 date: '2020-10-09 15:30:00'
-language: eng
+language: en
 publish: 'yes'
 ---
 
@@ -15,6 +15,7 @@ The five-toed dragon symbolizes the monarch, the four-toed dragon the aristocrac
 However some sources say that imperial or not, all the Chinese dragons have five toes. They also belive that all the Eastern dragons originated from China. When the dragons fly away from China, they lose toes. The more distance they fly, the more toes they lose. That is because the Korean dragons have four toes, while the Japanese ones have three toes. In contrast with the belief of the Chinese, Japanese say that they are the hometown of the dragons. The more they move farther away from Japan, the more they lose their originality and gain toes.
 
 What do you think?
+
 
 + *[Dragons](https://ghibli.fandom.com/wiki/Dragons)*, Ghibli Wiki
 + *[Chinese Dragons](http://www.dragonsinn.net/east-2.htm)*, dragonsinn.net

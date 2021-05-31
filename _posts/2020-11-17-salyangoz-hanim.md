@@ -7,6 +7,7 @@ language: tr
 publish: 'yes'
 subtitle: Pirinç Tarlasından Kraliçeliğe 7/24 yemek yapmaktan nasıl kurtuldu?
 ---
+
 Bizdeki Keloğlan masallarına benzer bir Kore masalıyla gününüzü şenlendirmeye geldim. Masalın pek çok versiyonu var ama ben iflah olmaz bir Yeşilcam aşığı olarak pek tabi “mutlu sonlu” o lanını seçtim.
 
 Bundan çok uzun zaman önce fakir bir çiftçi oğlan varmış. Her gün pirinç tarlasında çalışır yaşlı anacığına bakarmış. Bir gün yine pirinç toplarken “Bu kadar pirinç topluyorum da kiminle paylaşacağım bunları” demiş. Sonra birden bir kadın sesinin “Ben seninle birlikte yerim” dediğini duymuş. Etfına bakınmış ama sadece ufak bir salyangoz görmüş. Bu olay bir kaç kez daha tekrarlanınca çiftçi oğlana bir hal gelmiş o anda gözüne ilişen güzel kabuklu bu salyangozu beraberinde eve getirmiş. Gel gelelim o günden sonra her gün evde sanki Masterchef varmış gibi açık büfe kahvaltılar, sınırsız öğle yemekleri ve mükellef akşam ziyafetleri bulmaya başlamış. Kimin hazırladığını görmek için bir gün evden çıkar gibi yapıp evin bir köşesine saklanmış. Bir de ne görsün? Salyangoz kabuğundan çıkıp dünya güzeli bir kıza dönüşmüş ve yetmemiş birbirinden güzel sofralar hazırlamaya başlamış. Kalbe giden yol mideden geçtiğinden, hemen oracıkta Salyangoz Hanım’a aşk-ı ilan ve evlenme teklifi edivermiş. Hanım kızımız da kabul etmiş.

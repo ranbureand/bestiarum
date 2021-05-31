@@ -3,10 +3,11 @@ title: Karakoncolos
 layout: post
 description: Karakoncolos is a malevolent winter goblin.He wanders the streets at the coldest time of the winter.He has the size of a child, cat or monkey. His body is black and covered with hair.
 date: '2020-10-26 13:40:00'
-language: eng
+language: en
 publish: 'yes'
 subtitle: Cook the Pumpkin, Hide the Comb and Wait for Him
 ---
+
 Karakoncolos is a malevolent winter goblin.He wanders the streets at the coldest time of the winter.He has the size of a child, cat or monkey. His body is black and covered with hair. Although it is believed to be harmless in most places, he gives people fear with his ugliness. When you come across Karakoncolos on the street, he stops you and asks you questions."Where are you coming from?" "Where are you going?" like. Your life depends on your answers. All answers must include the word “Kara”. For example, you should say "I am coming from Karaköy" "I am going to Karaburun".Otherwise, he could injure you or -even worse- kill you with a huge comb in his hand (Well, shouldn’t he be harmless!?).That's why combs are locked up in the houses in winter.
 
 All around Turkey there are also folktales mentioning a similar goblin. It is called "Karakoncola" in the Eastern Black Sea Area, comes again with the coldest winds of winter, crashes down and destroys whatever comes in front of him. In order to avoid any harm, local dishes were left on a tray at the door of each house. Otherwise, if he could not find anything to eat he would eat the little son of the house.

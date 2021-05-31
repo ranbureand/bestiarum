@@ -7,6 +7,7 @@ language: tr
 publish: 'yes'
 subtitle: Cadıların neden hep kedisi vardır?
 ---
+
 Büyülü hayvanlar (İng: *Familiars*), Orta Çağ ve Erken Modern dönemlerinde Avrupa folklorunda genellikle hayvan biçiminde görülen ve bir cadıya, büyücüye veya bir şifacıya büyü ve sihirlerinde yardım eden doğa üstü ruhlardır.  
 
 Cadılara hizmet ettiklerinde, genellikle kötü niyetli iblisler oldukları düşünülür, ancak bir şifacı için çalışırken genellikle yardımsever periler olarak kabul edilirler. Bu ruhların asıl amacı, hizmet ettiği kişiye (cadı, büyücü, şifacı) koruma sağlamaktır.

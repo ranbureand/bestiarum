@@ -7,6 +7,7 @@ language: tr
 publish: 'yes'
 subtitle: Yanlışlıkla yaratılan gelmiş geçmiş en güçlü yaratık
 ---
+
 Grootslang Tanrıların yaratıma ilk başladıklarında yanlışlıkla yaratıldığına inanılan fil-yılan karışımı efsanevi yaratıktır. Tanrılar ilk yaratımlarına acemilikle Grootslang kadar güçlü bir canavar yaratmışlardır. O kadar güçlüdür ki, vücudunu etrafına doladığı herhangi bir canlıyı anında öldürebilir. Tanrılar hatalarına anladıklarında yarattıkları tüm Grootslangların güçlerini bölüp iki hayvana vermişlerdir: yılan ve fil. Fakat her nasılsa bir Grootslang kaçmayı başarmış ve tarihteki tüm mitolojik canavarları dünyaya getirmiştir.
 
 Son Grootslang’ın halen Güney Afrika’da Richtersveld’te bir mağarada yaşadığına inanılmaktadır. Mağarasına yaklaşma cürretini gösteren herkesi ve etrafta başıboş gezen filleri bütün olarak mideye indirdiği söylenmektedir.

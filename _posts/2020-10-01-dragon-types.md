@@ -3,7 +3,7 @@ title: Dragon Types
 layout: post
 description: While some resources divide dragons by three groups as wyvern, drake and wyrm, some resources classified the dragons as a fourth class under the title "dragon".
 date: '2020-10-01 13:40:00'
-language: eng
+language: en
 publish: 'yes'
 subtitle: The most basic classification
 ---
@@ -21,6 +21,7 @@ While some resources divide dragons by three groups as wyvern, drake and wyrm, s
 This is the simplest and basic way to group the dragon species. Of course, this grouping is mostly European/American oriented. If you want, you can use these categories or you simply give one name and call them all as "Urulóki" like Tolkien, up to you.
 
 I am gonna share the grouping of dragons in eastern culture in another post.
+
 
 + *[Dragons, Wyverns, Drakes, Wyrms](https://auroswords.com/2017/04/14/dragons-wyverns-drakes-wyrms/)*, Auroswords
 + *[Drake](https://www.blackdrago.com/types/drake.htm)*, Blackdrago

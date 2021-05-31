@@ -7,6 +7,7 @@ language: tr
 publish: 'yes'
 subtitle: Bilindik bir Canavar, Sıradışı bir Film Hikayesi
 ---
+
 Bulgasari (Çince: bu ke sha=öldürülemez) Kore halk hikayelerindeki ender canavarlardan biridir. Canavar sadece metal yer ve her yediği metalle daha da büyür. Hikayeye göre Songdo’nun şeytani valisi tüm Budist rahiplerin hapse atılmasını emreder. Valinin askerlerinden kaçan bir rahip kardeşinin evinde bir dolaba saklanır.
 
 Burada saklanırken boş boş oturmayayım da kendime bir arkadaş yapayım bari der ve buharda pişmiş pirinçlerden küçük bir yaratık yapar. Rahibin yaptığı yaratık canlanır ve yemek yemek istediğinde rahip onu bulabildiği tek şey olan metal çivilerle besler.

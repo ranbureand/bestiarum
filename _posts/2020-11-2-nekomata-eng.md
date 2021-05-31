@@ -3,10 +3,11 @@ title: Nekomata
 layout: post
 description: Nekomata is a type of cat yōkai in Chinese and then Japanese folklore. They are strong, evil and very smart. The most characteristic feature of Nekomata is having two tails rather than one.
 date: '2020-11-02 13:40:00'
-language: eng
+language: en
 publish: 'yes'
 subtitle: Your cute and fluffy kitty might be devious
 ---
+
 Nekomata is a type of cat yōkai in Chinese and then Japanese folklore. They are strong, evil and very smart. The most characteristic feature of Nekomata is having two tails rather than one. They are born in the same way as the other cats but only the oldest, largest cats with the longest tails (and thus more power and intelligence) become Nekomata. These cat beasts are likely to be seen walking on their hind legs and speaking human languages. There are two very different types: those that live in the mountains and domestic cats that have grown old and transformed. (Dear big cat owners: What does your cat do at nights after you go to sleep?)
 
 The most dangerous and powerful Nekomata live in the mountains in the form of wild cats such as leopards and lions. These wild beast cats grow incredibly tall, and hunt other large animals such as wild boars, dogs, bears and eventually humans.

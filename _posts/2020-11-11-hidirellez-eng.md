@@ -3,7 +3,7 @@ title: Hıdırellez
 layout: post
 description: Hıdrellez is one of the oldest spring festivals. The night between the 5th and 6th of May is accepted as the end of the winter-the beginning of summer and is celebrated with ceremonies.
 date: '2020-11-11 13:40:00'
-language: eng
+language: en
 publish: 'yes'
 subtitle: Superheros who make your wishes come true
 ---

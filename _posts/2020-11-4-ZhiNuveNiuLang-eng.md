@@ -3,7 +3,7 @@ title: Zhi Nü and Niu Lang
 layout: post
 description: Zhi Nü is a beautiful and very skillful lady who lives in heaven. She was so skillful that she used clouds to spin seamless robes of brocade for her father, the Jade Emperor.
 date: '2020-11-04 13:40:00'
-language: eng
+language: en
 publish: 'yes'
 subtitle: "The Forbidden Love <br/> separated by the Milky Way"
 ---

@@ -7,6 +7,7 @@ language: tr
 publish: 'yes'
 subtitle: Dilekleri gerçekleştiren iki süperkahraman
 ---
+
 Hıdırellez en eski bahar bayramlarındandır. Kışın bitişi ve yazın başlangıcı olarak kabul edilen 5 Mayıs’ı 6 Mayıs’a bağlayan gece çeşitli törenlerle kutlanır. İki ölümsüz peygamber olduğuna inanılan Hızır ve İlyas peygamberin her yıl bir araya geldikleri gün olan Hıdırellez ikisinin adının birleşmesiyle olmuştur. Hızır karada yaşanyanların İlyas ise derya ve denizlerde zorda kalanların imdadına yetişir. (Evet bir çeşit süper kahraman gibi). Başka bir deyişle Hızır topraktır, İlyas su. Hıdrellez gecesi su toprakla buluşur beraberinde bereketi getirir.
 
 Hıdırellez, Anadolu’da “Hıdrellez”, Makedonya ve Balkanlar’’da “Ederlez, Edirlez, Herdeljez, Hıdırles” gibi adlarla bilinir.  Bulgaristan ve Sırbistan'da ise aynı gün Aziz George Festivali olarak kutlanır.

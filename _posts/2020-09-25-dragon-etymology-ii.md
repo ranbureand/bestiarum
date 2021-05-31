@@ -1,9 +1,9 @@
 ---
 title: "Dragon Etymology <br/> II"
 layout: post
-description: The word dragon entered the English language around the mid. 13. century from Old French dragon, which originates from Latin draconem meaning "huge serpent" and from Ancient Greek δράκων (drákōn) meaning "serpent, giant sea fish". 
+description: The word dragon entered the English language around the mid. 13. century from Old French dragon, which originates from Latin draconem meaning "huge serpent" and from Ancient Greek δράκων (drákōn) meaning "serpent, giant sea fish".
 date: '2020-09-25 13:40:00'
-language: eng
+language: en
 publish: 'yes'
 subtitle: English
 ---
@@ -15,6 +15,7 @@ The first picture above is a dragon figure found during excavations in Caulonia,
 The second picture is the dragon figure "ouroboros" eating its tail, first found in Ancient Egypt and later used as a symbol of life cycle, death and rebirth in Ancient Greece.
 
 There are many opinions on this meaning difference between East and West is due to the differences in religious beliefs. But this is the subject of another post :)
+
 
 + *[Chinese Dragon](https://www.languagewire.com/en/blog/chinese-dragon)*, LanguageWire
 + *[Introduction to Chinese Characters](https://www.brown.edu/about/administration/international-affairs/year-of-china/language-and-cultural-resources/introduction-chinese-characters/introduction-chinese-characters)*, Brown University Website

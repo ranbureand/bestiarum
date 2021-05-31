@@ -7,6 +7,7 @@ language: tr
 publish: 'yes'
 subtitle: Yine Tanrılar tarafından öldürülen yine zavallı bir Ejderha
 ---
+
 İlluyanka Hitit Mitolojisinde adı geçen dev su yılanı/ejderhasıdır. Hititlerin fırtına tanrısı Teşup’u yenince kalbini ve gözlerini alıp götürür. Teşup da İlluyanka’dan intikamını almak için bir kehanet üstüne yoksul bir adamın kızıyla evlenir.
 
 Teşup’un bir oğlu olur. Oğlu büyüyünce de (artık babasının zoruyla mı bilinmez) İlluyanka’nın kızıyla evlenir. Teşup, oğlu Sarruma’dan karısının evine gidince kalbini ve gözlerini geri getirmesini ister. İlluyanka ile Teşup’un birbirlerine garezinden haberi olmayan Sarruma da babasının dediğini yapar.
