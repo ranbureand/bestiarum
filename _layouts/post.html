@@ -9,7 +9,7 @@ layout: base
 {%- endif %}
 
 
-      <div class="article-canvas c{% for this_post in posts %}{% if this_post.title == page.title and this_post.date == page.date %}{{ posts | size | minus: forloop.index | modulo: site.colors }}{% endif %}{% endfor %}">
+      <div class="article-canvas c{% for this_post in posts %}{% if this_post.title == page.title and this_post.date == page.date and this_post.language == page.language %}{{ posts | size | minus: forloop.index | modulo: site.colors }}{% endif %}{% endfor %}">
         <article class="article">
 
           <header class="head">
