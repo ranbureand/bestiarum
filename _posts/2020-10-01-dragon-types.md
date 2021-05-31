@@ -1,14 +1,14 @@
 ---
 title: Dragon Types
 layout: post
-description: Oyun dünyasına pek girmeden, temelde ejderhalar sahip oldukları kanat, ayak sayısı ve vücut yapısına göre gruplandırılabilir. Bu gruplama çeşidi aynı zamanda ejderhaların kültürden kültüre nasıl farklılaştığını çok güzel ortaya koyar.
+description: While some resources divide dragons by three groups as wyvern, drake and wyrm, some resources classified the dragons as a fourth class under the title "dragon".
 date: '2020-10-01 13:40:00'
 language: eng
 publish: 'yes'
 subtitle: The most basic classification
 ---
 
-The number and definition of dragon species are as limited as your imagination.But saying so, it's not that I believe the dragons are imaginary.After all, "Everything you can imagine is real."
+The number and definition of dragon species are as limited as your imagination.But saying so, it's not that I believe the dragons are imaginary. After all, "Everything you can imagine is real."
 Staying out of the fantasy game world, the dragons can be categorized based on their wings, number of limbs and body structure.And this categorizations reveals clearly how dragons differ from culture to culture.But that is another story and shall be told another time (R.I.P. Michael Ende)
 While some resources divide dragons by three groups as wyvern, drake and wyrm, some resources classified the dragons as a fourth class under the title "dragon".
 
