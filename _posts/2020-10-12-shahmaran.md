@@ -1,7 +1,7 @@
 ---
 title: Shahmaran
 layout: post
-description: Farsça “Şâh” ve “Mârân” kelimelerinin birleşmesiyle oluşan Şahmeran yılanların şahı olan, yılan kuyruklu, ejderha ya da yılan gövdeli çok güzel bir kadındır.Yerin yedi kat altında yılanlarıyla birlikte yaşamaktadır ve tüm hastalıkları iyileştirebilecek kadar sonsuz tıp bilgisi sahibidir.
+description: Shahmaran (Persian. Shah=king, Maran=snakes) is a very beautiful woman with a snake tail, dragon or snake body, the king of snakes. She lives with her snakes in an underground city and has the endless medical knowledge to cure all diseases.
 date: '2020-10-12 15:30:00'
 language: eng
 publish: 'yes'
