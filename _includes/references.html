@@ -1,5 +1,5 @@
         <ul class="references">
-          {%- assign posts = site.posts | where: 'publish', 'yes' %}
+          {%- assign posts = site.posts | where: 'publish', 'yes' | where: 'language', page.language %}
           {%- for post in posts %}
             <li class="reference-canvas">
               <a

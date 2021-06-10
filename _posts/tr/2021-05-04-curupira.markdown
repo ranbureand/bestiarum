@@ -1,0 +1,28 @@
+---
+layout: post
+
+title: Curupira
+subtitle: Bizdeki bacakları ters cinlerin Brezilyalı Amcası
+description: Brezilya folklorunda yer alan saçları turuncu-kırmızı, derisi yeşil renkte olan orman iblisidir. Brezilya ormanlarında yaşar ve ormana zarar verenleri kovalayan, lanetleyen ya da öldürür.
+date: '2021-05-04 13:40:00'
+
+language: 'tr'
+language_reference: 'curupira'
+
+publish: 'yes'
+---
+
+Brezilya folklorunda yer alan saçları turuncu-kırmızı, derisi yeşil renkte olan orman iblisidir. Brezilya ormanlarında yaşar ve ormana zarar verenleri kovalar, lanetler ya da öldürür. Bu iblisin en korkunç yanı çocukluğumuzda anlatılan cin hikayelerindeki cinler gibi ayaklarının ters oluşudur.
+
+Curupira ters ayaklarıyla ormanda izler bırakarak ormanı yağmalamaya gelenlerin kaybolmasına neden olur. Verdikleri zarara göre cezalandırır. Curupira illüzyonlar yaratarak ve yüksek düdük sesine benzer bir ses çıkararak kurbanlarını korkutur ya da delirtir.
+
+Curupira’nın en sevdiği cezalardan biri de (benim de favorim) avcıyı ava çevirmektir. Mesela Brezilya ormanlarının birinde bir hayvan yakaladınız ve -diyelim ki manyaksınız da- hayvana işkence etmeye karar verdiniz. Curupira hoop sizi o hayvana, hayvanı da bir avcıya çevirip eline çekirdek alıp izler.
+
+Tam bir yeşil aşığı olan Curupira ormana zarar verme niyetinde olmayanlara ise dost canlısıdır. Yardıma ihtiyacı olanlara ya da kaybolanlara yardım eder. Fakat bazı efsanelerde çocukları ormanda yaşamaları için kaçırdığı söylenir.
+
+Curupira’nın en sevdiği şeyler tütün ve cachaça denilen bir tür romdur. Ormana girerken Curupira’nın gazabından korunmak için yerliler bunları çoğu zaman hediye olarak sunarlar.  
+
+
++ *[The Curupira Myth](http://www.kurupira.net/kurupiraproject/folklore.php)*, kurupira.net
++ *[Curupira](https://en.wikipedia.org/wiki/Curupira)*, Wikipedia
+{: .sources}

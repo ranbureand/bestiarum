@@ -3,9 +3,9 @@ layout: base
 ---
 
 {%- if page.publish == 'yes' %}
-{%- assign posts = site.posts | where: 'publish', 'yes' %}
+{%- assign posts = site.posts | where: 'publish', 'yes' | where: 'language', page.language %}
 {%- else %}
-{%- assign posts = site.posts | where: 'publish', 'no' %}
+{%- assign posts = site.posts | where: 'publish', 'no' | where: 'language', page.language %}
 {%- endif %}
 
 
@@ -27,5 +27,3 @@ layout: base
 
         </article>
       </div>
-
-<!--{% include pagination.html publish=page.publish %}-->

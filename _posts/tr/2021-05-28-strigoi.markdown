@@ -1,0 +1,44 @@
+---
+layout: post
+
+title: Strigoi
+subtitle: Dracula'dan da yaşlı vampirler
+description: Strigoi, Romanya Mitolojisinde öldükten sonra mezarından kalkıp insanlara rahatsızlık veren kötücül ruhlardır. İstedikleri hayvan formuna girebilirler, görünmez olabilirler ve kurbanlarının kanını içerek yaşarlar.
+date: '2021-05-28 13:40:00'
+
+language: 'tr'
+language_reference: 'strigoi'
+
+publish: 'yes'
+---
+
+Strigoi, Romanya Mitolojisinde öldükten sonra mezarından kalkıp insanlara rahatsızlık veren kötücül ruhlardır. İstedikleri hayvan formuna girebilirler, görünmez olabilirler ve kurbanlarının kanını içerek yaşarlar. (Tanıdık geldi mi?)
+
+Strigoi, popülerliğinden zaman içinde hiç bir şey kaybetmeyen vampirlerin ilham kaynağıdır. Öyle ki günümüzde bilinen popüler kültürdeki vampirliğin kutsal kitabı olan Dracula romanı Bram Stoker’in modern bir strigoi yorumudur.
+
+1656 yılında ölen Jure Grando Alilovic ilk strigoi vakası olarak kayıtlara geçmiştir. Öldükten 16 yıl sonra her gece mezarından kalkıp evlerin kapılarını çaldığı ve kapısını çaldığı evde bir kaç gün sonra birinin öldüğü anlatılmaktadır.
+
+Vampir avına çıkan köylüler tarafından yakalanıp kalbine kazık sokulsa da öldürülemez. En sonunda köyün rahibiyle beraber tüm halk toplanıp Grando’nun mezarını açıp kafasını vücudundan testereyle keserek ayırırlar. Bu olaydan sonra da artık geceleri rahat uyurlar.
+
+Strigoi aynı zamanda yaşayan biri de olabilir, eğer:
++ Aynı aile içinde doğan altı erkek kardeşin yedincisi olarak doğarsa
++ Günahkar bir hayat yaşarsa
++ Evlenmeden ölürse
++ İftiraya maruz kalarak idam edilirse
++ İntihar ederse
++ ve bir cadının lanetiyle ölürse
+
+Strigoi’den korunmak için verilen formül ise şöyledir:
+1. Strigoi’yi mezarından çıkar
+1. Kalbini sök ve ikiye ayır
+1. Alnının ortasına bir çivi çak
+1. Dilinin altına sarımsak koy
+1. Vücudunu Aziz Ignatius gününde kesilmiş domuz yağı ile ov
+1. Ve yüzü yere bakacak şekilde yerleştir ki, strigoi uyandığında yüzeye değil toprağın altına gitsin.
+
+
++ *[A village still in thrall to Dracula](https://www.theguardian.com/world/2005/jun/19/theobserver)*, The Guardian
++ *[Strigoi](https://en.wikipedia.org/wiki/Strigoi)*, Wikipedia
++ *[In Search of Dracula, The History of Dracula and Vampires](https://archive.org/details/insearchofdracul00mcna/page/8/mode/2up)*,  McNally, Raymond T.; Florescu, Radu R.,1994
++ *[Strigoi](https://vampires.fandom.com/wiki/Strigoi)*, fandom.com
+{: .sources}

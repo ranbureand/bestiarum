@@ -1,0 +1,29 @@
+---
+layout: post
+
+title: Meet your House Elf
+subtitle: Nope, it's not Dobby
+description: Ev İyesi is the protective spirit of houses in Turkish Mythology. Every house has its own spirit. Although he is described as an old man with medium height, long and messy hair, he can wear other disguises.
+date: '2020-10-19 16:40:00'
+
+language: 'en'
+language_reference: 'house-elf'
+
+publish: 'yes'
+---
+
+“Ev İyesi” is the protective spirit of houses in Turkish Mythology. Every house has its own spirit. Although he is described as an old man with medium height, long and messy hair, he can wear other disguises. Sometimes he disguises himself as a snake with red eyes. Therefore, it is believed that if you find a snake in the house, it brings to your home prosperity. You have to take the snake out without killing it. Otherwise, it will take the abundance away from your house. Every time you enter the house, you must salute him. Because he is always at home.
+
+Ev İyesi lives under the ground /in the basement of the house and only after the hosts have fallen asleep, comes out and does something to help. He spins wool, fills wood in the stove, if the little baby of the house cries, he calms him/her down or washes the dishes. It protects the house from evil spirits and diseases. It also wakes them up if thieves break into the house or a fire breaks out by making noise or pulling the feet of the homeowners. Sometimes it can also braid the hair of the sleeping host. It is not good to disassemble this braid, it is necessary to wait for it to disassemble on its own. If you hear the sounds of walking and breathing in the house at midnight, be aware that this is Ev İyesi. If your belongings are moved or you cannot find what you are looking for in the usual place, know that it is him again.
+
+When you move to a new house, you should take him with you. To do this, buy a pair of slippers and leave them in the old house overnight. The next day, "Ev İyesi, put on your slippers, we're going to our new home!" Shout and take the slippers with you to the new house.
+Have a way with Ev İyesi, who does your job and help you. Otherwise, Ev İyesi, who is ready to be offended by everything, can get angry or -even worse- give harm to you or to your house.
+
+
++ *[Domovoi](https://tr.wikipedia.org/wiki/Domovoi#/media/Dosya:Domovoi.jpg)*, Vikipedi
++ *[Ev İyesi](https://tr.wikipedia.org/wiki/Ev_iyesi)*, Vikipedi
++ *[İyeler: Tabiat Muhafızları](https://www.shallwe.com.tr/iyeler-tabiat-muhafizlari/)*
++ *[The Familier Spirits in Tatar Mythology](https://dergipark.org.tr/tr/download/article-file/223080)*, Rasilya Karimova
++ *Türk Mitolojisi Ansiklopedik Sözlük*, Celal Beydili
++ *Türk Söylence Sözlüğü*, Deniz Karakurt
+{: .sources}

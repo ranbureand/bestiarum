@@ -1,0 +1,25 @@
+---
+layout: post
+
+title: Xuan Wu
+subtitle: Karşınızda ilk Ninja Kaplumbağa
+description: Bundan çok uzun zaman önce fakir bir çiftçi oğlan varmış. Her gün pirinç tarlasında çalışır yaşlı anacığına bakarmış. Bir gün yine pirinç toplarken “Bu kadar pirinç topluyorum da kiminle paylaşacağım bunları” demiş. Sonra birden bir kadın sesinin “Ben seninle birlikte yerim” dediğini duymuş.
+date: '2020-11-24 13:40:00'
+
+language: 'tr'
+language_reference: 'xuan-wu'
+
+publish: 'yes'
+---
+
+Çin Mitoloji’nin dört önemli sembolünden biri olan Xuan Wu (Tr: Kara Savaşçı, Eng:Black Warrior) aynı zamanda Taozim’deki tanrılardan biridir.
+
+Xuan Wu, tanrı olabilmek için tüm günahlarından, kirli düşüncelerden ve kötü huylarından arınması gerektiğini öğrenir. Bunun için de tüm iç organlarını nehirde yıkar. Artık kötülük nasıl içine işlediyse yıkanan iç organları tüm nehiri siyaha boyar. Xuan Wu istediği gibi günahlarından arınır arınmasına ama nehirdeki siyah sular kaplumpağa ve yılana dönüşerek insanlara korku salmaya, rahatsızlık vermeye ve hobi olarak dehşet saçmaya başlarlar. Xuan Wu bunu öğrendiğinde kaplumbağa ve yılanı hizaya sokar, onlar da “Abi biz ettik sen etme deyip” el öpüp af dilerler.
+
+Hikayenin bir başka versiyonunda da Xuan Wu’nun içindeki tüm kötülükler dışarıya akarak siyah bir kaplumbağaya dönüşür. Bu Gizemli Kara Savaşçı Kaplumbağa gökyüzüne uçarak Kuzey’in koruyucusu olur. Üzerine dolanmış bir yılan ile tasvir edilen kaplumbağa kış mevsimini temsil eder. Okyanusta yaşadığı için elementi sudur. Kara Savaşçı bilgelik, mutluluk ve uzun yaşamla özdeşleştirilir.  
+
+
++ *[Xuan Wu](https://www.godchecker.com/chinese-mythology/XUAN-WU/)*, Godchecker.com
++ *[Çin Mitolojisinde Dört Önemli Sembol](https://fwmail.net/genel-kultur/cin-mitolojisinde-dort-onemli-sembol)*, Fwmail.com
++ *[Black Tortoise](https://en.wikipedia.org/wiki/Black_Tortoise)*, Wikipedia
+{: .sources}

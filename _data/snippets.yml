@@ -1,0 +1,11 @@
+languages:
+  en:
+    value: English
+    slug: en
+  tr:
+    value: Türkçe
+    slug: tr
+
+back:
+  en: Back to the Top
+  tr: Sayfa Başına Dön

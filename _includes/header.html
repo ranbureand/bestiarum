@@ -5,8 +5,66 @@
             <a href="{{ site.baseurl }}/">{{ site.title }}</a>
           </h1>
 
-          <nav class="header-index">
-            <a href="{{ site.baseurl }}/about.html">About</a>
+          <nav class="header-navigation">
+            <ul>
+              {%- assign nav_pages = site.pages | where: 'language', page.language %}
+              {%- for nav_page in nav_pages %}
+                {%- if nav_page.title != null and nav_page.layout == "page" %}
+              <li>
+                <a href="{{ site.baseurl }}{{ nav_page.url }}">{{ nav_page.title }}</a>
+              </li>
+                {%- endif %}
+              {%- endfor %}
+
+              {%- for language in snippets.languages %}
+
+                {%- if page.layout == 'page' %}
+                  {%- assign nav_pages = site.pages
+                    | where: 'language_reference', page.language_reference
+                    | where: 'language', language[1].slug %}
+                  {%- if nav_pages.size > 0 %}
+                    {%- for nav_page in nav_pages %}
+                      {%- assign url = site.baseurl | append: nav_page.url %}
+                    {%- endfor %}
+                  {%- else %}
+                  {%- assign nav_pages = site.pages
+                    | where: 'language_reference', 'pouch'
+                    | where: 'language', language[1].slug %}
+                    {%- for nav_page in nav_pages %}
+                      {%- assign url = site.baseurl | append: nav_page.url %}
+                    {%- endfor %}
+                  {%- endif %}
+
+                {%- elsif page.layout == 'post' %}
+                  {%- assign nav_posts = site.posts
+                    | where: 'language_reference', page.language_reference
+                    | where: 'language', language[1].slug %}
+                  {%- if nav_posts.size > 0 %}
+                    {%- for nav_post in nav_posts %}
+                      {%- assign url = site.baseurl | append: nav_post.url %}
+                    {%- endfor %}
+                  {%- else %}
+                  {%- assign nav_pages = site.pages
+                    | where: 'language_reference', 'pouch'
+                    | where: 'language', language[1].slug %}
+                    {%- for nav_page in nav_pages %}
+                      {%- assign url = site.baseurl | append: nav_page.url %}
+                    {%- endfor %}
+                  {%- endif %}
+
+                {%- elsif page.layout == 'base' %}
+                  {%- assign nav_pages = site.pages
+                    | where: 'language_reference', 'pouch'
+                    | where: 'language', language[1].slug %}
+                  {%- for nav_page in nav_pages %}
+                    {%- assign url = site.baseurl | append: nav_page.url %}
+                  {%- endfor %}
+                {%- endif %}
+              <li class="{{ language[1].slug }}">
+                <a href="{{ url }}"><span>{{ language[1].value }}</span></a>
+              </li>
+              {%- endfor %}
+            </ul>
           </nav>
 
         </header>

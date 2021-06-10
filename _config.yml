@@ -25,7 +25,7 @@ author: "Dilek Dilaver"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 version: "2021-04-11"
-language: "en"
+language: "tr"
 colors: 24
 
 timezone: Europe/Rome
@@ -84,3 +84,19 @@ feed:
 #      date: 2019-01-25 16:40:00 +0300
 #      language: "en"
 #      publish: "no"
+
+defaults:
+-
+  scope:
+    path: '_posts/en'
+    type: 'posts'
+  values:
+    permalink: 'en/:title'
+    language: en
+-
+  scope:
+    path: '_posts/tr'
+    type: 'posts'
+  values:
+    permalink: 'tr/:title'
+    language: tr
