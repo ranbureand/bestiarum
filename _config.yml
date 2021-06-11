@@ -23,6 +23,7 @@ title: "Takatukahane" #Bestiarum
 description: ""
 author: "Dilek Dilaver"
 baseurl: "/" # the subpath of your site, e.g. /blog
+absoluteurl: "http://takatukahane.com"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 version: "2021-06-10"
 language: "tr"
@@ -91,12 +92,12 @@ defaults:
     path: '_posts/en'
     type: 'posts'
   values:
-    permalink: 'en/:title'
+    permalink: 'en/:title.html'
     language: en
 -
   scope:
     path: '_posts/tr'
     type: 'posts'
   values:
-    permalink: 'tr/:title'
+    permalink: 'tr/:title.html'
     language: tr
