@@ -1,0 +1,27 @@
+---
+layout: post
+
+title: Aumakua
+subtitle: The Ladybug on your hair might be your great-great-grandmother
+description: Aumakua is "Guardian Spirit" in Polynesian Mythology. It is believed that a deceased person manifests himself mostly in animal form to guide his/her descendants protect them from evil.
+date: '2021-03-06 13:40:00'
+
+language: 'en'
+language_reference: 'aumakua'
+
+publish: 'yes'
+---
+
+Aumakua is "Guardian Spirit" in Polynesian Mythology. It is believed that a deceased person manifests himself mostly in animal form to guide his/her descendants protect them from evil.
+
+When a human dies, the unconscious mind (unihipili) and conscious mind (uhane) die, while the higher conscious mind (aumakua) rises to heaven and becomes one with the spirits of his ancestors, or remains in the world to take care of his/her unfinished things but takes on another form.
+
+Aumakua might be animals, places or rocks, and people. Ancient Hawaiians would have seen no contradiction in a powerful spirit being able to appear as all three, switching from form to form as convenient.
+
+The pigeon at the window that comes to visit you every day might be your great-great-great-grandmother, or the little lizard you see on your wall every evening at the same time might be your great-great-grandfather who protects your home from evil.
+
++ *[What is Huna?](http://www.ancienthuna.com/3_selves.htm)*, ancienthuna.com
++ *[Hawaii’s Spirit Guardians](https://web.archive.org/web/20110628021529/http://www.mauimagazine.net/Maui-Magazine/November-December-2010/Hawaiis-Spirit-Guardians/)*, mauimagazine.com
++ *[The Meaning Behind Hawaiian Symbols](https://www.olukai.com/journal/2014/11/03/the-meaning-behind-hawaiian-symbols/)*, olukai.com
++ *[Aumakua](https://en.wikipedia.org/wiki/Aumakua)*, Wikipedia
+{: .sources}
