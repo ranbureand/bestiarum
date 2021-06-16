@@ -4,7 +4,7 @@
           <h1 class="header-title">
             {%- for language in snippets.languages %}
               {%- if page.language == site.language %}
-                {%- assign url = site.baseurl %}
+                {%- assign url = site.baseurl | append: '/'%}
               {%- else %}
                 {%- assign nav_pages = site.pages
                   | where: 'language_reference', 'pouch'
