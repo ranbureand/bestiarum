@@ -16,7 +16,7 @@ I am a curious wanderer who tells stories by the fire at night. I like collectin
 
 Although “takatuka” has another meaning in Turkish dictionaries, in colloquial language it means timeworn, shabby objects or rumpus. Likewise when I was 6, the husband of my aunt used to call me as “takatukacı” which means the one who collects “takatuka”, since I used to collect what I thought was beautiful even if it was shabby, and sometimes I made a mess while carrying them altogether from place to place.
 
-If you have other magical, mythological, magnificent, natural / supernatural and unforgettable beings that you know, or listen from your grandpa, or believe in your family, or come across in a book / movie, please write to me at **takatukahane@gmail.com**.
+If you have other magical, mythological, magnificent, natural / supernatural and unforgettable beings that you know, or listen from your grandpa, or believe in your family, or come across in a book / movie, please write to me at **<span class="envelope"><noscript>turn on Javascript to see my e-mail address</noscript></span>**.
 
 
 [RSS feed](/feed.xml "RSS feed")[^typeface]
