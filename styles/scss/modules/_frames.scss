@@ -53,11 +53,12 @@
   }
 }
 
-.header {
+.header,
+.footer {
   display: flex;
 }
 
-.footer {
+/*.footer {
   display: grid;
 
   grid-column-gap: em($m-gut);
@@ -66,7 +67,7 @@
   @include min-screen(col(8)) {
     grid-column-gap: em($d-gut);
   }
-}
+}*/
 
 .header-title,
 .header-navigation,
@@ -75,7 +76,7 @@
   @include font-size($m-small-size, $m-small-line);
 
   a,
-  div {
+  span:not(.expendable) {
     display: block;
 
     padding-top: em($m-small-line/2, $m-small-size);
@@ -95,7 +96,7 @@
     @include font-size($d-small-size, $d-small-line);
 
     a,
-    div {
+    span:not(.expendable) {
       padding-top: em($d-small-line/2, $d-small-size);
       padding-bottom: em($d-small-line/2, $d-small-size);
     }
@@ -141,8 +142,11 @@
     padding-left: em($m-gut/2);
   }
 
-  span {
-    display: none;
+  .en,
+  .tr {
+    span {
+      display: none;
+    }
   }
 
   .en {
@@ -181,8 +185,11 @@
       padding-left: em($d-gut/2);
     }
 
-    span {
-      display: inline;
+    .en,
+    .tr {
+      span {
+        display: inline;
+      }
     }
 
     .en {
@@ -204,13 +211,60 @@
 }
 
 .footer-copyright {
-  grid-column: 1 / 2;
+  flex-grow: 1;
+  display: flex;
 
-  span {
+  div:first-child {
+    a,
+    span:not(.expendable) {
+      padding-right: em($m-gut/2);
+      padding-left: 0;
+    }
+  }
+
+  div:last-child {
+    a,
+    span:not(.expendable) {
+      padding-right: 0;
+    }
+  }
+
+  a,
+  span:not(.expendable) {
+    padding-right: em($m-gut/2);
+    padding-left: em($m-gut/2);
+  }
+
+  .expendable {
     display: none;
   }
   @include min-screen(col(8)) {
-    span {
+
+    div:first-child {
+      position: relative;
+
+      a,
+      span:not(.expendable) {
+        padding-right: em($d-gut/2);
+        padding-left: 0;
+      }
+    }
+
+    div:last-child {
+      a,
+      span:not(.expendable) {
+        padding-right: 0;
+      }
+    }
+
+    a,
+    span:not(.expendable) {
+      padding-right: em($d-gut/2);
+      padding-left: em($d-gut/2);
+    }
+  }
+  @include min-screen(col(10)) {
+    .expendable {
       display: inline;
     }
   }
@@ -218,8 +272,6 @@
 
 .footer-scroll {
   text-align: right;
-
-  grid-column: 2 / 3;
 }
 
 .container {
