@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Tulpa
-subtitle: En İyi Arkadaşınız ile Aynı Bedeni Paylaşmak İster misiniz?
+title: En iyi arkadaşınız ile aynı bedeni paylaşmak ister misiniz?
+subtitle: Tulpa
 description: Tulpa, mistisizmde yoğun düşünme ile yapılan meditatif çalışmalar sonucu yaratılan bir tür “düşlem/düşünce varlığı”dır. Tibet Mistisizmine göre düşünce, ruhun yansımasını taşıyan bir enerji formudur. Doğru tekniklerle düşünce gücünden canlılık belirtisi gösteren bir varlık yaratılabilir.
 date: '2021-04-14 13:40:00'
 
