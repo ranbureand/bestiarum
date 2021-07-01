@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Toyol
-subtitle: Chucky'den daha korkunç bir bebek düşünün
+title: Chucky'den daha korkunç bir bebek düşünün
+subtitle: Toyol
 description: Toyol Güneydoğu Asya folkloründe geçen hortlak bebektir. Toyol kara büyü ile bir Şaman tarafından çağrılabilir. Efendisi tarafından kötülük çounlukla da hırsızlık yapmak için kullanılır.
 date: '2021-04-09 13:40:00'
 
