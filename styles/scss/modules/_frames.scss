@@ -32,8 +32,6 @@
 
 .header,
 .footer {
-  display: grid;
-
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -44,19 +42,31 @@
   animation-duration: $duration*4;
 
   animation-fill-mode: both;
-  grid-column-gap: em($m-gut);
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
+
   @include min-screen((col(20) + em($d-gut))) {
     width: col(20);
   }
   @include min-screen(col(8)) {
     padding-right: em($d-gut);
     padding-left: em($d-gut);
-
-    grid-column-gap: em($d-gut);
   }
 }
+
+.header,
+.footer {
+  display: flex;
+}
+
+/*.footer {
+  display: grid;
+
+  grid-column-gap: em($m-gut);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  @include min-screen(col(8)) {
+    grid-column-gap: em($d-gut);
+  }
+}*/
 
 .header-title,
 .header-navigation,
@@ -65,7 +75,7 @@
   @include font-size($m-small-size, $m-small-line);
 
   a,
-  div {
+  span:not(.expendable) {
     display: block;
 
     padding-top: em($m-small-line/2, $m-small-size);
@@ -81,11 +91,12 @@
   .current {
     @include link(normal);
   }
+
   @include min-screen(col(8)) {
     @include font-size($d-small-size, $d-small-line);
 
     a,
-    div {
+    span:not(.expendable) {
       padding-top: em($d-small-line/2, $d-small-size);
       padding-bottom: em($d-small-line/2, $d-small-size);
     }
@@ -93,60 +104,51 @@
 }
 
 .header-title {
-  grid-column: 1 / 2;
+  padding-right: em($m-gut);
 
-  .logo {
-    width: em($base-unit*4, $m-small-size);
-    height: em($base-unit*4, $m-small-size);
-    margin-top: em(-$base-unit/2, $m-small-size);
-    margin-right: em($base-unit, $m-small-size);
-  }
   @include min-screen(col(8)) {
-    .logo {
-      width: em($base-unit*5, $d-small-size);
-      height: em($base-unit*5, $d-small-size);
-      margin-top: em(-$base-unit/2, $d-small-size);
-      margin-right: em($base-unit, $d-small-size);
-    }
+    padding-right: em($d-gut);
   }
 }
 
 .header-navigation {
-  text-align: right;
+  flex-grow: 1;
 
-  grid-column: 2 / 3;
   ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
   }
+
   li:first-child {
     position: relative;
-    &:after {
-      content: "|";
-      position: absolute;
-      top: 0;
-      right: em($m-gut/4);
-      padding-top: em($m-small-line/2, $m-small-size);
-      padding-bottom: em($m-small-line/2, $m-small-size);
-    }
+
+    flex-grow: 1;
+
     a {
+      padding-right: em($m-gut/2);
       padding-left: 0;
-      padding-right: em($m-gut);
     }
   }
+
   li:last-child {
     a {
       padding-right: 0;
     }
   }
+
   a {
-    padding-right: em($m-gut/4);
-    padding-left: em($m-gut/4);
+    padding-right: em($m-gut/2);
+    padding-left: em($m-gut/2);
   }
-  span {
-    display: none;
+
+  .en,
+  .tr {
+    span {
+      display: none;
+    }
   }
+
   .en {
     a {
       &:after {
@@ -154,6 +156,7 @@
       }
     }
   }
+
   .tr {
     a {
       &:after {
@@ -161,35 +164,34 @@
       }
     }
   }
-
   @include min-screen(col(8)) {
     li:first-child {
       position: relative;
-      &:after {
-        content: "|";
-        position: absolute;
-        top: 0;
-        right: 0;
-        padding-top: em($d-small-line/2, $d-small-size);
-        padding-bottom: em($d-small-line/2, $d-small-size);
-      }
+
       a {
-        padding-left: 0;
         padding-right: em($d-gut/2);
+        padding-left: 0;
       }
     }
+
     li:last-child {
       a {
         padding-right: 0;
       }
     }
+
     a {
-      padding-right: em($d-gut/4);
-      padding-left: em($d-gut/4);
+      padding-right: em($d-gut/2);
+      padding-left: em($d-gut/2);
     }
-    span {
-      display: inline;
+
+    .en,
+    .tr {
+      span {
+        display: inline;
+      }
     }
+
     .en {
       a {
         &:after {
@@ -197,6 +199,7 @@
         }
       }
     }
+
     .tr {
       a {
         &:after {
@@ -208,13 +211,60 @@
 }
 
 .footer-copyright {
-  grid-column: 1 / 2;
+  flex-grow: 1;
+  display: flex;
 
-  span {
+  div:first-child {
+    a,
+    span:not(.expendable) {
+      padding-right: em($m-gut/2);
+      padding-left: 0;
+    }
+  }
+
+  div:last-child {
+    a,
+    span:not(.expendable) {
+      padding-right: 0;
+    }
+  }
+
+  a,
+  span:not(.expendable) {
+    padding-right: em($m-gut/2);
+    padding-left: em($m-gut/2);
+  }
+
+  .expendable {
     display: none;
   }
   @include min-screen(col(8)) {
-    span {
+
+    div:first-child {
+      position: relative;
+
+      a,
+      span:not(.expendable) {
+        padding-right: em($d-gut/2);
+        padding-left: 0;
+      }
+    }
+
+    div:last-child {
+      a,
+      span:not(.expendable) {
+        padding-right: 0;
+      }
+    }
+
+    a,
+    span:not(.expendable) {
+      padding-right: em($d-gut/2);
+      padding-left: em($d-gut/2);
+    }
+  }
+  @include min-screen(col(10)) {
+    .expendable {
       display: inline;
     }
   }
@@ -222,8 +272,6 @@
 
 .footer-scroll {
   text-align: right;
-
-  grid-column: 2 / 3;
 }
 
 .container {

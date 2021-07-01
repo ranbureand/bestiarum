@@ -2,7 +2,19 @@
         <header class="header">
 
           <h1 class="header-title">
-            <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+            {%- for language in snippets.languages %}
+              {%- if page.language == site.language %}
+                {%- assign url = site.baseurl | append: '/'%}
+              {%- else %}
+                {%- assign nav_pages = site.pages
+                  | where: 'language_reference', 'pouch'
+                  | where: 'language', page.language %}
+                {%- for nav_page in nav_pages %}
+                  {%- assign url = site.baseurl | append: nav_page.url %}
+                {%- endfor %}
+              {%- endif %}
+            {%- endfor %}
+            <a href="{{ url }}">{{ site.title }}</a>
           </h1>
 
           <nav class="header-navigation">
