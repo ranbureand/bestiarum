@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Kumiho
-subtitle: Dokuz kuyruklu bir güzel
+title: Dokuz kuyruklu bir güzel
+subtitle: Kumiho
 description: Brezilya folklorunda yer alan saçları turuncu-kırmızı, derisi yeşil renkte olan orman iblisidir. Brezilya ormanlarında yaşar ve ormana zarar verenleri kovalayan, lanetleyen ya da öldürür.
 date: '2021-05-04 13:40:00'
 
