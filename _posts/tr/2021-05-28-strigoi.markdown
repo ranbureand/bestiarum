@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Strigoi
-subtitle: Dracula'dan da yaşlı vampirler
+title: Dracula'dan da yaşlı vampirler
+subtitle: Strigoi
 description: Strigoi, Romanya Mitolojisinde öldükten sonra mezarından kalkıp insanlara rahatsızlık veren kötücül ruhlardır. İstedikleri hayvan formuna girebilirler, görünmez olabilirler ve kurbanlarının kanını içerek yaşarlar.
 date: '2021-05-28 13:40:00'
 
