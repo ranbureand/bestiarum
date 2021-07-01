@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Why Does the Light of the Lightning Come Before the Thunder?
+title: Why does the light of the lightning come before the thunder?
 subtitle: Leigong
 description: Leigong is the God of Thunder in Chinese Mythology. He produces thunder with his drum and mallet and punishes both earthly mortals guilty of secret crimes and evil spirits who have used their knowledge of Taoism to harm human beings.
 date: '2021-06-15 13:40:00'
