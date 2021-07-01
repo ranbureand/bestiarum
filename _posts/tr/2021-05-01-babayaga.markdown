@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Babayaga
-subtitle: Peri Masallarından <br/> Korkunç Yaşlı Cadılığa.<br/> Nasıl bu kadar yanlış anlaşıldı?
+title: Perilikten <br/> korkunç yaşlı cadılığa <br/> Nasıl bu kadar yanlış anlaşıldı?
+subtitle: Babayaga
 description: Babayaga, Slav mitolojisinden (ya da John Wick’ten) tanıdığımız ormanın derinliklerinde tavuk bacaklı kulubesinde yaşayan ve rastladığı gezginleri ve özellikle çocukları yiyen çirkin ve yaşlı bir cadıdır. Fakat Babayaga her zaman böyle değildi.
 date: '2021-05-01 13:40:00'
 
