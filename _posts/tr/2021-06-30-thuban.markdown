@@ -1,0 +1,40 @@
+---
+layout: post
+
+title: Unutulmuş Kutup Yıldızı
+subtitle: Thuban
+description: Bundan yaklaşık 3800 yıl önce kutup yıldızı şu anki Polaris yıldızı değil Draco Takımyıldızında yer alan Thuban, diğer adıyla Alpha Draconis yıldızıydı.
+date: '2021-06-30 13:40:00'
+
+language: 'tr'
+language_reference: 'thuban'
+
+publish: 'yes'
+---
+
+Kutup yıldızının (orjinal adıyla Polaris) her zaman aynı yıldız olmadığını biliyor muydunuz? Dünyanın kuzeyini gösteren ve gökyüzünde hareketsiz duran kutup yıldızı aslında o kadar da sabit değildir. Bundan yaklaşık 3800 yıl önce kutup yıldızı şu anki Polaris yıldızı değil Draco Takımyıldızında yer alan Thuban, diğer adıyla Alpha Draconis yıldızıydı.
+
+Thuban yıldızı en parlak yıldızlardan biri değildir. Thuban’ı önemli yapan nokta ise Gize’deki Büyük Piramit ile doğrudan bağlantılı olmasıdır.
+
+En önemli ve gizemli piramit olan Büyük Piramit’in yapıldığı M.Ö. 2500 yıllarında Thuban o zamanki kutup yıldızıdır. Ve piramit Thuban yıldızı baz alarak konumlandırılmıştır. Piramitin en önemli odası olan Kral odası’na açılan hava şaftları Güney’de Orion Kemeri’ne ve Kuzey’de Thuban yıldızına bakmaktadır.
+
+Bu hava şaftlarının sırrı tam olarak çözülemese de, kralın ruhunun göğe yükseldiğinde en önemli iki yıldız olarak kabul edilen bu yıldızlara doğru gideceğine inanılır.
+
+Kısa bir bilgi daha: Toplamda 14 farklı kutup yıldızı vardır ve dünyanın kuzeyde 0 noktasına en yakın konumlanan yıldız kutup yıldızı olarak tahta oturur. Dünyanın dönüşü esnasında yalpalamasından dolayı bu döngü 26.000 yıl sürmektedir.
+
+21/12/2012’de dünyanın sonunu gösterdiğine inanılan Meşhur Maya takvimi de bu döngüyü takip etmektedir. 21 Aralık’ta dünyanın sonu değil bu 26.000 yıllık döngünün sonu gelmiş yeni bir döngü başlamıştır.
+
+Günümüzdeki kutup yıldızı olan Polaris yaklaşık 3000 yıl daha kutup yıldızı olarak kaldıktan sonra tahtını Cepheus takım yıldızındaki Gamma Cephei yıldızına bırakacaktır.
+
++ *[Ceops Piramiti](http://www.tarihpedia.com/misir_piramitler_cheops/)*, tarihpedia.com
++ *[Illuminating the Mysteries of the Great Pyramid and the Sphinx](http://www.soulsofdistortion.nl/Giza.html)*, soulsofdistortion.nl
++ *[The Dragon And A Former Pole Star](https://earthsky.org/tonight/see-draco-the-dragon-and-a-former-pole-star/)*, EarthSky.org
++ *[Thuban Is A Former Pole Star](https://earthsky.org/brightest-stars/thuban-past-north-star/)*, EarthSky.org
++ *[Different Pole Stars](https://www.eso.org/public/outreach/eduoff/cas/cas2003/casreports-2003/rep-038/differents.htm)*, European Southern Observatory
++ *[Project: Constellation Draco](https://www.eso.org/public/outreach/eduoff/cas/cas2002/cas-projects/bulgaria_draco_1/)*, European Southern Observatory
++ *[Thuban](https://www.constellationsofwords.com/thuban/)*, Constellation of Words
++ *[Using Precession of the Ages as a Timeline for Future History](https://medium.com/the-molten-mind-space/using-precession-of-the-ages-as-a-timeline-for-future-history-89d1b216fe86)*, medium.com
++ *[Pole Star](https://en.wikipedia.org/wiki/Pole_star)*, Wikipedia
++ *[Beta Ursae Minoris](https://en.wikipedia.org/wiki/Beta_Ursae_Minoris)*, Wikipedia
++ *[Thuban](https://en.wikipedia.org/wiki/Thuban)*, Wikipedia
+{: .sources}
