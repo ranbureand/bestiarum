@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Aumakua
-subtitle: Kafanıza konan uğurböceği büyük-büyük-büyük nineniz olabilir
+title: Kafanıza konan uğurböceği büyük-büyük-büyük nineniz olabilir
+subtitle: Aumakua
 description: Aumakua Polinezya Mitolojisinde ve halen de yerli halkın inanışında yer alan “Gözcü Ruh”a verilen isimdir. Gözcü Ruhun ölen bir kişinin kendinden sonra gelenlere yol göstermek, onları kötülüklerden korumak için çoğunlukla hayvan formunda kendini gösterdiğine inanılır.
 date: '2021-03-06 13:40:00'
 
