@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Snail Lady
-subtitle: from Rice Paddy to Kingdom! How was she saved from cooking 7/24?
+title: from Rice Paddy to Kingdom! How was she saved from cooking 7/24?
+subtitle: Snail Lady
 description: A long time ago there was a poor farmer boy. Every day he worked in the rice paddy and supported his aging mother. One day, while he was working in the rice paddy, he said to himself "What am I gonna do with all those rice? I don’t even have anybody to share with”
 date: '2020-11-17 13:40:00'
 
