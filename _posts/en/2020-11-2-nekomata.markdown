@@ -1,11 +1,10 @@
 ---
 layout: post
 
-title: Nekomata
-subtitle: Your cute and fluffy kitty might be devious
+title: Your cute and fluffy kitty might be devious
+subtitle: Nekomata
 description: Nekomata is a type of cat yōkai in Chinese and then Japanese folklore. They are strong, evil and very smart. The most characteristic feature of Nekomata is having two tails rather than one.
 date: '2020-11-02 13:40:00'
-
 language: 'en'
 language_reference: 'nekomata'
 
