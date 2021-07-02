@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Grootslang
-subtitle: Yanlışlıkla yaratılan gelmiş geçmiş en güçlü yaratık
+title: Yanlışlıkla yaratılan gelmiş geçmiş en güçlü yaratık
+subtitle: Grootslang
 description: Grootslang Tanrıların yaratıma ilk başladıklarında yanlışlıkla yaratıldığına inanılan fil-yılan karışımı efsanevi yaratıktır.
 date: '2021-03-17 13:40:00'
 
