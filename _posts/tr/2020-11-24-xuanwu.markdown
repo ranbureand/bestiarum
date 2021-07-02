@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Xuan Wu
-subtitle: Karşınızda ilk Ninja Kaplumbağa
+title: Karşınızda ilk Ninja Kaplumbağa
+subtitle: Xuan Wu
 description: Bundan çok uzun zaman önce fakir bir çiftçi oğlan varmış. Her gün pirinç tarlasında çalışır yaşlı anacığına bakarmış. Bir gün yine pirinç toplarken “Bu kadar pirinç topluyorum da kiminle paylaşacağım bunları” demiş. Sonra birden bir kadın sesinin “Ben seninle birlikte yerim” dediğini duymuş.
 date: '2020-11-24 13:40:00'
 
