@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Aumakua
-subtitle: The Ladybug on your hair might be your great-great-grandmother
+title: The Ladybug on your hair might be your great-great-grandmother
+subtitle: Aumakua
 description: Aumakua is "Guardian Spirit" in Polynesian Mythology. It is believed that a deceased person manifests himself mostly in animal form to guide his/her descendants protect them from evil.
 date: '2021-03-06 13:40:00'
 
