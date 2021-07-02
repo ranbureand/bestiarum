@@ -3,7 +3,7 @@ layout: post
 
 title: Would you like to share the same body with your BFF?
 subtitle: Tulpa
-description: Tulpa, mistisizmde yoğun düşünme ile yapılan meditatif çalışmalar sonucu yaratılan bir tür “düşlem/düşünce varlığı”dır. Tibet Mistisizmine göre düşünce, ruhun yansımasını taşıyan bir enerji formudur. Doğru tekniklerle düşünce gücünden canlılık belirtisi gösteren bir varlık yaratılabilir.
+description: Tulpa is a kind of "fantasy/thought entity" created as a result of meditative work done with intense thinking. According to Tibetan Mysticism, thought is a form of energy that carries the reflection of the soul. With the right techniques, a living form can be created with the power of thought..
 date: '2021-04-14 13:40:00'
 language: 'en'
 language_reference: 'tulpa'
