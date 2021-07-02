@@ -1,0 +1,19 @@
+---
+layout: post
+
+title: The Wikipedia of Demons
+subtitle: Bai Ze
+description: Bai Ze Çin Mitolojisinde yer alan efsanevi insan başlı ve öküz gövdeli yaratıktır. Başının iki yanında ve bir tane de ortada olmak üzere üç gözü ve sırtında boynuzları vardır. Sadece erdemli liderlere görünür.
+date: '2021-06-04 13:40:00'
+language: 'en'
+language_reference: 'baize'
+publish: 'yes'
+---
+
+Bai Ze (Japanese: Hakutaku) is a mythical creature with the head of a man and the body of an ox, often with three eyes on each flank and horns on its back. The creature is said only to appear to leaders who are virtuous
+
+According to legend, one day the Yellow Emperor (C. Huangdi), a legendary sovereign in ancient China, encountered Bai Ze during his journey to the east. Bai Ze gave extensive knowledge to 11,520 types of supernatural creatures in the world.
+
+Bai Ze told all the forms, habits of them and taught the emperor how to avoid and overcome their hountings and attacks. The Yellow Emperor put all this knowledge together in a guide book called Bái Zé Tú.
+
+This book later helped him in dealing with disasters and diseases caused by demons. This book no longer exists, but many fragments of it survive in other texts.
