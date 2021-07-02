@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Huma Bird
-subtitle: Why is getting pooped on by a bird Good Luck?
+title: Why is getting pooped on by a bird Good Luck?
+subtitle: Huma Bird
 description: Huma bird is a mythological bird that flies over seven layers of the sky and never alights on the ground. Its name is composed of the Arabic words "Hu = Spirit" and "Ma = Water".
 date: '2020-10-16 15:30:00'
 
