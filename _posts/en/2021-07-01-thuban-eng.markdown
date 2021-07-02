@@ -4,7 +4,7 @@ layout: post
 title: A long-forgotten pole star
 subtitle: Thuban
 description: About 3800 years ago, the pole star was not the current Polaris star, but Thuban, a.k.a Alpha Draconis, in the Draco Constellation.
-date: '2021-06-30 13:40:00'
+date: '2021-07-01 13:40:00'
 
 language: 'en'
 language_reference: 'thuban'
