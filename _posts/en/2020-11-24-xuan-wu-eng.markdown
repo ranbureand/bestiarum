@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Xuan Wu
-subtitle: The First Mutant Ninja Turtle
+title: The First Mutant Ninja Turtle
+subtitle: Xuan Wu
 description: Xuan Wu was told that in order to fully achieved divinity and become a god, he must purge himself from all his past sins and little niggly bad habits and naughty thoughts by washing his stomach and intestines in the river.
 date: '2020-11-24 13:40:00'
 
