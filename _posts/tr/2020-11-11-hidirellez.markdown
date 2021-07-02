@@ -1,9 +1,9 @@
 ---
 layout: post
 
-title: Hıdırellez
-subtitle: Dilekleri gerçekleştiren iki süperkahraman
-description: Hıdrellez en eski bahar bayramlarındandır. Kışın bitişi ve yazın başlangıcı olarak kabul edilen 5 Mayıs’ı 6 Mayıs’a bağlayan gece çeşitli törenlerle kutlanır. İki ölümsüz peygamber olduğuna inanılan Hızır ve İlyas peygamberin her yıl bir araya geldikleri gün olan Hıdrellez ikisinin adının birleşmesiyle olmuştur.
+title: Dilekleri gerçekleştiren iki süperkahraman
+subtitle: Hıdırellez
+description: Hıdırellez en eski bahar bayramlarındandır. Kışın bitişi ve yazın başlangıcı olarak kabul edilen 5 Mayıs’ı 6 Mayıs’a bağlayan gece çeşitli törenlerle kutlanır. İki ölümsüz peygamber olduğuna inanılan Hızır ve İlyas peygamberin her yıl bir araya geldikleri gün olan Hıdrellez ikisinin adının birleşmesiyle olmuştur.
 date: '2020-11-11 13:40:00'
 
 language: 'tr'
