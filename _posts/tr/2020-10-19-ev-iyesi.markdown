@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Ev İyesi
-subtitle: “Ev Cini”nizle Tanışın <br/>(o korkunç olan değil)
+title: “Ev Cini”nizle Tanışın
+subtitle: Ev İyesi <br/>(o korkunç olan değil)
 description: Ev İyesi Türk Mitolojisinde evlerin koruyucu ruhudur. Her evin kendi iyesi vardır. Orta boylu, uzun ve dağınık saçlı, yaşlı bir erkek olarak anlatılsa da başka kılıklara girebilir.
 date: '2020-10-19 16:40:00'
 
