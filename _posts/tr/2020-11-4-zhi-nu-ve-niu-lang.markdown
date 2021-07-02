@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Zhi Nü ile Niu Lang
-subtitle: Samanyolu ile ayrılan <br/> Aşk-ı Memnu
+title: Samanyolu ile ayrılan <br/> Aşk-ı Memnu
+subtitle: Zhi Nü ile Niu Lang
 description: Zhi Nü cennette yaşayan güzeller güzeli ve pek becerikli bir hanımkımızdır. O kadar becerikliymiş ki bulutlardan iplik yapıp Yeşim Kralı babacığına ışıl ışıl giysiler dokurmuş. Gel gelelim bir gün cennetteki bu “sıkıcı” hayat canına tak eder, dünyaya inip macera arama telaşına düşer.
 date: '2020-11-04 13:40:00'
 
