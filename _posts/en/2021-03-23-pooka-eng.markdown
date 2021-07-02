@@ -1,0 +1,29 @@
+---
+layout: post
+
+title: The spooky fairy of Celtics
+subtitle: Pooka
+description: The Pooka, or in Irish Puca, (goblin) is a phantom fairy creature that features in Celtic folklore and fairytales of Ireland. Pooka is a shape-changer and can take an animal or human form; like a horse, donkey, cat, dog, bull, young man, or even a voluptuous young woman. The mountains and hills are this creature’s domains. Depending on the region, The púca may be regarded as being either menacing or beneficial.
+date: '2021-03-23 13:40:00'
+
+language: 'en'
+language_reference: 'pooka'
+
+publish: 'yes'
+---
+
+The Pooka, or in Irish Puca, (goblin) is a phantom fairy creature that features in Celtic folklore and fairytales of Ireland. Pooka is a shape-changer and can take an animal or human form; like a horse, donkey, cat, dog, bull, young man, or even a voluptuous young woman. The mountains and hills are this creature’s domains. Depending on the region, The púca may be regarded as being either menacing or beneficial.
+
+There are iconic mystical creatures that are incarnated from Pooka. For example, the bogeyman is derived from Pooka. Also, Easter Bunny, which is pagan in origin; a fairy-like creature that brings chocolate eggs and sweets to children at Easter has its roots in the fertility spirit theme of Pooka.
+
+Moreover,  a bizarre but harmless creature that talks in riddles and behaves in a similar manner to the Cheshire Cat from Alice in Wonderland was inspired by Pooka.
+
+When Pooka is in horse form, it likes to take a drunkard rider on a wild ride all night and shake him off in the grey of the morning. This person, already heavily inebriated, is also under the spell of Pooka and has no recollection of what happened. This often accounts for why some people who, having gotten very drunk, do not remember what happened the previous night.
+
+Puca Festival in Ireland is the celebration of the Celtic new year. It is also believed that this festival is the origin of Halloween. At the celebration night, it is believed that when the light turns to dark, the veil between the two worlds draws thin, rules can be broken, and the spirits move between worlds. Púca comes alive, a shape-shifting spirit, roaming the night and changing the fortunes of those that cross her path.
+
+
+
++ *[The Irish legend of the Pooka](https://www.irishcentral.com/roots/history/irish-legend-pooka)*, irishcentral.com
++ *[Pooka](https://tr.wikipedia.org/wiki/Pooka)*, Wikipedia
+{: .sources}
