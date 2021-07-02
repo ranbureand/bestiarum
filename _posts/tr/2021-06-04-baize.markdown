@@ -1,0 +1,19 @@
+---
+layout: post
+
+title: Eccinni Ansiklopedisi
+subtitle: Bai Ze
+description: Bai Ze Çin Mitolojisinde yer alan efsanevi insan başlı ve öküz gövdeli yaratıktır. Başının iki yanında ve bir tane de ortada olmak üzere üç gözü ve sırtında boynuzları vardır. Sadece erdemli liderlere görünür.
+date: '2021-06-04 13:40:00'
+language: 'tr'
+language_reference: 'baize'
+publish: 'yes'
+---
+
+Bai Ze (Japonca: Hakutaku) Çin Mitolojisinde yer alan efsanevi insan başlı ve öküz gövdeli yaratıktır. Başının iki yanında ve bir tane de ortada olmak üzere üç gözü ve sırtında boynuzları vardır. Sadece erdemli liderlere görünür.
+
+Efsaneye göre Çin uygarlığını başlattığına inanılan Sarı İmparator (C. Huangdi) doğuya yaptığı bir yolculuk sırasında Bai Ze ile karşılaşır. Bai Ze Sarı İmparator’a 11.520 doğaüstü yaratık hakkında bilgi verir.
+
+Bai Ze, bu yaratıkların tüm formları, alışkanlıkları, nasıl musallat oldukları ve onlardan korunmak için neler yapılması gerektiğini Sarı İmparator’a anlatır. İmparator da tüm bu bilgilerle Bái Zé Tú adında bir rehber kitap yazar.
+
+Bu kitap daha sonra bu yaratıkların neden olduğu felaketler ve hastalıklarla başa çıkılmasına yardımcı olur. Bái Zé Tú günümüzde var olmasa da diğer metinlerde birçok parçası varlığını sürdürmektedir.
