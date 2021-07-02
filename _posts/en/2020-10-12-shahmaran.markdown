@@ -1,14 +1,12 @@
 ---
 layout: post
 
-title: Shahmaran
-subtitle: She can sure all your diseases
+title: Let her cure all your diseasesShahmaran
+subtitle: Shahmaran
 description: Shahmaran (Persian. Shah = king, Maran = snakes) is a very beautiful woman with a snake tail, dragon or snake body, the king of snakes. She lives with her snakes in an underground city and has the endless medical knowledge to cure all diseases.
 date: '2020-10-12 15:30:00'
-
 language: 'en'
 language_reference: 'shahmaran'
-
 publish: 'yes'
 ---
 
