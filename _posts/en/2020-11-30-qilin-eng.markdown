@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Qilin
-subtitle: The Chinese Unicorn & More Inc.
+title: The Chinese Unicorn & More Inc.
+subtitle: Qilin
 description: The Qilin is the great-great-great cousin of unicorns living in China. It symbolizes good luck, prosperity, happiness, fertility, peace, and longevity. In China, babies are brought by qilins, not by storks.
 date: '2020-11-30 13:40:00'
 
