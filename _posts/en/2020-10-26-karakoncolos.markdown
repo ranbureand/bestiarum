@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Karakoncolos
-subtitle: Cook the Pumpkin, Hide the Comb and Wait for Him
+title: Cook the Pumpkin, Hide the Comb and Wait for Him
+subtitle: Karakoncolos
 description: Karakoncolos is a malevolent winter goblin.He wanders the streets at the coldest time of the winter.He has the size of a child, cat or monkey. His body is black and covered with hair.
 date: '2020-10-26 13:40:00'
 
