@@ -1,7 +1,7 @@
 /* Copyright (c) 2019 Andrea Buran [www.andreaburan.com] All rights reserved */
 
 /*
-** Frames
+** Header, Footer
 */
 
 .header-canvas,
@@ -13,18 +13,11 @@
     padding-top: em($d-base-rhythm/2);
     padding-bottom: em($d-base-rhythm/2);
   }
-  @include min-screen(col(8)) {
-    padding-top: em($d-base-rhythm/2);
-    padding-bottom: em($d-base-rhythm/2);
-  }
 }
 
 .footer-canvas {
   padding-top: em($m-base-rhythm*4);
 
-  @include min-screen(col(12)) {
-    padding-top: em($d-base-rhythm*2.5);
-  }
   @include min-screen(col(8)) {
     padding-top: em($d-base-rhythm*2.5);
   }
@@ -43,12 +36,12 @@
 
   animation-fill-mode: both;
 
-  @include min-screen((col(20) + em($d-gut))) {
-    width: col(20);
-  }
   @include min-screen(col(8)) {
     padding-right: em($d-gut);
     padding-left: em($d-gut);
+  }
+  @include min-screen((col(20) + em($d-gut))) {
+    width: col(20);
   }
 }
 
@@ -57,57 +50,42 @@
   display: flex;
 }
 
-/*.footer {
-  display: grid;
-
-  grid-column-gap: em($m-gut);
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  @include min-screen(col(8)) {
-    grid-column-gap: em($d-gut);
-  }
-}*/
-
 .header-title,
 .header-navigation,
 .footer-copyright,
 .footer-scroll {
-  @include font-size($m-small-size, $m-small-line);
+  a {
+    font-weight: $bold;
+  }
 
-  a,
-  span:not(.expendable) {
+  .item {
     display: block;
 
     padding-top: em($m-small-line/2, $m-small-size);
     padding-bottom: em($m-small-line/2, $m-small-size);
-  }
 
-  a {
-    font-weight: $bold;
-
-    @include link(normal);
-  }
-
-  .current {
-    @include link(normal);
+    @include font-size($m-small-size, $m-small-line);
   }
 
   @include min-screen(col(8)) {
-    @include font-size($d-small-size, $d-small-line);
-
-    a,
-    span:not(.expendable) {
+    .item {
       padding-top: em($d-small-line/2, $d-small-size);
       padding-bottom: em($d-small-line/2, $d-small-size);
+
+      @include font-size($d-small-size, $d-small-line);
     }
   }
 }
 
 .header-title {
-  padding-right: em($m-gut);
-
-  @include min-screen(col(8)) {
-    padding-right: em($d-gut);
+  .item {
+    a {
+      &:after {
+        content: ", ";
+        white-space: pre;
+        font-weight: $normal;
+      }
+    }
   }
 }
 
@@ -120,26 +98,22 @@
     justify-content: flex-end;
   }
 
-  li:first-child {
+  .item {
+    margin-left: em($m-gut/2, $m-small-size);
+  }
+
+  .item:first-child {
     position: relative;
+    margin-left: 0;
 
     flex-grow: 1;
 
-    a {
-      padding-right: em($m-gut/2);
-      padding-left: 0;
+    .normal {
+      font-weight: $normal;
     }
-  }
-
-  li:last-child {
-    a {
-      padding-right: 0;
+    .bold {
+      font-weight: $bold;
     }
-  }
-
-  a {
-    padding-right: em($m-gut/2);
-    padding-left: em($m-gut/2);
   }
 
   .en,
@@ -164,27 +138,17 @@
       }
     }
   }
+
+  .expendable {
+    display: none;
+  }
+
   @include min-screen(col(8)) {
-    li:first-child {
-      position: relative;
-
-      a {
-        padding-right: em($d-gut/2);
-        padding-left: 0;
-      }
+    .item {
+      margin-left: em($d-gut/2, $d-small-size);
     }
-
-    li:last-child {
-      a {
-        padding-right: 0;
-      }
-    }
-
-    a {
-      padding-right: em($d-gut/2);
-      padding-left: em($d-gut/2);
-    }
-
+  }
+  @include min-screen(col(12)) {
     .en,
     .tr {
       span {
@@ -207,60 +171,32 @@
         }
       }
     }
+
+    .expendable {
+      display: inline;
+    }
   }
 }
+
 
 .footer-copyright {
   flex-grow: 1;
   display: flex;
 
-  div:first-child {
-    a,
-    span:not(.expendable) {
-      padding-right: em($m-gut/2);
-      padding-left: 0;
-    }
+  .item {
+    margin-left: em($m-gut/2, $m-small-size);
   }
 
-  div:last-child {
-    a,
-    span:not(.expendable) {
-      padding-right: 0;
-    }
-  }
-
-  a,
-  span:not(.expendable) {
-    padding-right: em($m-gut/2);
-    padding-left: em($m-gut/2);
+  .item:first-child {
+    margin-left: 0;
   }
 
   .expendable {
     display: none;
   }
   @include min-screen(col(8)) {
-
-    div:first-child {
-      position: relative;
-
-      a,
-      span:not(.expendable) {
-        padding-right: em($d-gut/2);
-        padding-left: 0;
-      }
-    }
-
-    div:last-child {
-      a,
-      span:not(.expendable) {
-        padding-right: 0;
-      }
-    }
-
-    a,
-    span:not(.expendable) {
-      padding-right: em($d-gut/2);
-      padding-left: em($d-gut/2);
+    .item {
+      margin-left: em($d-gut/2, $d-small-size);
     }
   }
   @include min-screen(col(10)) {
@@ -273,6 +209,10 @@
 .footer-scroll {
   text-align: right;
 }
+
+/*
+** Container
+*/
 
 .container {
   position: relative;
