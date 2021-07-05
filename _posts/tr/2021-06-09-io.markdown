@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: İstanbul Boğazı’na İsim Veren Hanımkızımız
+title: İstanbul Boğazı’na isim veren hanımkızımız
 subtitle: İo
 description: Yunan Mitolojisinde yer alan İo, nehir Tanrısı İnakhos’un güzeller güzeli kızıdır. Aynı zamanda Baş Tanrıça ve ölümüne kıskanç Hera’nın tapınağında bir rahibedir.
 date: '2021-06-09 13:40:00'
