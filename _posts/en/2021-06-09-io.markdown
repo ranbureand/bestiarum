@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Chased by a Gadfly for Three Continents
+title: Chased by a gadfly for three continents
 subtitle: İo
 description: In Greek Mythology, Io is a very beautiful girl and daughter of Inachus, the God of River. She was a priestess of the Goddess Hera.
 date: '2021-06-09 13:40:00'
