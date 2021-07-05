@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: How Many Toes Does Your Dragon Have?
+title: How many toes does your dragon have?
 description: Adding an extra toe to a Chinese dragon might be a fatal mistake in Ancient China because the five-toed dragon was a symbol of the imperial family.
 date: '2020-10-09 15:30:00'
 
