@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: İrlandalı “Tuhaf” Peri
+title: İrlandalı “tuhaf” peri
 subtitle: Pooka
 description: Pooka veya İrlandaca Pùca, Kelt folklorunda ve İrlanda masallarında yer alan hayalet-peri karışımı bir varlıktır. Pooka bir şekil değiştiricidir ve bir at, eşek, kedi, köpek, boğa, genç bir adam ve hatta şehvetli bir genç kadın şekline girebilir. Bölgeye bağlı olarak, Pooka’nın kötü, tehlikeli veya iyi olduğuna inanılır.
 date: '2021-03-23 13:40:00'
