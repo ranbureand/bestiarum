@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Dragon Etymology <br/>I
+title: Dragon Etymology <br/> Chapter I
 subtitle: Chinese
 description: In Traditional Chinese, “dragon” is written as 龍 and pronounced as "Lóng".
 date: '2020-09-21 00:00:00'
