@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Dragon Etymology <br/> II
+title: Dragon Etymology <br/> Chapter II
 subtitle: English
 description: The word dragon entered the English language around the mid. 13. century from Old French dragon, which originates from Latin draconem meaning "huge serpent" and from Ancient Greek δράκων (drákōn) meaning "serpent, giant sea fish".
 date: '2020-09-25 13:40:00'
