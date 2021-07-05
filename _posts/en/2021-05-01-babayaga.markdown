@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The most misunderstood Grandma
+title: The most misunderstood grandma
 subtitle: Babayaga
 description: Babayaga as we know in Slavic mhythology (or in John Wick) is an ugly old witch who lives in a hut with chicken legs in the depths of the forest and threatens to eat travelers and children. But Babayaga was not always a villain.
 date: '2021-05-01 13:40:00'
