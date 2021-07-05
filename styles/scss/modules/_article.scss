@@ -50,20 +50,18 @@
 
   grid-column: 1 / 9;
 
+  .title,
+  .subtitle {
+    @include font-size($m-extra-large-size, $m-extra-large-line);
+  }
   .title {
     font-weight: $bold;
-
-    @include font-size($m-extra-large-size, $m-extra-large-line);
   }
 
   .subtitle {
     font-style: italic;
 
     display: block;
-
-    margin-top: em($m-medium-line/2, $m-medium-size);
-
-    @include font-size($m-medium-size, $m-medium-line);
   }
 
   .date {
@@ -81,14 +79,9 @@
   @include min-screen(col(8)) {
     padding-top: em($d-base-rhythm*4);
 
-    .title {
-      @include font-size($d-extra-large-size, $d-extra-large-line);
-    }
-
+    .title,
     .subtitle {
-      margin-top: em($d-medium-line/2, $d-medium-size);
-
-      @include font-size($d-medium-size, $d-medium-line);
+      @include font-size($d-extra-large-size, $d-extra-large-line);
     }
 
     .date {
