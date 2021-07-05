@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Sizin Ejderhanız Kaç Parmaklı?
+title: Sizin ejderhanız kaç parmaklı?
 description: Ejderha resimlerinde ya da çizimlerinde parmak sayısının çok önemli olduğunu biliyor muydunuz? Çin ejderhasına fazladan bir parmak eklemek Antik Çin'de ölümcül bir hata olabilirdi. Çünkü beş parmaklı ejderha imparatorluk ailesinin bir simgesiydi.
 date: '2020-10-09 15:30:00'
 
