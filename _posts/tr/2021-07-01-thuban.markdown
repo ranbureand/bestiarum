@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Unutulmuş kutup yıldızı
+title: Unutulmuş <br/> kutup yıldızı <br/> 
 subtitle: Thuban
 description: Bundan yaklaşık 3800 yıl önce kutup yıldızı şu anki Polaris yıldızı değil Draco Takımyıldızında yer alan Thuban, diğer adıyla Alpha Draconis yıldızıydı.
 date: '2021-07-1 13:40:00'
