@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Pirinç Tarlasından Kraliçeliğe 7/24 yemek yapmaktan nasıl kurtuldu?
+title: 7/24 yemek yapmaktan nasıl kurtuldu?
 subtitle: Salyangoz Hanım
 description: Bundan çok uzun zaman önce fakir bir çiftçi oğlan varmış. Her gün pirinç tarlasında çalışır yaşlı anacığına bakarmış. Bir gün yine pirinç toplarken “Bu kadar pirinç topluyorum da kiminle paylaşacağım bunları” demiş. Sonra birden bir kadın sesinin “Ben seninle birlikte yerim” dediğini duymuş.
 date: '2020-11-17 13:40:00'
