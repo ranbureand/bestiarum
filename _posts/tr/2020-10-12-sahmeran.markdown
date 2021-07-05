@@ -1,7 +1,8 @@
 ---
 layout: post
 
-title: Şahmeran'ı <br/> Nasıl Bilirsiniz?
+title: Tüm dertlerinizin dermanı onda
+subtitle: Şahmeran
 description: Farsça “Şâh” ve “Mârân” kelimelerinin birleşmesiyle oluşan Şahmeran yılanların şahı olan, yılan kuyruklu, ejderha ya da yılan gövdeli çok güzel bir kadındır.Yerin yedi kat altında yılanlarıyla birlikte yaşamaktadır ve tüm hastalıkları iyileştirebilecek kadar sonsuz tıp bilgisi sahibidir.
 date: '2020-10-12 15:30:00'
 
