@@ -2,7 +2,7 @@
 layout: page
 
 title: 'Ben Kimim?'
-description: '…'
+description: 'Ben Saksağanlar gibi gördüğü parlak şeyleri toplamayı seven meraklı bir gezginim. Adım Takatukacı. Burası da topladıklarımı biriktirdiğim yuvam.'
 
 language: 'tr'
 language_reference: 'about'
