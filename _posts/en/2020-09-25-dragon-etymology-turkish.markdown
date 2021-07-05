@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Dragon Etymology <br/> III
+title: Dragon Etymology <br/> Chapter III
 subtitle: Turkish
 description: There are two different Turkish words to describe the dragon. The first one is “ejderha” which originated from the Persian word "Ajdahak or Ajdaha". Ajdahak comes from the name of the demonic king named Aži Dahāka, who is also known as Zahhāk or Zahāk in Persian mythology. Evren (or Evran, Ebren) is corresponding to Ejderha (Eng dragon) in Turkey Turkish. In Turkish mythology, it was thought that the world was rotated by one or more dragons.
 date: '2020-09-25 15:30:00'
