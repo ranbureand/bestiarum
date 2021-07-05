@@ -10,7 +10,7 @@ language_reference: 'about'
 
 Hello Dreamer,
 
-I am a curious wanderer who tells stories by the fire at night. I like collecting shiny things like magpies. My nickname is “takatukacı” since my childhood. And this is my nest[^typeface] where I collect those shiny and magical “takatuka”s.
+I am a curious wanderer who tells stories by the fire at night. I like collecting shiny things like magpies. My nickname is “takatukacı” since my childhood. And this is my nest where I collect those shiny and magical “takatuka”s[^typeface].
 
 **What does Takatukaci means?**
 
