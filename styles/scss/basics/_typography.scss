@@ -62,6 +62,9 @@
   a {
     @include link(normal);
   }
+  a[href^="mailto:"] {
+    white-space: nowrap;
+  }
   a.footnote {
 
   }
