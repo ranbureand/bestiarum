@@ -60,7 +60,7 @@
     font-style: italic;
   }
   a {
-    @include link(normal);
+    @include link(underline);
   }
   a[href^="mailto:"] {
     white-space: nowrap;

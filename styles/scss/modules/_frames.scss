@@ -56,6 +56,7 @@
 .footer-scroll {
   a {
     font-weight: $bold;
+    @include link(underline);
   }
 
   .item {
@@ -79,12 +80,10 @@
 
 .header-title {
   .item {
-    a {
-      &:after {
-        content: ", ";
-        white-space: pre;
-        font-weight: $normal;
-      }
+    &:after {
+      content: ": ";
+      white-space: pre;
+      font-weight: $normal;
     }
   }
 }

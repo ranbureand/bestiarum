@@ -27,9 +27,9 @@
                 {%- if nav_page.language_reference == 'about' %}
                 <li class="item">
                   {%- if page.language == 'tr' %}
-                  <span><a href="{{ site.baseurl }}{{ nav_page.url }}"><span class="expendable">karanlıkta parlayan</span> büyülü hikayeler evidir</a>.</span>
+                  <span><span class="expendable">karanlıkta parlayan</span> <a href="{{ site.baseurl }}{{ nav_page.url }}">büyülü hikayeler</a> evidir.</span>
                   {%- elsif page.language == 'en'  %}
-                  <span><a href="{{ site.baseurl }}{{ nav_page.url }}">a nest for tales that shine at night</a>.</span>
+                  <span>a <a href="{{ site.baseurl }}{{ nav_page.url }}">nest for tales</a> that shine at night.</span>
                   {%- endif %}
                 </li>
                 {%- endif %}

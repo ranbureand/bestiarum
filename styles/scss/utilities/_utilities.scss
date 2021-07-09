@@ -195,18 +195,18 @@ $border-style:          solid;
 ** Link
 */
 
-@mixin link($status: normal) {
+@mixin link($status: underline) {
 
   transition-timing-function: ease-out, ease-out;
   transition-duration: $duration, $duration;
   transition-property: color, text-decoration-color;
-  text-decoration: underline;
 
-  text-decoration-thickness: from-font;
+  @if $status == "underline" {
+    text-decoration: underline;
 
-  @if $status == "normal" {
-    &:hover {
-    }
+    text-decoration-thickness: from-font;
+  } @else if $status == "not-underline" {
+    text-decoration: none;
   } @else if $status == "current" {
 
   }
