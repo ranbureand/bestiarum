@@ -3,7 +3,7 @@ layout: post
 
 title: Kaderiniz bu üç yaşlı teyzenin elinde
 subtitle: Moirai
-description: BMoiralar Yunan mitlerinde kaderi temsil eden üç kız kardeştir. Diğer bilinen tüm Yunan tanrılarının üstündedirler. İlk kız kardeşin adı “döndüren” anlamına gelen Clotho’dur. İkinci kızkardeşin adı ise “bölüştüren” anlamındaki Lachesis. Son kız kardeşin adı da Atropos yani “kaçınılmaz olan”dır.
+description: Moiralar Yunan mitlerinde kaderi temsil eden üç kız kardeştir. Diğer bilinen tüm Yunan tanrılarının üstündedirler. İlk kız kardeşin adı “döndüren” anlamına gelen Clotho’dur. İkinci kızkardeşin adı ise “bölüştüren” anlamındaki Lachesis. Son kız kardeşin adı da Atropos yani “kaçınılmaz olan”dır.
 date: '2021-07-5 13:40:00'
 language: 'tr'
 language_reference: 'moirai'
