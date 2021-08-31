@@ -9,7 +9,7 @@ language: 'tr'
 language_reference: 'Coyolxauhqui'
 publish: 'yes'
 ---
-Coyolxāuhqui (Koyolşawki) Aztek Mitolojisinde Ay Tanrıçasıdır. Fakat kardeşi savaş tanrısı Huitzilopochtli (Vitzilopotçli) tarafından kurbanlık deve gibi parçalara ayrılarak öldürülür. 
+Coyolxāuhqui (Koyolşawki) Aztek Mitolojisinde Ay Tanrıçasıdır. Fakat kardeşi savaş tanrısı Huitzilopochtli (Vitzilopotçli) tarafından kurbanlık deve gibi parçalara ayrılarak öldürülür.
 
 Tüm tanrıların annesi olan Coatlicue (Koatlikue) Yılan Dağı’ndaki tapınağında bir gün verandayı süpürürken gökten bir tomar sinek kuşu tüyü düşer ve Coatlicue de tüy topağını alıp önlüğünün cebine koyar. Sonra da mucizevi bir şekilde Huitzilopochtli’ye hamile kalır.
 
@@ -21,5 +21,7 @@ Kız kardeşinin kafasını keser ve bedenini Yılan Dağı’ndan aşağıya at
 
 Huitzilopochtli, bu savaşa kahrolan annesini bir nebze olsun ferahlatmak için kız kardeşinin kestiği kafasını gökyüzüne fırlatır ve Ay olur. Böylece annesi her gece kızının yüzünü görebilir. Diğer 400 erkek kardeşi de güneydeki 400 yıldız olur.
 
-+ *[Kuchisake-Onna](https://tr.wikipedia.org/wiki/Kuchisake-onna)*, Wikipedia
++ *[Coyolxāuhqui](https://en.wikipedia.org/wiki/Coyolx%C4%81uhqui)*, Wikipedia
++ *[Huītzilōpōchtli](https://en.wikipedia.org/wiki/Hu%C4%ABtzil%C5%8Dp%C5%8Dchtli)*, Wikipedia
++ *[Cōātlīcue](https://en.wikipedia.org/wiki/C%C5%8D%C4%81tl%C4%ABcue)*, Wikipedia
 {: .sources}
