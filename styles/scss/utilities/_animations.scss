@@ -37,7 +37,7 @@
 
 @keyframes element-zoom-in {
   0% {
-    transform: perspective(0px) translate3d(0px, 0px, 0px);
+    transform: perspective(200px) translate3d(0px, 0px, 0px);
     z-index: 0;
     filter: drop-shadow(0px 0px 0px $zoom-in-shadow-start);
   }
@@ -65,7 +65,7 @@
     filter: drop-shadow(0px 0px 0px $zoom-in-shadow-start);
   }
   100% {
-    transform: perspective(0px) translate3d(0px, 0px, 0px);
+    transform: perspective(200px) translate3d(0px, 0px, 0px);
     z-index: 0;
     filter: drop-shadow(0px 0px 0px $zoom-in-shadow-start);
   }
