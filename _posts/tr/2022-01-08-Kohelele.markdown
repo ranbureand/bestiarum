@@ -3,7 +3,7 @@ layout: post
 title: Süper-güç olarak uçan vajina?
 subtitle: Kohe Lele
 description: Kohe Lele Hawaii Mitoloji’nde geçer ve anlamı “Uçan Vajina”dır.
-date: '2021-01-08 13:40:00'
+date: '2022-01-08 13:40:00'
 language: 'tr'
 language_reference: 'kohelele'
 publish: 'yes'
