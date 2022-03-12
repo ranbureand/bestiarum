@@ -1,23 +1,21 @@
 ---
 layout: post
-title: En renkli Aborjin Tanrısı
-subtitle: Gökkuşağı Yılanı
-description: Gökkuşağı Yılanı, 50.000 yıllık kültüre sahip olan Aborjinlerin yaratılış hikayesindeki ilk kutsal ruh ya da tanrıdır.
-date: '2022-03-01 13:40:00'
+title: Sümerli Esra Erol Gururla Sunar
+subtitle: İnanna ile Tammuz
+description: Tammuz’un yeryüzüne gelip tekrar İnanna ile birleştikleri zaman bahardır, paskalyadır, nevruzdur, hıdrellezdir. Yeraltına döndüğü zaman ise kışın başlangıcıdır.
+date: '2022-03-05 13:40:00'
 language: 'tr'
-language_reference: 'rainbowserpent'
+language_reference: 'inannatammuz'
 publish: 'yes'
 ---
-Dev Gökkuşağı Yılanı yerin altındaki karanlıktan çıkmak istedi. O kadar güçlüydü ki yeri ittirdikçe dağlar ve tepeler yükseldi, aralarında vadiler açıldı. Sudan yaşamı çıkarttı ve yeryüzüne hayat verdi. Sırtındaki mavi renk kışı, kırmızı yazı, sarı ilkbaharı ve turuncu sonbaharı getirdi.
+M.Ö. 3000’ler civarında Sümerlerin güzeller güzeli Tanrıçası İnanna’nın başının bağlanma zamanı geldiğine inanan Sümerli “Gelinim Olur Musun?” ekibi, zamanın önde gelen şehri Uruk’un Kralı Tammuz’u u(ydu)ruktan bir Tanrı yaparak, eline de bir kaç kıymetli hediye tutuşturarak İnanna’ya -tabir yerindeyse- kakalarlar.
 
-Gökkuşağı Yılanı halen aramızdadır. Bazen bir su kuyusundan başka bir kuyusuna hareket eder. İşte gökyüzündeki gökkuşağı hareket eden bu kutsal ruhun izidir.
+İnanna Tammuz ile evlenir. Gel zaman git zaman, yeraltı Tanrıçası olduğundan düğüne gelemeyen kızkardeşi Ereşkigal’e nikah şekeri götürmeye karar verir. Yeraltında zaten yalnızlıktan kafayı sıyıran Ereşkigal paranoya yapıp İnanna’nın yeraltına sahip olmak istediği için geldiğini sanarak onu bir cesede çevirip yeraltına hapseder.
 
-Gökkuşağı Yılanı, 50.000 yıllık kültüre sahip olan Aborjinlerin yaratılış hikayesindeki ilk kutsal ruh ya da tanrıdır. Rengarenk dev bir yılan olarak tasvir edilir. Aborjin kültüründe tüm hayatın yaratıcısıdır ve aynı zamanda -kızdıgında- yok edicisidir. Avusturalya Kıtası içinde şekli ve ismi değişiklik gösterse de her zaman su ya da yağmur ile alakalıdır.
+Ereşkigal bunla da yetinmeyip, eniştesine de oyalansın diye bir kız gönderir. İnanna bir şekilde bilgelik tanrısı Enki tarafından kurtarılır ama yerine birini bırakması gerekir. O da şehir şehir gezerek yeraltında yerine koyabileceği bir tanrı aramaya başlar.
 
-Aborjinlerin en bilinen hikayelerinden biridir ve de halen bu kutsal yılana inanç devam etmektedir. Fakat burada benim için daha da büyülü olan kelime Aborjin dilinden İngilizceye “dreamtime” ya da “dreaming” olarak tercüme edilen zaman kavramıdır.  
+Tüm tanrıları İnanna’nın yeraltında hapsolmasıyla kahrolmuş bulur ve hiçbirine kıyamaz. Nihayet Uruk şehrine geldiklerinde kocası olacak Tammuz’u vur patlasın çal oynasın yaparken, kızlarla kucak dansında yakalar. “Bunu alın bunu!!” der ve Tammuz’u zorla yeraltına kendi yerine gönderir. Oynaştığı kızları da pişirir yer.
 
-Dreaming (Tur:hayal etme, rüya görme) ilk ruhların/tanrıların Gökkuşağı Yılanı gibi yeryüzüne gelip yaşamı yaratmaya başladıkları zamandır. Bu ruhlar yaşamı yaratıp yeryüzünden ayrılmamışlardır, dolayısıyla yaratım hala devam etmekte, “dream” (hayal, rüya) her an geçeğe evrilmektedir.
+Fakat zaman geçtikçe kocasını özlemeye başlar ve görümcesi olan Rüya Tanrıçası’ını 6 aylığına Tammuz’un yerine yeraltında kalması için ikna eder. Böylelikle Tammuz, yılın altı ayı yeryüzünde karısı İnanna’yla aşk meşk ile geçirirken, altı ayı da yeraltının iblisleriyle poker oynar.
 
-Bunun için Dreaming zamanı ne geçmiş ne gelecek ne de şimdidir. Her an ve hiçbir zamandır. Ayrıca ilk ruhlar dünyada kalırlarken kendilerini ağaca, yıldıza, su kuyularına ve taşlara dönüştürdükleri için “Dreaming” aynı zamanda yerle de ilgilidir. Her aborjin kabilesinin kendine ait Dreaming hikayeleri ve doğayı açıklama yolları vardır.
-
-Yani gördüğümüz herşey bir rüyanın gerçeğe dönüşmüş halidir. Ne de olsa “Evren Tanrı’nın gördüğü rüyası” değil midir?
+Derler ki Tammuz’un yeryüzüne gelip tekrar İnanna ile birleştikleri zaman bahardır, paskalyadır, nevruzdur, hıdrellezdir. Yeraltına döndüğü zaman ise kışın başlangıcıdır.
