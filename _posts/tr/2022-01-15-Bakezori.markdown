@@ -1,0 +1,13 @@
+---
+layout: post
+title: Geceleri canlanan manyak terlik
+subtitle: Bakezori
+description: Bakezori geceleri canlanan geleneksel Japon terliği şeklinde bir ‘yokai’dir.
+date: '2022-01-15 13:40:00'
+language: 'tr'
+language_reference: 'bakezori'
+publish: 'yes'
+---
+Bakezori geceleri canlanıp evde yaşayanları korkutan ve bundan da zevk alan geleneksel Japon terliği şeklinde bir ‘yokai’dir. İki kolu, iki bacağı ve tek gözü vardır. Evde “Kararin, kororin, kankororin! İki göz, üç göz, iki diş!” diye bağırır.
+
+Bu tekerlemeyi onun gibi manyak olmayıp canlanmayan diğer terliklerle dalga geçmek için söyler: üç göz, parmakarası terliğin kayışının bağlatı noktaları, iki diş de terliğin altındaki iki katmandır.
