@@ -3,7 +3,7 @@ layout: post
 title: İskoçyalı Hayalet Sürücü
 subtitle: Nuckelavee
 description: Nuckelavee yazın okyanusta yaşayan aslen Kuzey İskoçyalı bir sualtı yaratığıdır.
-date: '2022-01-15 13:40:00'
+date: '2022-02-15 13:40:00'
 language: 'tr'
 language_reference: 'nuckelavee'
 publish: 'yes'
