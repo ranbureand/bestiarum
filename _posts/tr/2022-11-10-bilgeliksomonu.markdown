@@ -21,4 +21,5 @@ Balığın bahşettiği bilgelik üç tanedir:
 - Sihir yapabilme
 - Güçlü sezgiler
 - Şair gibi dili ustaca kullanabilme yeteneği
+
 Bu bilgelikleri alan Fionn, her zaman birine ihtiyaç duysa baş parmağını yalayarak aktive eder.
