@@ -2,9 +2,7 @@
 layout: post
 title: Her kültürde en sevilen bayram
 subtitle: 21 Mart
-description: Gün ve gecenin birbirine eşit olduğu ve devamında günlerin artık uzamaya başladığı 21 Mart aynı zamanda baharın gelişini de müjdeler.
-Celali Takvimi ya da İran Takvimi olarak bilinen takvim 21 Mart ile başlar. Bu yüzden Nevruz pek çok ülkede kutlansa da genellikle İranlılara özgü bir bayram olarak bilinir.
-
+description: Gün ve gecenin birbirine eşit olduğu ve devamında günlerin artık uzamaya başladığı 21 Mart aynı zamanda baharın gelişini de müjdeler. Celali Takvimi ya da İran Takvimi olarak bilinen takvim 21 Mart ile başlar. Bu yüzden Nevruz pek çok ülkede kutlansa da genellikle İranlılara özgü bir bayram olarak bilinir.
 date: '2022-03-18 13:40:00'
 language: 'tr'
 language_reference: '21mart'
