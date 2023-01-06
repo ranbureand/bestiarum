@@ -1,0 +1,17 @@
+---
+layout: post
+title: İskandinav Mitolojisi
+subtitle: Kuzgun
+description: Odin'in Kuzgunları neyi sembolize eder
+date: '2022-12-02 13:40:00'
+language: 'tr'
+language_reference: 'kuzgun'
+publish: 'yes'
+---
+İskandinav mitolojisinde en büyük tanrı kabul edilen Odin’in iki tane kuzgunu vardır. Bu kuzgunlar gündüzleri dünyanın dört bir yanına uçup akşam olunca Odin’e geri dönerler. İsimleri Hugin ve Munin’dir. Eski dilde Hugin “düşünce” ve Munin ise “zihin” demektir.
+İskandinav Mitolojisi’nin yer aldığı Poetic Edda’da Odin’in her gün akşam olunca kuzgunlarının ona geri dönmemesinden endişe ettiği yazar.
+
+Bunun için bazı kaynaklar Odin’in şamanik ritüellerde olduğu gibi bir tür trans durumuna geçip zihnini ve düşüncelerini mekandan bağımsız olarak dolaştırabilme yeteneğini temsil ettiğini söylerler.
+Bazı yorumlar ise Odin’in insanoğlunu temsilen bazı eksikliklerinin (hafıza ve bilgi) olduğunu ve bu eksikliklerin de Kuzgunlar tarafından tamamlandığını söyler.
+
+Odin’in kuzgunlarının omuzlarında ve isimleri Geri (tr: açgözlü) ve Freki (tr: hırslı) olan iki kurdun da ayaklarının yanı başında beklediği anlatılır. O yüzden başka bir yorum da Kuzgunlar’ın yaratma ve kurtların da yok etme döngüsünü sembolize ettiğini söyler.
