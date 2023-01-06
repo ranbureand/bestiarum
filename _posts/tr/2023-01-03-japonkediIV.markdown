@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Maneki Neko: Selamlayan Kedi
+title: Maneki Neko - Selamlayan Kedi
 subtitle: Japonya Kedi Hikayeleri-IV
 description: Olağanüstü Japonya Kedileri, yokai, nekomata ve bekanekolar
 date: '2023-01-03 13:40:00'
