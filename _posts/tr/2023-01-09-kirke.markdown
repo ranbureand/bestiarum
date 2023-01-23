@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Ünlü Cadılar-II
-subtitle: Kirke tüm tanrılara kafa tutacak ve bir adada tek başına yaşayacak kadar güçlü bir cadıdır.
-description: Kirke
+subtitle: Kirke
+description: Kirke tüm tanrılara kafa tutacak ve bir adada tek başına yaşayacak kadar güçlü bir cadıdır.
 date: '2023-01-09 13:40:00'
 language: 'tr'
 language_reference: 'kirke'
