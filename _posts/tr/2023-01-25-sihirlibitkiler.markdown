@@ -14,7 +14,7 @@ Psikedelik bitkidir. Halüsinasyon gördürür.
 Peru’nun Amazon bölgesinde, şamanlığa giriş yapmak isteyen kişiler için beş ana bitkiden biridir. Genellikle çırak kabulü için kullanılan son “öğretici bitkidir”. Çünkü doz aşımı vücuda ciddi zararlar verir ya da öldürür.
 
 GÜZEL AVRAT OTU (Atropa Belladonna):
-Ortaçağ da cadıların ayinlerinde karışımları hazırlarken kullandığı bitkidir. Bitkiden yapılan krem sürüldüğünde halüsinasyon gördürür ve uçma hissi verir.
+Ortaçağda cadıların ayinlerinde karışımları hazırlarken kullandığı bitkidir. Bitkiden yapılan krem sürüldüğünde halüsinasyon gördürür ve uçma hissi verir.
 Bu bitkinin “güzel avrat otu” diye anılmasının sebebi eski zamanlarda kadınların gözlerine bu bitkiden elde edilen alkaloitleri damlatarak gözbebeklerini büyütmeleri ve bu şekilde güzel gözlere sahip olmalarıdır. Günümüzde halen göz tedavilerinde gözbebeğini büyütmek için kullanılır. (İtalyanca Bella: Güzel, Donna: Kadın demektir.)
 
 BAN OTU (Hyoscyamus niger L.):
