@@ -17,7 +17,7 @@ Keltler’de kötü ruhları kovduğuna inanılan dört yapraklı yonca, Orta Ç
 Bir peri gördünüz diyelim burada da unutmamanız gereken şey gözünüzü asla onun üzerinden ayırmamanızdır. Örneğin yakaladığınız bir Leprechauns ise, gözünüzü kırptığınız anda kaçıp gidecektir.
 
 
-**Hag Taşları (yada Delikli Taşlar)**
+**Hag Taşları (ya da Delikli Taşlar)**
 
 Ortasında doğal olarak oluşmuş delik bulunan taşların periler diyarına açılan bir pencere olduğuna inanılır. Yine bu taşlar ahırlardaki hayvanları geceleri peri saldırılarından korumak için duvara da asılabilir.
 Anadolu’da benzer şekilde delikli kayaların içinden geçince günahların silindiği ya da dileklerin gerçekleştiği inancı vardır.
