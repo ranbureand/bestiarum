@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ünlü Cadılar-I
-subtitle: Lilith
+title: Lilith
+subtitle: Ünlü Cadılar-I
 description: Ünlü Cadıların hikayesi Lilith
 date: '2023-01-05 13:40:00'
 language: 'tr'
