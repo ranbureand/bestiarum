@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Periler-V
-subtitle: Changeling: Perilerin değiştirdiği çocuk
+subtitle: Changeling Perilerin değiştirdiği çocuk
 description: Changeling, periler tarafından gizlice değiştirilen çocuğa verilen isimdir.
 date: '2023-03-09 13:40:00'
 language: 'tr'
