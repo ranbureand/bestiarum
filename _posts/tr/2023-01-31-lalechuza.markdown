@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ünlü Cadılar-VI
-subtitle: La Lechuza
+title: La Lechuza
+subtitle: Ünlü Cadılar-VI
 description: La Lechuza, peçeli baykuş demektir.Meksika mitlerinde La Lechuza aynı zamanda çok bilinen ve karanlık güçleri olan bir cadıdır.
 date: '2023-01-31 13:40:00'
 language: 'tr'
