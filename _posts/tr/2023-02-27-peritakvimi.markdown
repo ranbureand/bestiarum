@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Periler-III
-subtitle: Peri Takvimi
+title: Peri Takvimi
+subtitle: Periler-III
 description: Perileri en çok göründüğü zamanlar
 date: '2023-02-27 13:40:00'
 language: 'tr'
