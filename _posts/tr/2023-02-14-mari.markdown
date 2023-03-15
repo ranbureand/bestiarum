@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ünlü Cadılar-VIII
-subtitle: Mari
+title: Mari
+subtitle: Ünlü Cadılar-VIII
 description: Mari, Bask Mitolojisindeki en önemli Tanrıçadır. Cadı olarak da bilinmektedir.
 date: '2023-02-14 13:40:00'
 language: 'tr'
