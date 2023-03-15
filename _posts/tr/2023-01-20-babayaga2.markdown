@@ -1,6 +1,6 @@
 ---
 layout: post
-title:Baba Yaga
+title: Baba Yaga
 subtitle:  Ünlü Cadılar-IV
 description: Bizim buralarda bir Nostradamus ya da Baba Vanga kadar bilinmese de, Mother Shipton ya da Shipton Ana İngiltere’nin en meşhur kahini ve cadısıdır.
 date: '2023-01-20 13:40:00'
