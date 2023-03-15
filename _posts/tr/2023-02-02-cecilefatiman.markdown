@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ünlü Cadılar-VII
-subtitle: Cecile Fatiman
+title: Cecile Fatiman
+subtitle: Ünlü Cadılar-VII
 description: Cecile 1771-1883 yılları arasında yaşamış Haitili bir Vudu Rahibesidir.
 date: '2023-02-02 13:40:00'
 language: 'tr'
