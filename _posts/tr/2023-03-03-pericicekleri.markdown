@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Periler-IV
-subtitle: Peri Çiçekleri
+title: Peri Çiçekleri
+subtitle: Periler-IV
 description: Perilerin en sevdiği çiçekleri bir araya topladım.
 date: '2023-03-03 13:40:00'
 language: 'tr'
