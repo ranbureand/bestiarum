@@ -3,7 +3,7 @@ layout: post
 title: Periler-VII
 subtitle: Brownie Her eve lazım Hamarat Peri
 description: Changeling, periler tarafından gizlice değiştirilen çocuğa verilen isimdir.
-date: '2023-03-11 13:40:00'
+date: '2023-03-13 13:40:00'
 language: 'tr'
 language_reference: 'osuruk'
 publish: 'yes'
