@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Periler-VI
-subtitle: Matshishkapeu: Osuruk Perisi
-description: Changeling, periler tarafından gizlice değiştirilen çocuğa verilen isimdir.
+subtitle: Matshishkapeu Osuruk Perisi
+description: Bir kızılderili halkı olan İnnu’ların mitlerinde adı geçen Matshishkapeu (Matşişkapeu), yani “Osuran Adam”, panteondaki en güçlü hatta bazı tanrılardan bile güçlü ruhlardan biridir. İnsanlarla osurukları yoluyla konuşur.
 date: '2023-03-11 13:40:00'
 language: 'tr'
 language_reference: 'osuruk'
