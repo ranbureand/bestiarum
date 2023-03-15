@@ -2,14 +2,14 @@
 layout: post
 title: Brownie - Her eve lazım Hamarat Peri
 subtitle: Periler-VII
-description: Changeling, periler tarafından gizlice değiştirilen çocuğa verilen isimdir.
+description: Brownie, yani kahverengimsiler, İskoçya ve Kuzey İngiltere Folklöründe ev halkı uyuduktan sonra ortaya çıkan ve yapılması gereken ya da yarım kalmış ev işlerini yapan ev cini/perisidir.
 date: '2023-03-13 13:40:00'
 language: 'tr'
-language_reference: 'osuruk'
+language_reference: 'brownie'
 publish: 'yes'
 ---
-Bir kızılderili halkı olan İnnu’ların mitlerinde adı geçen Matshishkapeu (Matşişkapeu), yani “Osuran Adam”, panteondaki en güçlü hatta bazı tanrılardan bile güçlü ruhlardan biridir. İnsanlarla osurukları yoluyla konuşur.
-Hikayeye göre,  Karibu Tanrısı İnnu halkına bir çeşit geyik olan karibu yemeği yasaklamıştır ve halk açlıktan ölmek üzeredir. Bunu duyan Matshishkapeu, Karibu Tanrısını İnnu halkına bir kez daha karibu verene kadar çok uzun süren bir kabızlıkla cezalandırır. Bunun üzerine çaresiz kalan Karibu Tanrısı, İnnu halkının karibu yemesine izin verir ve Matshishkapeu da onu iyileştirir.
-İnnu Halkına göre bir kişi osurduğunda Matshishkapeu o kişiyle iletişim kurmaktadır. Çıkan gazın miktarı, sesi ve kokusuna bakılarak da ne demeye çalıştığı yetkili gaz okuyucular tarafından incelikle deşifre edilir.
-Matshishkapeu genelde resmi törenlerde, toplantılarda -özellikle- ortam gerginleşince konuşur. Gazın çıkışı ve devamında yorumlanması, gerginliği azaltan ve neşe getiren bir unsur olarak mucizevidir.
-Neşe kaynağı sayılan Matshishkapeu, öte yandan hayvanların ve de insanların davranışlarını kontrol edebilen çok güçlü bir varlıktır. Lakin iletişim yolu bi’ gariptir.
+Bizim kültürümüz de dahil pek çok kültürde ev işlerine yardım eden periler vardır. Brownie, yani kahverengimsiler, İskoçya ve Kuzey İngiltere Folklöründe ev halkı uyuduktan sonra ortaya çıkan ve yapılması gereken ya da yarım kalmış ev işlerini yapan ev cini/perisidir. Çoğunlukla kahverengi ve eski-püskü kıyafetler giydikleri için bu isimle anılmaktadırlar.
+Türk ve Anadolu kültüründeki karşılığı Ev İyesi’dir. Her ikisi de belli bir ev halkına ya da eve bağlıdır. Fakat Brownie, Ev İyesi’nin aksine yaptığı işler karşılığında ev halkı tarafından herhangi bir şey sunulduğunda alınabilir ya da kızabilir.
+
+Brownie’ye yardımları karşılığında birşeyleri direkt olarak sunmak yerine sağda solda şans eseri bırakılmış gibi ekmek kırıntısı, bi parça kek v.b. yiyecekler bırakılabilir. Ayrıca Brownie’nin yaptığı işleri beğenmediğinizde de olay çıkartabilir. Dolayısıyla Brownie’ye evde terör estiren ama her işe de koşan bir akraba tadında yaklaşmak en iyisidir.
+Havadan nem kapan, alıngan Brownie’nin aksine Ev İyesi Türk kültüründe saygı duyulan, eve girince selamlanan, ev değiştirirken de kendisine haber verilen bir varlıktır. Yediklerinizi onla direkt olarak paylaşabilirsiniz. Hiç alınmaz, bozulmaz. Hatta bazı evlerde Ev İyelerine ait başka kimsenin kullanmadığı havlu ve terlik bulundurulur.
