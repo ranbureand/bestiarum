@@ -1,4 +1,10 @@
-      <div class="header-canvas">
+{%- if page.publish == 'yes' %}
+{%- assign posts = site.posts | where: 'publish', 'yes' | where: 'language', page.language %}
+{%- else %}
+{%- assign posts = site.posts | where: 'publish', 'no' | where: 'language', page.language %}
+{%- endif %}
+
+      <div class="header-canvas c{% for this_post in posts %}{% if this_post.title == page.title and this_post.date == page.date and this_post.language == page.language %}{{ posts | size | minus: forloop.index | modulo: site.colors }}{% endif %}{% endfor %}">
         <header class="header">
 
           <h1 class="header-title">
@@ -20,22 +26,22 @@
           </h1>
 
           <nav class="header-navigation">
-            <ul>
-              {%- assign nav_pages = site.pages | where: 'language', page.language %}
+            <ul class="items">
+              {%- assign nav_pages = site.pages | where: 'language', page.language | sort: 'order' %}
               {%- for nav_page in nav_pages %}
                 {%- if nav_page.title != null and nav_page.layout == 'page' %}
-                {%- if nav_page.language_reference == 'about' %}
-                <li class="item">
+                <li class="item {% if nav_page.language_reference == page.language_reference %}current{% endif %}">
                   {%- if page.language == 'tr' %}
-                  <span><span class="expendable">karanlıkta parlayan</span> <a href="{{ site.baseurl }}{{ nav_page.url }}">büyülü hikayeler</a> evidir.</span>
+                  <a href="{{ site.baseurl }}{{ nav_page.url }}">{{ nav_page.title }}</a>
                   {%- elsif page.language == 'en'  %}
-                  <span>a <a href="{{ site.baseurl }}{{ nav_page.url }}">nest for tales</a> that shine at night.</span>
+                  <a href="{{ site.baseurl }}{{ nav_page.url }}">{{ nav_page.title }}</a>
                   {%- endif %}
                 </li>
                 {%- endif %}
-                {%- endif %}
               {%- endfor %}
+            </ul>
 
+            <!--<ul class="languages">
               {%- for language in snippets.languages %}
 
                 {%- if page.layout == 'page' %}
@@ -81,11 +87,15 @@
                   {%- endfor %}
                 {%- endif %}
               <li class="item {{ language[1].slug }}">
-                <a href="{{ url }}"><span>{{ language[1].value }}</span></a>
+                <a href="{{ url }}">{{ language[1].value }}</a>
               </li>
               {%- endfor %}
-            </ul>
+            </ul>-->
           </nav>
+          <div class="header-menu">
+            <span id="menu-open">Menu</span>
+            <span id="menu-close">Close</span>
+          </div>
 
         </header>
       </div>

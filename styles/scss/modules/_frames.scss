@@ -6,13 +6,20 @@
 
 .header-canvas,
 .footer-canvas {
-  padding-top: em($m-base-rhythm/2);
-  padding-bottom: em($m-base-rhythm/2);
+  padding-top: em($m-base-rhythm/4);
+  padding-bottom: em($m-base-rhythm/4);
 
-  @include min-screen(col(12)) {
-    padding-top: em($d-base-rhythm/2);
-    padding-bottom: em($d-base-rhythm/2);
+  @include min-screen(col(8)) {
+    padding-top: em($d-base-rhythm/4);
+    padding-bottom: em($d-base-rhythm/4);
   }
+}
+
+.header-canvas {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  background-color: $background-color;
 }
 
 .footer-canvas {
@@ -41,7 +48,7 @@
     padding-left: em($d-gut);
   }
   @include min-screen((col(20) + em($d-gut))) {
-    width: col(20);
+    //width: col(20);
   }
 }
 
@@ -55,8 +62,11 @@
 .footer-copyright,
 .footer-scroll {
   a {
-    font-weight: $bold;
-    @include link(underline);
+    //font-weight: $bold;
+    //@include link(underline);
+    transition-timing-function: ease-out;
+    transition-duration: $duration;
+    transition-property: background-color;
   }
 
   .item {
@@ -78,7 +88,7 @@
   }
 }
 
-.header-title {
+/*.header-title {
   .item {
     &:after {
       content: ": ";
@@ -86,94 +96,118 @@
       font-weight: $normal;
     }
   }
+}*/
+
+.header-title {
+  flex-grow: 1;
+  @include min-screen(col(12)) {
+    flex-grow: 0;
+  }
 }
 
 .header-navigation {
   flex-grow: 1;
+  display: none;
+  flex-direction: column;
+  background-color: $background-color;
+
+  position: absolute;
+  right: 0;
+  top: em($m-header-canvas-height);
+  width: 100%;
+  height: calc(100vh - em($m-header-canvas-height));
 
   ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    flex-direction: column;
   }
 
   .item {
-    margin-left: em($m-gut/2, $m-small-size);
+    margin-left: em($m-gut, $m-small-size);
+    margin-right: em($m-gut, $m-small-size);
   }
 
-  .item:first-child {
+  .languages {
+    &:before {
+      display: block;
+      content: "";
+      height: 1px;
+      border-bottom: 1px solid $type-color;
+
+      margin-left: em($m-gut);
+      margin-right: em($m-gut);
+      margin-top: em($m-medium-line/2);
+      margin-bottom: em($m-medium-line/2);
+    }
+  }
+
+  @include min-screen(col(8)) {
+    top: em($d-header-canvas-height);
+    width: 100%;
+    height: calc(100vh - em($d-header-canvas-height));
+    .item {
+      margin-left: em($d-gut, $d-small-size);
+      margin-right: em($d-gut, $d-small-size);
+    }
+
+    .languages {
+      &:before {
+        margin-left: em($d-gut);
+        margin-right: em($d-gut);
+        margin-top: em($d-medium-line/2);
+        margin-bottom: em($d-medium-line/2);
+      }
+    }
+  }
+  @include min-screen(col(12)) {
+    display: flex;
+    flex-direction: row;
     position: relative;
-    margin-left: 0;
 
-    flex-grow: 1;
+    top: auto;
+    width: auto;
+    height: auto;
 
-    .normal {
-      font-weight: $normal;
+    .item {
+      margin-right: 0;
     }
-    .bold {
-      font-weight: $bold;
-    }
-  }
 
-  .en,
-  .tr {
-    span {
-      display: none;
+    ul {
+      display: flex;
+      flex-direction: row;
     }
-  }
 
-  .en {
-    a {
-      &:after {
-        content: "En";
+    .items {
+      flex-grow: 1;
+    }
+
+    .languages {
+      &:before {
+        display: none;
       }
     }
   }
+}
 
-  .tr {
-    a {
-      &:after {
-        content: "Tr";
-      }
-    }
-  }
+.header-menu {
+  display: flex;
+  cursor: pointer;
+  padding-top: em($m-small-line/2, $m-small-size);
+  padding-bottom: em($m-small-line/2, $m-small-size);
 
-  .expendable {
+  @include font-size($m-small-size, $m-small-line);
+
+  #menu-close {
     display: none;
   }
 
   @include min-screen(col(8)) {
-    .item {
-      margin-left: em($d-gut/2, $d-small-size);
-    }
+    padding-top: em($d-small-line/2, $d-small-size);
+    padding-bottom: em($d-small-line/2, $d-small-size);
+
+    @include font-size($d-small-size, $d-small-line);
   }
   @include min-screen(col(12)) {
-    .en,
-    .tr {
-      span {
-        display: inline;
-      }
-    }
-
-    .en {
-      a {
-        &:after {
-          content: none;
-        }
-      }
-    }
-
-    .tr {
-      a {
-        &:after {
-          content: none;
-        }
-      }
-    }
-
-    .expendable {
-      display: inline;
-    }
+    display: none;
   }
 }
 

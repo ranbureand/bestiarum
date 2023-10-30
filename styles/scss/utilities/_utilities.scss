@@ -29,17 +29,17 @@ $d-extra-large-line:        $base-unit*20; //80px
 $m-large-size:              28px;
 $m-large-line:              $base-unit*10; //40px
 $d-large-size:              36px;
-$d-large-line:              $base-unit*12; //48px
+$d-large-line:              $base-unit*12; //44px
 
 $m-medium-size:             20px;
 $m-medium-line:             $base-unit*8; //32px
 $d-medium-size:             24px;
-$d-medium-line:             $base-unit*10; //40px
+$d-medium-line:             $base-unit*9; //36px
 
 $m-small-size:              18px;
 $m-small-line:              $base-unit*6; //24px
-$d-small-size:              20px;
-$d-small-line:              $base-unit*8; //32px
+$d-small-size:              18px;
+$d-small-line:              $base-unit*6; //32px
 
 $m-extra-small-size:        16px;
 $m-extra-small-line:        $base-unit*6; //24px
@@ -110,6 +110,13 @@ $m-border-width:        2.5px;
 $d-border-width:        3px;
 
 $border-style:          solid;
+
+/*
+** Layout
+*/
+
+$m-header-canvas-height: $m-base-rhythm/4*2 + $m-small-line/2*2 + $m-small-line;
+$d-header-canvas-height: $d-base-rhythm/4*2 + $d-small-line/2*2 + $d-small-line;
 
 /*
 ** Strip units
@@ -197,9 +204,9 @@ $border-style:          solid;
 
 @mixin link($status: underline) {
 
-  transition-timing-function: ease-out, ease-out;
-  transition-duration: $duration, $duration;
-  transition-property: color, text-decoration-color;
+  transition-timing-function: ease-out, ease-out, ease-out;
+  transition-duration: $duration, $duration, $duration;
+  transition-property: background-color, color, text-decoration-color;
 
   @if $status == "underline" {
     text-decoration: underline;

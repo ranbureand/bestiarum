@@ -7,8 +7,14 @@
 .article-canvas {
   animation-name: element-up;
   animation-duration: $duration*4;
+  padding-top: em($m-header-canvas-height);
 
   animation-fill-mode: both;
+  position: relative;
+  z-index: 1;
+  @include min-screen(col(8)) {
+    padding-top: em($d-header-canvas-height);
+  }
 }
 
 .article {

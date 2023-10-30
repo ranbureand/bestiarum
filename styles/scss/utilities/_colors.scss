@@ -29,45 +29,9 @@ $code-background-color:         rgba($black, 0.1);
 $color-light:                   hsl(0, 48%, 72%);
 $color-dark:                    hsl(0, 40%, 28%);
 
-$colors:                        (0,  "light", 180deg),
-                                (1,  "dark",  0deg),
-
-                                (2,  "light", 210deg),
-                                (3,  "dark",  30deg),
-
-                                (4,  "light", 240deg),
-                                (5,  "dark",  60deg),
-
-                                (6,  "light", 270deg),
-                                (7,  "dark",  90deg),
-
-                                (8,  "light", 300deg),
-                                (9,  "dark",  120deg),
-
-                                (10, "light", 330deg),
-                                (11, "dark",  150deg),
-
-                                (12, "light", 0deg),
-                                (13, "dark",  180deg),
-
-                                (14, "light", 30deg),
-                                (15, "dark",  210deg),
-
-                                (16, "light", 60deg),
-                                (17, "dark",  240deg),
-
-                                (18, "light", 90deg),
-                                (19, "dark",  270deg),
-
-                                (20, "light", 120deg),
-                                (21, "dark",  300deg),
-
-                                (22, "light", 150deg),
-                                (23, "dark",  330deg);
-
                                                  // https://www.hsluv.org/
 
-$l-colors: (                                     //  H    S    L
+/*$l-colors: (                                     //  H    S    L
                                 "s1"  : #e5adb7, //  0    56   76
                                 "s2"  : #e6af9c, //  30   56   76
                                 "s3"  : #d8b77c, //  60   56   76
@@ -94,16 +58,49 @@ $d-colors: (                                     //  H    S    L
                                 "s10" : #4c3d96, //  270  56   32
                                 "s11" : #6a3773, //  300  56   32
                                 "s12" : #75345f, //  330  56   32
+);*/
+
+/*
+** Swatches
+*/
+
+/*$l-colors: (
+"s1" : #ecb6c5, // [0, 0.55, 0.8]
+"s2" : #ebb9b0, // [30, 0.55, 0.8]
+"s3" : #e9bd99, // [60, 0.55, 0.8]
+"s4" : #dcc586, // [90, 0.55, 0.8]
+"s5" : #bed089, // [120, 0.55, 0.8]
+"s6" : #9ad8a6, // [150, 0.55, 0.8]
+"s7" : #8ad8c9, // [180, 0.55, 0.8]
+"s8" : #8cd4e1, // [210, 0.55, 0.8]
+"s9" : #a3cdeb, // [240, 0.55, 0.8]
+"s10" : #b8c6ec, // [270, 0.55, 0.8]
+"s11" : #cdbeeb, // [300, 0.55, 0.8]
+"s12" : #e1b7dd, // [330, 0.55, 0.8]
 );
+$d-colors: (
+"s1" : #7d374f, // [0, 0.55, 0.35]
+"s2" : #7b3d33, // [30, 0.55, 0.35]
+"s3" : #6e4828, // [60, 0.55, 0.35]
+"s4" : #5f5027, // [90, 0.55, 0.35]
+"s5" : #4d572a, // [120, 0.55, 0.35]
+"s6" : #355c3d, // [150, 0.55, 0.35]
+"s7" : #2b5c53, // [180, 0.55, 0.35]
+"s8" : #285a63, // [210, 0.55, 0.35]
+"s9" : #2b5774, // [240, 0.55, 0.35]
+"s10" : #3c4d8a, // [270, 0.55, 0.35]
+"s11" : #5c4185, // [300, 0.55, 0.35]
+"s12" : #72396e, // [330, 0.55, 0.35]
+);*/
 
-$colors:                        (0,  "light", map-get($l-colors, "s1"),  map-get($d-colors, "s3"),  map-get($l-colors, "s7"),  map-get($d-colors, "s10")),
-                                (1,  "dark",  map-get($l-colors, "s1"),  map-get($d-colors, "s3"),  map-get($l-colors, "s7"),  map-get($d-colors, "s10")),
+$colors:                        (0,  "light", map-get($l-colors, "s1"),  map-get($d-colors, "s4"),  map-get($l-colors, "s7"),  map-get($d-colors, "s10")),
+                                (1,  "dark",  map-get($l-colors, "s1"),  map-get($d-colors, "s4"),  map-get($l-colors, "s7"),  map-get($d-colors, "s10")),
 
-                                (2,  "light", map-get($l-colors, "s2"),  map-get($d-colors, "s4"),  map-get($l-colors, "s8"),  map-get($d-colors, "s11")),
-                                (3,  "dark",  map-get($l-colors, "s2"),  map-get($d-colors, "s4"),  map-get($l-colors, "s8"),  map-get($d-colors, "s11")),
+                                (2,  "light", map-get($l-colors, "s2"),  map-get($d-colors, "s5"),  map-get($l-colors, "s8"),  map-get($d-colors, "s11")),
+                                (3,  "dark",  map-get($l-colors, "s2"),  map-get($d-colors, "s5"),  map-get($l-colors, "s8"),  map-get($d-colors, "s11")),
 
-                                (4,  "light", map-get($l-colors, "s3"),  map-get($d-colors, "s5"),  map-get($l-colors, "s9"),  map-get($d-colors, "s12")),
-                                (5,  "dark",  map-get($l-colors, "s3"),  map-get($d-colors, "s5"),  map-get($l-colors, "s9"),  map-get($d-colors, "s12")),
+                                (4,  "light", map-get($l-colors, "s3"),  map-get($d-colors, "s6"),  map-get($l-colors, "s9"),  map-get($d-colors, "s12")),
+                                (5,  "dark",  map-get($l-colors, "s3"),  map-get($d-colors, "s6"),  map-get($l-colors, "s9"),  map-get($d-colors, "s12")),
 
                                 (6,  "light", map-get($l-colors, "s4"),  map-get($d-colors, "s7"),  map-get($l-colors, "s10"), map-get($d-colors, "s1")),
                                 (7,  "dark",  map-get($l-colors, "s4"),  map-get($d-colors, "s7"),  map-get($l-colors, "s10"), map-get($d-colors, "s1")),

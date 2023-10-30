@@ -1,7 +1,8 @@
 ---
 layout: page
+order: 2
 
-title: 'About Me'
+title: 'About me'
 description: 'I am a curious wanderer who likes collecting shiny things like magpies, and this is my nest.'
 
 language: 'en'
