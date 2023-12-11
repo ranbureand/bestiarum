@@ -119,6 +119,14 @@ body {
 
   .header-canvas.c#{$number} {
     background-color: $background;
+    .header-title {
+      svg {
+        fill: $foreground;
+        path {
+          fill: $foreground;
+        }
+      }
+    }
     .header-navigation {
       background-color: $background;
       .languages {
