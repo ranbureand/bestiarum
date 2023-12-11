@@ -1123,11 +1123,17 @@ body a:hover {
 .header-canvas.c0 {
   background-color: #ecb6c5;
 }
-.header-canvas.c0 .header-title svg {
+.header-canvas.c0 .header-title a svg {
   fill: #5f5027;
 }
-.header-canvas.c0 .header-title svg path {
+.header-canvas.c0 .header-title a svg path {
   fill: #5f5027;
+}
+.header-canvas.c0 .header-title a:hover svg {
+  fill: #5cc9b4;
+}
+.header-canvas.c0 .header-title a:hover svg path {
+  fill: #5cc9b4;
 }
 .header-canvas.c0 .header-navigation {
   background-color: #ecb6c5;
@@ -1191,11 +1197,17 @@ body a:hover {
 .header-canvas.c1 {
   background-color: #5f5027;
 }
-.header-canvas.c1 .header-title svg {
+.header-canvas.c1 .header-title a svg {
   fill: #ecb6c5;
 }
-.header-canvas.c1 .header-title svg path {
+.header-canvas.c1 .header-title a svg path {
   fill: #ecb6c5;
+}
+.header-canvas.c1 .header-title a:hover svg {
+  fill: #8ad8c9;
+}
+.header-canvas.c1 .header-title a:hover svg path {
+  fill: #8ad8c9;
 }
 .header-canvas.c1 .header-navigation {
   background-color: #5f5027;
@@ -1259,11 +1271,17 @@ body a:hover {
 .header-canvas.c2 {
   background-color: #ebb9b0;
 }
-.header-canvas.c2 .header-title svg {
+.header-canvas.c2 .header-title a svg {
   fill: #4d572a;
 }
-.header-canvas.c2 .header-title svg path {
+.header-canvas.c2 .header-title a svg path {
   fill: #4d572a;
+}
+.header-canvas.c2 .header-title a:hover svg {
+  fill: #5bc2d4;
+}
+.header-canvas.c2 .header-title a:hover svg path {
+  fill: #5bc2d4;
 }
 .header-canvas.c2 .header-navigation {
   background-color: #ebb9b0;
@@ -1327,11 +1345,17 @@ body a:hover {
 .header-canvas.c3 {
   background-color: #4d572a;
 }
-.header-canvas.c3 .header-title svg {
+.header-canvas.c3 .header-title a svg {
   fill: #ebb9b0;
 }
-.header-canvas.c3 .header-title svg path {
+.header-canvas.c3 .header-title a svg path {
   fill: #ebb9b0;
+}
+.header-canvas.c3 .header-title a:hover svg {
+  fill: #8cd4e1;
+}
+.header-canvas.c3 .header-title a:hover svg path {
+  fill: #8cd4e1;
 }
 .header-canvas.c3 .header-navigation {
   background-color: #4d572a;
@@ -1395,11 +1419,17 @@ body a:hover {
 .header-canvas.c4 {
   background-color: #e9bd99;
 }
-.header-canvas.c4 .header-title svg {
+.header-canvas.c4 .header-title a svg {
   fill: #355c3d;
 }
-.header-canvas.c4 .header-title svg path {
+.header-canvas.c4 .header-title a svg path {
   fill: #355c3d;
+}
+.header-canvas.c4 .header-title a:hover svg {
+  fill: #71b2e0;
+}
+.header-canvas.c4 .header-title a:hover svg path {
+  fill: #71b2e0;
 }
 .header-canvas.c4 .header-navigation {
   background-color: #e9bd99;
@@ -1463,11 +1493,17 @@ body a:hover {
 .header-canvas.c5 {
   background-color: #355c3d;
 }
-.header-canvas.c5 .header-title svg {
+.header-canvas.c5 .header-title a svg {
   fill: #e9bd99;
 }
-.header-canvas.c5 .header-title svg path {
+.header-canvas.c5 .header-title a svg path {
   fill: #e9bd99;
+}
+.header-canvas.c5 .header-title a:hover svg {
+  fill: #a3cdeb;
+}
+.header-canvas.c5 .header-title a:hover svg path {
+  fill: #a3cdeb;
 }
 .header-canvas.c5 .header-navigation {
   background-color: #355c3d;
@@ -1531,11 +1567,17 @@ body a:hover {
 .header-canvas.c6 {
   background-color: #dcc586;
 }
-.header-canvas.c6 .header-title svg {
+.header-canvas.c6 .header-title a svg {
   fill: #2b5c53;
 }
-.header-canvas.c6 .header-title svg path {
+.header-canvas.c6 .header-title a svg path {
   fill: #2b5c53;
+}
+.header-canvas.c6 .header-title a:hover svg {
+  fill: #889fdf;
+}
+.header-canvas.c6 .header-title a:hover svg path {
+  fill: #889fdf;
 }
 .header-canvas.c6 .header-navigation {
   background-color: #dcc586;
@@ -1599,11 +1641,17 @@ body a:hover {
 .header-canvas.c7 {
   background-color: #2b5c53;
 }
-.header-canvas.c7 .header-title svg {
+.header-canvas.c7 .header-title a svg {
   fill: #dcc586;
 }
-.header-canvas.c7 .header-title svg path {
+.header-canvas.c7 .header-title a svg path {
   fill: #dcc586;
+}
+.header-canvas.c7 .header-title a:hover svg {
+  fill: #b8c6ec;
+}
+.header-canvas.c7 .header-title a:hover svg path {
+  fill: #b8c6ec;
 }
 .header-canvas.c7 .header-navigation {
   background-color: #2b5c53;
@@ -1667,11 +1715,17 @@ body a:hover {
 .header-canvas.c8 {
   background-color: #bed089;
 }
-.header-canvas.c8 .header-title svg {
+.header-canvas.c8 .header-title a svg {
   fill: #285a63;
 }
-.header-canvas.c8 .header-title svg path {
+.header-canvas.c8 .header-title a svg path {
   fill: #285a63;
+}
+.header-canvas.c8 .header-title a:hover svg {
+  fill: #a98fdd;
+}
+.header-canvas.c8 .header-title a:hover svg path {
+  fill: #a98fdd;
 }
 .header-canvas.c8 .header-navigation {
   background-color: #bed089;
@@ -1735,11 +1789,17 @@ body a:hover {
 .header-canvas.c9 {
   background-color: #285a63;
 }
-.header-canvas.c9 .header-title svg {
+.header-canvas.c9 .header-title a svg {
   fill: #bed089;
 }
-.header-canvas.c9 .header-title svg path {
+.header-canvas.c9 .header-title a svg path {
   fill: #bed089;
+}
+.header-canvas.c9 .header-title a:hover svg {
+  fill: #cdbeeb;
+}
+.header-canvas.c9 .header-title a:hover svg path {
+  fill: #cdbeeb;
 }
 .header-canvas.c9 .header-navigation {
   background-color: #285a63;
@@ -1803,11 +1863,17 @@ body a:hover {
 .header-canvas.c10 {
   background-color: #9ad8a6;
 }
-.header-canvas.c10 .header-title svg {
+.header-canvas.c10 .header-title a svg {
   fill: #2b5774;
 }
-.header-canvas.c10 .header-title svg path {
+.header-canvas.c10 .header-title a svg path {
   fill: #2b5774;
+}
+.header-canvas.c10 .header-title a:hover svg {
+  fill: #cf8cc9;
+}
+.header-canvas.c10 .header-title a:hover svg path {
+  fill: #cf8cc9;
 }
 .header-canvas.c10 .header-navigation {
   background-color: #9ad8a6;
@@ -1871,11 +1937,17 @@ body a:hover {
 .header-canvas.c11 {
   background-color: #2b5774;
 }
-.header-canvas.c11 .header-title svg {
+.header-canvas.c11 .header-title a svg {
   fill: #9ad8a6;
 }
-.header-canvas.c11 .header-title svg path {
+.header-canvas.c11 .header-title a svg path {
   fill: #9ad8a6;
+}
+.header-canvas.c11 .header-title a:hover svg {
+  fill: #e1b7dd;
+}
+.header-canvas.c11 .header-title a:hover svg path {
+  fill: #e1b7dd;
 }
 .header-canvas.c11 .header-navigation {
   background-color: #2b5774;
@@ -1939,11 +2011,17 @@ body a:hover {
 .header-canvas.c12 {
   background-color: #8ad8c9;
 }
-.header-canvas.c12 .header-title svg {
+.header-canvas.c12 .header-title a svg {
   fill: #3c4d8a;
 }
-.header-canvas.c12 .header-title svg path {
+.header-canvas.c12 .header-title a svg path {
   fill: #3c4d8a;
+}
+.header-canvas.c12 .header-title a:hover svg {
+  fill: #df859e;
+}
+.header-canvas.c12 .header-title a:hover svg path {
+  fill: #df859e;
 }
 .header-canvas.c12 .header-navigation {
   background-color: #8ad8c9;
@@ -2007,11 +2085,17 @@ body a:hover {
 .header-canvas.c13 {
   background-color: #3c4d8a;
 }
-.header-canvas.c13 .header-title svg {
+.header-canvas.c13 .header-title a svg {
   fill: #8ad8c9;
 }
-.header-canvas.c13 .header-title svg path {
+.header-canvas.c13 .header-title a svg path {
   fill: #8ad8c9;
+}
+.header-canvas.c13 .header-title a:hover svg {
+  fill: #ecb6c5;
+}
+.header-canvas.c13 .header-title a:hover svg path {
+  fill: #ecb6c5;
 }
 .header-canvas.c13 .header-navigation {
   background-color: #3c4d8a;
@@ -2075,11 +2159,17 @@ body a:hover {
 .header-canvas.c14 {
   background-color: #8cd4e1;
 }
-.header-canvas.c14 .header-title svg {
+.header-canvas.c14 .header-title a svg {
   fill: #5c4185;
 }
-.header-canvas.c14 .header-title svg path {
+.header-canvas.c14 .header-title a svg path {
   fill: #5c4185;
+}
+.header-canvas.c14 .header-title a:hover svg {
+  fill: #df8e7f;
+}
+.header-canvas.c14 .header-title a:hover svg path {
+  fill: #df8e7f;
 }
 .header-canvas.c14 .header-navigation {
   background-color: #8cd4e1;
@@ -2143,11 +2233,17 @@ body a:hover {
 .header-canvas.c15 {
   background-color: #5c4185;
 }
-.header-canvas.c15 .header-title svg {
+.header-canvas.c15 .header-title a svg {
   fill: #8cd4e1;
 }
-.header-canvas.c15 .header-title svg path {
+.header-canvas.c15 .header-title a svg path {
   fill: #8cd4e1;
+}
+.header-canvas.c15 .header-title a:hover svg {
+  fill: #ebb9b0;
+}
+.header-canvas.c15 .header-title a:hover svg path {
+  fill: #ebb9b0;
 }
 .header-canvas.c15 .header-navigation {
   background-color: #5c4185;
@@ -2211,11 +2307,17 @@ body a:hover {
 .header-canvas.c16 {
   background-color: #a3cdeb;
 }
-.header-canvas.c16 .header-title svg {
+.header-canvas.c16 .header-title a svg {
   fill: #72396e;
 }
-.header-canvas.c16 .header-title svg path {
+.header-canvas.c16 .header-title a svg path {
   fill: #72396e;
+}
+.header-canvas.c16 .header-title a:hover svg {
+  fill: #de9c67;
+}
+.header-canvas.c16 .header-title a:hover svg path {
+  fill: #de9c67;
 }
 .header-canvas.c16 .header-navigation {
   background-color: #a3cdeb;
@@ -2279,11 +2381,17 @@ body a:hover {
 .header-canvas.c17 {
   background-color: #72396e;
 }
-.header-canvas.c17 .header-title svg {
+.header-canvas.c17 .header-title a svg {
   fill: #a3cdeb;
 }
-.header-canvas.c17 .header-title svg path {
+.header-canvas.c17 .header-title a svg path {
   fill: #a3cdeb;
+}
+.header-canvas.c17 .header-title a:hover svg {
+  fill: #e9bd99;
+}
+.header-canvas.c17 .header-title a:hover svg path {
+  fill: #e9bd99;
 }
 .header-canvas.c17 .header-navigation {
   background-color: #72396e;
@@ -2347,11 +2455,17 @@ body a:hover {
 .header-canvas.c18 {
   background-color: #b8c6ec;
 }
-.header-canvas.c18 .header-title svg {
+.header-canvas.c18 .header-title a svg {
   fill: #7d374f;
 }
-.header-canvas.c18 .header-title svg path {
+.header-canvas.c18 .header-title a svg path {
   fill: #7d374f;
+}
+.header-canvas.c18 .header-title a:hover svg {
+  fill: #ceae57;
+}
+.header-canvas.c18 .header-title a:hover svg path {
+  fill: #ceae57;
 }
 .header-canvas.c18 .header-navigation {
   background-color: #b8c6ec;
@@ -2415,11 +2529,17 @@ body a:hover {
 .header-canvas.c19 {
   background-color: #7d374f;
 }
-.header-canvas.c19 .header-title svg {
+.header-canvas.c19 .header-title a svg {
   fill: #b8c6ec;
 }
-.header-canvas.c19 .header-title svg path {
+.header-canvas.c19 .header-title a svg path {
   fill: #b8c6ec;
+}
+.header-canvas.c19 .header-title a:hover svg {
+  fill: #dcc586;
+}
+.header-canvas.c19 .header-title a:hover svg path {
+  fill: #dcc586;
 }
 .header-canvas.c19 .header-navigation {
   background-color: #7d374f;
@@ -2483,11 +2603,17 @@ body a:hover {
 .header-canvas.c20 {
   background-color: #cdbeeb;
 }
-.header-canvas.c20 .header-title svg {
+.header-canvas.c20 .header-title a svg {
   fill: #7b3d33;
 }
-.header-canvas.c20 .header-title svg path {
+.header-canvas.c20 .header-title a svg path {
   fill: #7b3d33;
+}
+.header-canvas.c20 .header-title a:hover svg {
+  fill: #a6bf5d;
+}
+.header-canvas.c20 .header-title a:hover svg path {
+  fill: #a6bf5d;
 }
 .header-canvas.c20 .header-navigation {
   background-color: #cdbeeb;
@@ -2551,11 +2677,17 @@ body a:hover {
 .header-canvas.c21 {
   background-color: #7b3d33;
 }
-.header-canvas.c21 .header-title svg {
+.header-canvas.c21 .header-title a svg {
   fill: #cdbeeb;
 }
-.header-canvas.c21 .header-title svg path {
+.header-canvas.c21 .header-title a svg path {
   fill: #cdbeeb;
+}
+.header-canvas.c21 .header-title a:hover svg {
+  fill: #bed089;
+}
+.header-canvas.c21 .header-title a:hover svg path {
+  fill: #bed089;
 }
 .header-canvas.c21 .header-navigation {
   background-color: #7b3d33;
@@ -2619,11 +2751,17 @@ body a:hover {
 .header-canvas.c22 {
   background-color: #e1b7dd;
 }
-.header-canvas.c22 .header-title svg {
+.header-canvas.c22 .header-title a svg {
   fill: #6e4828;
 }
-.header-canvas.c22 .header-title svg path {
+.header-canvas.c22 .header-title a svg path {
   fill: #6e4828;
+}
+.header-canvas.c22 .header-title a:hover svg {
+  fill: #6ec77f;
+}
+.header-canvas.c22 .header-title a:hover svg path {
+  fill: #6ec77f;
 }
 .header-canvas.c22 .header-navigation {
   background-color: #e1b7dd;
@@ -2687,11 +2825,17 @@ body a:hover {
 .header-canvas.c23 {
   background-color: #6e4828;
 }
-.header-canvas.c23 .header-title svg {
+.header-canvas.c23 .header-title a svg {
   fill: #e1b7dd;
 }
-.header-canvas.c23 .header-title svg path {
+.header-canvas.c23 .header-title a svg path {
   fill: #e1b7dd;
+}
+.header-canvas.c23 .header-title a:hover svg {
+  fill: #9ad8a6;
+}
+.header-canvas.c23 .header-title a:hover svg path {
+  fill: #9ad8a6;
 }
 .header-canvas.c23 .header-navigation {
   background-color: #6e4828;

@@ -120,12 +120,24 @@ body {
   .header-canvas.c#{$number} {
     background-color: $background;
     .header-title {
-      svg {
-        fill: $foreground;
-        path {
+      a {
+        svg {
           fill: $foreground;
+          path {
+            fill: $foreground;
+          }
+        }
+        &:hover {
+          svg {
+            fill: $emphasis;
+            path {
+              fill: $emphasis;
+            }
+          }
         }
       }
+
+      
     }
     .header-navigation {
       background-color: $background;
