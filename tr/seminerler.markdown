@@ -9,12 +9,12 @@ language: 'tr'
 language_reference: 'seminars'
 ---
 
-# Mitolojili Tarot 
+# Mitolojili Tarot Semineri <br/>(Yeni Dönem 3 Mart'ta Başlıyor) 
+
 
 Mitolojinin derin hikayelerini Tarot’un görselliğiyle birleştirmeye ne dersin?
 
-İster Tarot kartlarını okumak istiyor ol,
-
+İster Tarot kartlarını okumak istiyor ol,  
 İster Mitolojik Hikaye çözümlemeyi seviyor ol,
 
 Bu eğitimde her ikisi de var!
@@ -58,12 +58,26 @@ Bu bölümde her bir Minör Arkana Kartına ait:
 
 İlk modüldeki gibi her bir kartın mitolojik hikayesine inemesek de yine kartlara ait zaman zaman hikayelerini anlatmaya devam edeceğim.
 
-Devamında ise bol bol kart okuma pratikleri yapıp bu bölümü tamamlayacağız. Bu kart okumaları size ait tarot açılımları olabileceği gibi, iznini aldığınız başka biri için de tarot okuması olabilir. 
+Devamında ise bol bol kart okuma pratikleri yapıp bu bölümü tamamlayacağız. Bu kart okumaları size ait tarot açılımları olabileceği gibi, iznini aldığınız başka biri için de tarot okuması olabilir.  
 
-*+ Dersler Zoom üzerinden online olarak gerçekleştirilecektir.*
+Hafta hafta içerik, ücretler ve kesin kayıt için **+90 538 335 64 29** no'lu telefondan Whatsapp üzerinden benimle iletişime geçebilirsiniz.
 
-*+ Derslerin bitiminde katılımcılarla her hafta dersin kaydı paylaşılacaktır.*
+Kontejyan sınırlıdır!
 
-*+ Dersten önce, ders esnasında not tutmayı kolaylaştırması için ilgili kartların özet ders notu paylaşılacaktır.*
 
-> Hafta hafta ayrıntılı içerik, ücretler ve kesin kayıt için benimle +90 538 335 64 29 no'lu telefondan Whatsapp üzerinden iletişime geçebilirsiniz. 
+# Simya Semineri <br/>(Çok Yakında!) 
+
+Sembolleriyle içimize işleyen, binlerce yıllık geçmişiyle baş döndüren simyanın altına dönüşme ve dönüştürme sanatına hoşgeldiniz. 
+Simyanın laboratuarlarda kurşunu altına çevirdiği bir yanı olduğu kadar ruhun kurşununu da altına çevirdiği çok derin bir felsefesi vardır. 
+Elementler, gezegenler, metaller ve ezoterik sembollerin en temelinde yatar simyanın kaynayan kazanlı dünyası. 
+Simya hakkında hiçbir şey bilmiyor olsan da bu seminerle birlikte:
+
++ 7 Aşamasını ve bu aşamalardaki işlemleri,
++ Simya metinleri ve alegorik çizimlerini okumayı,
++ Tarot kartları başta olmak üzere semboller ve rüyalarla bağlantılarını öğrenmiş olacaksın.
+
+Her aşamanın gezegengsel etkileri, metalini, sürecini ve astrolojik bağlantılarını detaylı olarak konuşmakla birlikte bu 7 aşamaya karşılık gelen psikolojik ve duygusal süreçleri gündelik hayattan örneklerle tanımlayacağız. Böylelikle simyanın rehberliğiyle kendimizi tanımaya bir adım daha yaklaşmış olacağız ve evrendeki yerimizi deneyimleyeceğiz. 
+
+Hep birlikte "As Above, So Below" yani "Yukarıda ne varsa, aşağıda da o vardır." diyeceğiz. 
+
+Detaylar çok yakında!
