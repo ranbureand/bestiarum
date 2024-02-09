@@ -13,11 +13,11 @@ Ben Dilek,
 
 Kendimi bildim bilelim, spiritüel olduğumun farkındaydım diyebilmeyi çok isterdim. Ama maalesef ki benim hikayem öyle başlamıyor.
 
-Hayatımın uzun bir bölümünde her şeyin bilimsel veriler ile ispatlanabileceğinden, gözümüzle göremediğimiz, elimizle dokunamadığımız her şeyin “hurafe” olduğundan adım kadar emindim. Yine de okumayı söktüğümden beri elimden hiç düşürmediğim efsaneler ya da mitolojiler kitapları o katı pozitivist düşünceye azar azar sızıyordu.
+Hayatımın uzun bir bölümünde her şeyin bilimsel veriler ile ispatlanabileceğinden, gözümüzle göremediğimiz, elimizle dokunamadığımız her şeyin “hurafe” olduğundan adım kadar emindim. Yine de okumayı söktüğümden beri elimden hiç düşürmediğim efsaneler ve mitolojiler kitapları o katı pozitivist düşünceye azar azar sızıyordu.
 
-Sonra, bana kendime davrandığımdan daha şefkatli davranan bir adamla tanıştım. Hayalgücünün kıpır kıpır dünyasını görebilme ve kendime “hayal etme” iznini onunla verdim. Ama içime bakabilmeyi en çok mindfulness felsefesiyle ile öğrendim. Ve gördüm ki hepimizin içinde aslında dışarıdakinden çok daha renkli bir dünya varmış. İşte o dünyaya daha da yakında  bakmak isteyince Tarot bana Okültizm ve Ezoterizm’e uçuş için Business Class bir bilet verdi.
+Sonra, bana kendime davrandığımdan daha şefkatli davranan bir adamla tanıştım. Hayalgücünün kıpır kıpır dünyasını görebilme ve kendime “hayal etme” iznini onunla verdim. Ama içime bakabilmeyi en çok mindfulness felsefesiyle ile öğrendim. Ve gördüm ki hepimizin içinde aslında dışarıdakinden çok daha renkli bir dünya varmış. İşte o dünyaya daha da yakında bakmak isteyince Tarot bana Okültizm ve Ezoterizm’e uçuş için Business Class bir bilet verdi.
 
-Sembollerin dünyasına dalınca simya, astroloji ve rüyalar peşi sıra geldiler. Bununla beraber yıllarca aldığım Reiki, Ra-Sheeba, Kundalini Reiki, Karmik Blokaj gibi şifacılık eğitimleri ve Yoga öğretisi ve öğretmenliği bana hem sembol okumalarında hem de ardındaki anlamları anlamada bütüncül bir yaklaşım sundular, sunuyorlar. Şimdi ise öğrendiklerimi, bana oldukları gibi başkalarına da pusula olmaları için duymaya hazır olanlarla  paylaşmak için buradayım. 
+Sembollerin dünyasına dalınca simya, astroloji ve rüyalar peşi sıra geldiler. Bununla beraber yıllarca aldığım Reiki, Ra-Sheeba, Kundalini Reiki, Karmik Blokaj gibi şifacılık eğitimleri ve Yoga öğretisi ve öğretmenliği bana hem sembol okumalarında hem de ardındaki anlamları anlamada bütüncül bir yaklaşım sundular, sunuyorlar. Şimdi ise öğrendiklerimi, bana oldukları gibi başkalarına da pusula olmaları için duymaya hazır olanlarla paylaşmak için buradayım. 
 
 ***
 
