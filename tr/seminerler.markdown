@@ -9,10 +9,14 @@ language: 'tr'
 language_reference: 'seminars'
 ---
 
-# 1 Mitolojili Tarot
+# Mitolojili Tarot 
+
 Mitolojinin derin hikayelerini Tarot’un görselliğiyle birleştirmeye ne dersin?
+
 İster Tarot kartlarını okumak istiyor ol,
+
 İster Mitolojik Hikaye çözümlemeyi seviyor ol,
+
 Bu eğitimde her ikisi de var!
 
 Bu seminer sonunda amacım sizi Tarot kartlarının sembolizmasını okuyabilecek düzeye getirmek ve de kendinize ya da bir başkasına rahat bir şekilde Tarot açılımı yapabilmenizi sağlamaktır. Bu yüzden kartın anlamlarına olduğu kadar bol bol açılım pratiği yapmak için de zaman ayırdım. 
