@@ -1,0 +1,21 @@
+---
+layout: post
+
+title: Krampus
+subtitle: Noel Canavaları - 1
+description: Noel keçisi Krampus
+date: '2023-12-25 00:00:00'
+language: 'tr'
+language_reference: 'krampus'
+
+publish: 'yes'
+---
+
+Her yerde tonton yanaklı Noel Baba görmekten içiniz şiştiyse size yeni bir seri ile geldim: Noel Canavarları!
+Serimize tabiki ikonik Noel keçisi Krampus ile güçlü bir başlangıç yapıyoruz.
+
+Krampus, Avusturya ve Alman folklorunda onu uzun dilli, büyük boynuzlu, kalın siyah saçlı ve dişleri olan yarı keçi, yarı iblis bir varlıktır.  Adı Almanca pençe anlamına gelen ‘Krampen’ kelimesinden türetilmiştir.
+
+Noel Baba’nın aksine Krampus’un olduğu yerde yaramaz çocuklar cezalandırılır. Krampusnacht veya Krampus Gecesi 5 Aralık'ta gerçekleşir. Bu, Krampus'un şehre gelip huş ağacı sopalarıyla kötü çocukları patakladığı ve onları evlerine kadar kovaladığı zamandır. Çoğunlukla elinde zincirleri ile ve sırtında büyük bir sepet taşırken tasvir edilir; bunlar çocukları inine kaçırmak için kullandığı aletlerdir. 
+
+6 Aralık zamanı iyi çocuklar ayakkabılarını dışarıda bırakıp şekerler ve hediyelerle uyanırken, kötü çocuklara ise Krampus’tan bir uyarı olarak değnek bırakılır. “Yaramazlığa devam edersen bir dahaki sefere seni de alıp götüreceğim.” demektir bu.
