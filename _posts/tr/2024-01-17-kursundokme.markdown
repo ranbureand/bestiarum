@@ -2,7 +2,6 @@
 layout: post
 
 title: Molibdomansi <br/>(Kurşun Dökme) 
-subtitle: Simya
 description: Molibdomansi ya da bizdeki adıyla Kurşun dökme ritüeli Antik Yunan’da da olan oldukça popüler bir temizlik ve kehanet yöntemidir.  
 date: '2024-01-17 00:00:00'
 language: 'tr'
