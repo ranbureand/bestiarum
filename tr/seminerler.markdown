@@ -46,8 +46,7 @@ Ayrıca kartlarla nasıl meditasyon ve şifa çalışması yapabileceğinizi ve 
 
 **2- Bölüm: Minör Arkana ve Tarot Açılım Pratikleri**
 
-Majör Arkana kartlarıyla olan yolculuğumuzun hemen ardında başlayacak olan Minör Arkana Bölümü
-28 Nisan - 26 Mayıs 2024 tarihleri arasında gerçekleşecektir. Dersler 5 Hafta boyunca, her Pazar akşamı TR Saatiyle 20:00-22:00 saatleri arasında Zoom üzerinden online olarak yapılacaktır. 
+Majör Arkana kartlarıyla olan yolculuğumuzun hemen ardından başlayacak olan Minör Arkana ve Açılım Pratikleri Bölümü 28 Nisan - 26 Mayıs 2024 tarihleri arasında gerçekleşecektir. Dersler 5 Hafta boyunca, her Pazar akşamı TR Saatiyle 20:00-22:00 saatleri arasında Zoom üzerinden online olarak yapılacaktır. 
 
 Bu bölümde 56 Minör Arkana Kartını anlatacağım ve farklı açılım teknikleriyle beraberce bol bol Tarot Açılımları yapacağız. 
 
@@ -62,7 +61,11 @@ Bu bölümde her bir Minör Arkana Kartına ait:
 Devamında ise bol bol kart okuma pratikleri yapıp bu bölümü tamamlayacağız. Bu kart okumaları size ait tarot açılımları olabileceği gibi, iznini aldığınız başka biri için de tarot okuması olabilir. 
 
 *+ Dersler Zoom üzerinden online olarak gerçekleştirilecektir.*
+
 *+ Derslerin bitiminde katılımcılarla her hafta dersin kaydı paylaşılacaktır.*
+
 *+ Dersten önce, ders esnasında not tutmayı kolaylaştırması için ilgili kartların özet ders notu paylaşılacaktır.*
 
+```python
 Hafta hafta ayrıntılı içerik, ücretler ve kesin kayıt için benimle +90 538 335 64 29 no'lu telefondan Whatsapp üzerinden iletişime geçebilirsiniz. 
+```
