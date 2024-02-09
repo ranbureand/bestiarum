@@ -66,6 +66,4 @@ Devamında ise bol bol kart okuma pratikleri yapıp bu bölümü tamamlayacağı
 
 *+ Dersten önce, ders esnasında not tutmayı kolaylaştırması için ilgili kartların özet ders notu paylaşılacaktır.*
 
-```python
-Hafta hafta ayrıntılı içerik, ücretler ve kesin kayıt için benimle +90 538 335 64 29 no'lu telefondan Whatsapp üzerinden iletişime geçebilirsiniz. 
-```
+> Hafta hafta ayrıntılı içerik, ücretler ve kesin kayıt için benimle +90 538 335 64 29 no'lu telefondan Whatsapp üzerinden iletişime geçebilirsiniz. 
