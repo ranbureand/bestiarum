@@ -1,0 +1,25 @@
+---
+layout: post
+
+title: Gryla ve 13 Yule Beyi
+subtitle: Noel Canavaları - 2
+description: 13 Noel Beyi, İzlanda folklorundan gelen yaramaz kış ruhlarıdır. Zamanla daha dost canlısı bir varlık haline gelmiş olsalar da her zaman böyle değillerdi!
+date: '2023-12-26 00:00:00'
+language: 'tr'
+language_reference: 'gryla'
+
+publish: 'yes'
+---
+
+13 Noel Beyi, İzlanda folklorundan gelen yaramaz kış ruhlarıdır. Zamanla daha dost canlısı bir varlık haline gelmiş olsalar da her zaman böyle değillerdi!
+
+Bir zamanlar kötü ruhlar ve troller olarak tasvir edilen bu 13 Bey, başlangıçta doğanın karanlık ruhlarını temsil ediyorlardı. Bu beyler, açlığı ve yiyecek kıtlığını simgeleyen dev cadı Gryla'nın 13 oğludur. Noel’den 13 gün önce birer birer sokaklara inerler ve nihayetinde Noel gecesi hepsi dışarıda olur. Noel sonrası ise geldikleri gibi birer birer evlerine dönmeye başlarlar. 
+
+Daha eski zamanlarda 13 değil 82 beydirler. Fakat yayınlanan bir kanunla çocukların korkutulması yasaklanır ve 82 Yule Beyi, 13 Yule Beyi’ne ve yaptıkları hırsızlıklar ve çocuk kaçırmalar, Noel Babavari bir kimliğe bürünür. 
+
+Her birinin 7 cüceler ya da şirinler gibi isimleri vardır: 
+Sosis Araklayan, Kapı Koklayan, Kaşık Yalayan, Pencere Röntgencisi, Tencere Kazıyan, Kapı Çarpan, ya da Koyun Ağılı Budalası gibi. 
+
+Aslında yaptıkları hırsızlıklar kışın olabilecek kıtlıklara karşı uyarılardır. 
+İzlanda’da çocuklar pencere kenarına ayakkabı bırakırlar. Noel Sabahı iyi çocuklar ayakkabılarının içinde hediyeler, kötü çocuklar ise çürük patatesler bulurlar. 
+
