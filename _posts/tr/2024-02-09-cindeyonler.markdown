@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Çin Simyasında Yönler
+subtitle: Simya
 description: Çin’de ise demir oksit yerine daha canlı kırmızılıkta olan zincifre (doğal civa sülfür) kullanılırdı.
 date: '2024-02-09 13:40:00'
 language: 'tr'
