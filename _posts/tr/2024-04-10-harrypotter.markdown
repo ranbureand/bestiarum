@@ -20,5 +20,3 @@ Bir sonraki kitap ise beyaz aşamaya yani içsel ışığımızı keşfettiğimi
 Sonraki kitap olan Ölüm Yadigaları’nda Harry için bir diğer önemli karakter olan Rubeus Hagrid kendini, Harry ile Voldemort arasındaki ölümcül düellonun ortasında bulur. Bu aşama artık son aşama olan kırmızı aşamadır ve de Rubeus Latince kırmızı demektir. 
 
 Serinin  finalinde ise Harry ve Voldemort arasındaki çatışma sona ermiş ve Harry’nin dönüşümü en mükemmel formuna ulaşmıştır. Harry, Voldemort’u yenerek adını altın harflerle yazdırmış, böylece ‘Magnus Opus’ yani tüm simya sürecine verilen isim olan ‘Büyük İş’ tamamlanmıştır. 
-
-
