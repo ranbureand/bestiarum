@@ -10,7 +10,7 @@ language_reference: 'elementsembolleri'
 
 publish: 'yes'
 ---
-İMYADA ELEMENT SEMBOLLERİ
+
 Aristo’ya göre maddenin birincil özelliği ıslak ya da kuru olmasıdır. Islaklık ya da nem, akışkanlığın ya da esnekliğin göstergesidir. Örneğin ıslak/nemli maddeler daha değişken/kırılgan ve yayılım gösteren bir yapıdayken, kuru maddeler sabit, düzenli ve kendi şekillerini koruyan sert bir yapıya sahiptirler.
 
 Maddeyi belirleyen ikinci özellik ise sıcak ya da soğuk olmasıdır.
