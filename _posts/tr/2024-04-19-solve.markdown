@@ -1,0 +1,21 @@
+---
+layout: post
+
+title: Solve et Coagula
+subtitle: Simya
+description: Simya işinin ve dolayısıyla ruhun işinin özetidir “Solve et Coagula”.
+date: '2024-04-19 00:00:00'
+language: 'tr'
+language_reference: 'solve'
+
+publish: 'yes'
+---
+Simya işinin ve dolayısıyla ruhun işinin özetidir “Solve et Coagula”.
+
+Çünkü maddeyi önce en küçük birimlerine kadar ayrıştırır, saflaştırır ve geriye kalan arındırılmış parçalarını yeniden birleştiririz. Ruhumuzdaki yansımasına da buna çok benzerdir.
+
+Hepimiz bir bütün olan benliklerimizle doğarız. Büyüdükçe bu bütünlük parçalanmaya başlar. Çünkü hayatta kalmak için geliştirdiğimiz “ego”lar ile “ben”liğimizin arasında parçalanma başlar.
+
+“Hayatımızın ilk yarısında bu ego ve benlik aksında ayrım yaşarız” der Jung. “Diğer yarısında ise ikisini tekrar bir araya getirerek bütünlüğümüzü yakalamaya çalışırız.”
+
+Ego bilincin, benlik ise bilinç+bilinçaltının merkezidir. Yani aslında “Benlik içimizdeki Tanrı’dır.”
