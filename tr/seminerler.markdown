@@ -25,7 +25,7 @@ Bu seminer sonunda amacım sizi Tarot kartlarının sembolizmasını okuyabilece
 
 **1- Bölüm: Majör Arkana: 22 Kart 22 Mitolojik Hikaye**
 
-3 Mart - 26 Mayıs 2024 tarihleri arasında gerçekleşecektir. 
+3 Mart - 21 Nisan 2024 tarihleri arasında gerçekleşecektir. 
 Buluşmalar 8 Hafta boyunca, her Pazar akşamı TR Saatiyle 20:00-22:00 saatleri arasında Zoom üzerinden online olarak yapılacaktır. 
 
 Bu bölüm 22 Majör Arkana Kartı ve Mitolojik Hikayelerini anlatılacağım bölümdür. 
