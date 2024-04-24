@@ -1,0 +1,17 @@
+---
+layout: post
+
+title: Yumurta
+subtitle: Simya
+description: Yumurta şekli ve yumurta, yaratılış hikayelerinde içinde herşeyi barındıran yaratımın getirdiği kaostan önceki form olarak mitlerde de sıklıkla geçer. Yumurta, simyada da kendine önemli bir yer bulur.
+date: '2024-03-18 00:00:00'
+language: 'tr'
+language_reference: 'yumurta'
+
+publish: 'yes'
+---
+Yumurta şekli ve yumurta, yaratılış hikayelerinde içinde herşeyi barındıran yaratımın getirdiği kaostan önceki form olarak mitlerde de sıklıkla geçer. En çok bilinen Yunan Mitlerinin dışında, Orfik İnanışta zamanın kişileştirilmesi olan Kronos'un evreni gümüş yumurtadan yarattığına inanılır.
+
+Yumurta aynı zamanda simyada 4 elementi anlatmak için kullanılır. Kabuk, toprak yumurtanın akı ise sudur. Akı ile kabuğu arasındaki zar havadır. Sarı kısmı ise ateştir.
+
+Splendor Solis’in 11. Levhasında elinde bir yumurta tutan hermafrodit vardır. Burada yumurta 4 elemente göndermedir. Hermafrodit figür ise karşıtlıkların bir araya gelmesini temsil eder. Bu figüre simyada ‘rebis’ denir. Rebis insanın bilişsel yeteneklerinin gelişmesiyle ulaşılan dengenin alegorik ifadesidir. 4 elementi bir araya getiren yumurta da karşıtlıkların birleşmesini anlatır. Dört elementin birleşmesinden 5. element ortaya çıkar ve bu da ‘öz’dür. Bu birleşme figürün elinde tuttuğu diskte de görünür. Orta kısımda yansıyan manzara toprak elementini, diğer farklı renkteki üç halka da diğer üç elementi anlatır.
