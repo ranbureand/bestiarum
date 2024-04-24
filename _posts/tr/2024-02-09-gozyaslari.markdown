@@ -11,7 +11,6 @@ language_reference: 'gozyaslari'
 publish: 'yes'
 ---
 
--Kalsinasyon ve Çözünme-
 
 Her ilişki bir gaz ve toz bulutu olarak doğar. Amorf, elle tutulamayan hatta gözle görülemeyen bir biçimde gelir hayatımıza. Biz de hemen onu şekillendirmeye çalışırız. Yaşımızla beraber bilincimiz de olgunluğa yaklaştıkça, verilmesi gereken şekle dair fikrimiz daha da artar.
 
