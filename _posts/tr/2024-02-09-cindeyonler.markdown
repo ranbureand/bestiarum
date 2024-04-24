@@ -1,0 +1,19 @@
+---
+layout: post
+title: Çin Simyasında Zincifre
+description: Çin’de ise demir oksit yerine daha canlı kırmızılıkta olan zincifre (doğal civa sülfür) kullanılırdı.
+date: '2024-02-08 13:40:00'
+language: 'tr'
+language_reference: 'zincifre'
+publish: 'yes'
+---
+
+Tarih öncesi dönemde Batı’da yaşayan insanlar ölülerin kemiklerini, kan görünümü veren demir oksit (kırmızı aşı boyası) ile boyarlardı. Çin’de ise demir oksit yerine daha canlı kırmızılıkta olan zincifre (doğal civa sülfür) kullanılırdı.
+
+Çin simyasında yaşam ilkesini simgeleyen ve kan rengi bir mineral olan zincifre çok önemliydi ve “yaşam iksiri” olarak anılırdı.
+
+Çinliler zincifreden, ölümü simgeleyen bir işlem olan ateşte ısıtma sonucu iki ayrı maddenin ortaya çıktığını bulmuşlar ve olayı “ölüm yoluyla yeniden doğum” diye yorumlamışlardır. Zincifreden oluşan bu iki madde, sarı renkte ve yanıcı olan kükürt ile parlak metal görünümlü akışkan bir madde olan civadır. Kükürtü eril ilke olarak niteleyerek “Yang” adını veren ve civayı ise dişil ilke olarak yani “Yin” olarak adlandıran Çinliler, “Yin” ve “Yang”ın bir araya gelerek yaşamın kaynağı olan kanı oluşturduğuna inanırlar.
+
+Buna göre Çinli simyacılar “Yang”ca zengin herhangi bir madde katkısının yaşamı düzene sokup uzun ömür sağlayacağına inanırlar. Buna göre altın, bir miktar “Yang” içeren bir madde idi, ama zincifre minerali bu bakımdan en iyisiydi.
+
+Gezgin Marco Polo'nun notlarında, Brahmanların çok uzun süre yaşamlarının gizinin, civa ve kükürtten oluşturdukları zincifreyi içeren suu bir içeceği ayda iki kez içmeleri olduğu yazar.
