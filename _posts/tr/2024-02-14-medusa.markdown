@@ -3,14 +3,13 @@ layout: post
 
 title: Medusa ve Şahmeran
 subtitle: Sembolizm
-description: Yazılı kaynaklarda geçen ilk ejderha öldürülen kocasının intikamını almak için ejderhalardan bir ordu kuran ve kendisi de ejderha görünümüne bürünen Tiamat'tır.
+description: Kadının cadılaştırılması ve şeytanla işbirliği yapan kötücül bir varlığa dönüşmesi Avrupa’da 15. yy itibariyle Kilisenin körüklemesiyle sayısı belli olmayan kadının öldürülmesiyle sonuçlanan cadı avlarını getirmiştir. Anadolu’da ise bu tip bir oluşum ve düşmanlığa rastlayamayız.
 date: '2024-02-14 00:00:00'
 language: 'tr'
 language_reference: 'medusa'
 
 publish: 'yes'
 ---
-
 
 Kadının cadılaştırılması ve şeytanla işbirliği yapan kötücül bir varlığa dönüşmesi Avrupa’da 15. yy itibariyle Kilisenin körüklemesiyle sayısı belli olmayan kadının öldürülmesiyle sonuçlanan cadı avlarını getirmiştir. Anadolu’da ise bu tip bir oluşum ve düşmanlığa rastlayamayız.
 
