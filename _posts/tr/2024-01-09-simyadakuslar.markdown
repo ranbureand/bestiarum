@@ -2,6 +2,7 @@
 layout: post
 
 title: Simyada Kuş Sembolizmi
+subtitle: Simya
 description: Simyacılar kelimenin tam anlamıyla kuşların dilini konuşurlar. En önemli kavramlarından bazılarını, özellikle de uçucu veya ruhsal süreçlerle ilgili olanları temsil etmek için kuş resimlerini kullanırlar.
 date: '2024-01-09 00:00:00'
 language: 'tr'
