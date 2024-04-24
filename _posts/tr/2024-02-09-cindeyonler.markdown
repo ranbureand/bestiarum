@@ -1,19 +1,20 @@
 ---
 layout: post
-title: Çin Simyasında Zincifre
+title: Çin Simyasında Yönler
 description: Çin’de ise demir oksit yerine daha canlı kırmızılıkta olan zincifre (doğal civa sülfür) kullanılırdı.
-date: '2024-02-08 13:40:00'
+date: '2024-02-09 13:40:00'
 language: 'tr'
-language_reference: 'zincifre'
+language_reference: 'cindeyonler'
 publish: 'yes'
 ---
 
-Tarih öncesi dönemde Batı’da yaşayan insanlar ölülerin kemiklerini, kan görünümü veren demir oksit (kırmızı aşı boyası) ile boyarlardı. Çin’de ise demir oksit yerine daha canlı kırmızılıkta olan zincifre (doğal civa sülfür) kullanılırdı.
+Geleneksel Çin düşüncesinde beş temel element vardır. Bu elementlerin herbiri bir yön, duyu, renk ve gezegen ile ilgilidir.
 
-Çin simyasında yaşam ilkesini simgeleyen ve kan rengi bir mineral olan zincifre çok önemliydi ve “yaşam iksiri” olarak anılırdı.
+🪵MAVİ EJDERHA doğu yönü, odun elementi ve Jüpiter gezegeniyle ilgilidir.
+🔥KIZIL KUŞ, güney yönü, ateş elementi ve Mars gezegeniyle ilgilidir.
+🪨BEYAZ KAPLAN, batı yönü, metal/maden elementi ve Venüs gezegeniyle ilgilidir.
+💧SİYAH KAPLUMBAĞA, kuzey yönü, su elementi ve Merkür gezegeniyle ilgilidir.
+🪐SARI EJDERHA ise merkezde yer alır, toprak elementi ve Satürn gezegeniyle ilişkilendirilir.
 
-Çinliler zincifreden, ölümü simgeleyen bir işlem olan ateşte ısıtma sonucu iki ayrı maddenin ortaya çıktığını bulmuşlar ve olayı “ölüm yoluyla yeniden doğum” diye yorumlamışlardır. Zincifreden oluşan bu iki madde, sarı renkte ve yanıcı olan kükürt ile parlak metal görünümlü akışkan bir madde olan civadır. Kükürtü eril ilke olarak niteleyerek “Yang” adını veren ve civayı ise dişil ilke olarak yani “Yin” olarak adlandıran Çinliler, “Yin” ve “Yang”ın bir araya gelerek yaşamın kaynağı olan kanı oluşturduğuna inanırlar.
-
-Buna göre Çinli simyacılar “Yang”ca zengin herhangi bir madde katkısının yaşamı düzene sokup uzun ömür sağlayacağına inanırlar. Buna göre altın, bir miktar “Yang” içeren bir madde idi, ama zincifre minerali bu bakımdan en iyisiydi.
-
-Gezgin Marco Polo'nun notlarında, Brahmanların çok uzun süre yaşamlarının gizinin, civa ve kükürtten oluşturdukları zincifreyi içeren suu bir içeceği ayda iki kez içmeleri olduğu yazar.
+Daha önceki gönderide paylaştığım Aristo'nun 4 element döngüsünün Batı Simyasının temelini oluşturduğu gibi,
+Bu 5 element döngüsü de Doğu (Çin ve Hindistan) Simyasının temelini oluşturur.
