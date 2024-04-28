@@ -2,7 +2,8 @@
 layout: post
 
 title: Fermantasyon
-subtitle: Simya
+subtitle:
+categories: [alchemy]
 description: Simya’nın 5. işi olan fermantasyon, yeniden doğuş ile ilişkildir. Bir önceki aşama olan birleşme aşamasında, birleşen maddeler, kendilerinden farklı bir madde oluştururlar. 
 date: '2024-04-11 00:00:00'
 language: 'tr'

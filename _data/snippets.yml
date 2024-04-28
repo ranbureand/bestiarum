@@ -6,6 +6,74 @@ languages:
     value: Türkçe
     slug: tr
 
+months:
+  en:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+  tr:
+    - Ocak
+    - Şubat
+    - Mart
+    - Nisan
+    - Mayıs
+    - Haziran
+    - Temmuz
+    - Ağustos
+    - Eylül
+    - Ekim
+    - Kasım
+    - Aralık
+
 back:
-  en: Back to the Top
-  tr: Sayfa Başına Dön
+  en: Back to the top
+  tr: Sayfa başına dön
+
+footnote_back:
+  en: Go back
+  tr: Geri dön
+
+status:
+  open:
+    en: Registration Open →
+    tr: Kayıtlar Açık →
+  closed:
+    en: Registration Closed
+    tr: Kayıtlar Kapalı
+
+categories:
+  alchemy:
+    en: Alchemy
+    tr: Simya
+  beast:
+    en: Beast
+    tr: Garip Yaratıklar
+  magic:
+    en: Magic
+    tr: Sihir
+  mythology:
+    en: Mythology
+    tr: Mitoloji
+  symbolism:
+    en: Symbolism
+    tr: Sembolizm
+  tarot:
+    en: Tarot
+    tr: Tarot
+
+payment_button:
+  en: Register Now
+  tr: Kayıt Formu
+
+payment_button:
+  en: Pay Now
+  tr: Şimdi Öde

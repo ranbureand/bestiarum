@@ -1,0 +1,32 @@
+---
+type: page
+layout: base
+navigation: true
+navigation_order: 4
+
+title: 'Seminerler'
+subtitle: ''
+description: 'Her seviyeden gelen meraklısına en basit ve sade diliyle anlattığım Mitolojili Tarot ve Simya seminer duyurularına buradan ulaşabilir, dilerseniz kaydolabilirsiniz. '
+
+language: 'tr'
+language_reference: 'seminars'
+---
+
+      <div class="article-canvas c{{page.number}}">
+        <article class="article">
+
+          <header class="head">
+
+            <h2 class="title">{{ page.title }}</h2>
+            {%- if page.subtitle and page.subtitle != '' %}<div class="subtitle">{{ page.subtitle }}</div>{%- endif %}
+
+          </header>
+
+          <div class="seminar-posts-canvas">
+
+{% include seminar-post-list.html %}
+
+      </div>
+
+        </article>
+      </div>

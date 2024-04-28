@@ -1,0 +1,15 @@
+        <ul class="posts">
+          {%- assign posts = site.posts | where: 'publish', 'yes' | where: 'language', page.language | sort: 'date' | reverse %}
+          {%- for post in posts %}
+            <li class="post-canvas">
+              <a
+                class="post c{{ posts | size | minus: forloop.index | modulo: site.colors }}"
+                href="{{ post.url | prepend: site.baseurl }}"
+                >
+                <strong class="title">{{ post.title }}</strong>
+                {%- if post.subtitle %}<div class="subtitle">{{ post.subtitle }}</div>{%- endif %}
+                {%- if post.categories %}<ul class="categories">{% for category in post.categories %}<li class="category">{{ site.data.snippets.categories[category][post.language] }}</li>{% endfor %}</ul>{%- endif %}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>

@@ -1,0 +1,99 @@
+---
+layout: base
+---
+
+      <div class="article-canvas">
+        <article class="article">
+
+          <header class="head">
+
+            <h2 class="title">{{ page.title }}</h2>
+            {%- if page.subtitle %}<div class="subtitle">{{ page.subtitle }}</div>{%- endif %}
+            
+            {%- if page.dates or page.duration %}
+            <div class="caption">
+              {%- if page.dates %}
+              {%- assign dates_start_month = page.dates.start | date: '%-m' | minus: 1 %}
+              {%- assign dates_end_month = page.dates.end | date: '%-m' | minus: 1 %}
+              <div class="dates">{{ page.dates.start | date: '%-d' }} {{ site.data.snippets.months[page.language][dates_start_month] }} {{ page.dates.start | date: '%Y' }}–{{ page.dates.end | date: '%-d' }} {{ site.data.snippets.months[page.language][dates_end_month] }} {{ page.dates.end | date: '%Y' }}</div>
+              {%- endif %}
+              {%- if page.duration %}
+              <div class="duration">{{ page.duration }}</div>
+              {%- endif %}
+              {%- if page.status %}
+              <div class="status-{{page.status}}">{{ site.data.snippets.status[page.status][page.language] }}</div>
+              {%- endif %}
+            </div>
+            {%- endif %}
+
+          </header>
+
+          <div class="body typo-m">
+
+{{ content }}
+          </div>
+
+        </article>
+      </div>
+
+      {%- if page.form_link and page.form_link != '' %}
+      <script type="text/javascript">
+      // Declare and assign the form link variable
+      const formLink = ('{{ page.form_link }}');
+
+      // Get the .form-button elements
+      const formButtons = document.querySelectorAll('.form-button');
+
+      // Assign the form button variable and inject it in the HTML DOM
+      for (i = 0; i < formButtons.length; i++) {
+        var formButtonParent = formButtons[i].parentNode;
+       // Declare the form button variable
+        var paymentButtonDiv,
+        formButtonA;
+
+        formButtonDiv = document.createElement('div');
+        formButtonDiv.setAttribute('class', 'button-m');
+        formButtonA = document.createElement('a');
+        formButtonA.setAttribute('href', formLink);
+        formButtonA.setAttribute('target', '_blank');
+        formButtonA.setAttribute('title', '{%- if page.form_button_name and page.form_button_name != '' %}{{ page.form_button_name }}{%- else %}{{ site.data.snippets.form_button[page.language] }}{%- endif %}');
+        formButtonA.textContent = '{%- if page.form_button_name and page.form_button_name != '' %}{{ page.form_button_name }}{%- else %}{{ site.data.snippets.form_button[page.language] }}{%- endif %}';
+
+        formButtonDiv.appendChild(formButtonA);
+        formButtonParent.parentNode.replaceChild(formButtonDiv, formButtonParent);
+
+        console.log('Form button created.');
+      }
+      </script>
+      {%- endif %}
+
+      {%- if page.payment_link and page.payment_link != '' %}
+      <script type="text/javascript">
+      // Declare and assign the payment link variable
+      const paymentLink = ('{{ page.payment_link }}');
+
+      // Get the .payment-button elements
+      const paymentButtons = document.querySelectorAll('.payment-button');
+
+      // Assign the payment button variable and inject it in the HTML DOM
+      for (i = 0; i < paymentButtons.length; i++) {
+        var paymentButtonParent = paymentButtons[i].parentNode;
+       // Declare the payment button variable
+        var paymentButtonDiv,
+        paymentButtonA;
+
+        paymentButtonDiv = document.createElement('div');
+        paymentButtonDiv.setAttribute('class', 'button-m');
+        paymentButtonA = document.createElement('a');
+        paymentButtonA.setAttribute('href', paymentLink);
+        paymentButtonA.setAttribute('target', '_blank');
+        paymentButtonA.setAttribute('title', '{%- if page.payment_button_name and page.payment_button_name != '' %}{{ page.payment_button_name }}{%- else %}{{ site.data.snippets.payment_button[page.language] }}{%- endif %}');
+        paymentButtonA.textContent = '{%- if page.payment_button_name and page.payment_button_name != '' %}{{ page.payment_button_name }}{%- else %}{{ site.data.snippets.payment_button[page.language] }}{%- endif %}';
+
+        paymentButtonDiv.appendChild(paymentButtonA);
+        paymentButtonParent.parentNode.replaceChild(paymentButtonDiv, paymentButtonParent);
+
+        console.log('Payment button created.');
+      }
+      </script>
+      {%- endif %}

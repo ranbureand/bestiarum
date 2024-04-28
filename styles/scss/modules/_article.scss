@@ -63,13 +63,11 @@
   .title {
     font-weight: $bold;
   }
-
   .subtitle {
     font-style: italic;
 
     display: block;
   }
-
   .date {
     position: absolute;
     top: 0;
@@ -82,6 +80,43 @@
 
     @include font-size($m-small-size, $m-small-line);
   }
+  .caption {
+    margin-top: em($m-small-line);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .dates,
+  .duration {
+    @include font-size($m-small-size, $m-small-line);
+  }
+  .categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: em($m-small-line);
+    gap: em($m-gut/2);
+  }
+  .category,
+  [class*="status"] {
+    margin-top: em($m-extra-small-line/4, $m-extra-small-size);
+    padding-top: em(($m-small-line - $m-extra-small-line)/2, $m-extra-small-size);
+    padding-left: em($m-gut/2, $m-extra-small-size);
+    padding-right: em($m-gut/2, $m-extra-small-size);
+    padding-bottom: em(($m-small-line - $m-extra-small-line)/2, $m-extra-small-size);
+    @include font-size($m-extra-small-size, $m-extra-small-line);
+    border-radius: em($m-small-line, $m-extra-small-size);
+  }
+  .category {
+    background-color: rgba($white, 0.05);
+  }
+  [class*="status"] {
+    margin-top: em($m-extra-small-line/4, $m-extra-small-size);
+  }
   @include min-screen(col(8)) {
     padding-top: em($d-base-rhythm*4);
 
@@ -89,11 +124,33 @@
     .subtitle {
       @include font-size($d-extra-large-size, $d-extra-large-line);
     }
-
     .date {
       margin-top: em($d-small-line*2, $d-small-size);
 
       @include font-size($d-small-size, $d-small-line);
+    }
+    .caption {
+      margin-top: em($d-small-line);
+    }
+    .dates,
+    .duration {
+      @include font-size($d-small-size, $d-small-line);
+    }
+    .categories {
+      margin-top: em($d-small-line);
+      gap: em($d-gut/2);
+    }
+    .category,
+    [class*="status"] {
+      padding-top: em(($d-small-line - $d-extra-small-line)/2, $d-extra-small-size);
+      padding-left: em($d-gut/2, $d-extra-small-size);
+      padding-right: em($d-gut/2, $d-extra-small-size);
+      padding-bottom: em(($d-small-line - $d-extra-small-line)/2, $d-extra-small-size);
+      @include font-size($d-extra-small-size, $d-extra-small-line);
+      border-radius: em($d-small-line, $d-extra-small-size);
+    }
+    [class*="status"] {
+      margin-top: em($d-extra-small-line/4, $d-extra-small-size);
     }
   }
 }

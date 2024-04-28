@@ -1,7 +1,9 @@
 ---
 layout: post
 
-title: Tarakları sakla, balkabaklarını pişir ve Karakoncolos'u bekle
+title: Tarakları Sakla, Balkabaklarını Pişir ve Karakoncolos’u Bekle
+subtitle:
+categories: [beast, mythology]
 description: Karakoncolos kış cinidir. Zemheride yani kışın en soğun olduğu zamanda sokaklarda gezer. Çocuk, kedi ya da maymun büyüklüğündedir. Vücudu tüylerle kaplıdır ve kara renktedir. Çoğu yerde zararsız olduğuna inanılsa da çirkinliğiyle insanlara korku verir.
 date: '2020-10-26 13:40:00'
 

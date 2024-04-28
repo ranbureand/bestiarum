@@ -30,15 +30,17 @@
 
           <nav class="header-navigation">
             <ul class="items">
-              {%- assign nav_pages = site.pages | where: 'language', page.language | sort: 'order' %}
+              {%- assign nav_pages = site.pages | where: 'language', page.language | where: 'navigation', true | sort: 'navigation_order' %}
               {%- for nav_page in nav_pages %}
-                {%- if nav_page.title != null and nav_page.layout == 'page' %}
-                <li class="item {% if nav_page.language_reference == page.language_reference %}current{% endif %}">
-                  {%- if page.language == 'tr' %}
-                  <a href="{{ site.baseurl }}{{ nav_page.url }}">{{ nav_page.title }}</a>
-                  {%- elsif page.language == 'en'  %}
-                  <a href="{{ site.baseurl }}{{ nav_page.url }}">{{ nav_page.title }}</a>
+                {%- capture header-navigation-item-class %}
+                  {%- if nav_page.language_reference == page.language_reference %}item current
+                  {%- elsif nav_page.language_reference == 'seminars' and page.collection == 'seminars' %}item current
+                  {%- else %}item
                   {%- endif %}
+                {%- endcapture %}
+                {%- if nav_page.title != null %}
+                <li class="{{ header-navigation-item-class }}">
+                  <a href="{{ site.baseurl }}{{ nav_page.url }}">{{ nav_page.title }}</a>
                 </li>
                 {%- endif %}
               {%- endfor %}
@@ -47,7 +49,7 @@
             <!--<ul class="languages">
               {%- for language in snippets.languages %}
 
-                {%- if page.layout == 'page' %}
+                {%- if page.type == 'page' %}
                   {%- assign nav_pages = site.pages
                     | where: 'language_reference', page.language_reference
                     | where: 'language', language[1].slug %}
@@ -81,7 +83,24 @@
                     {%- endfor %}
                   {%- endif %}
 
-                {%- elsif page.layout == 'base' %}
+                {%- elsif page.layout == 'seminar' %}
+                  {%- assign nav_seminars = site.seminars
+                    | where: 'language_reference', page.language_reference
+                    | where: 'language', language[1].slug %}
+                  {%- if nav_seminars.size > 0 %}
+                    {%- for nav_seminar in nav_seminars %}
+                      {%- assign url = site.baseurl | append: nav_seminar.url %}
+                    {%- endfor %}
+                  {%- else %}
+                    {%- assign nav_pages = site.pages
+                      | where: 'language_reference', 'nest'
+                      | where: 'language', language[1].slug %}
+                    {%- for nav_page in nav_pages %}
+                      {%- assign url = site.baseurl | append: nav_page.url %}
+                    {%- endfor %}
+                  {%- endif %}
+
+                {%- elsif page.type == 'home' %}
                   {%- assign nav_pages = site.pages
                     | where: 'language_reference', 'nest'
                     | where: 'language', language[1].slug %}

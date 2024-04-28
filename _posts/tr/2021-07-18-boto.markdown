@@ -1,8 +1,9 @@
 ---
 layout: post
 
-title: Geceleri bara giden yunus balığı
+title: Geceleri Bara Giden Yunus Balığı
 subtitle: Boto Encantado
+categories: [beast, mythology]
 description: Boto encantado, büyülü yunuslar, Amazon Nehri’nde yaşayan ve gece olunca efso yakışıklı erkek kılığında kadın avına çıkan yunuslardır. Gece yarısı civardaki barları dolaşıp yalnız kadınları kendilerine aşık ederler. Hatta hamile bıraktıkları bile söylenir. Babası bilinmeyen çocuklara “filhos de boto” yani yunusun çocukları denir.
 date: '2021-07-18 13:40:00'
 language: 'tr'

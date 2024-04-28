@@ -22,6 +22,8 @@
 */
 
 @import "basics/typography.scss";
+@import "basics/typography-medium.scss";
+@import "basics/typography-small.scss";
 
 /*
 ** Modules
@@ -29,8 +31,12 @@
 
 @import "modules/colors.scss";
 @import "modules/frames.scss";
-@import "modules/references.scss";
+@import "modules/buttons.scss";
 @import "modules/article.scss";
+@import "modules/footnotes.scss";
+@import "modules/sources.scss";
+@import "modules/post-list.scss";
+@import "modules/seminar-post-list.scss";
 @import "modules/pagination.scss";
 
 /*

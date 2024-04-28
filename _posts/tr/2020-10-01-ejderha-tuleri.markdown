@@ -2,7 +2,8 @@
 layout: post
 
 title: Ejderha Türleri
-subtitle: En temel sınıflandırma
+subtitle: En Temel Sınıflandırma
+categories: [beast, mythology]
 description: Oyun dünyasına pek girmeden, temelde ejderhalar sahip oldukları kanat, ayak sayısı ve vücut yapısına göre gruplandırılabilir. Bu gruplama çeşidi aynı zamanda ejderhaların kültürden kültüre nasıl farklılaştığını çok güzel ortaya koyar.
 date: '2020-10-01 13:40:00'
 

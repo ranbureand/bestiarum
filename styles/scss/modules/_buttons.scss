@@ -1,0 +1,128 @@
+/* Copyright (c) 2019 Andrea Buran [www.andreaburan.com]. All rights reserved */
+
+/*
+** Buttons
+*/
+
+[class^="button"] {
+  font-weight: $bold;
+
+  position: relative;
+
+  display: block;
+  overflow: hidden;
+
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+
+  transition-timing-function: ease-in-out, ease-in-out;
+  transition-property: color, background-color;
+
+  background-color: $strong-type-color;
+
+  @include face(sans);
+
+  &:before {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    padding-bottom: 100%;
+
+    content: "";
+    transition-timing-function: ease-in, ease-in;
+    transition-duration: $duration, $duration;
+    transition-property: opacity, transform;
+    transform: scale(0);
+
+    opacity: 0;
+    border-radius: 50%;
+    background-color: $light-type-color;
+  }
+
+  a {
+    position: relative;
+    z-index: 10;
+
+    display: block;
+
+    text-decoration: none;
+
+    color: $background-color;
+
+    &:hover,
+    &:active {
+      color: $background-color;
+    }
+  }
+
+  span {
+    display: none;
+  }
+
+  &:hover {
+    transition-duration: 0.2s, 0.2s;
+    &:before {
+      transform: scale(1.0);
+
+      opacity: 1.0;
+    }
+  }
+
+  &:active {
+    &:before {
+      transition-duration: 0.0s, 0.0s;
+      transform: scale(1.0);
+
+      opacity: 1.0;
+      background-color: $strong-type-color;
+    }
+  }
+  @include min-screen(col(8)) {
+    span {
+      display: inline;
+    }
+  }
+}
+
+
+/*
+** Buttons => sizes
+*/
+
+.button-m {
+  margin-top: em($m-medium-line);
+  margin-bottom: em($m-medium-line);
+
+  border-radius: em($m-medium-line);
+
+  &:before {
+    margin-top: calc(-50% + #{em($m-medium-line)});
+  }
+  a {
+    padding: em($m-medium-line/2, $m-medium-size) em($m-gut/2*3, $m-medium-size);
+
+    @include font-size($m-medium-size, $m-medium-line);
+  }
+  @include min-screen(col(8)) {
+    margin-top: em($d-medium-line);
+    margin-bottom: em($d-medium-line);
+
+    border-radius: em($d-medium-line);
+
+    &:before {
+      margin-top: calc(-50% + #{em($d-medium-line)});
+    }
+    a {
+      padding: em($d-medium-line/2, $d-medium-size) em($d-gut, $d-medium-size);
+
+      @include font-size($d-medium-size, $d-medium-line);
+    }
+  }
+}
+

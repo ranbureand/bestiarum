@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Sümerli Esra Erol Gururla Sunar
-subtitle: İnanna ile Tammuz
+subtitle: İnanna Ile Tammuz
+categories: [mythology]
 description: Tammuz’un yeryüzüne gelip tekrar İnanna ile birleştikleri zaman bahardır, paskalyadır, nevruzdur, hıdrellezdir. Yeraltına döndüğü zaman ise kışın başlangıcıdır.
 date: '2022-03-05 13:40:00'
 language: 'tr'

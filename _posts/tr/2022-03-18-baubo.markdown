@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Ortam gerildi ben terbiyesiz bir fıkra anlatayım
+title: Ortam Gerildi Ben Terbiyesiz Vir Fıkra Anlatayım
 subtitle: Tanrıça Teyze Baubo
+categories: [mythology]
 description: Demeter, teklif edilen tüm yiyecekleri reddeder. Kederinden başını kaldıramaz durumdadır. Kimseyle konuşmaz, acınacak haldedir. Derken Demeter’in yanına Eleusis Kralı’nın hizmetkarlarından biri olan Baubo Teyze gelir. Bir şeyler söyleyerek eteklerini kaldırır ve Demeter’e göbeğini ve vulvasını gösterir.
 date: '2022-03-18 13:40:00'
 language: 'tr'

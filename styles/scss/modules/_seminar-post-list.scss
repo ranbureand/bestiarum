@@ -1,0 +1,154 @@
+/* Copyright (c) 2019 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Post list
+*/
+
+.seminar-posts-canvas {
+  padding-top: em($m-base-rhythm*2);
+
+  grid-column: 1 / 9;
+  @include min-screen(col(8)) {
+    padding-top: em($d-base-rhythm*2);
+  }
+}
+
+.seminar-posts {
+  display: flex;
+
+  padding-right: 0;
+  padding-left: 0;
+
+  animation-name: element-up;
+  animation-duration: $duration*4;
+
+  grid-column: 1 / 9;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  animation-fill-mode: both;
+
+  li {
+    width: 100/1*1%;
+    margin-bottom: em($m-base-rhythm*2);;
+
+    flex-grow: 0;
+    flex-shrink: 1;
+  }
+  > li:last-child {
+    margin-bottom: 0;
+  }
+  @include min-screen(col(8)) {
+    li {
+      margin-bottom: em($d-base-rhythm*2);
+    }
+  }
+}
+
+.seminar-post {
+  display: flex;
+  flex-direction: column;
+
+  animation-name: element-in;
+  animation-duration: $duration*4;
+  text-align: center;
+
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  animation-fill-mode: both;
+  .title {
+    font-weight: $bold;
+
+    display: block;
+
+    text-decoration: underline;
+
+    @include font-size($m-large-size, $m-large-line);
+  }
+  .subtitle {
+    font-weight: $normal;
+    font-style: italic;
+
+    @include font-size($m-large-size, $m-large-line);
+  }
+  .caption {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: em($m-small-line/2);
+    margin-bottom: em($m-small-line/2);
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .dates {
+    @include font-size($m-small-size, $m-small-line);
+  }
+  [class*="status"] {
+    margin-top: em($m-extra-small-line/4, $m-extra-small-size);
+    padding-top: em(($m-small-line - $m-extra-small-line)/2, $m-extra-small-size);
+    padding-right: em($m-gut/2, $m-extra-small-size);
+    padding-bottom: em(($m-small-line - $m-extra-small-line)/2, $m-extra-small-size);
+    padding-left: em($m-gut/2, $m-extra-small-size);
+
+    border-radius: em($m-small-line, $m-extra-small-size);
+
+    @include font-size($m-extra-small-size, $m-extra-small-line);
+  }
+  .introduction {
+    @include font-size($m-medium-size, $m-medium-line);
+  }
+  @include min-screen(col(8)) {
+    padding-right: em($d-gut);
+    padding-left: em($d-gut);
+    .title {
+      @include font-size($d-large-size, $d-large-line);
+    }
+    .subtitle {
+      @include font-size($d-large-size, $d-large-line);
+    }
+    .caption {
+      margin-top: em($d-small-line/2);
+      margin-bottom: em($d-small-line/2);
+    }
+    .dates {
+      @include font-size($d-small-size, $d-small-line);
+    }
+    [class*="status"] {
+      margin-top: em($d-extra-small-line/4, $d-extra-small-size);
+      padding-top: em(($d-small-line - $d-extra-small-line)/2, $d-extra-small-size);
+      padding-right: em($d-gut/2, $d-extra-small-size);
+      padding-bottom: em(($d-small-line - $d-extra-small-line)/2, $d-extra-small-size);
+      padding-left: em($d-gut/2, $d-extra-small-size);
+
+      border-radius: em($d-small-line, $d-extra-small-size);
+
+      @include font-size($d-extra-small-size, $d-extra-small-line);
+    }
+    .introduction {
+      @include font-size($d-medium-size, $d-medium-line);
+    }
+  }
+}
+
+.status-open {
+  color: map-get($d-colors, "s10");
+  background-color: map-get($l-colors, "s7");
+}
+.status-closed {
+  color: map-get($d-colors, "s3");
+  background-color: map-get($l-colors, "s12");
+}
+
+@for $i from 1 through 96 {
+  .seminar-posts {
+    li:nth-child(#{$i}n) {
+      .seminar-post {
+        animation-delay: #{$i * $duration/12};
+      }
+    }
+  }
+}

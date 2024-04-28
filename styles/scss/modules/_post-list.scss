@@ -1,0 +1,210 @@
+/* Copyright (c) 2019 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Post list
+*/
+
+.posts-canvas {
+  padding-top: em($m-header-canvas-height);
+
+  @include min-screen(col(8)) {
+    padding-top: em($d-header-canvas-height);
+  }
+}
+
+.posts {
+  display: flex;
+
+  animation-name: element-up;
+  animation-duration: $duration*4;
+
+  grid-column: 1 / 9;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  animation-fill-mode: both;
+
+  > li {
+    position: relative;
+
+    width: 100/1*1%;
+    padding-bottom: 100/1*1%;
+
+    flex-grow: 0;
+    flex-shrink: 1;
+    -webkit-font-smoothing: subpixel-antialiased;
+
+    /*animation-name: element-zoom-out;
+    animation-duration: $duration/4*3;
+    animation-fill-mode: forwards;*/
+
+    &:hover {
+      animation-name: element-zoom-in;
+      animation-duration: $duration/4*3;
+
+      animation-fill-mode: forwards;
+    }
+
+    &:active {
+      animation-name: element-zoom-out;
+      animation-duration: $duration/8;
+
+      animation-fill-mode: forwards;
+    }
+  }
+  > li:last-child {
+    margin-bottom: 0;
+  }
+  @include min-screen(col(8)) {
+    > li {
+      width: 100/2*1%;
+      padding-bottom: 100/2*1%;
+    }
+  }
+  @include min-screen(col(16)) {
+    > li {
+      width: 100/3*1%;
+      padding-bottom: 100/3*1%;
+    }
+  }
+  @include min-screen(col(20)) {
+    > li {
+      width: 100/4*1%;
+      padding-bottom: 100/4*1%;
+    }
+  }
+  @include min-screen(col(28)) {
+    > li {
+      width: 100/5*1%;
+      padding-bottom: 100/5*1%;
+    }
+  }
+}
+
+.zoom-out {
+  animation-name: element-zoom-out;
+  animation-duration: $duration/4*3;
+
+  animation-fill-mode: forwards;
+}
+
+.post {
+  position: absolute;
+  z-index: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+  padding-right: em($m-gut);
+  padding-left: em($m-gut);
+
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  /*animation-name: element-in;
+  animation-duration: $duration*4;
+  animation-fill-mode: both;*/
+
+  .title,
+  .subtitle,
+  .categories {
+    animation-name: element-in;
+    animation-duration: $duration*4;
+    text-align: center;
+
+    animation-fill-mode: both;
+  }
+  .title {
+    font-weight: $bold;
+  }
+  .subtitle {
+    font-weight: $normal;
+    font-style: italic;
+  }
+  .title,
+  .subtitle {
+    display: block;
+
+    @include fluid-font-size(
+    em($m-min-size),
+    2.25*4*1vw,
+    em($m-max-size),
+    (($m-min-line/$m-min-size) - ($m-max-line/$m-max-size)) / 4 + ($m-max-line/$m-max-size)*1em
+    );
+  }
+  .categories {
+    position: absolute;
+    right: 0;
+    bottom: em($m-small-line/2);
+    left: 0;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: em($m-gut/2);
+  }
+  .category {
+    padding-top: em(($m-small-line - $m-extra-small-line)/2, $m-extra-small-size);
+    padding-right: em($m-gut/2, $m-extra-small-size);
+    padding-bottom: em(($m-small-line - $m-extra-small-line)/2, $m-extra-small-size);
+    padding-left: em($m-gut/2, $m-extra-small-size);
+
+    border-radius: em($m-small-line, $m-extra-small-size);
+    background-color: rgba($white, 0.05);
+
+    @include font-size($m-extra-small-size, $m-extra-small-line);
+  }
+  @include min-screen(col(8)) {
+    padding-right: em($d-gut);
+    padding-left: em($d-gut);
+    .categories {
+      bottom: em($d-small-line/2);
+
+      gap: em($d-gut/2);
+    }
+    .category {
+      padding-top: em(($d-small-line - $d-extra-small-line)/2, $d-extra-small-size);
+      padding-right: em($d-gut/2, $d-extra-small-size);
+      padding-bottom: em(($d-small-line - $d-extra-small-line)/2, $d-extra-small-size);
+      padding-left: em($d-gut/2, $d-extra-small-size);
+
+      border-radius: em($d-small-line, $d-extra-small-size);
+
+      @include font-size($d-extra-small-size, $d-extra-small-line);
+    }
+  }
+  @include min-screen(col(12)) {
+    .title,
+    .subtitle {
+      @include fluid-font-size(
+      $d-min-size,
+      2.25*1*1vw,
+      $d-max-size,
+      (($d-min-line/$d-min-size) - ($d-max-line/$d-max-size)) / 4 + ($d-max-line/$d-max-size)*1em
+      );
+    }
+  }
+}
+
+@for $i from 1 through 192 {
+  .posts {
+    li:nth-child(#{$i}n) {
+      .post {
+        //animation-delay: #{$duration/4*3 + ($i * $duration/8)};
+        .title,
+        .subtitle,
+        .categories {
+          //animation-delay: #{$duration/4*3 + ($i * $duration/8) + $duration/8*4};
+          animation-delay: #{$i * $duration/12};
+        }
+      }
+    }
+  }
+}

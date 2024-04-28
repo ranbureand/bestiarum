@@ -1,9 +1,9 @@
-        <ul class="references">
+        <ul class="posts">
           {%- assign posts = site.posts | where: 'publish', 'no' %}
           {% for post in posts %}
-            <li class="reference-canvas">
+            <li class="post-canvas">
               <a
-                class="reference c{{ posts | size | minus: forloop.index | modulo: site.colors }}"
+                class="post c{{ posts | size | minus: forloop.index | modulo: site.colors }}"
                 href="{{ post.url | prepend: site.baseurl }}"
                 >
                 <strong class="title">{{ post.title }}</strong>

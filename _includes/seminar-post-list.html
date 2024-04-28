@@ -1,0 +1,29 @@
+        <ul class="seminar-posts">
+          {%- assign seminars = site.seminars | where: 'publish', 'yes' | where: 'language', page.language | sort: 'date' | reverse %}
+          {%- for seminar in seminars %}
+            <li class="seminar-post-canvas">
+              <a
+                class="seminar-post"
+                href="{{ seminar.url | prepend: site.baseurl }}"
+                >
+                <strong class="title">{{ seminar.title }}</strong>
+                {%- if seminar.subtitle %}<div class="subtitle">{{ seminar.subtitle }}</div>{%- endif %}
+                {%- if seminar.dates or seminar.status %}
+                <div class="caption">
+                  {%- if seminar.dates %}
+                  {%- assign dates_start_month = seminar.dates.start | date: '%-m' | minus: 1 %}
+                  {%- assign dates_end_month = seminar.dates.end | date: '%-m' | minus: 1 %}
+                  <div class="dates">{{ seminar.dates.start | date: '%-d' }} {{ site.data.snippets.months[seminar.language][dates_start_month] }} {{ seminar.dates.start | date: '%Y' }}–{{ seminar.dates.end | date: '%-d' }} {{ site.data.snippets.months[seminar.language][dates_end_month] }} {{ seminar.dates.end | date: '%Y' }}</div>
+                  {%- endif %}
+                  {%- if seminar.status %}
+                  <div class="status-{{seminar.status}}">{{ site.data.snippets.status[seminar.status][seminar.language] }}</div>
+                  {%- endif %}
+                </div>
+                {%- endif %}
+                {%- if seminar.introduction %}<div class="introduction">{{ seminar.introduction | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>{%- endif %}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+
+

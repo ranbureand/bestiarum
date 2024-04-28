@@ -1,8 +1,9 @@
 ---
 layout: post
 
-title: Tombul pufidik kediciğiniz geceleri neler yapıyor olabilir?
+title: Tombul Pufidik Kediciğiniz Geceleri Neler Yapıyor Olabilir?
 subtitle: Nekomata
+categories: [beast, mythology]
 description: Nekomata, Çin'de ve sonrasında Japon folklorunda yer alan bir tür kedi yōkai (doğaüstü canavarlar, ruhlar ve iblisler)'dir. Güçlüler, kötücül ve çok zekidirler. Ancak Nekomata'nın en karakteristik özelliği, iki kuyruğa ya da çatal kuyruğa sahip olmasıdır.
 date: '2020-11-02 13:40:00'
 

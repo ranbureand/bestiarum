@@ -2,6 +2,7 @@
 layout: post
 title: Afrika Mitolojisi
 subtitle: Domates
+categories: [magic, mythology]
 description: Her sevişmeden önce bir domates
 date: '2022-11-15 13:40:00'
 language: 'tr'

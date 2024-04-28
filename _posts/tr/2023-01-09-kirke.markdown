@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Kirke
-subtitle: Ünlü Cadılar-II
+subtitle: Ünlü Cadılar II
+categories: [magic, mythology]
 description: Kirke tüm tanrılara kafa tutacak ve bir adada tek başına yaşayacak kadar güçlü bir cadıdır.
 date: '2023-01-09 13:40:00'
 language: 'tr'

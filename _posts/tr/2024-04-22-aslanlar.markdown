@@ -2,7 +2,8 @@
 layout: post
 
 title: Aslan Sembolizmi
-subtitle: Simya
+subtitle:
+categories: [alchemy]
 description: Simya’da Aslan sembolizması genel olarak eril ilkeye yani kükürt elementine karşılık gelir. 
 date: '2024-04-22 00:00:00'
 language: 'tr'

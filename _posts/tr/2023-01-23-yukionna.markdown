@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Yuki Onna
-subtitle: Ünlü Cadılar-V
+subtitle: Ünlü Cadılar V
+categories: [magic, mythology]
 description: Yuki Onna, yani “Karların Kadını”, Japon mitlerinde geçen bir çeşit ‘yokai’dir. Kar fırtınaları sırasında ortaya çıkar ve büyüleyici bir güzelliğe sahiptir
 date: '2023-01-23 13:40:00'
 language: 'tr'

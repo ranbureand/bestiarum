@@ -1,9 +1,11 @@
 ---
+type: home
 layout: base
-order: 1
+navigation: false
+navigation_order: 1
 
 title: 'Ev'
-description: 'Takatukahane karanlıkta parlayan büyülü öyküler evidir.'
+description: 'Takatukahane karanlıkta parlayan büyülü öyküler evidir. Burada simya, tarot, mitoloji ve sembolojinin ilham verici ve sihirli odalarında gezebilirsiniz.'
 
 language: 'tr'
 language_reference: 'nest'
@@ -16,8 +18,8 @@ language_reference: 'nest'
   {%- endunless %}
 {%- endfor %}
 
-      <div class="references-canvas">
+      <div class="posts-canvas">
 
-{% include references.html %}
+{% include post-list.html %}
 
       </div>

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Absinthe – Yeşil ilham perisi
-subtitle: Periler-IX
+title: Absinthe—Yeşil İlham Perisi
+subtitle: Periler VIII
+categories: [magic]
 description: Changeling, periler tarafından gizlice değiştirilen çocuğa verilen isimdir.
 date: '2023-03-15 13:40:00'
 language: 'tr'

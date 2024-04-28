@@ -1,0 +1,221 @@
+/* Copyright (c) 2019 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Typography => Medium
+*/
+
+.typo-m {
+
+  // Inline elements
+
+  // Block elements
+
+  h1,
+  h2 {
+    margin-bottom: em($m-large-line/2, $m-large-size);
+
+    @include font-size($m-large-size, $m-large-line);
+  }
+
+  * + h1,
+  * + h2 {
+    margin-top: em($m-large-line, $m-large-size);
+  }
+
+  h3,
+  h4,
+  p,
+  dd {
+    margin-bottom: em($m-medium-line/2, $m-medium-size);
+
+    @include font-size($m-medium-size, $m-medium-line);
+  }
+
+  * + h3,
+  * + h4 {
+    margin-top: em($m-medium-line, $m-medium-size);
+  }
+
+  h5,
+  h6 {
+    margin-bottom: em($m-small-line/2, $m-small-size);
+
+    @include font-size($m-small-size, $m-small-line);
+  }
+
+  * + h5,
+  * + h6 {
+    margin-top: em($m-small-line, $m-small-size);
+  }
+
+  ul,
+  ol {
+    margin-bottom: em($m-medium-line/2);
+    padding-left: em($m-gut/2*3);
+  }
+
+  ul ul,
+  ol ol {
+    padding-left: em($m-gut/2*3, $m-medium-size);
+    margin-bottom: 0;
+  }
+
+  li,
+  dt {
+    @include font-size($m-medium-size, $m-medium-line);
+  }
+
+  li:before {
+    width: em($m-gut/2*3, $m-medium-size);
+    margin-left: em(-$m-gut/2*3, $m-medium-size);
+  }
+
+  li li {
+    font-size: 1em;
+  }
+
+  img {
+    margin-top: em($m-medium-line, $m-small-size);
+    margin-bottom: em($m-medium-line, $m-small-size);
+
+    @include font-size($m-small-size, $m-small-line, $m-medium-size);
+  }
+
+  // Block group elements
+
+  blockquote {
+    margin-bottom: em($m-medium-line/2);
+    padding-left: em($m-gut/2*3);
+  }
+
+  pre {
+    margin-top: em($m-medium-line/2, $m-medium-size);
+    margin-bottom: em($m-medium-line/2, $m-medium-size);
+    padding-top: em($m-medium-line/2, $m-medium-size);
+    padding-right: em($m-gut, $m-medium-size);
+    padding-bottom: em($m-medium-line/2, $m-medium-size);
+    padding-left: em($m-gut/2*3, $m-medium-size);
+
+    @include font-size($m-medium-size, $m-medium-line);
+  }
+
+  hr {
+    margin-top: em($m-medium-line);
+    margin-bottom: em($m-medium-line);
+  }
+
+  .footnotes > ol > li {
+    &:before {
+      width: em($m-gut/4*5, $m-small-size);
+      margin-left: em(-$m-gut/4*5, $m-small-size);
+    }
+  }
+
+  @include min-screen(col(8)) {
+
+    // Inline elements
+
+    // Block elements
+
+    h1,
+    h2 {
+      margin-bottom: em($d-large-line/2, $d-large-size);
+
+      @include font-size($d-large-size, $d-large-line);
+    }
+
+    * + h1,
+    * + h2 {
+      margin-top: em($d-large-line, $d-large-size);
+    }
+
+    h3,
+    h4,
+    p,
+    dd {
+      margin-bottom: em($d-medium-line/2, $d-medium-size);
+
+      @include font-size($d-medium-size, $d-medium-line);
+    }
+
+    * + h3,
+    * + h4 {
+      margin-top: em($d-medium-line, $d-medium-size);
+    }
+
+    h5,
+    h6 {
+      margin-bottom: em($d-small-line/2, $d-small-size);
+
+      @include font-size($d-small-size, $d-small-line);
+    }
+
+    * + h5,
+    * + h6 {
+      margin-top: em($d-small-line, $d-small-size);
+    }
+
+    ul,
+    ol {
+      padding-left: em($d-gut/4*5);
+      margin-bottom: em($d-medium-line/2);
+    }
+
+    ul ul,
+    ol ol {
+      padding-left: em($d-gut/4*5, $d-medium-size);
+      margin-bottom: 0;
+    }
+
+    li,
+    dt {
+      @include font-size($d-medium-size, $d-medium-line);
+    }
+
+    li:before {
+      width: em($d-gut/4*5, $d-medium-size);
+      margin-left: em(-$d-gut/4*5, $d-medium-size);
+    }
+
+    li li {
+      font-size: 1em;
+    }
+
+    img {
+      margin-top: em($d-medium-line, $d-small-size);
+      margin-bottom: em($d-medium-line, $d-small-size);
+
+      @include font-size($d-small-size, $d-small-line, $d-medium-size);
+    }
+
+    // Block group elements
+
+    blockquote {
+      margin-bottom: em($d-medium-line/2);
+      padding-left: em($d-gut/4*5);
+    }
+
+    pre {
+      margin-top: em($d-medium-line/2, $d-medium-size);
+      margin-bottom: em($d-medium-line/2, $d-medium-size);
+      padding-top: em($d-medium-line/2, $d-medium-size);
+      padding-right: em($d-gut, $d-medium-size);
+      padding-bottom: em($d-medium-line/2, $d-medium-size);
+      padding-left: em($d-gut/4*5, $d-medium-size);
+
+      @include font-size($d-medium-size, $d-medium-line);
+    }
+
+    hr {
+      margin-top: em($d-medium-line);
+      margin-bottom: em($d-medium-line);
+    }
+
+    .footnotes > ol > li {
+      &:before {
+        width: em($d-gut, $d-small-size);
+        margin-left: em(-$d-gut, $d-small-size);
+      }
+    }
+  }
+}

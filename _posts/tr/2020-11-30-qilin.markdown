@@ -1,8 +1,9 @@
 ---
 layout: post
 
-title: Sizde bebekleri hala leylekler mi getiriyor?
+title: Sizde Bebekleri Hala Leylekler Mi Getiriyor?
 subtitle: Qilin
+categories: [beast, mythology]
 description: Qilin Unicorn ya da tek boynuzlu atların Çin’de yaşayan büyükbüyükbüyük kuzenidir. İyi şans, bereket, mutluluk, doğurganlık, barış ve uzun ömrü simgeler. Çin’de bebekleri leylekler değil qilinler getirir.
 date: '2020-11-30 13:40:00'
 

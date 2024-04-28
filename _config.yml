@@ -46,7 +46,7 @@ plugins:
   - jekyll-feed
 
 feed:
-  posts_limit: 40
+  posts_limit: 100
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -91,12 +91,30 @@ defaults:
     path: '_posts/en'
     type: 'posts'
   values:
-    permalink: 'en/:title.html'
+    permalink: 'en/post/:title.html'
     language: en
 -
   scope:
     path: '_posts/tr'
     type: 'posts'
   values:
-    permalink: 'tr/:title.html'
+    permalink: 'tr/gonderi/:title.html'
     language: tr
+-
+  scope:
+    path: '_seminars/en'
+    type: 'seminars'
+  values:
+    permalink: 'en/seminars/:title.html'
+    language: en
+-
+  scope:
+    path: '_seminars/tr'
+    type: 'seminars'
+  values:
+    permalink: 'tr/seminerler/:title.html'
+    language: tr
+
+collections:
+  seminars:
+    output: true

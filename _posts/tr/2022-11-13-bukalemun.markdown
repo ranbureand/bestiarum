@@ -2,6 +2,7 @@
 layout: post
 title: Zulu Mitolojisi
 subtitle: Bukalemun
+categories: [mythology]
 description: İnsanların ölümsüz olmamasının tek sorumlusu olan Zulu Mitolojisi'ndeki Bukalemun.
 date: '2022-11-13 13:40:00'
 language: 'tr'

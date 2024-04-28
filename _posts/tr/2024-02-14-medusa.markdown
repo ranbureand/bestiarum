@@ -2,7 +2,8 @@
 layout: post
 
 title: Medusa ve Şahmeran
-subtitle: Sembolizm
+subtitle:
+categories: [symbolism]
 description: Kadının cadılaştırılması ve şeytanla işbirliği yapan kötücül bir varlığa dönüşmesi Avrupa’da 15. yy itibariyle Kilisenin körüklemesiyle sayısı belli olmayan kadının öldürülmesiyle sonuçlanan cadı avlarını getirmiştir. Anadolu’da ise bu tip bir oluşum ve düşmanlığa rastlayamayız.
 date: '2024-02-14 00:00:00'
 language: 'tr'

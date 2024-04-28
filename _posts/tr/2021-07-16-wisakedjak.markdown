@@ -1,8 +1,9 @@
 ---
 layout: post
 
-title: Neden ay dişidir güneş ise erkek?
+title: Neden Ay Dişidir Güneş İse Erkek?
 subtitle: Wisakedjak
+categories: [beast, mythology]
 description: Wisakedjak Kızılderili mitolojilerinde geçen hayvanların yaratılışı, büyük sel tufanı ve ayın yaratılması gibi pek çok önemli olaydan sorumlu hileci (trickster) tanrıdır. Diğer bilinen hileci tanrılar gibi kötücül değil hatta bazı hikayelerde büyük bir kahramandır.
 date: '2021-07-16 13:40:00'
 language: 'tr'

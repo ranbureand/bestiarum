@@ -2,7 +2,8 @@
 layout: post
 
 title: Mortifikasyon
-subtitle: Simya
+subtitle:
+categories: [alchemy]
 description: Mortifikasyon, ölme ya da ölüme yollama anlamına gelir. Aynı zamanda simyanın süreçlerinden biridir.
 date: '2024-04-03 00:00:00'
 language: 'tr'

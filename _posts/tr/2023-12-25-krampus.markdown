@@ -2,7 +2,8 @@
 layout: post
 
 title: Krampus
-subtitle: Noel Canavaları - 1
+subtitle: Noel Canavaları I
+categories: [beast, magic]
 description: Noel keçisi Krampus
 date: '2023-12-25 00:00:00'
 language: 'tr'

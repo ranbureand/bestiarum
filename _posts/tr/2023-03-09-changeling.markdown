@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Changeling - Perilerin değiştirdiği çocuk
-subtitle: Periler-V
+title: Changeling—Perilerin Değiştirdiği Çocuk
+subtitle: Periler V
+categories: [magic]
 description: Changeling, periler tarafından gizlice değiştirilen çocuğa verilen isimdir.
 date: '2023-03-09 13:40:00'
 language: 'tr'

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Şarap içtikçe sağlık getiren Tanrıça
+title: Şarap İçtikçe Sağlık Getiren Tanrıça
 subtitle: Anna Perenna
+categories: [mythology]
 description: Anna Perenna, M.Ö. 1. yüzyıla kadar oldukça önemli bir tanrıça olmasına rağmen, günümüzde pek bilinmemektedir. Anna latincede “bir yıl boyunca yaşamak” Perenna ise “uzun yıllar boyunca yaşamak” olarak tercüme edilir. Yani bu Tanrıça, uzun ve sağlıklı bir hayatın garantisini altını çizerek verir.
 date: '2022-03-13 13:40:00'
 language: 'tr'

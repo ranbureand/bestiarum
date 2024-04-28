@@ -10,7 +10,7 @@ body {
   a {
     &:link,
     &:visited {
-      text-decoration-color: $light-type-color;
+      text-decoration-color: $type-color;
     }
     &:hover {
       text-decoration-color: $type-color;

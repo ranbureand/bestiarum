@@ -1,8 +1,9 @@
 ---
 layout: post
 
-title: Neden şimşeğin ışığı sesinden önce gelir?
+title: Neden Şimşeğin Işığı Sesinden Önce Gelir?
 subtitle: Leigong
+categories: [mythology]
 description: Leigong Çin Mitolojisinde gök gürültüsü Tanrısıdır. Davul ve tokmağını kullanarak gök gürültüsü yapar ve ardından da baltasıyla hem gizlice suçlar işleyen günahkar insanları hem de Taoism bilgeliğini kötüye kullanan ruhları cezalandırır
 date: '2021-06-15 13:40:00'
 

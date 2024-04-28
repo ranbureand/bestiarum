@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Banyoda yalnız bırak bari be adam!
+title: Banyoda Yalnız Bırak Bari Be Adam!
 subtitle: Melusine
+categories: [mythology]
 description: Kutsal nehir sularının dişi ruhlarıdır.
 date: '2022-02-25 13:40:00'
 language: 'tr'

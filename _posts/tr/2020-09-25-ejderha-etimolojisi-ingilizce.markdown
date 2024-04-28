@@ -1,8 +1,9 @@
 ---
 layout: post
 
-title: Ejderha Etimolojisi <br/> II
+title: Ejderha Etimolojisi
 subtitle: İngilizce
+categories: [beast, mythology]
 description: Dragon kelimesi İngilizceye 13. yüzyıl ortalarında eski fransızcadan alınarak girmiştir. Kökeni Latincede “büyük yılan” anlamına gelen “draconem” ve Eski Yunancada “büyük yılan, dev balık” anlamına gelen δράκων (drákōn) kelimeleridir. Eski Yunancadaki δράκων (drákōn) kelimesinin “görmek” ya da daha doğrusu “gözlerini dikip bakan” anlamına gelen δέρκομαι (dérkomai) kelimesinden geldiği tahmin edilmektedir.
 date: '2020-09-25 13:40:00'
 

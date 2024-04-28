@@ -5,24 +5,21 @@
 */
 
 // Declare and assign the email address variable
-const eMail = ('takatukahane' + '@' + 'gmail.com');
+const email = ('takatukahane' + '@' + 'gmail.com');
 
-//console.log(eAddress);
-
-// Declare the email link variable
-var   eLink;
-
-//console.log(eLink);
+//console.log(email);
 
 // Get the .envelope elements
-const eEnvelope = document.getElementsByClassName('envelope');
+const emailLinks = document.querySelectorAll('.email');
 
 // Assign the email link variable and inject it in the HTML DOM
-for (i = 0; i < eEnvelope.length; i++) {
-  eLink = document.createElement('a');
-  eLink.setAttribute('href', 'mailto:' + eMail);
-  eLink.textContent = eMail;
-  eEnvelope[i].prepend(eLink);
+for (i = 0; i < emailLinks.length; i++) {
+ // Declare the email link variable
+  var emailLink;
+  emailLink = document.createElement('a');
+  emailLink.setAttribute('href', 'mailto:' + email);
+  emailLink.textContent = email;
+  emailLinks[i].parentNode.replaceChild(emailLink, emailLinks[i]);
 
   console.log('Email created.');
 }

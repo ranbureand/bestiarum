@@ -1,8 +1,9 @@
 ---
 layout: post
 
-title: Ölmeden önce göreceğiniz en son şey hora dansları olur
+title: Ölmeden Önce Göreceğiniz En Son Şey Hora Dansları olur
 subtitle: İelele
+categories: [magic, mythology]
 description: İelele (ya da İele) Romanya Mitolojisinde yer alan büyüleyici güzellikteki dişi varlıklardır. Ayak bileklerine zil takarlar ve bazı bölgelerde beyaz kıyafetler giydikleri söylense de genelde çıplaktırlar. Genelde 3, 5, 7 ve 9’lu, nadiren daha kalabalık gruplarda dans ederler.
 date: '2021-07-26 13:40:00'
 language: 'tr'

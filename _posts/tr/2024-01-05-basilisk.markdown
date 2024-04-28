@@ -2,7 +2,8 @@
 layout: post
 
 title: Simyada Basilisk
-subtitle: Simya
+subtitle:
+categories: [alchemy]
 description: Basilisk, kuş başlı ve ejderha gövdeli sembolik simyasal bir yaratıktır. 
 date: '2024-01-05 00:00:00'
 language: 'tr'

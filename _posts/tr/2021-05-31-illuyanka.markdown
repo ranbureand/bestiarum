@@ -1,8 +1,9 @@
 ---
 layout: post
 
-title: Yine Tanrılar tarafından öldürülen yine zavallı bir ejderha
+title: Yine Tanrılar Tarafından Öldürülen Yine Zavallı Bir Ejderha
 subtitle: İlluyanka
+categories: [beast, mythology]
 description: İlluyanka Hitit Mitolojisinde adı geçen dev su yılanı/ejderhasıdır. Hititlerin fırtına tanrısı Teşup’u yenince kalbini ve gözlerini alıp götürür.
 date: '2021-05-31 13:40:00'
 

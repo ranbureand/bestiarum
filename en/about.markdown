@@ -1,6 +1,8 @@
 ---
+type: page
 layout: page
-order: 2
+navigation: true
+navigation_order: 2
 
 title: 'About me'
 description: 'I am a curious wanderer who likes collecting shiny things like magpies, and this is my nest.'

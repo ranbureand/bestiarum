@@ -2,7 +2,8 @@
 layout: post
 
 title: Befana <br/>İtalyan Noel Anne
-subtitle: (düşündüğünüz gibi seksi değil)
+subtitle: (Düşündüğünüz Gibi Seksi Değil)
+categories: [magic, mythology]
 description: Befana, İtalya'nın tüm çocuklarını Epifani Bayramı (5-6 Ocak gecesi) arifesinde ziyaret edip iyi çocukların çoraplarını şekerle ve hediyeyle dolduran, kötü çocuklara ise kömür ya da hiçbirşey getirmeyen yaşlı bir cadıdır.
 date: '2020-10-23 13:40:00'
 

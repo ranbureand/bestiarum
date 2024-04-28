@@ -1,8 +1,9 @@
 ---
 layout: post
 
-title: Bizdeki bacakları ters cinlerin Brezilyalı amcası
+title: Bizdeki Bacakları Ters Cinlerin Brezilyalı Amcası
 subtitle: Curupira
+categories: [beast, mythology]
 description: Brezilya folklorunda yer alan saçları turuncu-kırmızı, derisi yeşil renkte olan orman iblisidir. Brezilya ormanlarında yaşar ve ormana zarar verenleri kovalar, lanetler ya da öldürür.
 date: '2021-05-04 13:40:00'
 

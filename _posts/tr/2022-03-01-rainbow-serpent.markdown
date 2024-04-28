@@ -1,7 +1,8 @@
 ---
 layout: post
-title: En renkli Aborjin Tanrısı
+title: En Renkli Aborjin Tanrısı
 subtitle: Gökkuşağı Yılanı
+categories: [beast, mythology]
 description: Gökkuşağı Yılanı, 50.000 yıllık kültüre sahip olan Aborjinlerin yaratılış hikayesindeki ilk kutsal ruh ya da tanrıdır.
 date: '2022-03-01 13:40:00'
 language: 'tr'

@@ -2,7 +2,8 @@
 layout: post
 
 title: Gryla ve 13 Yule Beyi
-subtitle: Noel Canavaları - 2
+subtitle: Noel Canavaları II
+categories: [beast, magic]
 description: 13 Noel Beyi, İzlanda folklorundan gelen yaramaz kış ruhlarıdır. Zamanla daha dost canlısı bir varlık haline gelmiş olsalar da her zaman böyle değillerdi!
 date: '2023-12-26 00:00:00'
 language: 'tr'

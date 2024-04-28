@@ -2,7 +2,8 @@
 layout: post
 
 title: Elementler
-subtitle: Simya
+subtitle:
+categories: [alchemy]
 description: Element kelimesini ilk kez kullanan Aristo’dur.
 date: '2023-12-15 00:00:00'
 language: 'tr'

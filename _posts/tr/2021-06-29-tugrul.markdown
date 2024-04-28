@@ -1,8 +1,9 @@
 ---
 layout: post
 
-title: Yeraltına da inebilen Anka Kuşu
+title: Yeraltına Da İnebilen Anka Kuşu
 subtitle: Tuğrul Kuşu
+categories: [mythology]
 description: Türk mitolojisinde doğaüstü nitelikleri olan kızıl renkli devasa bir kuştur. Ölümsüzlüğü ve yeniden dirilişi simgeler. Her gün yeniden doğar. Dünya uluslarının mitolojilerinde de değişik adlarla mevcuttur.
 date: '2021-06-29 13:40:00'
 language: 'tr'

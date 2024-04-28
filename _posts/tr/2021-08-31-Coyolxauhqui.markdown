@@ -1,8 +1,9 @@
 ---
 layout: post
 
-title: Durun savaşmayın, siz kardeşsiniz!
+title: Durun Savaşmayın, Siz Kardeşsiniz!
 subtitle: Coyolxāuhqui
+categories: [beast, mythology]
 description: Coyolxāuhqui (Koyolşawki) Aztek Mitolojisinde Ay Tanrıçasıdır. Fakat kardeşi savaş tanrısı Huitzilopochtli (Vitzilopotçli) tarafından kurbanlık deve gibi parçalara ayrılarak öldürülür.
 date: '2021-08-31 13:40:00'
 language: 'tr'

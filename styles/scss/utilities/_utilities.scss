@@ -24,7 +24,7 @@ $d-base-rhythm:             $base-unit*10;
 $m-extra-large-size:        48px;
 $m-extra-large-line:        $base-unit*14; //56px
 $d-extra-large-size:        64px;
-$d-extra-large-line:        $base-unit*20; //80px
+$d-extra-large-line:        $base-unit*18; //80px
 
 $m-large-size:              28px;
 $m-large-line:              $base-unit*10; //40px
@@ -37,9 +37,9 @@ $d-medium-size:             24px;
 $d-medium-line:             $base-unit*9; //36px
 
 $m-small-size:              18px;
-$m-small-line:              $base-unit*6; //24px
+$m-small-line:              $base-unit*7; //24px
 $d-small-size:              18px;
-$d-small-line:              $base-unit*6; //32px
+$d-small-line:              $base-unit*7; //32px
 
 $m-extra-small-size:        16px;
 $m-extra-small-line:        $base-unit*6; //24px
@@ -53,13 +53,13 @@ $d-tiny-line:               $base-unit*5;  //20px
 
 // References tiles
 
-$m-max-size:                28px;
-$m-max-line:                $base-unit*10; //40px
+$m-max-size:                24px;
+$m-max-line:                $base-unit*8; //32px
 $d-max-size:                32px;
 $d-max-line:                $base-unit*11; //44px
 
-$m-min-size:                20px;
-$m-min-line:                $base-unit*8; //32px
+$m-min-size:                16px;
+$m-min-line:                $base-unit*6; //32px
 $d-min-size:                28px;
 $d-min-line:                $base-unit*10; //40px
 
@@ -211,7 +211,7 @@ $d-header-canvas-height: $d-base-rhythm/4*2 + $d-small-line/2*2 + $d-small-line;
   @if $status == "underline" {
     text-decoration: underline;
 
-    text-decoration-thickness: from-font;
+    //text-decoration-thickness: from-font;
   } @else if $status == "not-underline" {
     text-decoration: none;
   } @else if $status == "current" {

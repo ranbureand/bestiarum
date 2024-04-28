@@ -2,13 +2,13 @@
 layout: base
 ---
 
-      <div class="article-canvas c{{page.number}}">
+      <div class="article-canvas">
         <article class="article">
 
           <header class="head">
 
             <h2 class="title">{{ page.title }}</h2>
-            <div class="subtitle">{{ page.subtitle }}</div>
+            {%- if page.subtitle and page.subtitle != '' %}<div class="subtitle">{{ page.subtitle }}</div>{%- endif %}
 
           </header>
 

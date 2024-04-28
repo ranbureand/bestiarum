@@ -1,1 +1,12 @@
     <script src="{{ "/scripts/js/main.min.js" | prepend: site.baseurl }}"></script>
+    <script>
+      // Get the .reversefootnote elements
+      var footnote = document.getElementsByClassName('reversefootnote');
+
+      //console.log(footnote);
+
+      // Change the default copy of the footnote links
+      for (i = 0; i < footnote.length; i++) {
+        footnote[i].textContent = '{{ site.data.snippets.footnote_back[page.language] }}';
+      }
+    </script>

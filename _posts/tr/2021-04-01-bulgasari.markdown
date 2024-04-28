@@ -1,8 +1,9 @@
 ---
 layout: post
 
-title: Bilindik bir canavar, sıradışı bir film hikayesi
+title: Bilindik Bir Canavar, Sıradışı Bir Film Hikayesi
 subtitle: Bulgasari
+categories: [beast, mythology]
 description: Bulgasari Kore halk hikayelerindeki ender canavarlardan biridir. Canavar sadece metal yer ve her yediği metalle daha da büyür. Hikayeye göre Songdo’nun şeytani valisi tüm Budist rahiplerin hapse atılmasını emreder. Valinin askerlerinden kaçan bir rahip kardeşinin evinde bir dolaba saklanır.
 date: '2021-04-01 13:40:00'
 

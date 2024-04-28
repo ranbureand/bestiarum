@@ -1,8 +1,9 @@
 ---
 layout: post
 
-title: Ejderha Etimolojisi <br/> III
+title: Ejderha Etimolojisi
 subtitle: Türkçe
+categories: [beast, mythology]
 description: Türkçede ejderha için iki farkli kelime kullanılır. İlki Farsça ‘‘Ajdahak veya Ajdaha’’ kelimelerinden turetilerek Türkçeye giren ejderha kelimesidir.
 date: '2020-09-25 15:30:00'
 

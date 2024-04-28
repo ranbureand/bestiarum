@@ -8,7 +8,6 @@ layout: base
 {%- assign posts = site.posts | where: 'publish', 'no' | where: 'language', page.language %}
 {%- endif %}
 
-
       <div class="article-canvas c{% for this_post in posts %}{% if this_post.title == page.title and this_post.date == page.date and this_post.language == page.language %}{{ posts | size | minus: forloop.index | modulo: site.colors }}{% endif %}{% endfor %}">
         <article class="article">
 
@@ -17,6 +16,7 @@ layout: base
 {% include date.html date=page.date %}
             <h2 class="title">{{ page.title }}</h2>
             {%- if page.subtitle %}<div class="subtitle">{{ page.subtitle }}</div>{%- endif %}
+            {%- if page.categories %}<ul class="categories">{% for category in page.categories %}<li class="category">{{ site.data.snippets.categories[category][page.language] }}</li>{% endfor %}</ul>{%- endif %}
 
           </header>
 

@@ -1,8 +1,9 @@
 ---
 layout: post
 
-title: Dokuz kuyruklu bir güzel
+title: Dokuz Kuyruklu Bir Güzel
 subtitle: Kumiho
+categories: [beast, mythology]
 description: Kumiho Kore Efsanelerinde geçen dokuz kuyruklu tilkidir. Göz alıcı güzellikte bir kadın kılığına girerek erkekleri baştan çıkartabilir. Geceleri mezarlıklarda gezip insan kalbi yediği söylenir. 
 date: '2021-05-04 13:40:00'
 

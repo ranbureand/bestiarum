@@ -3,6 +3,7 @@ layout: post
 
 title: Dişi Joker
 subtitle: Kuchisake Onna
+categories: [beast, mythology]
 description: Genel olarak okuldan eve dönmekte olan çocuklara saldırdığı söylenen Kuchisake Onna bir uzakdoğu mitidir. Kırmızı kıyafetler giyer, gözleri tilkiye ve sesi kediye benzer.
 date: '2021-07-31 13:40:00'
 language: 'tr'

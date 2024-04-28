@@ -2,6 +2,7 @@
 layout: post
 title: Sembolizm
 subtitle: Baca
+categories: [symbolism]
 description: Üzerine çok da düşünmediğimiz bacalar neyin sembolüdür?
 date: '2022-11-24 13:40:00'
 language: 'tr'

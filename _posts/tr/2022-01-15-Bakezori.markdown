@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Geceleri canlanan manyak terlik
+title: Geceleri Canlanan Manyak Terlik
 subtitle: Bakezori
+categories: [beast, mythology]
 description: Bakezori geceleri canlanan geleneksel Japon terliği şeklinde bir ‘yokai’dir.
 date: '2022-01-15 13:40:00'
 language: 'tr'
