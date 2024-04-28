@@ -24,7 +24,7 @@ description: ""
 author: "Dilek Dilaver"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://takatukahane.com" # the base hostname & protocol for your site, e.g. http://example.com
-version: "2021-07-09"
+version: "2024-04-28"
 language: "tr"
 colors: 24
 
