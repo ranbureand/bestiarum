@@ -16,7 +16,7 @@ duration: Haftada 2 saat, 4 hafta
 form_link: 'https://forms.gle/2yNk39HHc8pabNc58'
 form_button_name: 'Kayıt Formu'
 
-payment_link: 'https://checkout.revolut.com/pay/fa52edfb-e481-413f-adda-02fae362321e'
+payment_link: 'https://checkout.revolut.com/pay/e294378e-c09c-43cd-831d-3cc08b8820a9'
 payment_button_name: 'Şimdi Öde'
 
 language: 'tr'
