@@ -11,13 +11,7 @@ body {
   height: 100%;
 }
 
-.flag-swatches,
-.flag-gradient-swatches,
-.flag-gradient,
-.logos,
-.interface-swatches,
-.content-swatches,
-.experiments {
+.swatches {
   width: 100%;
   padding: 32px;
 
@@ -27,23 +21,7 @@ body {
   }
 }
 
-/*#dot-1 {
-  fill: red;
-}*/
-
-.logos {
-  svg {
-    display: block;
-    margin-bottom: 64px;
-  }
-}
-
-.flag-swatches,
-.flag-gradient-swatches,
-.flag-gradient,
-.logos,
-.interface-swatches,
-.content-swatches {
+.swatches {
   svg {
     text {
       transition: fill-opacity 0.15s;

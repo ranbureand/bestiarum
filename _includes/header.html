@@ -46,7 +46,8 @@
               {%- endfor %}
             </ul>
 
-            <!--<ul class="languages">
+            {% if page.language == 'en' %}
+            <ul class="languages">
               {%- for language in snippets.languages %}
 
                 {%- if page.type == 'page' %}
@@ -108,11 +109,12 @@
                     {%- assign url = site.baseurl | append: nav_page.url %}
                   {%- endfor %}
                 {%- endif %}
-              <li class="item {{ language[1].slug }}">
+              <li class="item {{ language[1].slug }}{% if language[1].slug == page.language %} current{%- endif %}">
                 <a href="{{ url }}">{{ language[1].value }}</a>
               </li>
               {%- endfor %}
-            </ul>-->
+            </ul>
+            {% endif %}
           </nav>
           <div class="header-menu">
             <span id="menu-open">Menu</span>

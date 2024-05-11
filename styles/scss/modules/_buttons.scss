@@ -19,7 +19,7 @@
   transition-timing-function: ease-in-out, ease-in-out;
   transition-property: color, background-color;
 
-  background-color: $strong-type-color;
+  background-color: $button-background-color;
 
   @include face(sans);
 
@@ -42,7 +42,7 @@
 
     opacity: 0;
     border-radius: 50%;
-    background-color: $light-type-color;
+    background-color: $button-background-color-hovered;
   }
 
   a {
@@ -53,11 +53,12 @@
 
     text-decoration: none;
 
-    color: $background-color;
+    color: $button-type-color;
 
     &:hover,
     &:active {
-      color: $background-color;
+      color: $button-type-color;
+      background-color: transparent;
     }
   }
 
@@ -80,7 +81,7 @@
       transform: scale(1.0);
 
       opacity: 1.0;
-      background-color: $strong-type-color;
+      background-color: $button-background-color-hovered;
     }
   }
   @include min-screen(col(8)) {

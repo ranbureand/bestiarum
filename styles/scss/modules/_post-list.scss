@@ -29,7 +29,7 @@
     position: relative;
 
     width: 100/1*1%;
-    padding-bottom: 100/1*1%;
+    padding-bottom: 100/2*1%;
 
     flex-grow: 0;
     flex-shrink: 1;
@@ -157,7 +157,6 @@
     padding-left: em($m-gut/2, $m-extra-small-size);
 
     border-radius: em($m-small-line, $m-extra-small-size);
-    background-color: rgba($white, 0.05);
 
     @include font-size($m-extra-small-size, $m-extra-small-line);
   }

@@ -111,9 +111,6 @@
     @include font-size($m-extra-small-size, $m-extra-small-line);
     border-radius: em($m-small-line, $m-extra-small-size);
   }
-  .category {
-    background-color: rgba($white, 0.05);
-  }
   [class*="status"] {
     margin-top: em($m-extra-small-line/4, $m-extra-small-size);
   }

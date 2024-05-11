@@ -106,8 +106,8 @@ $d-gut: 24px; // desktop gut
 ** Borders
 */
 
-$m-border-width:        2.5px;
-$d-border-width:        3px;
+$m-border-width:        2px;
+$d-border-width:        2px;
 
 $border-style:          solid;
 
@@ -196,27 +196,6 @@ $d-header-canvas-height: $d-base-rhythm/4*2 + $d-small-line/2*2 + $d-small-line;
 
 @mixin adjust-dimension($dimension, $to-gut, $from-size: $base-font-size) {
   #{$dimension}: calc(100% - #{em($to-gut*2, $from-size)});
-}
-
-/*
-** Link
-*/
-
-@mixin link($status: underline) {
-
-  transition-timing-function: ease-out, ease-out, ease-out;
-  transition-duration: $duration, $duration, $duration;
-  transition-property: background-color, color, text-decoration-color;
-
-  @if $status == "underline" {
-    text-decoration: underline;
-
-    //text-decoration-thickness: from-font;
-  } @else if $status == "not-underline" {
-    text-decoration: none;
-  } @else if $status == "current" {
-
-  }
 }
 
 /*

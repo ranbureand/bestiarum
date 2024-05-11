@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Her Ültürde En Sevilen Bayram
+title: Her Kültürde En Sevilen Bayram
 subtitle: 21 Mart
 categories: [mythology]
 description: Gün ve gecenin birbirine eşit olduğu ve devamında günlerin artık uzamaya başladığı 21 Mart aynı zamanda baharın gelişini de müjdeler. Celali Takvimi ya da İran Takvimi olarak bilinen takvim 21 Mart ile başlar. Bu yüzden Nevruz pek çok ülkede kutlansa da genellikle İranlılara özgü bir bayram olarak bilinir.

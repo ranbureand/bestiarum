@@ -1,65 +1,15 @@
 /*!
-** Generate a color palette by interpolating a start and end color.
+** Generate a color palette.
 */
 
 var rectWidth = 160,
-    rectHeight = 64;
+    rectHeight = 160;
 
 /*
-** Background colors.
+** Colors.
 */
 
-var backs = {
-    'lighter' : {mode: 'okhsl', alpha: 1, s: 0.00, l: 0.00, h: 0},
-    'light'   : {mode: 'okhsl', alpha: 1, s: 0.00, l: 0.99, h: 0},
-    'dark'    : {mode: 'okhsl', alpha: 1, s: 0.00, l: 0.95, h: 0},
-    'darker'  : {mode: 'okhsl', alpha: 1, s: 0.00, l: 0.00, h: 0},
-};
-
-/*
-** Interface colors.
-*/
-
-var texts = {
-    '0'   : {mode: 'okhsl', alpha: 0.00, s: 0.00, l: 0.00, h: 0},
-    '10'  : {mode: 'okhsl', alpha: 0.10, s: 0.00, l: 0.00, h: 0},
-    '20'  : {mode: 'okhsl', alpha: 0.20, s: 0.00, l: 0.00, h: 0},
-    '30'  : {mode: 'okhsl', alpha: 0.30, s: 0.00, l: 0.00, h: 0},
-    '40'  : {mode: 'okhsl', alpha: 0.40, s: 0.00, l: 0.00, h: 0},
-    '50'  : {mode: 'okhsl', alpha: 0.50, s: 0.00, l: 0.00, h: 0},
-    '60'  : {mode: 'okhsl', alpha: 0.60, s: 0.00, l: 0.00, h: 0},
-    '70'  : {mode: 'okhsl', alpha: 0.70, s: 0.00, l: 0.00, h: 0},
-    '80'  : {mode: 'okhsl', alpha: 0.80, s: 0.00, l: 0.00, h: 0},
-    '90'  : {mode: 'okhsl', alpha: 0.90, s: 0.00, l: 0.00, h: 0},
-    '100' : {mode: 'okhsl', alpha: 1.00, s: 0.00, l: 0.00, h: 0},
-
-    'l0'   : {mode: 'okhsl', alpha: 0.00, s: 0.00, l: 1.00, h: 0},
-    'l10'  : {mode: 'okhsl', alpha: 0.10, s: 0.00, l: 1.00, h: 0},
-    'l20'  : {mode: 'okhsl', alpha: 0.20, s: 0.00, l: 1.00, h: 0},
-    'l30'  : {mode: 'okhsl', alpha: 0.30, s: 0.00, l: 1.00, h: 0},
-    'l40'  : {mode: 'okhsl', alpha: 0.40, s: 0.00, l: 1.00, h: 0},
-    'l50'  : {mode: 'okhsl', alpha: 0.50, s: 0.00, l: 1.00, h: 0},
-    'l60'  : {mode: 'okhsl', alpha: 0.60, s: 0.00, l: 1.00, h: 0},
-    'l70'  : {mode: 'okhsl', alpha: 0.70, s: 0.00, l: 1.00, h: 0},
-    'l80'  : {mode: 'okhsl', alpha: 0.80, s: 0.00, l: 1.00, h: 0},
-    'l90'  : {mode: 'okhsl', alpha: 0.90, s: 0.00, l: 1.00, h: 0},
-    'l100' : {mode: 'okhsl', alpha: 1.00, s: 0.00, l: 1.00, h: 0}
-};
-
-// Define the interface hues.
-var type =      100,
-    interact =  100,
-    cheer =     100,
-    warn =      100,
-    alert =     100;
-
-// Decline the interface hues in different tones.
-
-/*
-** Content colors.
-*/
-
-// Define the content hues.
+// Define the color hue values.
 var h1 =  0, // red
     h2 =  30, // redOrange
     h3 =  60, // orange
@@ -73,65 +23,127 @@ var h1 =  0, // red
     h11 = 300, // violet
     h12 = 330; // redViolet
 
-var hueLightBackS = 0.55,
+// Define the color saturation and luminance values.
+var hueDarkTypeS = 0.55,
+    hueDarkTypeL = 0.30,
+
+    hueLightBackS = 0.55,
     hueLightBackL = 0.80,
+
+    hueLightBackS2 = 0.55,
+    hueLightBackL2 = 0.825,
+
+    hueLightTypeS = 0.55,
+    hueLightTypeL = 0.85,
+
     hueDarkBackS =  0.55,
     hueDarkBackL =  0.35;
 
-// Decline the content colors (different tones).
+    hueDarkBackS2 =  0.55,
+    hueDarkBackL2 =  0.375;
+
+// Decline the colors (different tones).
 var h1s = {
-      'light-back' : {mode: 'okhsl', alpha: 1, s: hueLightBackS, l: hueLightBackL,  h: h1},
-      'dark-back'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,  l: hueDarkBackL,   h: h1}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h1},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h1},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h1},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h1},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h1},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h1}
     },
     h2s = {
-      'light-back' : {mode: 'okhsl', alpha: 1, s: hueLightBackS, l: hueLightBackL,  h: h2},
-      'dark-back'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,  l: hueDarkBackL,   h: h2}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h2},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h2},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h2},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h2},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h2},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h2}
     },
     h3s = {
-      'light-back' : {mode: 'okhsl', alpha: 1, s: hueLightBackS, l: hueLightBackL,  h: h3},
-      'dark-back'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,  l: hueDarkBackL,   h: h3}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h3},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h3},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h3},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h3},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h3},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h3}
     },
     h4s = {
-      'light-back' : {mode: 'okhsl', alpha: 1, s: hueLightBackS, l: hueLightBackL,  h: h4},
-      'dark-back'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,  l: hueDarkBackL,   h: h4}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h4},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h4},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h4},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h4},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h4},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h4}
     },
     h5s = {
-      'light-back' : {mode: 'okhsl', alpha: 1, s: hueLightBackS, l: hueLightBackL,  h: h5},
-      'dark-back'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,  l: hueDarkBackL,   h: h5}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h5},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h5},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h5},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h5},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h5},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h5}
     },
     h6s = {
-      'light-back' : {mode: 'okhsl', alpha: 1, s: hueLightBackS, l: hueLightBackL,  h: h6},
-      'dark-back'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,  l: hueDarkBackL,   h: h6}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h6},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h6},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h6},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h6},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h6},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h6}
     },
     h7s = {
-      'light-back' : {mode: 'okhsl', alpha: 1, s: hueLightBackS, l: hueLightBackL,  h: h7},
-      'dark-back'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,  l: hueDarkBackL,   h: h7}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h7},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h7},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h7},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h7},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h7},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h7}
     },
     h8s = {
-      'light-back' : {mode: 'okhsl', alpha: 1, s: hueLightBackS, l: hueLightBackL,  h: h8},
-      'dark-back'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,  l: hueDarkBackL,   h: h8}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h8},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h8},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h8},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h8},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h8},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h8}
     },
     h9s = {
-      'light-back' : {mode: 'okhsl', alpha: 1, s: hueLightBackS, l: hueLightBackL,  h: h9},
-      'dark-back'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,  l: hueDarkBackL,   h: h9}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h9},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h9},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h9},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h9},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h9},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h9}
     },
     h10s = {
-      'light-back' : {mode: 'okhsl', alpha: 1, s: hueLightBackS, l: hueLightBackL,  h: h10},
-      'dark-back'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,  l: hueDarkBackL,   h: h10}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h10},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h10},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h10},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h10},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h10},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h10}
     },
     h11s = {
-      'light-back' : {mode: 'okhsl', alpha: 1, s: hueLightBackS, l: hueLightBackL,  h: h11},
-      'dark-back'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,  l: hueDarkBackL,   h: h11}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h11},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h11},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h11},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h11},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h11},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h11}
     },
     h12s = {
-      'light-back' : {mode: 'okhsl', alpha: 1, s: hueLightBackS, l: hueLightBackL,  h: h12},
-      'dark-back'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,  l: hueDarkBackL,   h: h12}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h12},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h12},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h12},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h12},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h12},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h12}
     };
 
-// Create an array of the content colors.
-var contentColors = [];
+// Create an array of the colors.
+var colors = [];
 
-contentColors.push(
+colors.push(
   h1s,
   h2s,
   h3s,
@@ -146,25 +158,27 @@ contentColors.push(
   h12s
 );
 
+//console.log(colors);
+
 /*
 ** Setup playground.
 */
 
-document.body.style.backgroundColor = culori.formatHex(backs['light']);
+document.body.style.backgroundColor = culori.formatHex({ mode: 'okhsl', alpha: 1, s: 1.00, l: 1.00, h: 0 });
 
 /*
-** Generate the content color swatches.
+** Generate the color swatches.
 */
 
-var contentSwatches = SVG().addTo('.content-swatches').size(rectWidth*contentColors.length, rectHeight*Object.keys(h1s).length);
+var contentSwatches = SVG().addTo('.swatches').size(rectWidth*colors.length, rectHeight*Object.keys(h1s).length);
 
-for(var i = 0; i < contentColors.length; i++) {
+for(var i = 0; i < colors.length; i++) {
 
-  Object.keys(contentColors[i]).forEach(function(tone, j) {
+  Object.keys(colors[i]).forEach(function(tone, j) {
       // tone: the name of the object key.
       // j: the index of the key within the object.
 
-      var hex = culori.formatHex(contentColors[i][tone]);
+      var hex = culori.formatHex(colors[i][tone]);
 
       // Generate the color swatch.
       var rect = contentSwatches.rect(rectWidth, rectHeight);
@@ -179,11 +193,11 @@ for(var i = 0; i < contentColors.length; i++) {
       var labelColor;
 
       if (j < 4) {
-        labelColor = culori.formatHex(contentColors[i]['70']);
+        labelColor = culori.formatHex(colors[i]['70']);
       } else if (j >= 4 && j < 6) {
-        labelColor = culori.formatHex(contentColors[i]['100']);
+        labelColor = culori.formatHex(colors[i]['100']);
       } else if (j >= 6) {
-        labelColor = culori.formatHex(contentColors[i]['10']);
+        labelColor = culori.formatHex(colors[i]['10']);
       };
 
       //var label = contentSwatches.text(tone + ' / ' + color.name);
@@ -204,157 +218,194 @@ for(var i = 0; i < contentColors.length; i++) {
 
 };
 
-let lSwatches = '';
+/*
+** Create dark type swatches SCSS.
+*/
 
-lSwatches = '$l-colors: (\n';
+let darkTypeSwatches = '';
 
-for (let i = 0; i < contentColors.length; i++) {
+darkTypeSwatches = '$d-type-colors: (\n';
+
+for (let i = 0; i < colors.length; i++) {
 
   var hue = i+1,
-      color = culori.formatHex(contentColors[i]['light-back']),
-      colorH = contentColors[i]['light-back']['h'],
-      colorS = contentColors[i]['light-back']['s'],
-      colorL = contentColors[i]['light-back']['l'],
+      color = culori.formatHex(colors[i]['dark-type']),
+      colorH = colors[i]['dark-type']['h'],
+      colorS = colors[i]['dark-type']['s'],
+      colorL = colors[i]['dark-type']['l'],
       line = [];
 
   var line = `"s${hue}" : ${color}, // [${colorH}, ${colorS}, ${colorL}]`;
 
-  lSwatches += line;
+  darkTypeSwatches += line;
 
-  //console.log(contentColors[i]['light-back']);
-  //console.log(contentColors[i]['light-back']['s']);
-
-  /*if (i !== contentColors.length - 1) { // This checks to make sure we are not on the last item.
-    lSwatches += '\n'; // This adds a new line.
-  }*/
-  lSwatches += '\n';
+  darkTypeSwatches += '\n';
 }
 
-lSwatches += ');';
+darkTypeSwatches += ');';
 
-console.log(lSwatches);
+console.log(darkTypeSwatches);
 
-let dSwatches = '';
+/*
+** Create light back swatches SCSS.
+*/
 
-dSwatches = '$d-colors: (\n';
+let lightBackSwatches = '';
 
-for (let i = 0; i < contentColors.length; i++) {
+lightBackSwatches = '$l-back-colors: (\n';
+
+for (let i = 0; i < colors.length; i++) {
 
   var hue = i+1,
-      color = culori.formatHex(contentColors[i]['dark-back']),
-      colorH = contentColors[i]['dark-back']['h'],
-      colorS = contentColors[i]['dark-back']['s'],
-      colorL = contentColors[i]['dark-back']['l'],
+      color = culori.formatHex(colors[i]['light-back']),
+      colorH = colors[i]['light-back']['h'],
+      colorS = colors[i]['light-back']['s'],
+      colorL = colors[i]['light-back']['l'],
       line = [];
 
   var line = `"s${hue}" : ${color}, // [${colorH}, ${colorS}, ${colorL}]`;
 
-  dSwatches += line;
+  lightBackSwatches += line;
 
-  //console.log(contentColors[i]['light-back']);
-  //console.log(contentColors[i]['light-back']['s']);
-
-  /*if (i !== contentColors.length - 1) { // This checks to make sure we are not on the last item.
-    dSwatches += '\n'; // This adds a new line.
-  }*/
-  dSwatches += '\n';
+  lightBackSwatches += '\n';
 }
 
-dSwatches += ');';
+lightBackSwatches += ');';
 
-console.log(dSwatches);
+console.log(lightBackSwatches);
+
+/*
+** Create light back 2 swatches SCSS.
+*/
+
+let lightBack2Swatches = '';
+
+lightBack2Swatches = '$l-back-2-colors: (\n';
+
+for (let i = 0; i < colors.length; i++) {
+
+  var hue = i+1,
+      color = culori.formatHex(colors[i]['light-back-2']),
+      colorH = colors[i]['light-back-2']['h'],
+      colorS = colors[i]['light-back-2']['s'],
+      colorL = colors[i]['light-back-2']['l'],
+      line = [];
+
+  var line = `"s${hue}" : ${color}, // [${colorH}, ${colorS}, ${colorL}]`;
+
+  lightBack2Swatches += line;
+
+  lightBack2Swatches += '\n';
+}
+
+lightBack2Swatches += ');';
+
+console.log(lightBack2Swatches);
+
+/*
+** Create light type swatches SCSS.
+*/
+
+let lightTypeSwatches = '';
+
+lightTypeSwatches = '$l-type-colors: (\n';
+
+for (let i = 0; i < colors.length; i++) {
+
+  var hue = i+1,
+      color = culori.formatHex(colors[i]['light-type']),
+      colorH = colors[i]['light-type']['h'],
+      colorS = colors[i]['light-type']['s'],
+      colorL = colors[i]['light-type']['l'],
+      line = [];
+
+  var line = `"s${hue}" : ${color}, // [${colorH}, ${colorS}, ${colorL}]`;
+
+  lightTypeSwatches += line;
+
+  lightTypeSwatches += '\n';
+}
+
+lightTypeSwatches += ');';
+
+console.log(lightTypeSwatches);
+
+/*
+** Create dark back swatches SCSS.
+*/
+
+let darkBackSwatches = '';
+
+darkBackSwatches = '$d-back-colors: (\n';
+
+for (let i = 0; i < colors.length; i++) {
+
+  var hue = i+1,
+      color = culori.formatHex(colors[i]['dark-back']),
+      colorH = colors[i]['dark-back']['h'],
+      colorS = colors[i]['dark-back']['s'],
+      colorL = colors[i]['dark-back']['l'],
+      line = [];
+
+  var line = `"s${hue}" : ${color}, // [okhsl: ${colorH}, ${colorS}, ${colorL}]`;
+
+  darkBackSwatches += line;
+
+  darkBackSwatches += '\n';
+}
+
+darkBackSwatches += ');';
+
+console.log(darkBackSwatches);
+
+/*
+** Create dark back 2 swatches SCSS.
+*/
+
+let darkBack2Swatches = '';
+
+darkBack2Swatches = '$d-back-2-colors: (\n';
+
+for (let i = 0; i < colors.length; i++) {
+
+  var hue = i+1,
+      color = culori.formatHex(colors[i]['dark-back-2']),
+      colorH = colors[i]['dark-back-2']['h'],
+      colorS = colors[i]['dark-back-2']['s'],
+      colorL = colors[i]['dark-back-2']['l'],
+      line = [];
+
+  var line = `"s${hue}" : ${color}, // [okhsl: ${colorH}, ${colorS}, ${colorL}]`;
+
+  darkBack2Swatches += line;
+
+  darkBack2Swatches += '\n';
+}
+
+darkBack2Swatches += ');';
+
+console.log(darkBack2Swatches);
+
+/*
+** Merge light and dark swatches.
+*/
 
 var swatches = '';
 
-swatches += lSwatches;
+swatches += darkTypeSwatches;
 swatches += '\n';
-swatches += dSwatches;
+swatches += lightBackSwatches;
+swatches += '\n';
+swatches += lightBack2Swatches;
+swatches += '\n';
+swatches += lightTypeSwatches;
+swatches += '\n';
+swatches += darkBackSwatches;
+swatches += '\n';
+swatches += darkBack2Swatches;
 
 /*
-** Download the color swatches in a SCSS file.
-*/
-
-function download(filename, text) {
-  const element = document.createElement('a');
-  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
-  element.setAttribute('download', filename);
-
-  element.style.display = 'none';
-  document.body.appendChild(element);
-
-  element.click();
-
-  document.body.removeChild(element);
-}
-
-download('_swatches.scss', swatches);
-
-/*
-** Generate the content color experiments.
-*/
-
-function generateExperiments(container, textTone, backTone) {
-
-  var experiments = SVG().addTo(container).size(rectWidth*contentColors.length, rectHeight);
-
-  for(var i = 0; i < contentColors.length; i++) {
-
-    var name;
-
-    /*if (mode == 'back') {
-      textColor = texts[textTone];
-      textOpacity = texts[textTone].a;
-      backColor = contentColors[i][backTone];
-      tone = backTone;
-      name = contentColors[i][backTone].name;
-    } else if (mode == 'text') {
-      textColor = contentColors[i][textTone];
-      textOpacity = 100;
-      backColor = backs[backTone];
-      tone = textTone;
-      name = contentColors[i][textTone].name;
-    };*/
-
-    var textHex = culori.formatHex(textTone), // convert the color from HSLuv code to HEX code.
-        backHex = culori.formatHex(backTone); // convert the color from HSLuv code to HEX code.
-
-    // Generate the background of the experiment.
-    var rect = experiments.rect(rectWidth - 16, rectHeight);
-
-    rect.attr({
-      fill: backHex,
-      //rx: 8,
-      x: 8 + rectWidth*i,
-      y: 0,
-    });
-
-    // Generate the text of the experiment.
-    //var text = experiments.text( toreTone + ' / ' + name);
-
-    text.attr({
-      x: 8 + (rectWidth-16)/2 + rectWidth*i,
-      y: rectHeight/2,
-      'dominant-baseline' : 'middle',
-      //'fill-opacity' : textOpacity + '%',
-      'text-anchor': 'middle',
-    });
-
-    text.font({
-      fill: textHex,
-      family: 'sans-serif',
-      size: 14
-    })
-
-  };
-}
-
-// Light typography on dark colored background.
-//generateExperiments('.experiments', 'l100', '40');
-//generateExperiments('.experiments', 'l100', '50');
-
-
-/*
-** Download the color swatches.
+** Download the color swatches as a SVG file.
 */
 
 var contentSwatchesFile = contentSwatches.svg();
@@ -375,17 +426,33 @@ function downloadString(text, fileType, fileName) {
   setTimeout(function() { URL.revokeObjectURL(a.href); }, 1500);
 }
 
+/*
+** Download the color swatches as a SCSS file.
+*/
+
+function downloadSCSS(filename, text) {
+  const element = document.createElement('a');
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+  element.setAttribute('download', filename);
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
+}
+
+/*
+** Listen to keys being pressed.
+*/
+
 window.addEventListener('keydown', checkKeyPressed, false);
 
 function checkKeyPressed(e) {
   if (e.keyCode == "67") { // “c” key.
     downloadString(contentSwatchesFile, 'image/svg+xml', 'Content_Swatches');
   } else if (e.keyCode == "70") { // “f” key.
-    downloadString(flagSwatchesFile, 'image/svg+xml', 'Flag_Swatches');
-    downloadString(flagGradientSwatchesFile, 'image/svg+xml', 'Flag_Gradient_Swatches');
-    downloadString(flagGradientFile, 'image/svg+xml', 'Flag_Gradient');
-    downloadString(logoFlatFile, 'image/svg+xml', 'Logo_Flat');
-  } else if (e.keyCode == "73") { // “i” key.
-    downloadString(interfaceSwatchesFile, 'image/svg+xml', 'Interface_Swatches');
+    downloadSCSS('_swatches.scss', swatches);
   }
 }

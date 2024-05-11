@@ -7,38 +7,17 @@
 body {
   color: $type-color;
   background-color: $background-color;
-  a {
-    &:link,
-    &:visited {
-      text-decoration-color: $type-color;
-    }
-    &:hover {
-      text-decoration-color: $type-color;
-    }
-  }
 }
 
-@each $number, $shade, $color-1, $color-2, $color-3, $color-4 in $colors {
+@each $number, $shade, $back-1-0, $back-1-1, $type-1-0, $back-2-0, $back-2-1, $type-2-0 in $colors {
 
-  $background: null;
-  $foreground: null;
-  $selected-background: null;
-  $selected-foreground: null;
-  $emphasis: null;
-
-  @if $shade == "light" {
-    $background: $color-1;
-    $foreground: $color-2;
-    $selected-background: $color-3;
-    $selected-foreground: $color-4;
-    $emphasis: darken($color-3, 12);
-  } @else {
-    $background: $color-2;
-    $foreground: $color-1;
-    $selected-background: $color-3;
-    $selected-foreground: $color-4;
-    $emphasis: $color-3;
-  };
+  $background: $back-1-0;
+  $light-background: $back-1-1;
+  $foreground: $type-1-0;
+  $selected-background: $back-2-0;
+  $selected-foreground: $type-2-0;
+  $emphasis-background: $back-2-0;
+  $emphasis-foreground: $type-2-0;
 
   .c#{$number} {
     color: $foreground;
@@ -48,13 +27,8 @@ body {
       color: $selected-foreground;
       background-color: $selected-background;
       a {
-        &:link,
-        &:visited,
         &:hover {
-          text-decoration-color: $selected-foreground;
-        }
-        &:hover {
-          background-color: $selected-foreground;
+          background-color: $selected-background;
         }
       }
     }
@@ -63,30 +37,23 @@ body {
       color: $selected-foreground;
       background-color: $selected-background;
       a {
-        &:link,
-        &:visited,
         &:hover {
-          text-decoration-color: $selected-foreground;
-        }
-        &:hover {
-          background-color: $selected-foreground;
+          background-color: $selected-background;
         }
       }
     }
 
-    a {
-      &:link,
-      &:visited {
-        text-decoration-color: $emphasis;
-      }
-      &:hover {
-        color: $emphasis;
-        //background-color: $emphasis;
+    [class*="typo"] {
+      a {
+        &:hover {
+          color: $emphasis-foreground;
+          background-color: $emphasis-background;
+        }
       }
     }
 
     blockquote {
-      border-left-color: $emphasis;
+      border-left-color: $foreground;
     }
 
     hr,
@@ -109,17 +76,21 @@ body {
       }
     }
 
+    .category {
+      background-color: $light-background;
+    }
+
     .page-prev {
       &:before {
         border-top-color: $foreground;
       }
     }
-
   }
 
   .header-canvas.c#{$number} {
     background-color: $background;
-    .header-title {
+    .header-title,
+    .header-navigation {
       a {
         svg {
           fill: $foreground;
@@ -128,16 +99,16 @@ body {
           }
         }
         &:hover {
+          color: $emphasis-foreground;
+          background-color: $emphasis-background;
           svg {
-            fill: $emphasis;
+            fill: $emphasis-foreground;
             path {
-              fill: $emphasis;
+              fill: $emphasis-foreground;
             }
           }
         }
       }
-
-      
     }
     .header-navigation {
       background-color: $background;

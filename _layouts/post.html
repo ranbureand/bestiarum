@@ -12,12 +12,13 @@ layout: base
         <article class="article">
 
           <header class="head">
-
-{% include date.html date=page.date %}
+            {%- if page.date %}
+            {%- assign date_month = page.date | date: '%-m' | minus: 1 %}
+            <time class="date" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: '%-d' }} {{ site.data.snippets.months[page.language][date_month] }} {{ page.date | date: '%Y' }}</time>
+            {%- endif %}
             <h2 class="title">{{ page.title }}</h2>
             {%- if page.subtitle %}<div class="subtitle">{{ page.subtitle }}</div>{%- endif %}
             {%- if page.categories %}<ul class="categories">{% for category in page.categories %}<li class="category">{{ site.data.snippets.categories[category][page.language] }}</li>{% endfor %}</ul>{%- endif %}
-
           </header>
 
           <div class="body typo-m">

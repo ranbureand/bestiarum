@@ -13,7 +13,14 @@
   li,
   dd {
     a {
-      @include link(underline);
+      margin-right: -0.2em;
+      margin-left: -0.2em;
+      padding-right: 0.2em;
+      padding-left: 0.2em;
+
+      text-decoration: underline;
+
+      border-radius: $base-unit;
     }
     a[href^="mailto:"],
     a[href^="tel:"] {
@@ -24,8 +31,9 @@
       word-break: break-word;
     }
     sup[id *= "fnref:"] {
-      margin-left: 0.2em;
       a {
+        padding-left: 0.2em;
+        padding-right: 0.2em;
         text-decoration: none;
       }
     }
@@ -118,6 +126,18 @@
 
     hr {
       width: col(2);
+    }
+  }
+}
+
+/*
+** Colors
+*/
+
+[class*="typo"] {
+  a {
+    &:hover {
+      background-color: $background-color-hovered;
     }
   }
 }

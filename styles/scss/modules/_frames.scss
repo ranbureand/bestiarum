@@ -16,9 +16,11 @@
 }
 
 .header-canvas {
-  width: 100%;
   position: fixed;
   z-index: 2;
+
+  width: 100%;
+
   background-color: $background-color;
 }
 
@@ -32,71 +34,84 @@
 
 .header,
 .footer {
+  display: flex;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: em($m-gut);
-  padding-left: em($m-gut);
+  padding-right: em($m-gut/2);
+  padding-left: em($m-gut/2);
 
   animation-name: element-in;
   animation-duration: $duration*4;
 
   animation-fill-mode: both;
-
   @include min-screen(col(8)) {
-    padding-right: em($d-gut);
-    padding-left: em($d-gut);
+    padding-right: em($d-gut/2);
+    padding-left: em($d-gut/2);
   }
-  @include min-screen((col(20) + em($d-gut))) {
-    //width: col(20);
-  }
-}
-
-.header,
-.footer {
-  display: flex;
 }
 
 .header-title,
 .header-navigation,
 .footer-copyright,
 .footer-scroll {
+
+  span:not(.expendable),
   a {
-    //font-weight: $bold;
-    //@include link(underline);
-    transition-timing-function: ease-out;
-    transition-duration: $duration;
-    transition-property: background-color;
+    display: block;
+
+    padding-top: em($m-small-line/2, $m-small-size);
+    padding-right: em($m-gut/2, $m-small-size);
+    padding-bottom: em($m-small-line/2, $m-small-size);
+    padding-left: em($m-gut/2, $m-small-size);
+  }
+
+  a {
+    border-radius: $base-unit;
     &:hover{
       text-decoration: underline;
+
+      background-color: $background-color-hovered;
     }
   }
 
   .item {
     display: block;
 
-    padding-top: em($m-small-line/2, $m-small-size);
-    padding-bottom: em($m-small-line/2, $m-small-size);
-
     @include font-size($m-small-size, $m-small-line);
   }
-
   @include min-screen(col(8)) {
-    .item {
+    a {
       padding-top: em($d-small-line/2, $d-small-size);
+      padding-right: em($d-gut/2, $d-small-size);
       padding-bottom: em($d-small-line/2, $d-small-size);
-
+      padding-left: em($d-gut/2, $d-small-size);
+    }
+    .item {
       @include font-size($d-small-size, $d-small-line);
     }
   }
 }
 
 .header-title {
+  display: flex;
+
   flex-grow: 1;
+
+  .item {
+    display: flex;
+  }
+
+  a {
+    flex-grow: 0;
+  }
+
   svg {
-    height: em($m-small-line, $m-small-size);
-    width: em($m-small-line/268*2048, $m-small-size);
     display: block;
+
+    width: em($m-small-line/268*2048, $m-small-size);
+    height: em($m-small-line, $m-small-size);
+
     fill: $type-color;
     path {
       fill: $type-color;
@@ -104,9 +119,10 @@
   }
   @include min-screen(col(8)) {
     svg {
-      height: em($d-small-line, $d-small-size);
-      width: em($d-small-line/268*2048, $d-small-size);
       display: block;
+
+      width: em($d-small-line/268*2048, $d-small-size);
+      height: em($d-small-line, $d-small-size);
     }
   }
   @include min-screen(col(12)) {
@@ -114,81 +130,78 @@
   }
 }
 
-/*.header-title {
-  .item {
-    &:after {
-      content: ": ";
-      white-space: pre;
-      font-weight: $normal;
-    }
-  }
-}*/
-
 .header-navigation {
-  flex-grow: 1;
+  position: absolute;
+  top: em($m-header-canvas-height);
+  right: 0;
+
   display: none;
   flex-direction: column;
-  background-color: $background-color;
 
-  position: absolute;
-  right: 0;
-  top: em($m-header-canvas-height);
   width: 100%;
   height: calc(100vh - em($m-header-canvas-height));
+
+  background-color: $background-color;
+
+  flex-grow: 1;
 
   ul {
     flex-direction: column;
   }
 
   .item {
-    margin-left: em($m-gut, $m-small-size);
     margin-right: em($m-gut, $m-small-size);
+    margin-left: em($m-gut, $m-small-size);
+  }
+  .current {
+    a {
+      text-decoration: underline;
+    }
   }
 
   .languages {
     &:before {
       display: block;
-      content: "";
-      height: 1px;
-      border-bottom: 1px solid $type-color;
 
-      margin-left: em($m-gut);
-      margin-right: em($m-gut);
+      height: 1px;
       margin-top: em($m-medium-line/2);
+      margin-right: em($m-gut);
       margin-bottom: em($m-medium-line/2);
+      margin-left: em($m-gut);
+
+      content: "";
+
+      border-bottom: 1px solid $type-color;
     }
   }
-
   @include min-screen(col(8)) {
     top: em($d-header-canvas-height);
+
     width: 100%;
     height: calc(100vh - em($d-header-canvas-height));
     .item {
-      margin-left: em($d-gut, $d-small-size);
-      margin-right: em($d-gut, $d-small-size);
+      margin-right: em($d-gut);
+      margin-left: em($d-gut);
     }
 
     .languages {
       &:before {
-        margin-left: em($d-gut);
-        margin-right: em($d-gut);
         margin-top: em($d-medium-line/2);
+        margin-right: em($d-gut);
         margin-bottom: em($d-medium-line/2);
+        margin-left: em($d-gut);
       }
     }
   }
   @include min-screen(col(12)) {
+    position: relative;
+    top: auto;
+
     display: flex;
     flex-direction: row;
-    position: relative;
 
-    top: auto;
     width: auto;
     height: auto;
-
-    .item {
-      margin-right: 0;
-    }
 
     ul {
       display: flex;
@@ -197,6 +210,11 @@
 
     .items {
       flex-grow: 1;
+    }
+
+    .item {
+      margin-right: 0;
+      margin-left: 0;
     }
 
     .languages {
@@ -209,19 +227,29 @@
 
 .header-menu {
   display: flex;
-  cursor: pointer;
+
   padding-top: em($m-small-line/2, $m-small-size);
+  padding-right: em($m-gut/2, $m-small-size);
   padding-bottom: em($m-small-line/2, $m-small-size);
+  padding-left: em($m-gut/2, $m-small-size);
+
+  cursor: pointer;
+
+  border-radius: $base-unit;
 
   @include font-size($m-small-size, $m-small-line);
+  &:hover {
+    background-color: $background-color-hovered;
+  }
 
   #menu-close {
     display: none;
   }
-
   @include min-screen(col(8)) {
     padding-top: em($d-small-line/2, $d-small-size);
+    padding-right: em($d-gut/2, $d-small-size);
     padding-bottom: em($d-small-line/2, $d-small-size);
+    padding-left: em($d-gut/2, $d-small-size);
 
     @include font-size($d-small-size, $d-small-line);
   }
@@ -230,28 +258,22 @@
   }
 }
 
+.footer {
+  flex-direction: column;
+  @include min-screen(col(8)) {
+    flex-direction: row;
+  }
+}
 
 .footer-copyright {
-  flex-grow: 1;
   display: flex;
 
-  .item {
-    margin-left: em($m-gut/2, $m-small-size);
-  }
-
-  .item:first-child {
-    margin-left: 0;
-  }
+  flex-grow: 1;
 
   .expendable {
     display: none;
   }
   @include min-screen(col(8)) {
-    .item {
-      margin-left: em($d-gut/2, $d-small-size);
-    }
-  }
-  @include min-screen(col(10)) {
     .expendable {
       display: inline;
     }
@@ -259,7 +281,9 @@
 }
 
 .footer-scroll {
-  text-align: right;
+  @include min-screen(col(8)) {
+    text-align: right;
+  }
 }
 
 /*
@@ -271,3 +295,4 @@
 
   min-height: 100%;
 }
+

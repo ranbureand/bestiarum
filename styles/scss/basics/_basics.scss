@@ -5,13 +5,13 @@
 */
 
 ::-moz-selection {
-  color: $selected-type-color;
-  background-color: $selected-background-color;
+  color: $type-color-selected;
+  background-color: $background-color-selected;
   text-shadow: none;
 }
 ::selection {
-  color: $selected-type-color;
-  background-color: $selected-background-color;
+  color: $type-color-selected;
+  background-color: $background-color-selected;
   text-shadow: none;
 }
 

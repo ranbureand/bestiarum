@@ -12,132 +12,91 @@ $white:                         #fff;
 ** Typography
 */
 
-$strong-type-color:             rgba($black, 0.8);
-$type-color:                    rgba($black, 0.8);
-$light-type-color:              rgba($black, 0.4);
+//$strong-type-color:             rgba($black, 0.8);
+$strong-type-color:             rgba(map-get($d-type-colors, "s10"), 1.0);
+//$type-color:                    rgba($black, 0.8);
+$type-color:                    rgba(map-get($d-type-colors, "s10"), 1.0);
+//$light-type-color:              rgba($black, 0.4);
+$light-type-color:              rgba(map-get($d-type-colors, "s10"), 0.6);
 
-$selected-type-color:           inherit;
+$type-color-selected:           inherit;
 
 /*
 ** Backgrounds
 */
 
 $background-color:              darken($white, 0.5%);
-$selected-background-color:     rgba($black, 0.05);
-$code-background-color:         rgba($black, 0.1);
+$background-color-hovered:      rgba(map-get($l-back-colors, "s10"), 0.25);
+$background-color-selected:     rgba(map-get($l-back-colors, "s10"), 0.25);
 
-$color-light:                   hsl(0, 48%, 72%);
-$color-dark:                    hsl(0, 40%, 28%);
+$code-background-color:         rgba(map-get($l-back-colors, "s10"), 0.25);
 
-                                                 // https://www.hsluv.org/
+/*
+** Buttons
+*/
 
-/*$l-colors: (                                     //  H    S    L
-                                "s1"  : #e5adb7, //  0    56   76
-                                "s2"  : #e6af9c, //  30   56   76
-                                "s3"  : #d8b77c, //  60   56   76
-                                "s4"  : #bbc17b, //  90   56   76
-                                "s5"  : #90cb7b, //  120  56   76
-                                "s6"  : #7ecba6, //  150  56   76
-                                "s7"  : #81c8bf, //  180  56   76
-                                "s8"  : #84c6d4, //  210  56   76
-                                "s9"  : #9cbfe2, //  240  56   76
-                                "s10" : #bcb7e2, //  270  56   76
-                                "s11" : #d9ade2, //  300  56   76
-                                "s12" : #e3abcd, //  330  56   76
-);
-$d-colors: (                                     //  H    S    L
-                                "s1"  : #7e3145, //  0    56   32
-                                "s2"  : #6a412f, //  30   56   32
-                                "s3"  : #58492f, //  60   56   32
-                                "s4"  : #4b4e2f, //  90   56   32
-                                "s5"  : #38522f, //  120  56   32
-                                "s6"  : #305242, //  150  56   32
-                                "s7"  : #31514d, //  180  56   32
-                                "s8"  : #325056, //  210  56   32
-                                "s9"  : #344e64, //  240  56   32
-                                "s10" : #4c3d96, //  270  56   32
-                                "s11" : #6a3773, //  300  56   32
-                                "s12" : #75345f, //  330  56   32
-);*/
+$button-type-color:                 $white;
+$button-background-color:           rgba(map-get($d-type-colors, "s10"), 1.00);
+$button-background-color-hovered:   rgba(darken(map-get($d-type-colors, "s10"), 50%), 0.25);
 
 /*
 ** Swatches
 */
 
-/*$l-colors: (
-"s1" : #ecb6c5, // [0, 0.55, 0.8]
-"s2" : #ebb9b0, // [30, 0.55, 0.8]
-"s3" : #e9bd99, // [60, 0.55, 0.8]
-"s4" : #dcc586, // [90, 0.55, 0.8]
-"s5" : #bed089, // [120, 0.55, 0.8]
-"s6" : #9ad8a6, // [150, 0.55, 0.8]
-"s7" : #8ad8c9, // [180, 0.55, 0.8]
-"s8" : #8cd4e1, // [210, 0.55, 0.8]
-"s9" : #a3cdeb, // [240, 0.55, 0.8]
-"s10" : #b8c6ec, // [270, 0.55, 0.8]
-"s11" : #cdbeeb, // [300, 0.55, 0.8]
-"s12" : #e1b7dd, // [330, 0.55, 0.8]
-);
-$d-colors: (
-"s1" : #7d374f, // [0, 0.55, 0.35]
-"s2" : #7b3d33, // [30, 0.55, 0.35]
-"s3" : #6e4828, // [60, 0.55, 0.35]
-"s4" : #5f5027, // [90, 0.55, 0.35]
-"s5" : #4d572a, // [120, 0.55, 0.35]
-"s6" : #355c3d, // [150, 0.55, 0.35]
-"s7" : #2b5c53, // [180, 0.55, 0.35]
-"s8" : #285a63, // [210, 0.55, 0.35]
-"s9" : #2b5774, // [240, 0.55, 0.35]
-"s10" : #3c4d8a, // [270, 0.55, 0.35]
-"s11" : #5c4185, // [300, 0.55, 0.35]
-"s12" : #72396e, // [330, 0.55, 0.35]
-);*/
+// light 1 => 4 = 3
+// dark 10 => 7 = 3
+// jump 6
 
-$colors:                        (0,  "light", map-get($l-colors, "s1"),  map-get($d-colors, "s4"),  map-get($l-colors, "s7"),  map-get($d-colors, "s10")),
-                                (1,  "dark",  map-get($l-colors, "s1"),  map-get($d-colors, "s4"),  map-get($l-colors, "s7"),  map-get($d-colors, "s10")),
+// $number, $shade, $back-1.0, $back-1.1, $type-1.0, $back-2.0, $back-2.1, $type-2.0
 
-                                (2,  "light", map-get($l-colors, "s2"),  map-get($d-colors, "s5"),  map-get($l-colors, "s8"),  map-get($d-colors, "s11")),
-                                (3,  "dark",  map-get($l-colors, "s2"),  map-get($d-colors, "s5"),  map-get($l-colors, "s8"),  map-get($d-colors, "s11")),
+$colors:                        (0,  "light", map-get($l-back-colors, "s1"),  map-get($l-back-2-colors, "s1"),  map-get($d-type-colors, "s4"),  map-get($l-back-colors, "s10"),  map-get($l-back-2-colors, "s10"),  map-get($d-type-colors, "s1")),
+                                (1,  "dark",  map-get($d-back-colors, "s4"),  map-get($d-back-2-colors, "s4"),  map-get($l-type-colors, "s1"),  map-get($d-back-colors, "s1"),  map-get($d-back-2-colors, "s1"),  map-get($l-type-colors, "s10")),
 
-                                (4,  "light", map-get($l-colors, "s3"),  map-get($d-colors, "s6"),  map-get($l-colors, "s9"),  map-get($d-colors, "s12")),
-                                (5,  "dark",  map-get($l-colors, "s3"),  map-get($d-colors, "s6"),  map-get($l-colors, "s9"),  map-get($d-colors, "s12")),
+                                (2,  "light", map-get($l-back-colors, "s2"),  map-get($l-back-2-colors, "s2"),  map-get($d-type-colors, "s5"),  map-get($l-back-colors, "s11"),  map-get($l-back-2-colors, "s11"),  map-get($d-type-colors, "s2")),
+                                (3,  "dark",  map-get($d-back-colors, "s5"),  map-get($d-back-2-colors, "s5"),  map-get($l-type-colors, "s2"),  map-get($d-back-colors, "s2"),  map-get($d-back-2-colors, "s2"),  map-get($l-type-colors, "s11")),
 
-                                (6,  "light", map-get($l-colors, "s4"),  map-get($d-colors, "s7"),  map-get($l-colors, "s10"), map-get($d-colors, "s1")),
-                                (7,  "dark",  map-get($l-colors, "s4"),  map-get($d-colors, "s7"),  map-get($l-colors, "s10"), map-get($d-colors, "s1")),
+                                (4,  "light", map-get($l-back-colors, "s3"),  map-get($l-back-2-colors, "s3"),  map-get($d-type-colors, "s6"),  map-get($l-back-colors, "s12"),  map-get($l-back-2-colors, "s12"),  map-get($d-type-colors, "s3")),
+                                (5,  "dark",  map-get($d-back-colors, "s6"),  map-get($d-back-2-colors, "s6"),  map-get($l-type-colors, "s3"),  map-get($d-back-colors, "s3"),  map-get($d-back-2-colors, "s3"),  map-get($l-type-colors, "s12")),
 
-                                (8,  "light", map-get($l-colors, "s5"),  map-get($d-colors, "s8"),  map-get($l-colors, "s11"), map-get($d-colors, "s2")),
-                                (9,  "dark",  map-get($l-colors, "s5"),  map-get($d-colors, "s8"),  map-get($l-colors, "s11"), map-get($d-colors, "s2")),
+                                (6,  "light", map-get($l-back-colors, "s4"),  map-get($l-back-2-colors, "s4"),  map-get($d-type-colors, "s7"),  map-get($l-back-colors, "s1"),  map-get($l-back-2-colors, "s1"),  map-get($d-type-colors, "s4")),
+                                (7,  "dark",  map-get($d-back-colors, "s7"),  map-get($d-back-2-colors, "s7"),  map-get($l-type-colors, "s4"),  map-get($d-back-colors, "s4"), map-get($d-back-2-colors, "s4"), map-get($l-type-colors, "s1")),
 
-                                (10, "light", map-get($l-colors, "s6"),  map-get($d-colors, "s9"),  map-get($l-colors, "s12"), map-get($d-colors, "s3")),
-                                (11, "dark",  map-get($l-colors, "s6"),  map-get($d-colors, "s9"),  map-get($l-colors, "s12"), map-get($d-colors, "s3")),
+                                (8,  "light", map-get($l-back-colors, "s5"),  map-get($l-back-2-colors, "s5"),  map-get($d-type-colors, "s8"),  map-get($l-back-colors, "s2"),  map-get($l-back-2-colors, "s2"),  map-get($d-type-colors, "s5")),
+                                (9,  "dark",  map-get($d-back-colors, "s8"),  map-get($d-back-2-colors, "s8"),  map-get($l-type-colors, "s5"),  map-get($d-back-colors, "s5"), map-get($d-back-2-colors, "s5"), map-get($l-type-colors, "s2")),
 
-                                (12, "light", map-get($l-colors, "s7"),  map-get($d-colors, "s10"), map-get($l-colors, "s1"),  map-get($d-colors, "s4")),
-                                (13, "dark",  map-get($l-colors, "s7"),  map-get($d-colors, "s10"), map-get($l-colors, "s1"),  map-get($d-colors, "s4")),
+                                (10, "light", map-get($l-back-colors, "s6"),  map-get($l-back-2-colors, "s6"),  map-get($d-type-colors, "s9"),  map-get($l-back-colors, "s3"),  map-get($l-back-2-colors, "s3"),  map-get($d-type-colors, "s6")),
+                                (11, "dark",  map-get($d-back-colors, "s9"),  map-get($d-back-2-colors, "s9"),  map-get($l-type-colors, "s6"),  map-get($d-back-colors, "s6"), map-get($d-back-2-colors, "s6"), map-get($l-type-colors, "s3")),
 
-                                (14, "light", map-get($l-colors, "s8"),  map-get($d-colors, "s11"), map-get($l-colors, "s2"),  map-get($d-colors, "s5")),
-                                (15, "dark",  map-get($l-colors, "s8"),  map-get($d-colors, "s11"), map-get($l-colors, "s2"),  map-get($d-colors, "s5")),
+                                (12, "light", map-get($l-back-colors, "s7"),  map-get($l-back-2-colors, "s7"),  map-get($d-type-colors, "s10"), map-get($l-back-colors, "s4"), map-get($l-back-2-colors, "s4"), map-get($d-type-colors, "s7")),
+                                (13, "dark",  map-get($d-back-colors, "s10"), map-get($d-back-2-colors, "s10"), map-get($l-type-colors, "s7"),  map-get($d-back-colors, "s7"),  map-get($d-back-2-colors, "s7"),  map-get($l-type-colors, "s4")),
 
-                                (16, "light", map-get($l-colors, "s9"),  map-get($d-colors, "s12"), map-get($l-colors, "s3"),  map-get($d-colors, "s6")),
-                                (17, "dark",  map-get($l-colors, "s9"),  map-get($d-colors, "s12"), map-get($l-colors, "s3"),  map-get($d-colors, "s6")),
+                                (14, "light", map-get($l-back-colors, "s8"),  map-get($l-back-2-colors, "s8"),  map-get($d-type-colors, "s11"), map-get($l-back-colors, "s5"), map-get($l-back-2-colors, "s5"), map-get($d-type-colors, "s8")),
+                                (15, "dark",  map-get($d-back-colors, "s11"), map-get($d-back-2-colors, "s11"), map-get($l-type-colors, "s8"),  map-get($d-back-colors, "s8"),  map-get($d-back-2-colors, "s8"),  map-get($l-type-colors, "s5")),
 
-                                (18, "light", map-get($l-colors, "s10"), map-get($d-colors, "s1"),  map-get($l-colors, "s4"),  map-get($d-colors, "s7")),
-                                (19, "dark",  map-get($l-colors, "s10"), map-get($d-colors, "s1"),  map-get($l-colors, "s4"),  map-get($d-colors, "s7")),
+                                (16, "light", map-get($l-back-colors, "s9"),  map-get($l-back-2-colors, "s9"),  map-get($d-type-colors, "s12"), map-get($l-back-colors, "s6"), map-get($l-back-2-colors, "s6"), map-get($d-type-colors, "s9")),
+                                (17, "dark",  map-get($d-back-colors, "s12"), map-get($d-back-2-colors, "s12"), map-get($l-type-colors, "s9"),  map-get($d-back-colors, "s9"),  map-get($d-back-2-colors, "s9"),  map-get($l-type-colors, "s6")),
 
-                                (20, "light", map-get($l-colors, "s11"), map-get($d-colors, "s2"),  map-get($l-colors, "s5"),  map-get($d-colors, "s8")),
-                                (21, "dark",  map-get($l-colors, "s11"), map-get($d-colors, "s2"),  map-get($l-colors, "s5"),  map-get($d-colors, "s8")),
+                                (18, "light", map-get($l-back-colors, "s10"), map-get($l-back-2-colors, "s10"), map-get($d-type-colors, "s1"),  map-get($l-back-colors, "s7"),  map-get($l-back-2-colors, "s7"),  map-get($d-type-colors, "s10")),
+                                (19, "dark",  map-get($d-back-colors, "s1"),  map-get($d-back-2-colors, "s1"),  map-get($l-type-colors, "s10"), map-get($d-back-colors, "s10"),  map-get($d-back-2-colors, "s10"),  map-get($l-type-colors, "s7")),
 
-                                (22, "light", map-get($l-colors, "s12"), map-get($d-colors, "s3"),  map-get($l-colors, "s6"),  map-get($d-colors, "s9")),
-                                (23, "dark",  map-get($l-colors, "s12"), map-get($d-colors, "s3"),  map-get($l-colors, "s6"),  map-get($d-colors, "s9"));
+                                (20, "light", map-get($l-back-colors, "s11"), map-get($l-back-2-colors, "s11"), map-get($d-type-colors, "s2"),  map-get($l-back-colors, "s8"),  map-get($l-back-2-colors, "s8"),  map-get($d-type-colors, "s11")),
+                                (21, "dark",  map-get($d-back-colors, "s2"),  map-get($d-back-2-colors, "s2"),  map-get($l-type-colors, "s11"), map-get($d-back-colors, "s11"),  map-get($d-back-2-colors, "s11"),  map-get($l-type-colors, "s8")),
+
+                                (22, "light", map-get($l-back-colors, "s12"), map-get($l-back-2-colors, "s12"), map-get($d-type-colors, "s3"),  map-get($l-back-colors, "s9"),  map-get($l-back-2-colors, "s9"),  map-get($d-type-colors, "s12")),
+                                (23, "dark",  map-get($d-back-colors, "s3"),  map-get($d-back-2-colors, "s3"),  map-get($l-type-colors, "s12"), map-get($d-back-colors, "s12"),  map-get($d-back-2-colors, "s12"),  map-get($l-type-colors, "s9"));
 
 /*
 ** Borders
 */
 
-$border-color:                  rgba($black, 0.4);
+//$border-color:                  rgba($black, 0.4);
+$border-color:                  rgba(map-get($d-type-colors, "s10"), 1.0);
 
 /*
 ** Shadows
 */
 
-$zoom-in-shadow-start:          rgba($black, 0.0);
-$zoom-in-shadow-end:            rgba($black, 0.3);
+//$zoom-in-shadow-start:          rgba($black, 0.0);
+$zoom-in-shadow-start:          rgba(map-get($d-type-colors, "s10"), 0.0);
+//$zoom-in-shadow-end:            rgba($black, 0.3);
+$zoom-in-shadow-end:            rgba(map-get($d-type-colors, "s10"), 0.5);
