@@ -36,17 +36,15 @@ Merhabalar,
 
 **Neden 10+1 Hafta?**
 
-Çünkü 10 sayısı tamamlanmanın, 1 sayısı yeni başlangıçların sayısıdır. 10’dan sonra gelen 1 ise üst oktavdan başlangıçlardır.Biz de bu eğitim boyunca her kartın anlamının içinden geçerken, kendi içimize de sihirli bir yolculuk yapacacağız. Ve bu 10+1 haftanın sonunda yeni 'ben'e merhaba diyeceğiz. 
+Çünkü 10 sayısı tamamlanmanın, 1 sayısı yeni başlangıçların sayısıdır. 10’dan sonra gelen 1 ise üst oktavdan başlangıçlardır. Biz de bu eğitim boyunca her kartın anlamının içinden geçerken, kendi içimize de sihirli bir yolculuk yapacağız. Ve bu 10+1 haftanın sonunda 'yeni bir ben'e merhaba diyeceğiz. 
 
-Bu buluşmalardaki amacım sizi Tarot kartlarının sembolizmasını okuyabilecek düzeye getirmek ve de kendinize ya da bir başkasına rahat bir şekilde Tarot açılımı yapabilmenizi sağlamaktır. Bu yüzden kartın anlamlarına olduğu kadar bol bol açılım pratiği yapmak için de zaman ayırdım. 
+Bu buluşmalardaki amacım sizi Tarot kartlarının sembolizmasını okuyabilecek düzeye getirmek ve de kendinize ya da bir başkasına rahat bir şekilde Tarot açılımı yapabilmenizi sağlamaktır. Bu yüzden kartların anlamlarına olduğu kadar bol bol açılım pratiği yapmak için de zaman ayırdım. 
 
 ## 1. Bölüm: Majör Arkana: <br/>22 Kart 22 Mitolojik Hikaye
 
-22 Majör Arkana Kartı–22 Mitolojik Hikaye’yi kapsayan I. Bölüm, 1 Eylül–20 Ekim 2024 tarihleri arasında gerçekleşecektir.
+22 Majör Arkana Kartı–22 Mitolojik Hikaye’yi kapsayan 1. Bölüm, 1 Eylül–20 Ekim 2024 tarihleri arasında gerçekleşecektir.
 
-Dersler 8 Hafta boyunca, her Pazar akşamı TR Saatiyle 21:00–23:00 saatleri arasında Zoom üzerinden online olarak yapılacaktır.
-
-Bu bölüm 22 Majör Arkana Kartını ve kartları ezberlemeden anlayacağınız 22 mitolojik hikayesini anlatacağım bölümdür.
+Dersler 8 Hafta boyunca, her Pazar akşamı TR Saatiyle 21:00–23:00 saatleri arasında Zoom üzerinden online ve canlı olarak yapılacaktır.
 
 Bu eğitimde her bir Majör Arkana Kartına ait:
 
@@ -57,7 +55,7 @@ Bu eğitimde her bir Majör Arkana Kartına ait:
 
 Kartın bize ne söylediğini anlatan bazen bildik bazen de pek bilinmedik mitolojik hikayesini anlatacağım.
 
-Size anlatacaklarım karttaki sembollerin değil kartın tamamının ne dediğini anlatan hikayeler olacak. Böylelikle kartları daha kolay bir şekilde içselleştirebileceksiniz.
+Size anlatacaklarım karttaki sembollerin değil kartın tamamının ne dediğini anlatan hikayeler olacak. Böylelikle kartları daha kolay bir şekilde içselleştirebilecek ve anlamlarını ezberlemek zorunda kalmadan anlayabileceksiniz.
 
 Ayrıca kartlarla nasıl meditasyon ve şifa çalışması yapabileceğinizi de anlatacağım.
 
@@ -80,18 +78,18 @@ Her bir karta karşılık gelen mitolojik hikayesine geçmeden önce tüm kartla
 
 ## 2. Bölüm: Minör Arkana <br/>ve Tarot Açılım Pratikleri
 
-Majör Arkana kartlarıyla olan yolculuğumuzun hemen ardından başlayacak olan Minör Arkana ve Açılım Pratikleri Bölümü 27 Ekim–10 Kasım 2024 tarihleri arasında gerçekleşecektir. Dersler 3 Hafta boyunca, her Pazar akşamı TR Saatiyle 21:00–23:00 saatleri arasında Zoom üzerinden online olarak yapılacaktır.
+Majör Arkana kartlarıyla olan yolculuğumuzun hemen ardından başlayacak olan Minör Arkana ve Açılım Pratikleri Bölümü 27 Ekim–10 Kasım 2024 tarihleri arasında gerçekleşecektir. Dersler 3 Hafta boyunca, her Pazar akşamı TR Saatiyle 21:00–23:00 saatleri arasında Zoom üzerinden online ve canlı olarak yapılacaktır.
 
 Bu bölümde 56 Minör Arkana Kartını anlatacağım ve farklı açılım teknikleriyle beraberce bol bol Tarot Açılımları yapacağız.
 
-Bu bölümde her bir Minör Arkana Kartına ait:
+Her bir Minör Arkana Kartına ait:
 
 + Numeroloji
 + Sembolizma
 + Astrolojik Bağlantılar
 + Ve diğer Ezoterik Bilgileri paylaşacağım
 
-İlk modüldeki gibi her bir kartın mitolojik hikayesine inemesek de yine zaman zaman kartların hikayelerini anlatmaya devam edeceğim.
+İlk modüldeki gibi her kartın mitolojik hikayesine inemesek de yine zaman zaman kartların hikayelerini anlatmaya devam edeceğim.
 
 Devamında ise bol bol kart okuma pratikleri yapıp bu bölümü tamamlayacağız. Bu kart okumaları size ait tarot açılımları olabileceği gibi, iznini aldığınız başka biri için de tarot okuması olabilir.
 
@@ -105,9 +103,11 @@ Her bir kartın tek tek anlamını anlatmaya geçmeden önce tüm kartların num
 | 11 | 10&nbsp;Kasım | Tarot Açılım Pratikleri |
 {: .table }
 
+En çok bilinen ve kullanılan Tarot destesi olan Rider Waite Smith Tarot Destesini kullanacağız.
+
 Dersler Zoom üzerinden online ve canlı olarak gerçekleştirilecektir.
 
-Her dersin hemen bitiminde katılımcılarla dersin kaydı paylaşılacaktır. Ders kayıtları buluşmaların bitiminden sonra 2 ay süreyle online olarak ulaşılabilir olacaktır.
+Her dersin hemen bitiminde katılımcılarla dersin kaydı paylaşılır. Ders kayıtlarına buluşmaların bitiminden sonra 2 ay süreyle online olarak ulaşılabilir.
 
 Dersten önce, ders esnasında not tutmayı kolaylaştırması için ilgili kartların ders notu paylaşılacaktır. Tüm notlar kitapçık olarak eğitim sonunda da paylaşılır.
 
@@ -119,8 +119,6 @@ Kaydınızı oluşturmak için ücreti ödemeden önce lütfen aşağıdaki link
 
 <span class="form-button"><noscript>turn on Javascript to see the form button</noscript></span>
 
-Ödemenizi aşağıdaki linkten kredi kartınız ya da banka kartınız ile gerçekleştirebilirsiniz.
-
 ## Ücret
 
 Ödemenizi iki şekilde gerçekleştirebilirsiniz:
@@ -131,7 +129,7 @@ Kredi kartı ya da banka kartı ile tek seferde ödeyebilirsiniz.
 <span class="payment-button"><noscript>turn on Javascript to see the payment button</noscript></span>
 
 **5.100 TL** (1.700 TL × 3)  
-Kredi Kartı ya da Banka Kartına 3 Taksitle ödeyebilirsiniz (İlk ödeme 29 Ağustos’a kadar olmak üzere toplam 3 Taksitte ödeme yapabilirsiniz).
+Kredi kartı ya da banka kartına 3 Taksitle ödeyebilirsiniz (İlk ödeme 29 Ağustos’a kadar olmak üzere toplam 3 Taksitte ödeme yapabilirsiniz).
 
 <span class="installment-payment-button"><noscript>turn on Javascript to see the installment payment button</noscript></span>
 
