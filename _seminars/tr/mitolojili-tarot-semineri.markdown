@@ -2,19 +2,25 @@
 layout: seminar
 
 title: Mitolojili Tarot semineri
-subtitle: Mitolojik hikayelerle Tarot <br/> öğrenmek ister misin?
-description: Mitolojik hikayelerle Tarot öğrenmek ister misin?
-date: 2024-03-03 00:00:00
+subtitle: Kartları sana tanrılar ve tanrıçalar anlatsın
+description: Kartları sana tanrılar ve tanrıçalar anlatsın
+date: 2024-07-29 00:00:00
 
-status: closed
+status: open
 introduction: İster Tarot kartlarını okumak istiyor ol, ister mitolojik hikaye çözümlemeyi seviyor ol, bu eğitimde her ikisi de var!
 dates:
-  start: 2024-03-03
-  end: 2024-05-26
-duration: Haftada 2 saat, 13 hafta
+  start: 2024-09-01
+  end: 2024-11-10
+duration: Haftada 2 saat, 10+1 hafta
 
-payment_link: ''
-payment_button_name: ''
+form_link: 'https://forms.gle/vK9iXBCuvgkQEdnP7'
+form_button_name: 'Kayıt Formu'
+
+payment_link: 'https://checkout.revolut.com/pay/15295d14-22b1-449e-b2e0-619e0b186bd8'
+payment_button_name: 'Şimdi Öde'
+
+installment_payment_link: 'https://checkout.revolut.com/pay/d91fe0fb-c442-4ceb-b5b2-c8bb9f363d58'
+installment_payment_button_name: 'Taksitli Öde'
 
 language: 'tr'
 language_reference: 'tarot-seminar'
@@ -22,42 +28,61 @@ language_reference: 'tarot-seminar'
 publish: 'yes'
 ---
 
-Mitolojinin derin hikayelerini Tarot’un görselliğiyle birleştirmeye ne dersin?
+Merhabalar,
 
-İster Tarot kartlarını okumak istiyor ol,  
-İster Mitolojik Hikaye çözümlemeyi seviyor ol.
+Öncelikle ilginiz için teşekkür ederim. 10+1 Hafta sürecek bu Tarot yolculuğu iki bölümden oluşur. Bölümlerin içeriklerini aşağıda bulabilirsiniz.
 
-Bu eğitimde her ikisi de var!
+![Tarot kartları okuyan kadın.](/media/images-optimized/tarots_00.jpg)
 
-Bu seminer sonunda amacım sizi Tarot kartlarının sembolizmasını okuyabilecek düzeye getirmek ve de kendinize ya da bir başkasına rahat bir şekilde Tarot açılımı yapabilmenizi sağlamaktır. Bu yüzden kartın anlamlarına olduğu kadar bol bol açılım pratiği yapmak için de zaman ayırdım. 
+**Neden 10+1 Hafta?**
 
-13 Hafta sürecek bu Tarot yolculuğu iki bölümden oluşur:
+Çünkü 10 sayısı tamamlanmanın, 1 sayısı yeni başlangıçların sayısıdır. 10’dan sonra gelen 1 ise üst oktavdan başlangıçlardır.Biz de bu eğitim boyunca her kartın anlamının içinden geçerken, kendi içimize de sihirli bir yolculuk yapacacağız. Ve bu 10+1 haftanın sonunda yeni 'ben'e merhaba diyeceğiz. 
 
-## 1. Bölüm: Majör Arkana: 22 Kart 22 Mitolojik Hikaye
+Bu buluşmalardaki amacım sizi Tarot kartlarının sembolizmasını okuyabilecek düzeye getirmek ve de kendinize ya da bir başkasına rahat bir şekilde Tarot açılımı yapabilmenizi sağlamaktır. Bu yüzden kartın anlamlarına olduğu kadar bol bol açılım pratiği yapmak için de zaman ayırdım. 
 
-3 Mart–21 Nisan 2024 tarihleri arasında gerçekleşecektir. 
-Buluşmalar 8 Hafta boyunca, her Pazar akşamı TR Saatiyle 20:00–22:00 saatleri arasında Zoom üzerinden online olarak yapılacaktır. 
+## 1. Bölüm: Majör Arkana: <br/>22 Kart 22 Mitolojik Hikaye
 
-Bu bölüm 22 Majör Arkana Kartı ve Mitolojik Hikayelerini anlatılacağım bölümdür. 
+22 Majör Arkana Kartı–22 Mitolojik Hikaye’yi kapsayan I. Bölüm, 1 Eylül–20 Ekim 2024 tarihleri arasında gerçekleşecektir.
 
-8 Hafta sürer. Her Pazar akşamı buluşup, 3 tarot kartının:
+Dersler 8 Hafta boyunca, her Pazar akşamı TR Saatiyle 21:00–23:00 saatleri arasında Zoom üzerinden online olarak yapılacaktır.
 
-+ Sembolizmasını ve anlamını
-+ Tarot Arketiplerini ve nerelerde karşılaştığımızı
-+ Numerolojisini ve diğer kartlarla bağlantılarını
-+ Astrolojideki karşılıklarını konuştuktan sonra
+Bu bölüm 22 Majör Arkana Kartını ve kartları ezberlemeden anlayacağınız 22 mitolojik hikayesini anlatacağım bölümdür.
 
-Kartın bize ne söylediğini anlatan bazen bildik bazen de pek bilinmedik mitolojik hikayesini anlatacağım. 
+Bu eğitimde her bir Majör Arkana Kartına ait:
 
-Size anlatacaklarım karttaki sembollerin değil kartın tamamının ne dediğini anlatan hikayeler olacak. Böylelikle kartları daha kolay bir şekilde içselleştirebileceksiniz. 
++ Numeroloji
++ Sembolizma
++ Astrolojik Bağlantılar
++ Ve diğer Ezoterik Bilgileri paylaştıktan sonra
 
-Ayrıca kartlarla nasıl meditasyon ve şifa çalışması yapabileceğinizi ve kartları kullanarak nasıl hikaye yazabileceğinizi de anlatacağım. 
+Kartın bize ne söylediğini anlatan bazen bildik bazen de pek bilinmedik mitolojik hikayesini anlatacağım.
 
-## 2. Bölüm: Minör Arkana ve Tarot Açılım Pratikleri
+Size anlatacaklarım karttaki sembollerin değil kartın tamamının ne dediğini anlatan hikayeler olacak. Böylelikle kartları daha kolay bir şekilde içselleştirebileceksiniz.
 
-Majör Arkana kartlarıyla olan yolculuğumuzun hemen ardından başlayacak olan Minör Arkana ve Açılım Pratikleri Bölümü 28 Nisan–26 Mayıs 2024 tarihleri arasında gerçekleşecektir. Dersler 5 Hafta boyunca, her Pazar akşamı TR Saatiyle 20:00–22:00 saatleri arasında Zoom üzerinden online olarak yapılacaktır. 
+Ayrıca kartlarla nasıl meditasyon ve şifa çalışması yapabileceğinizi de anlatacağım.
 
-Bu bölümde 56 Minör Arkana Kartını anlatacağım ve farklı açılım teknikleriyle beraberce bol bol Tarot Açılımları yapacağız. 
+
+### Hafta Hafta 1. Bölüm İçeriği
+
+Her bir karta karşılık gelen mitolojik hikayesine geçmeden önce tüm kartların önce numerolojideki, astrolojideki, sembolizmadaki ve ezoterizm içindeki yeri hakkında bilgi verilecektir.
+
+| Hafta | Tarih | İçerik |
+| - | - | - |
+| 1 | 1&nbsp;Eylül | Tarot’un Kısa Tarihçesi, Başlıca Tarot Desteleri, Tarot Arketipleri, Numeroloji, Elementler ve Semboller, Renkler, Kahramanın Yolculuğu ve Tarot, Dionysos ve Apollo: Tragedya’nın Doğuşu, Tarot Kartlarıyla Yapılabilecek Şifa Çalışmaları <br/>Joker Kartı ve Büyücü Kartı ile Rüya Çalışması |
+| 2 | 8&nbsp;Eylül | **0 Joker**: Momus & Dionysos <br/>**1 Büyücü**: Hermes & Apollo <br/>**2 Azize**: İsis ve Osiris & Persephone |
+| 3 | 15&nbsp;Eylül | **3 İmparatoriçe**: Demeter <br/>**4 İmparator**: Kral Arthur <br/>**5 Aziz**: Şifacı Kiron |
+| 4 | 22&nbsp;Eylül | **6 Aşıklar**: Castor ve Pollux & Perseus ve Andromeda <br/>**7 Araba**: Tripura ve Şiva <br/>**8 Güç**: Cyrene & Parvati |
+| 5 | 29&nbsp;Eylül | **9 Ermiş**: Persival ve Kutsal Kase <br/>**10 Kader Çarkı**: Tanrıça Fortuna ve Carmina Burana <br/>**11 Adalet**: Tanrıça Ma’at |
+| 6 | 6&nbsp;Ekim | **12 Asılan Adam**: Odin <br/>**13 Ölüm**: Herakles <br/>**14 Denge**: Trimurti |
+| 7 | 13&nbsp;Ekim | **15 Şeytan**: Aziz Theofilus <br/>**16 Kule**: Rapunzel Masalı <br/>**17 Yıldız**: Nut |
+| 8 | 20&nbsp;Ekim | **18 Ay**: Hekate <br/>**19 Güneş**: Amaterasu <br/>**20 Mahkeme**: Uyuyan Güzel Masalı <br/>**21 Dünya**: Brahman/Atman & Kozmik Dans |
+{: .table }
+
+## 2. Bölüm: Minör Arkana <br/>ve Tarot Açılım Pratikleri
+
+Majör Arkana kartlarıyla olan yolculuğumuzun hemen ardından başlayacak olan Minör Arkana ve Açılım Pratikleri Bölümü 27 Ekim–10 Kasım 2024 tarihleri arasında gerçekleşecektir. Dersler 3 Hafta boyunca, her Pazar akşamı TR Saatiyle 21:00–23:00 saatleri arasında Zoom üzerinden online olarak yapılacaktır.
+
+Bu bölümde 56 Minör Arkana Kartını anlatacağım ve farklı açılım teknikleriyle beraberce bol bol Tarot Açılımları yapacağız.
 
 Bu bölümde her bir Minör Arkana Kartına ait:
 
@@ -66,10 +91,60 @@ Bu bölümde her bir Minör Arkana Kartına ait:
 + Astrolojik Bağlantılar
 + Ve diğer Ezoterik Bilgileri paylaşacağım
 
-İlk modüldeki gibi her bir kartın mitolojik hikayesine inemesek de yine kartlara ait zaman zaman hikayelerini anlatmaya devam edeceğim.
+İlk modüldeki gibi her bir kartın mitolojik hikayesine inemesek de yine zaman zaman kartların hikayelerini anlatmaya devam edeceğim.
 
-Devamında ise bol bol kart okuma pratikleri yapıp bu bölümü tamamlayacağız. Bu kart okumaları size ait tarot açılımları olabileceği gibi, iznini aldığınız başka biri için de tarot okuması olabilir.  
+Devamında ise bol bol kart okuma pratikleri yapıp bu bölümü tamamlayacağız. Bu kart okumaları size ait tarot açılımları olabileceği gibi, iznini aldığınız başka biri için de tarot okuması olabilir.
 
-Hafta hafta içerik, ücretler ve kesin kayıt için **<span class="phone"><noscript>turn on Javascript to see my e-mail address</noscript></span>** no'lu telefondan Whatsapp üzerinden benimle iletişime geçebilirsiniz.
+### Hafta Hafta 2. Bölüm İçeriği
 
-Kontejyan sınırlıdır!
+Her bir kartın tek tek anlamını anlatmaya geçmeden önce tüm kartların numerolojideki, astrolojideki, sembolizmadaki ve ezoterizm içindeki yeri hakkında bilgi verilecektir. 
+
+| Hafta | Tarih | İçerik |
+| - | - | - |
+| 9,&nbsp;10 | 27&nbsp;Ekim,<br/>3&nbsp;Kasım | {::nomarkdown}<p>Minör Arkana Kartları Genel Bilgiler: Elementler, Numerolojiler, Renkler ve Anlamları ve Astrolojideki karşılıkları</p><ul><li>Değnek Serisi</li><li>Kupa Serisi</li><li>Kılıç Serisi</li><li>Tılsım Serisi</li><li>Saraylı Kartlar</li></ul>{:/} |
+| 11 | 10&nbsp;Kasım | Tarot Açılım Pratikleri |
+{: .table }
+
+Dersler Zoom üzerinden online ve canlı olarak gerçekleştirilecektir.
+
+Her dersin hemen bitiminde katılımcılarla dersin kaydı paylaşılacaktır. Ders kayıtları buluşmaların bitiminden sonra 2 ay süreyle online olarak ulaşılabilir olacaktır.
+
+Dersten önce, ders esnasında not tutmayı kolaylaştırması için ilgili kartların ders notu paylaşılacaktır. Tüm notlar kitapçık olarak eğitim sonunda da paylaşılır.
+
+## Nasıl kayıt olacaksınız?
+
+Kaydınızı oluşturmak için ücreti ödemeden önce lütfen aşağıdaki linkten kısa iletişim formunu doldurun.
+
+**Sınırlı kontejyan bulunmaktadır**.
+
+<span class="form-button"><noscript>turn on Javascript to see the form button</noscript></span>
+
+Ödemenizi aşağıdaki linkten kredi kartınız ya da banka kartınız ile gerçekleştirebilirsiniz.
+
+## Ücret
+
+Ödemenizi iki şekilde gerçekleştirebilirsiniz:
+
+**4.800 TL**  
+Kredi kartı ya da banka kartı ile tek seferde ödeyebilirsiniz.
+
+<span class="payment-button"><noscript>turn on Javascript to see the payment button</noscript></span>
+
+**5.100 TL** (1.700 TL × 3)  
+Kredi Kartı ya da Banka Kartına 3 Taksitle ödeyebilirsiniz (İlk ödeme 29 Ağustos’a kadar olmak üzere toplam 3 Taksitte ödeme yapabilirsiniz).
+
+<span class="installment-payment-button"><noscript>turn on Javascript to see the installment payment button</noscript></span>
+
++ Farklı bir ödeme planına ihtiyaç duyarsanız bana yazabilirsiniz.
++ Daha önceki eğitimlerimden herhangi birine katıldıysanız +%5 indirim vardır.
++ **Kesin kayıt** için ödemenizi **29 Ağustos’a** kadar gerçekleştirmenizi rica ederim.
+
+---
+
+Her türlü sorunuz için **<span class="phone"><noscript>turn on Javascript to see my phone number</noscript></span>** no’lu telefondan Whatsapp üzerinden ya da **<span class="email"><noscript>turn on Javascript to see my email address</noscript></span>** e-mail adresinden benimle iletişime geçebilirsiniz.
+
+Bu heyecanlı ve renkli yolculukta buluşmak dileğiyle,
+
+Sevgiler,
+
+Dilek

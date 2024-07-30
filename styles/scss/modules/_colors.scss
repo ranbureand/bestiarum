@@ -80,6 +80,20 @@ body {
       background-color: $light-background;
     }
 
+    [class*="table"] {
+      th,
+      td {
+        border-top-color: $foreground;
+      }
+      th {
+        border-bottom-color: $foreground;
+      }
+
+      tbody + tbody {
+        border-top-color: $foreground;
+      }
+    }
+
     .page-prev {
       &:before {
         border-top-color: $foreground;

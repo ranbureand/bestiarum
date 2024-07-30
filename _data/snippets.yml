@@ -70,10 +70,14 @@ categories:
     en: Tarot
     tr: Tarot
 
-payment_button:
+form_button:
   en: Register Now
   tr: Kayıt Formu
 
 payment_button:
   en: Pay Now
   tr: Şimdi Öde
+
+installment_payment_button:
+  en: Pay in Installments
+  tr: Taksitli Öde

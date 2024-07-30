@@ -97,3 +97,34 @@ layout: base
       }
       </script>
       {%- endif %}
+
+      {%- if page.installment_payment_link and page.installment_payment_link != '' %}
+      <script type="text/javascript">
+      // Declare and assign the installment payment link variable
+      const installmentPaymentLink = ('{{ page.installment_payment_link }}');
+
+      // Get the .installment-payment-button elements
+      const installmentPaymentButtons = document.querySelectorAll('.installment-payment-button');
+
+      // Assign the installment payment button variable and inject it in the HTML DOM
+      for (i = 0; i < installmentPaymentButtons.length; i++) {
+        var installmentPaymentButtonParent = installmentPaymentButtons[i].parentNode;
+       // Declare the installment payment button variable
+        var installmentPaymentButtonDiv,
+        installmentPaymentButtonA;
+
+        installmentPaymentButtonDiv = document.createElement('div');
+        installmentPaymentButtonDiv.setAttribute('class', 'button-m');
+        installmentPaymentButtonA = document.createElement('a');
+        installmentPaymentButtonA.setAttribute('href', installmentPaymentLink);
+        installmentPaymentButtonA.setAttribute('target', '_blank');
+        installmentPaymentButtonA.setAttribute('title', '{%- if page.installment_payment_button_name and page.installment_payment_button_name != '' %}{{ page.installment_payment_button_name }}{%- else %}{{ site.data.snippets.installment_payment_button[page.language] }}{%- endif %}');
+        installmentPaymentButtonA.textContent = '{%- if page.installment_payment_button_name and page.installment_payment_button_name != '' %}{{ page.installment_payment_button_name }}{%- else %}{{ site.data.snippets.installment_payment_button[page.language] }}{%- endif %}';
+
+        installmentPaymentButtonDiv.appendChild(installmentPaymentButtonA);
+        installmentPaymentButtonParent.parentNode.replaceChild(installmentPaymentButtonDiv, installmentPaymentButtonParent);
+
+        console.log('Installment payment button created.');
+      }
+      </script>
+      {%- endif %}
