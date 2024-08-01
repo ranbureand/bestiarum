@@ -16,10 +16,10 @@ duration: Haftada 2 saat, 10+1 hafta
 form_link: 'https://forms.gle/vK9iXBCuvgkQEdnP7'
 form_button_name: 'Kayıt Formu'
 
-payment_link: 'https://checkout.revolut.com/pay/15295d14-22b1-449e-b2e0-619e0b186bd8'
+payment_link: 'https://checkout.revolut.com/pay/ca1f61b1-80dc-486e-86b0-4c0d9b0f0799'
 payment_button_name: 'Şimdi Öde'
 
-installment_payment_link: 'https://checkout.revolut.com/pay/d91fe0fb-c442-4ceb-b5b2-c8bb9f363d58'
+installment_payment_link: 'https://checkout.revolut.com/pay/ea7c2e26-a6a7-4b01-9c56-fd2ff949a8f1'
 installment_payment_button_name: 'Taksitli Öde'
 
 language: 'tr'
