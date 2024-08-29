@@ -6,20 +6,20 @@ subtitle: Kartları sana tanrılar ve tanrıçalar anlatsın
 description: Kartları sana tanrılar ve tanrıçalar anlatsın
 date: 2024-07-29 00:00:00
 
-status: open
+status: closed
 introduction: İster Tarot kartlarını okumak istiyor ol, ister mitolojik hikaye çözümlemeyi seviyor ol, bu eğitimde her ikisi de var!
 dates:
   start: 2024-09-01
   end: 2024-11-10
 duration: Haftada 2 saat, 10+1 hafta
 
-form_link: 'https://forms.gle/vK9iXBCuvgkQEdnP7'
+form_link: ''
 form_button_name: 'Kayıt Formu'
 
-payment_link: 'https://checkout.revolut.com/pay/ca1f61b1-80dc-486e-86b0-4c0d9b0f0799'
+payment_link: ''
 payment_button_name: 'Şimdi Öde'
 
-installment_payment_link: 'https://checkout.revolut.com/pay/ea7c2e26-a6a7-4b01-9c56-fd2ff949a8f1'
+installment_payment_link: ''
 installment_payment_button_name: 'Taksitli Öde'
 
 language: 'tr'
@@ -111,33 +111,9 @@ Her dersin hemen bitiminde katılımcılarla dersin kaydı paylaşılır. Ders k
 
 Dersten önce, ders esnasında not tutmayı kolaylaştırması için ilgili kartların ders notu paylaşılacaktır. Tüm notlar kitapçık olarak eğitim sonunda da paylaşılır.
 
-## Nasıl kayıt olacaksınız?
-
-Kaydınızı oluşturmak için ücreti ödemeden önce lütfen aşağıdaki linkten kısa iletişim formunu doldurun.
-
-**Sınırlı kontejyan bulunmaktadır**.
-
-<span class="form-button"><noscript>turn on Javascript to see the form button</noscript></span>
-
-## Ücret
-
-Ödemenizi iki şekilde gerçekleştirebilirsiniz:
-
-**4.800 TL**  
-Kredi kartı ya da banka kartı ile tek seferde ödeyebilirsiniz.
-
-<span class="payment-button"><noscript>turn on Javascript to see the payment button</noscript></span>
-
-**5.100 TL** (1.700 TL × 3)  
-Kredi kartı ya da banka kartına 3 Taksitle ödeyebilirsiniz (İlk ödeme 29 Ağustos’a kadar olmak üzere toplam 3 Taksitte ödeme yapabilirsiniz).
-
-<span class="installment-payment-button"><noscript>turn on Javascript to see the installment payment button</noscript></span>
-
-+ Farklı bir ödeme planına ihtiyaç duyarsanız bana yazabilirsiniz.
-+ Daha önceki eğitimlerimden herhangi birine katıldıysanız +%5 indirim vardır.
-+ **Kesin kayıt** için ödemenizi **29 Ağustos’a** kadar gerçekleştirmenizi rica ederim.
-
 ---
+
+**Bu seminer için kayıtlarımız kapalıdır**.
 
 Her türlü sorunuz için **<span class="phone"><noscript>turn on Javascript to see my phone number</noscript></span>** no’lu telefondan Whatsapp üzerinden ya da **<span class="email"><noscript>turn on Javascript to see my email address</noscript></span>** e-mail adresinden benimle iletişime geçebilirsiniz.
 
