@@ -21,6 +21,18 @@ $d-base-rhythm:             $base-unit*10;
 ** d : desktop
 */
 
+$ms-super-large-size:   24px;
+$ms-super-large-line:   $base-unit*9; //36px
+
+$mm-super-large-size:   32px;
+$mm-super-large-line:   $base-unit*12; //48px
+
+$t-super-large-size:    48px;
+$t-super-large-line:    $base-unit*16; //64px
+
+$d-super-large-size:    64px;
+$d-super-large-line:    $base-unit*20; //80px
+
 $m-extra-large-size:        48px;
 $m-extra-large-line:        $base-unit*14; //56px
 $d-extra-large-size:        64px;

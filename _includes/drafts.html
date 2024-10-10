@@ -1,7 +1,7 @@
         <ul class="posts">
           {%- assign posts = site.posts | where: 'publish', 'no' %}
           {% for post in posts %}
-            <li class="post-canvas">
+            <li class="canvas-post">
               <a
                 class="post c{{ posts | size | minus: forloop.index | modulo: site.colors }}"
                 href="{{ post.url | prepend: site.baseurl }}"

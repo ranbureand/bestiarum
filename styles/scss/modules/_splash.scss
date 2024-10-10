@@ -1,0 +1,88 @@
+/* Copyright (c) 2017 Andrea Buran [www.andreaburan.com]. All rights reserved */
+
+/*
+** Splash
+*/
+
+.canvas-splash {
+  animation-name: element-up;
+  animation-duration: $duration*4;
+
+  animation-fill-mode: both;
+  position: relative;
+  z-index: 1;
+}
+
+.splash {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: em($m-base-rhythm*6);
+  padding-right: em($m-gut);
+  padding-bottom: em($m-base-rhythm*3);
+  padding-left: em($m-gut);
+
+  animation-name: element-in;
+  animation-duration: $duration*4;
+
+  animation-fill-mode: both;
+  @include min-screen(col(8)) {
+    padding-right: em($d-gut);
+    padding-bottom: em($d-base-rhythm*2);
+    padding-top: em($d-base-rhythm*4);
+    padding-left: em($d-gut);
+  }
+  @include min-screen((col(12) + em($d-gut))) {
+    width: col(12);
+  }
+  @include min-screen((col(16) + em($d-gut))) {
+    width: col(16);
+  }
+  @include min-screen((col(20) + em($d-gut))) {
+    width: col(20);
+  }
+}
+
+.pitch {
+  grid-row: 1;
+  z-index: 2;
+
+  @include face(serif);
+
+  p {
+    font-weight: $normal;
+
+    @include font-size($ms-super-large-size, $ms-super-large-line);
+
+    & + p {
+      margin-top: em($ms-super-large-line/2, $ms-super-large-size);
+    }
+  }
+
+  @include min-screen(col(6)) {
+    p {
+      @include font-size($mm-super-large-size, $mm-super-large-line);
+
+      & + p {
+        margin-top: em($mm-super-large-line/2, $mm-super-large-size);
+      }
+    }
+  }
+  @include min-screen(col(10)) {
+    p {
+      @include font-size($t-super-large-size, $t-super-large-line);
+
+      & + p {
+        margin-top: em($t-super-large-line/2, $t-super-large-size);
+      }
+    }
+  }
+  /*@include min-screen(col(16)) {
+    p {
+      @include font-size($d-super-large-size, $d-super-large-line);
+      & + p {
+        margin-top: em($d-super-large-line/2, $d-super-large-size);
+      }
+    }
+  }*/
+}

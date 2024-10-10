@@ -1,7 +1,7 @@
         <ul class="seminar-posts">
           {%- assign seminars = site.seminars | where: 'publish', 'yes' | where: 'language', page.language | sort: 'date' | reverse %}
           {%- for seminar in seminars %}
-            <li class="seminar-post-canvas">
+            <li class="canvas-seminar-post">
               <a
                 class="seminar-post"
                 href="{{ seminar.url | prepend: site.baseurl }}"

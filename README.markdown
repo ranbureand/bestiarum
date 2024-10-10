@@ -1,17 +1,36 @@
 # Bestiarum
 
+The content of this site is:
+
++ conceived intermittently
++ written in Kramdown
+
+with love and dedication by Dilek Dilaver.
+
+While this site is:
+
++ designed and developed in the browser
++ generated with [Jekyll](https://jekyllrb.com/ "Jekyll")
++ scripted in JavaScript
++ styled from scratch in SCSS
++ typesetted in Faune
+
+with love and patience by Andrea Buran.
+
 ## Install
 
-Run the following code snippet in the Terminal:
+Run the following commands in the Terminal:
 
-    cd /Applications/MAMP/htdocs/bestiarum
     bundle install
 
 ## Serve
 
-Run the following code snippet in the Terminal:
+Run the following commands in the Terminal:
 
-    cd /Applications/MAMP/htdocs/bestiarum
     bundle exec jekyll serve --baseurl ''
 
-    bundle exec jekyll -v
+## Build
+
+Run the following commands in the Terminal:
+
+    bundle exec jekyll build

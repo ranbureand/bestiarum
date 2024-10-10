@@ -4,8 +4,8 @@
 ** Header, Footer
 */
 
-.header-canvas,
-.footer-canvas {
+.canvas-header,
+.canvas-footer {
   padding-top: em($m-base-rhythm/4);
   padding-bottom: em($m-base-rhythm/4);
 
@@ -15,7 +15,7 @@
   }
 }
 
-.header-canvas {
+.canvas-header {
   position: fixed;
   z-index: 2;
 
@@ -24,7 +24,7 @@
   background-color: $background-color;
 }
 
-.footer-canvas {
+.canvas-footer {
   padding-top: em($m-base-rhythm*4);
 
   @include min-screen(col(8)) {
@@ -81,10 +81,11 @@
     @include font-size($m-small-size, $m-small-line);
   }
   @include min-screen(col(8)) {
+    span:not(.expendable),
     a {
-      padding-top: em($d-small-line/2, $d-small-size);
+      padding-top: em($d-small-line/6, $d-small-size);
       padding-right: em($d-gut/2, $d-small-size);
-      padding-bottom: em($d-small-line/2, $d-small-size);
+      padding-bottom: em($d-small-line/6, $d-small-size);
       padding-left: em($d-gut/2, $d-small-size);
     }
     .item {
@@ -295,4 +296,3 @@
 
   min-height: 100%;
 }
-

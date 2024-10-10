@@ -4,14 +4,6 @@
 ** Post list
 */
 
-.posts-canvas {
-  padding-top: em($m-header-canvas-height);
-
-  @include min-screen(col(8)) {
-    padding-top: em($d-header-canvas-height);
-  }
-}
-
 .posts {
   display: flex;
 

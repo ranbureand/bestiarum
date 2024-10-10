@@ -8,7 +8,7 @@
       {%- endfor %}
       {%- assign prevPostIndex = currentPostIndex | plus: 1 %}
       {%- assign nextPostIndex = currentPostIndex | minus: 1 %}
-      <div class="pagination-canvas c{{page.number}}">
+      <div class="canvas-pagination c{{page.number}}">
         <div class="pagination">
           {%- for post in posts %}
           {%- if forloop.index == prevPostIndex %}

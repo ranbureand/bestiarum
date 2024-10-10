@@ -9,6 +9,8 @@ language: 'tr'
 language_reference: 'index'
 ---
 
+{% include splash.html %}
+
 {%- assign counter = 0 %}
 {%- for post in site.posts %}
   {%- unless post.publish == 'no' %}

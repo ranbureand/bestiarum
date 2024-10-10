@@ -11,6 +11,8 @@ language: 'en'
 language_reference: 'nest'
 ---
 
+{% include splash.html %}
+
 {%- assign counter = 0 %}
 {%- for post in site.posts %}
   {%- unless post.publish == 'no' %}
@@ -18,7 +20,7 @@ language_reference: 'nest'
   {%- endunless %}
 {%- endfor %}
 
-      <div class="posts-canvas">
+      <div class="canvas-posts">
 
 {% include post-list.html %}
 
