@@ -13,7 +13,7 @@ While this site is:
 + generated with [Jekyll](https://jekyllrb.com/ "Jekyll")
 + scripted in JavaScript
 + styled from scratch in SCSS
-+ typesetted in Faune
++ typesetted in [Faune](https://www.cnap.fr/sites/faune/ "Faune")
 
 with love and patience by Andrea Buran.
 
