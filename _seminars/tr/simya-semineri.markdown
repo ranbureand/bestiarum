@@ -11,7 +11,7 @@ introduction: Simyacılar kurşunu altına dönüştürebilirler mi? Kusursuz Fe
 dates:
   start: 2024-12-01
   end: 2024-12-22
-hours: 21:00–23:00
+hours: 21:00–23:00 (TSİ)
 duration: Haftada 2 saat, 4 hafta
 
 form_link: 'https://forms.gle/mDvFZvCR8rAZkzgK7'
