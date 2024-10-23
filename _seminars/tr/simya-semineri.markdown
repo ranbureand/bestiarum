@@ -110,7 +110,9 @@ Her buluşma *Zoom* üzerinden canlı olarak yapılacaktır. Her bir buluşmanı
 **3.800 TL**  
 Kredi kartı ile tek seferde nakit ödeme gerçekleştirebilirsiniz.
 
-15 Kasım’a kadar kesin kayıtlarda <mark>%10 erken ödeme indirimi</mark> vardır.
+10 Kasım’a kadar kesin kayıtlarda <mark>%10 erken ödeme indirimi</mark> vardır.
+
+Daha önceki eğitimlerimden herhangi birine katıldıysanız %5 indirim vardır.
 
 Bu seminerler için yerimiz kısıtlıdır. 
 
