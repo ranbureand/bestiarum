@@ -89,6 +89,7 @@
     flex-wrap: wrap;
   }
   .dates,
+  .hours,
   .duration {
     @include font-size($m-small-size, $m-small-line);
   }
@@ -130,6 +131,7 @@
       margin-top: em($d-small-line);
     }
     .dates,
+    .hours,
     .duration {
       @include font-size($d-small-size, $d-small-line);
     }

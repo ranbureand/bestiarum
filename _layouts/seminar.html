@@ -17,6 +17,9 @@ layout: base
               {%- assign dates_end_month = page.dates.end | date: '%-m' | minus: 1 %}
               <div class="dates">{{ page.dates.start | date: '%-d' }} {{ site.data.snippets.months[page.language][dates_start_month] }} {{ page.dates.start | date: '%Y' }}–{{ page.dates.end | date: '%-d' }} {{ site.data.snippets.months[page.language][dates_end_month] }} {{ page.dates.end | date: '%Y' }}</div>
               {%- endif %}
+              {%- if page.hours %}
+              <div class="hours">{{ page.hours }}</div>
+              {%- endif %}
               {%- if page.duration %}
               <div class="duration">{{ page.duration }}</div>
               {%- endif %}
