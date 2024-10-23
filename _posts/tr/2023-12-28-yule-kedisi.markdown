@@ -11,6 +11,7 @@ language_reference: 'yulekedisi'
 
 publish: 'yes'
 ---
+
 Yule Kedisi, orjinal adı ile Jólakötturinn, 13 Yule Beyinin dev annesi Gryla'nın kedisidir. Noel kedisi, jilet gibi bıyıkları, parlak gözleri ve korkunç pençeleriyle dev, kambur ve vahşi bir kedidir. Noel arifesinde çocukların hediye olarak yeni kıyafetler alıp almadıklarını görmek için pencerelerinden bakarak kasabada sinsice dolaşır.
 
 Eğer bir çocuğa Noel için yeni kıyafetler verilmişse, Jólakötturinn bir sonraki eve geçer. Eğer dışarıda rastlarsanız, önce Noel yemeklerini çalar, sonra da hepsini afiyetle yer.

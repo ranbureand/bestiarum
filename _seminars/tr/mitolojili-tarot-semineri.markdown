@@ -1,7 +1,7 @@
 ---
 layout: seminar
 
-title: Mitolojili Tarot semineri
+title: Mitolojili Tarot
 subtitle: Kartları sana tanrılar ve tanrıçalar anlatsın
 description: Kartları sana tanrılar ve tanrıçalar anlatsın
 date: 2024-07-29 00:00:00
