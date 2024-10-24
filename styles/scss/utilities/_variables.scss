@@ -21,17 +21,17 @@ $d-base-rhythm:             $base-unit*10;
 ** d : desktop
 */
 
-$ms-super-large-size:   24px;
-$ms-super-large-line:   $base-unit*9; //36px
+$ms-super-large-size:       24px;
+$ms-super-large-line:       $base-unit*9; //36px
 
-$mm-super-large-size:   32px;
-$mm-super-large-line:   $base-unit*12; //48px
+$mm-super-large-size:       32px;
+$mm-super-large-line:       $base-unit*12; //48px
 
-$t-super-large-size:    48px;
-$t-super-large-line:    $base-unit*16; //64px
+$t-super-large-size:        48px;
+$t-super-large-line:        $base-unit*16; //64px
 
-$d-super-large-size:    64px;
-$d-super-large-line:    $base-unit*20; //80px
+$d-super-large-size:        64px;
+$d-super-large-line:        $base-unit*20; //80px
 
 $m-extra-large-size:        48px;
 $m-extra-large-line:        $base-unit*14; //56px
@@ -87,48 +87,48 @@ $normal:    400;
 */
 
 
-$l-icon-width:          32px;
-$l-icon-height:         24px;
-$m-l-icon-width:        $l-icon-width*2.5;
-$m-l-icon-height:       $l-icon-height*2.5;
-$d-l-icon-width:        $l-icon-width*3;
-$d-l-icon-height:       $l-icon-height*3;
+$l-icon-width:              32px;
+$l-icon-height:             24px;
+$m-l-icon-width:            $l-icon-width*2.5;
+$m-l-icon-height:           $l-icon-height*2.5;
+$d-l-icon-width:            $l-icon-width*3;
+$d-l-icon-height:           $l-icon-height*3;
 
-$m-icon-width:          16px;
-$m-icon-height:         12px;
-$m-m-icon-width:        $m-icon-width*2.5;
-$m-m-icon-height:       $m-icon-height*2.5;
-$d-m-icon-width:        $m-icon-width*3;
-$d-m-icon-height:       $m-icon-height*3;
+$m-icon-width:              16px;
+$m-icon-height:             12px;
+$m-m-icon-width:            $m-icon-width*2.5;
+$m-m-icon-height:           $m-icon-height*2.5;
+$d-m-icon-width:            $m-icon-width*3;
+$d-m-icon-height:           $m-icon-height*3;
 
 /*
 ** Grid
 */
 
-$column-width: 64px;
+$column-width:              64px;
 
 /*
 ** Guts and indents
 */
 
-$m-gut: 16px; // mobile gut
-$d-gut: 24px; // desktop gut
+$m-gut:                     16px; // mobile gut
+$d-gut:                     24px; // desktop gut
 
 /*
 ** Borders
 */
 
-$m-border-width:        2px;
-$d-border-width:        2px;
+$m-border-width:            2px;
+$d-border-width:            2px;
 
-$border-style:          solid;
+$border-style:              solid;
 
 /*
 ** Layout
 */
 
-$m-header-canvas-height: $m-base-rhythm/4*2 + $m-small-line/2*2 + $m-small-line;
-$d-header-canvas-height: $d-base-rhythm/4*2 + $d-small-line/2*2 + $d-small-line;
+$m-header-canvas-height:    $m-base-rhythm/4*2 + $m-small-line/2*2 + $m-small-line;
+$d-header-canvas-height:    $d-base-rhythm/4*2 + $d-small-line/2*2 + $d-small-line;
 
 /*
 ** Strip units

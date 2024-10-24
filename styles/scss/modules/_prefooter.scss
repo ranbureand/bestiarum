@@ -1,0 +1,60 @@
+/* Copyright (c) 2019 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Links
+*/
+
+.canvas-prefooter {
+  padding-top: em($m-base-rhythm/4);
+  padding-bottom: em($m-base-rhythm/4);
+
+  @include min-screen(col(8)) {
+    padding-top: em($d-base-rhythm/4);
+    padding-bottom: em($d-base-rhythm/4);
+  }
+}
+
+.prefooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  row-gap: 20px;
+
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: em($m-gut);
+  padding-bottom: em($m-base-rhythm*6);
+  padding-left: em($m-gut);
+
+  animation-name: element-in;
+  animation-duration: $duration*4;
+
+  animation-fill-mode: both;
+  @include min-screen(col(8)) {
+    padding-right: em($d-gut);
+    padding-bottom: em($d-base-rhythm*6);
+    padding-left: em($d-gut);
+  }
+  @include min-screen((col(12) + em($d-gut))) {
+    width: col(12);
+    padding-bottom: em($d-base-rhythm*6);
+  }
+
+
+
+  svg {
+    width: col(2);
+    display: block;
+    height: auto;
+
+    //width: em($m-small-line/268*2048, $m-small-size);
+    //height: em($m-small-line, $m-small-size);
+
+    fill: $type-color;
+    path {
+      fill: $type-color;
+    }
+  }
+}

@@ -17,7 +17,7 @@ duration: Haftada 2 saat, 4 hafta
 form_link: 'https://forms.gle/mDvFZvCR8rAZkzgK7'
 form_button_name: 'Kayıt Formu'
 
-payment_link: 'https://checkout.revolut.com/pay/f76c96c1-ce64-4cb4-9b83-a182d7c55c49'
+payment_link: 'https://checkout.revolut.com/pay/ff3fd85b-2a13-4609-823a-115e28094d9b'
 payment_button_name: 'Şimdi Öde'
 
 language: 'tr'
@@ -28,7 +28,13 @@ publish: 'yes'
 
 Sembolleriyle içimize işleyen ve binlerce yıllık geçmişiyle baş döndüren simyanın altına dönüşme ve dönüştürme sanatına hoşgeldiniz.
 
-![Kadın simyacı eski bir kitabı okuyor ve diğer eliyle de feneri tutuyor.](/media/images-optimized/alchemy_01.jpg)
+{% include image.html
+  h="1260" w="1440"
+  src="alchemy_00.jpg"
+  alt="Michael Maier, Atalanta Fugiens, Emblem 14, 1617"
+  caption="Michael Maier, *Atalanta Fugiens*, Emblem 14, 1617."
+  color="#b8c6ec"
+%}
 
 Simyacılığın bildiğimiz laboratuarlarda kurşunu altına çeviren bir yanı olduğu kadar ruhumuzu da dönüştüren çok derin bir felsefesi vardır.
 
@@ -111,7 +117,7 @@ Her buluşma *Zoom* üzerinden canlı olarak yapılacaktır. Her bir buluşmanı
 **3.800 TL**  
 Kredi kartı ile tek seferde nakit ödeme gerçekleştirebilirsiniz.
 
-10 Kasım’a kadar kesin kayıtlarda <mark>%10 erken ödeme indirimi</mark> vardır.
+10 Kasım’a kadar kesin kayıtlarda **%10 erken ödeme indirimi** vardır.
 
 Daha önceki eğitimlerimden herhangi birine katıldıysanız %5 indirim vardır.
 

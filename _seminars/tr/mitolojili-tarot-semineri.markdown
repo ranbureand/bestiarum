@@ -32,7 +32,12 @@ Merhabalar,
 
 Öncelikle ilginiz için teşekkür ederim. 10+1 Hafta sürecek bu Tarot yolculuğu iki bölümden oluşur. Bölümlerin içeriklerini aşağıda bulabilirsiniz.
 
-![Tarot kartları okuyan kadın.](/media/images-optimized/tarots_00.jpg)
+{% include image.html
+  h="1" w="2"
+  src="tarots_00.jpg"
+  alt="Tarot kartları okuyan kadın."
+  color="#8ad8c9"
+%}
 
 **Neden 10+1 Hafta?**
 

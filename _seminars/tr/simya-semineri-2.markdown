@@ -27,8 +27,6 @@ publish: 'no'
 
 Sembolleriyle içimize işleyen ve binlerce yıllık geçmişiyle baş döndüren simyanın altına dönüşme ve dönüştürme sanatına hoşgeldiniz.
 
-![Kadın simyacı eski bir kitabı okuyor ve diğer eliyle de feneri tutuyor.](/media/images-optimized/alchemy_00.jpg)
-
 Simyacılığın bildiğimiz laboratuarlarda kurşunu altına çeviren bir yanı olduğu kadar ruhumuzu da dönüştüren çok derin bir felsefesi vardır.
 
 Simyanın sürekli kaynayan kazanlı dünyası, elementler, gezegenler, metaller, ezoterik semboller ve rüyaların en temelinde yatandır. Simyayı anlamaya başlamak bize tüm bu konulara bütünsel bir yaklaşım sunar. Böylece hem sonsuz evrenin hem de kendi içimizdeki küçük evrenimizin işleyişini daha iyi anlarız.

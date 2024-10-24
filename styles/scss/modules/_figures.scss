@@ -1,0 +1,104 @@
+/* Copyright (c) 2017 Andrea Buran [www.andreaburan.com]. All rights reserved */
+
+/*
+** Figures
+*/
+
+.image {
+  position: relative;
+  margin-right: em(-$m-gut/2);
+  margin-top: em($m-medium-line);
+  margin-bottom: em($m-medium-line);
+  margin-left: em(-$m-gut/2);
+  padding-right: em($m-gut*0.5);
+  padding-left: em($m-gut*0.5);
+
+  counter-increment: images;
+
+  .ratio {
+    position: relative;
+
+    display: block;
+
+    height: 0;
+    background-color: rgba(map-get($l-back-colors, "s10"), 1.0);
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  figcaption {
+    width: 100%;
+    margin-top: em($m-small-line*3/8);
+
+    > p:first-child:before {
+      font-style: italic;
+
+      content: "fig. " counter(images) "\0000a0\0000a0";
+    }
+  }
+
+  @include min-screen(col(8)) {
+    margin-right: em(-$d-gut/2);
+    margin-top: em($d-medium-line);
+    margin-bottom: em($d-medium-line);
+    margin-left: em(-$d-gut/2);
+    padding-right: em($d-gut*0.5);
+    padding-left: em($d-gut*0.5);
+
+    figcaption {
+      margin-top: em($d-small-line/2);
+
+      > p:first-child:before {
+        content: "fig. " counter(images) "\0000a0\0000a0\0000a0";
+      }
+    }
+  }
+}
+
+html:lang(en) {
+  .image {
+    figcaption {
+      > p:first-child:before {
+        content: "fig. " counter(images) "\0000a0\0000a0";
+      }
+    }
+  }
+  @include min-screen(col(8)) {
+    .image {
+      figcaption {
+        > p:first-child:before {
+          content: "fig. " counter(images) "\0000a0\0000a0\0000a0";
+        }
+      }
+    }
+  }
+}
+
+html:lang(tr) {
+  .image {
+    figcaption {
+      > p:first-child:before {
+        content: "fig. " counter(images) "\0000a0\0000a0";
+      }
+    }
+  }
+  @include min-screen(col(8)) {
+    .image {
+      figcaption {
+        > p:first-child:before {
+          content: "fig. " counter(images) "\0000a0\0000a0\0000a0";
+        }
+      }
+    }
+  }
+}
