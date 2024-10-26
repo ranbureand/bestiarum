@@ -1,13 +1,18 @@
 /* Copyright (c) 2019 Andrea Buran [www.andreaburan.com] All rights reserved */
 
 /*
-** Header, Footer
+** Header
 */
 
-.canvas-header,
-.canvas-footer {
+.canvas-header {
+  position: fixed;
+  z-index: 2;
+
+  width: 100%;
   padding-top: em($m-base-rhythm/4);
   padding-bottom: em($m-base-rhythm/4);
+
+  background-color: $background-color;
 
   @include min-screen(col(8)) {
     padding-top: em($d-base-rhythm/4);
@@ -15,26 +20,9 @@
   }
 }
 
-.canvas-header {
-  position: fixed;
-  z-index: 2;
-
-  width: 100%;
-
-  background-color: $background-color;
-}
-
-.canvas-footer {
-  padding-top: em($m-base-rhythm*4);
-
-  @include min-screen(col(8)) {
-    padding-top: em($d-base-rhythm*2.5);
-  }
-}
-
-.header,
-.footer {
+.header {
   display: flex;
+
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -52,22 +40,19 @@
 }
 
 .header-title,
-.header-navigation,
-.footer-copyright,
-.footer-scroll {
-
+.header-navigation {
   span:not(.expendable),
   a {
     display: block;
 
-    padding-top: em($m-small-line/2, $m-small-size);
+    padding-top: em($m-small-line/4, $m-small-size);
     padding-right: em($m-gut/2, $m-small-size);
-    padding-bottom: em($m-small-line/2, $m-small-size);
+    padding-bottom: em($m-small-line/4, $m-small-size);
     padding-left: em($m-gut/2, $m-small-size);
   }
 
   a {
-    border-radius: $base-unit;
+    border-radius: 0.2em;
     &:hover{
       text-decoration: underline;
 
@@ -83,9 +68,9 @@
   @include min-screen(col(8)) {
     span:not(.expendable),
     a {
-      padding-top: em($d-small-line/6, $d-small-size);
+      padding-top: em($d-small-line/4, $d-small-size);
       padding-right: em($d-gut/2, $d-small-size);
-      padding-bottom: em($d-small-line/6, $d-small-size);
+      padding-bottom: em($d-small-line/4, $d-small-size);
       padding-left: em($d-gut/2, $d-small-size);
     }
     .item {
@@ -151,8 +136,12 @@
   }
 
   .item {
-    margin-right: em($m-gut, $m-small-size);
-    margin-left: em($m-gut, $m-small-size);
+    margin-right: em($m-gut/2, $m-small-size);
+    margin-left: em($m-gut/2, $m-small-size);
+  }
+  a {
+    padding-top: em($m-small-line/2, $m-small-size);
+    padding-bottom: em($m-small-line/2, $m-small-size);
   }
   .current {
     a {
@@ -180,9 +169,13 @@
 
     width: 100%;
     height: calc(100vh - em($d-header-canvas-height));
+    a {
+      padding-top: em($d-small-line/2, $d-small-size);
+      padding-bottom: em($d-small-line/2, $d-small-size);
+    }
     .item {
-      margin-right: em($d-gut);
-      margin-left: em($d-gut);
+      margin-right: em($d-gut/2);
+      margin-left: em($d-gut/2);
     }
 
     .languages {
@@ -203,6 +196,10 @@
 
     width: auto;
     height: auto;
+    a {
+      padding-top: em($d-small-line/4, $d-small-size);
+      padding-bottom: em($d-small-line/4, $d-small-size);
+    }
 
     ul {
       display: flex;
@@ -229,14 +226,14 @@
 .header-menu {
   display: flex;
 
-  padding-top: em($m-small-line/2, $m-small-size);
+  padding-top: em($m-small-line/4, $m-small-size);
   padding-right: em($m-gut/2, $m-small-size);
-  padding-bottom: em($m-small-line/2, $m-small-size);
+  padding-bottom: em($m-small-line/4, $m-small-size);
   padding-left: em($m-gut/2, $m-small-size);
 
   cursor: pointer;
 
-  border-radius: $base-unit;
+  border-radius: 0.2em;
 
   @include font-size($m-small-size, $m-small-line);
   &:hover {
@@ -247,9 +244,9 @@
     display: none;
   }
   @include min-screen(col(8)) {
-    padding-top: em($d-small-line/2, $d-small-size);
+    padding-top: em($d-small-line/4, $d-small-size);
     padding-right: em($d-gut/2, $d-small-size);
-    padding-bottom: em($d-small-line/2, $d-small-size);
+    padding-bottom: em($d-small-line/4, $d-small-size);
     padding-left: em($d-gut/2, $d-small-size);
 
     @include font-size($d-small-size, $d-small-line);
@@ -257,42 +254,4 @@
   @include min-screen(col(12)) {
     display: none;
   }
-}
-
-.footer {
-  flex-direction: column;
-  @include min-screen(col(8)) {
-    flex-direction: row;
-  }
-}
-
-.footer-copyright {
-  display: flex;
-
-  flex-grow: 1;
-
-  .expendable {
-    display: none;
-  }
-  @include min-screen(col(8)) {
-    .expendable {
-      display: inline;
-    }
-  }
-}
-
-.footer-scroll {
-  @include min-screen(col(8)) {
-    text-align: right;
-  }
-}
-
-/*
-** Container
-*/
-
-.container {
-  position: relative;
-
-  min-height: 100%;
 }

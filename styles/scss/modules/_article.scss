@@ -4,7 +4,7 @@
 ** Article
 */
 
-.canvas-article {
+[class*="canvas-article"] {
   animation-name: element-up;
   animation-duration: $duration*4;
   padding-top: em($m-header-canvas-height);
@@ -14,6 +14,13 @@
   z-index: 1;
   @include min-screen(col(8)) {
     padding-top: em($d-header-canvas-height);
+  }
+}
+
+.canvas-article-post {
+  margin-bottom: em($m-base-rhythm*2);
+  @include min-screen(col(8)) {
+    margin-bottom: em($d-base-rhythm*2);
   }
 }
 

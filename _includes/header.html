@@ -4,7 +4,7 @@
 {%- assign posts = site.posts | where: 'publish', 'no' | where: 'language', page.language %}
 {%- endif %}
 
-      <div class="canvas-header c{% for this_post in posts %}{% if this_post.title == page.title and this_post.date == page.date and this_post.language == page.language %}{{ posts | size | minus: forloop.index | modulo: site.colors }}{% endif %}{% endfor %}">
+      <div class="canvas-header{% for this_post in posts %}{% if this_post.title == page.title and this_post.date == page.date and this_post.language == page.language %} c{{ posts | size | minus: forloop.index | modulo: site.colors }}{% endif %}{% endfor %}">
         <header class="header">
 
           <h1 class="header-title">
@@ -21,7 +21,6 @@
               {%- endif %}
             {%- endfor %}
             <div class="item">
-              <!--<a href="{{ url }}">{{ site.title }}</a>-->
               <a href="{{ url }}">
 {% include header-logo.html %}
               </a>

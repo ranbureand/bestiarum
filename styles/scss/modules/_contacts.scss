@@ -1,0 +1,113 @@
+/* Copyright (c) 2019 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Links
+*/
+
+.canvas-contacts {
+  padding-top: em($m-base-rhythm/4);
+  padding-bottom: em($m-base-rhythm/4);
+
+  @include min-screen(col(8)) {
+    padding-top: em($d-base-rhythm/4);
+    padding-bottom: em($d-base-rhythm/4);
+  }
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: em($m-gut);
+  padding-left: em($m-gut);
+
+  animation-name: element-in;
+  animation-duration: $duration*4;
+
+  justify-content: center;
+  align-items: center;
+  row-gap: em($m-medium-line/2);
+  animation-fill-mode: both;
+
+  svg {
+    fill: $type-color;
+    path {
+      fill: $type-color;
+    }
+  }
+
+  .logo {
+    display: block;
+
+    width: col(2/6*5);
+    height: auto;
+  }
+  @include min-screen(col(8)) {
+    padding-right: em($d-gut);
+    padding-left: em($d-gut);
+
+    row-gap: em($d-medium-line/2);
+
+    .logo {
+      width: col(2);
+    }
+  }
+  @include min-screen((col(12) + em($d-gut))) {
+    width: col(12);
+  }
+}
+
+.contacts-links {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  li {
+    text-align: center;
+
+    @include font-size($m-small-size, $m-small-line);
+  }
+  a {
+    display: block;
+
+    margin-right: -0.2em;
+    margin-left: -0.2em;
+    padding-top: em($m-small-line/4, $m-small-size);
+    padding-right: em($m-gut/2, $m-small-size);
+    padding-bottom: em($m-small-line/4, $m-small-size);
+    padding-left: em($m-gut/2, $m-small-size);
+
+    border-radius: 0.2em;
+    &:hover {
+      text-decoration: underline;
+
+      background-color: $background-color-hovered;
+    }
+  }
+  .icon {
+    svg {
+      width: em($m-medium-line/4*3, $m-medium-size);
+      height: auto;
+    }
+  }
+  @include min-screen(col(8)) {
+    li {
+      @include font-size($d-small-size, $d-small-line);
+    }
+    a {
+      padding-top: em($d-small-line/4, $d-small-size);
+      padding-right: em($d-gut/2, $d-small-size);
+      padding-bottom: em($d-small-line/4, $d-small-size);
+      padding-left: em($d-gut/2, $d-small-size);
+    }
+    .icon {
+      svg {
+        width: em($d-small-line/4*3, $d-small-size);
+      }
+    }
+  }
+}

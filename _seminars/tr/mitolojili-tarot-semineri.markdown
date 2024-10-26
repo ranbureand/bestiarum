@@ -36,7 +36,7 @@ Merhabalar,
   h="1" w="2"
   src="tarots_00.jpg"
   alt="Tarot kartları okuyan kadın."
-  color="#8ad8c9"
+  color="#b8c6ec"
 %}
 
 **Neden 10+1 Hafta?**
@@ -120,7 +120,7 @@ Dersten önce, ders esnasında not tutmayı kolaylaştırması için ilgili kart
 
 **Bu seminer için kayıtlarımız kapalıdır**.
 
-Her türlü sorunuz için **<span class="phone"><noscript>turn on Javascript to see my phone number</noscript></span>** no’lu telefondan Whatsapp üzerinden ya da **<span class="email"><noscript>turn on Javascript to see my email address</noscript></span>** e-mail adresinden benimle iletişime geçebilirsiniz.
+Her türlü sorunuz için **<span class="phone"><noscript>{{ site.data.snippets.phone_placeholder[page.language] }}</noscript></span>** no’lu telefondan Whatsapp üzerinden ya da **<span class="email"><noscript>{{ site.data.snippets.email_placeholder[page.language] }}</noscript></span>** e-mail adresinden benimle iletişime geçebilirsiniz.
 
 Bu heyecanlı ve renkli yolculukta buluşmak dileğiyle,
 

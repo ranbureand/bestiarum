@@ -135,4 +135,4 @@ Kayıt formunu doldurduktan sonra kesin kaydınız için ödeme yapmanızı rica
 
 <span class="payment-button"><noscript>turn on Javascript to see the payment button</noscript></span>
 
-Ödeme ya da kayıtla ilgili her türlü sorunuz için benimle **<span class="phone"><noscript>turn on Javascript to see my phone number</noscript></span>** no'lu telefondan ya da **<span class="email"><noscript>turn on Javascript to see my email address</noscript></span>** e-mail adresi üzerinden iletişime geçebilirsiniz.
+Ödeme ya da kayıtla ilgili her türlü sorunuz için benimle **<span class="phone"><noscript>{{ site.data.snippets.phone_placeholder[page.language] }}</noscript></span>** no'lu telefondan ya da **<span class="email"><noscript>{{ site.data.snippets.email_placeholder[page.language] }}</noscript></span>** e-mail adresi üzerinden iletişime geçebilirsiniz.

@@ -127,8 +127,8 @@ $border-style:              solid;
 ** Layout
 */
 
-$m-header-canvas-height:    $m-base-rhythm/4*2 + $m-small-line/2*2 + $m-small-line;
-$d-header-canvas-height:    $d-base-rhythm/4*2 + $d-small-line/2*2 + $d-small-line;
+$m-header-canvas-height:    $m-base-rhythm/4*2 + $m-small-line/4*2 + $m-small-line;
+$d-header-canvas-height:    $d-base-rhythm/4*2 + $d-small-line/4*2 + $d-small-line;
 
 /*
 ** Strip units

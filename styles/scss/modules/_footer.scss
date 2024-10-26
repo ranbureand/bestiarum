@@ -1,0 +1,89 @@
+/* Copyright (c) 2019 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Footer
+*/
+
+.canvas-footer {
+  padding-top: em($m-base-rhythm*4);
+  padding-bottom: em($m-base-rhythm/4);
+
+  @include min-screen(col(8)) {
+    padding-top: em($d-base-rhythm*4);
+    padding-bottom: em($d-base-rhythm/4);
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: column-reverse;
+
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: em($m-gut/2);
+  padding-left: em($m-gut/2);
+
+  animation-name: element-in;
+  animation-duration: $duration*4;
+
+  justify-content: center;
+  align-items: center;
+  animation-fill-mode: both;
+  @include min-screen(col(8)) {
+    padding-right: em($d-gut/2);
+    padding-left: em($d-gut/2);
+  }
+  @include min-screen(col(12)) {
+    flex-direction: row;
+  }
+}
+
+.footer [class*="item"] {
+  display: block;
+
+  text-align: center;
+
+  @include font-size($m-small-size, $m-small-line);
+
+  span:not(.expendable),
+  a {
+    display: block;
+
+    padding-top: em($m-small-line/4, $m-small-size);
+    padding-right: em($m-gut/2, $m-small-size);
+    padding-bottom: em($m-small-line/4, $m-small-size);
+    padding-left: em($m-gut/2, $m-small-size);
+  }
+
+  a {
+    border-radius: 0.2em;
+    &:hover{
+      text-decoration: underline;
+
+      background-color: $background-color-hovered;
+    }
+  }
+  @include min-screen(col(8)) {
+    @include font-size($d-small-size, $d-small-line);
+    span:not(.expendable),
+    a {
+      padding-top: em($d-small-line/4, $d-small-size);
+      padding-right: em($d-gut/2, $d-small-size);
+      padding-bottom: em($d-small-line/4, $d-small-size);
+      padding-left: em($d-gut/2, $d-small-size);
+    }
+  }
+  @include min-screen(col(12)) {
+    text-align: left;
+  }
+}
+
+.item-scroll {
+  @include min-screen(col(12)) {
+    margin-left: auto;
+  }
+  a {
+    cursor: n-resize;
+  }
+}

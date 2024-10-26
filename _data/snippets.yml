@@ -85,3 +85,15 @@ payment_button:
 installment_payment_button:
   en: Pay in Installments
   tr: Taksitli Öde
+
+follow_social:
+  en: Follow on
+  tr: Takip edin
+
+email_placeholder:
+  en: enable JavaScript to view my email address
+  tr: email adresimi görmek için Javascript’i etkinleştirin
+
+phone_placeholder:
+  en: enable JavaScript to view my phone number
+  tr: telefon numaramı görmek için JavaScript’i etkinleştirin
