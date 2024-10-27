@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Brownie—Her Eve Lazım Hamarat Peri
+title: Brownie–Her Eve Lazım Hamarat Peri
 subtitle: Periler VII
 categories: [magic]
 description: Brownie, yani kahverengimsiler, İskoçya ve Kuzey İngiltere Folklöründe ev halkı uyuduktan sonra ortaya çıkan ve yapılması gereken ya da yarım kalmış ev işlerini yapan ev cini/perisidir.

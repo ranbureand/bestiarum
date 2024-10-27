@@ -39,7 +39,7 @@
   }
 }
 
-@keyframes element-zoom-in {
+/*@keyframes element-zoom-in {
   0% {
     transform: perspective(200px) translate3d(0px, 0px, 0px);
     z-index: 0;
@@ -54,23 +54,122 @@
     transform: perspective(200px) translate3d(0px, 0px, 16px);
     z-index: 2;
     filter: drop-shadow(0px 0px em($base-unit*3) $zoom-in-shadow-end);
+  }
+}*/
+
+:root {
+  --zoom-shadow-start-color: #{$zoom-shadow-start-color};
+  --zoom-shadow-end-color:  #{$zoom-shadow-end-color};
+
+  --initial-offset-x: 0px;
+  --initial-offset-y: 0px;
+  --initial-rotation: 0deg;
+}
+
+@keyframes element-zoom-in {
+  0% {
+    transform:
+      perspective(200px)
+      translate3d(
+        var(--initial-offset-x),
+        var(--initial-offset-y),
+        0px
+      )
+      rotate(
+        var(--initial-rotation)
+      );
+    z-index: 0;
+  }
+  99% {
+    transform:
+      perspective(200px)
+      translate3d(
+        var(--initial-offset-x),
+        var(--initial-offset-y),
+        16px
+      )
+      rotate(
+        var(--initial-rotation)
+      );
+    z-index: 2;
+  }
+  100% {
+    transform:
+      perspective(200px)
+      translate3d(
+        var(--initial-offset-x),
+        var(--initial-offset-y),
+        16px
+      )
+      rotate(
+        var(--initial-rotation)
+      );
+    z-index: 2;
   }
 }
 
 @keyframes element-zoom-out {
   0% {
-    transform: perspective(200px) translate3d(0px, 0px, 16px);
+    transform:
+      perspective(200px)
+      translate3d(
+        var(--initial-offset-x),
+        var(--initial-offset-y),
+        16px
+      )
+      rotate(
+        var(--initial-rotation)
+      );
     z-index: 2;
-    filter: drop-shadow(0px 0px em($base-unit*3) $zoom-in-shadow-end);
   }
   99% {
-    transform: perspective(200px) translate3d(0px, 0px, 0px);
+    transform:
+      perspective(200px)
+      translate3d(
+        var(--initial-offset-x),
+        var(--initial-offset-y),
+        0px
+      )
+      rotate(
+        var(--initial-rotation)
+      );
     z-index: 1;
-    filter: drop-shadow(0px 0px 0px $zoom-in-shadow-start);
   }
   100% {
-    transform: perspective(200px) translate3d(0px, 0px, 0px);
+    transform:
+      perspective(200px)
+      translate3d(
+        var(--initial-offset-x),
+        var(--initial-offset-y),
+        0px
+      )
+      rotate(
+        var(--initial-rotation)
+      );
     z-index: 0;
-    filter: drop-shadow(0px 0px 0px $zoom-in-shadow-start);
+  }
+}
+
+@keyframes element-shadow-zoom-in {
+  0% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes element-shadow-zoom-out {
+  0% {
+    opacity: 0.6;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
   }
 }

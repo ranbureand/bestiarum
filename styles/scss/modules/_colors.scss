@@ -76,6 +76,13 @@ body {
       }
     }
 
+    .posts > li {
+      border: 20px solid red;
+      &:before {
+        background-color: red;
+      }
+    }
+
     .category {
       background-color: $light-background;
     }
@@ -137,6 +144,51 @@ body {
         color: $emphasis-foreground;
         background-color: $emphasis-background;
       }
+    }
+  }
+}
+
+@each $number, $shade, $back-1-0, $back-1-1, $type-1-0, $back-2-0, $back-2-1, $type-2-0 in $colors {
+
+  $background: $back-1-0;
+  $light-background: $back-1-1;
+  $foreground: $type-1-0;
+  $selected-background: $back-2-0;
+  $selected-foreground: $type-2-0;
+  $emphasis-background: $back-2-0;
+  $emphasis-foreground: $type-2-0;
+
+  .cp#{$number} {
+    &:before {
+      background-color: $background;
+    }
+    .post {
+      color: $foreground;
+      background-color: $background;
+    }
+
+    ::-moz-selection {
+      color: $selected-foreground;
+      background-color: $selected-background;
+      a {
+        &:hover {
+          background-color: $selected-background;
+        }
+      }
+    }
+
+    ::selection {
+      color: $selected-foreground;
+      background-color: $selected-background;
+      a {
+        &:hover {
+          background-color: $selected-background;
+        }
+      }
+    }
+
+    .category {
+      background-color: $light-background;
     }
   }
 }

@@ -1,9 +1,9 @@
         <ul class="posts">
           {%- assign posts = site.posts | where: 'publish', 'yes' | where: 'language', page.language | sort: 'date' | reverse %}
           {%- for post in posts %}
-            <li class="canvas-post">
+            <li class="canvas-post cp{{ posts | size | minus: forloop.index | modulo: site.colors }}">
               <a
-                class="post c{{ posts | size | minus: forloop.index | modulo: site.colors }}"
+                class="post"
                 href="{{ post.url | prepend: site.baseurl }}"
                 >
                 <strong class="title">{{ post.title }}</strong>
@@ -13,3 +13,31 @@
             </li>
           {% endfor %}
         </ul>
+        <script>
+          // Define minimum and maximum rotation and offset values
+          const minRotation = -1.6; // Minimum rotation in degrees
+          const maxRotation = 1.6;  // Maximum rotation in degrees
+          const minOffsetX = -8; // Minimum horizontal offset in pixels
+          const maxOffsetX = 8;  // Maximum horizontal offset in pixels
+          const minOffsetY = -8; // Minimum vertical offset in pixels
+          const maxOffsetY = 8;  // Maximum vertical offset in pixels
+
+          document.querySelectorAll('.posts > li').forEach(li => {
+            // Generate random values for rotation, horizontal, and vertical offsets
+            const rotation = parseFloat((Math.random() * (maxRotation - minRotation) + minRotation).toFixed(1));
+            const offsetX = Math.round(Math.random() * (maxOffsetX - minOffsetX) + minOffsetX);
+            const offsetY = Math.round(Math.random() * (maxOffsetY - minOffsetY) + minOffsetY);
+
+            //console.log(rotation);
+            //console.log(offsetX);
+            //console.log(offsetY);
+
+            // Set the initial transform as CSS variables
+            li.style.setProperty('--initial-rotation', `${rotation}deg`);
+            li.style.setProperty('--initial-offset-x', `${offsetX}px`);
+            li.style.setProperty('--initial-offset-y', `${offsetY}px`);
+
+            // Apply the initial transform using the CSS variables
+            li.style.transform = `rotate(${rotation}deg) translate(${offsetX}px, ${offsetY}px)`;
+          });
+        </script>
