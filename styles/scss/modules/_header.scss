@@ -41,7 +41,7 @@
 
 .header-title,
 .header-navigation {
-  span:not(.expendable),
+  //span:not(.expendable),
   a {
     display: block;
 
@@ -90,6 +90,10 @@
 
   a {
     flex-grow: 0;
+  }
+
+  span {
+    display: none;
   }
 
   svg {
