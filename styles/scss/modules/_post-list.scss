@@ -78,7 +78,7 @@
 
       opacity: 0;
 
-      filter: blur(em($base-unit*2));
+      filter: blur(em($base-unit*4));
     }
   }
   > li:last-child {

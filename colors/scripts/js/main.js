@@ -24,120 +24,135 @@ var h1 =  0, // red
     h12 = 330; // redViolet
 
 // Define the color saturation and luminance values.
-var hueDarkTypeS = 0.55,
-    hueDarkTypeL = 0.30,
+var sDarkType = 0.55,
+    lDarkType = 0.30,
 
-    hueLightBackS = 0.55,
-    hueLightBackL = 0.80,
+    sLightBack = 0.55,
+    lLightBack = 0.80,
 
-    hueLightBackS2 = 0.55,
-    hueLightBackL2 = 0.825,
+    sLightBack2 = 0.55,
+    lLightBack2 = 0.825,
 
-    hueLightTypeS = 0.55,
-    hueLightTypeL = 0.85,
+    sLightType = 0.55,
+    lLightType = 0.85,
 
-    hueDarkBackS =  0.55,
-    hueDarkBackL =  0.35;
+    sDarkBack =  0.55,
+    lDarkBack =  0.35,
 
-    hueDarkBackS2 =  0.55,
-    hueDarkBackL2 =  0.375;
+    sDarkBack2 =  0.55,
+    lDarkBack2 =  0.375
+
+    sShadow = 0.55,
+    lShadow = 0.20;
 
 // Decline the colors (different tones).
 var h1s = {
-      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h1},
-      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h1},
-      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h1},
-      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h1},
-      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h1},
-      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h1}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: sDarkType,   l: lDarkType,   h: h1},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: sLightBack,  l: lLightBack,  h: h1},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: sLightBack2, l: lLightBack2, h: h1},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: sLightType,  l: lLightType,  h: h1},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: sDarkBack,   l: lDarkBack,   h: h1},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: sDarkBack2,  l: lDarkBack2,  h: h1},
+      'shadow'       : {mode: 'okhsl', alpha: 1, s: sShadow,     l: lShadow,     h: h1}
     },
     h2s = {
-      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h2},
-      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h2},
-      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h2},
-      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h2},
-      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h2},
-      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h2}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: sDarkType,   l: lDarkType,   h: h2},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: sLightBack,  l: lLightBack,  h: h2},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: sLightBack2, l: lLightBack2, h: h2},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: sLightType,  l: lLightType,  h: h2},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: sDarkBack,   l: lDarkBack,   h: h2},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: sDarkBack2,  l: lDarkBack2,  h: h2},
+      'shadow'       : {mode: 'okhsl', alpha: 1, s: sShadow,     l: lShadow,     h: h2}
     },
     h3s = {
-      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h3},
-      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h3},
-      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h3},
-      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h3},
-      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h3},
-      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h3}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: sDarkType,   l: lDarkType,   h: h3},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: sLightBack,  l: lLightBack,  h: h3},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: sLightBack2, l: lLightBack2, h: h3},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: sLightType,  l: lLightType,  h: h3},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: sDarkBack,   l: lDarkBack,   h: h3},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: sDarkBack2,  l: lDarkBack2,  h: h3},
+      'shadow'       : {mode: 'okhsl', alpha: 1, s: sShadow,     l: lShadow,     h: h3}
     },
     h4s = {
-      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h4},
-      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h4},
-      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h4},
-      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h4},
-      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h4},
-      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h4}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: sDarkType,   l: lDarkType,   h: h4},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: sLightBack,  l: lLightBack,  h: h4},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: sLightBack2, l: lLightBack2, h: h4},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: sLightType,  l: lLightType,  h: h4},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: sDarkBack,   l: lDarkBack,   h: h4},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: sDarkBack2,  l: lDarkBack2,  h: h4},
+      'shadow'       : {mode: 'okhsl', alpha: 1, s: sShadow,     l: lShadow,     h: h4}
     },
     h5s = {
-      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h5},
-      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h5},
-      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h5},
-      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h5},
-      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h5},
-      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h5}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: sDarkType,   l: lDarkType,   h: h5},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: sLightBack,  l: lLightBack,  h: h5},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: sLightBack2, l: lLightBack2, h: h5},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: sLightType,  l: lLightType,  h: h5},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: sDarkBack,   l: lDarkBack,   h: h5},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: sDarkBack2,  l: lDarkBack2,  h: h5},
+      'shadow'       : {mode: 'okhsl', alpha: 1, s: sShadow,     l: lShadow,     h: h5}
     },
     h6s = {
-      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h6},
-      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h6},
-      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h6},
-      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h6},
-      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h6},
-      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h6}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: sDarkType,   l: lDarkType,   h: h6},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: sLightBack,  l: lLightBack,  h: h6},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: sLightBack2, l: lLightBack2, h: h6},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: sLightType,  l: lLightType,  h: h6},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: sDarkBack,   l: lDarkBack,   h: h6},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: sDarkBack2,  l: lDarkBack2,  h: h6},
+      'shadow'       : {mode: 'okhsl', alpha: 1, s: sShadow,     l: lShadow,     h: h6}
     },
     h7s = {
-      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h7},
-      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h7},
-      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h7},
-      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h7},
-      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h7},
-      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h7}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: sDarkType,   l: lDarkType,   h: h7},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: sLightBack,  l: lLightBack,  h: h7},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: sLightBack2, l: lLightBack2, h: h7},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: sLightType,  l: lLightType,  h: h7},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: sDarkBack,   l: lDarkBack,   h: h7},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: sDarkBack2,  l: lDarkBack2,  h: h7},
+      'shadow'       : {mode: 'okhsl', alpha: 1, s: sShadow,     l: lShadow,     h: h7}
     },
     h8s = {
-      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h8},
-      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h8},
-      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h8},
-      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h8},
-      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h8},
-      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h8}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: sDarkType,   l: lDarkType,   h: h8},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: sLightBack,  l: lLightBack,  h: h8},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: sLightBack2, l: lLightBack2, h: h8},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: sLightType,  l: lLightType,  h: h8},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: sDarkBack,   l: lDarkBack,   h: h8},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: sDarkBack2,  l: lDarkBack2,  h: h8},
+      'shadow'       : {mode: 'okhsl', alpha: 1, s: sShadow,     l: lShadow,     h: h8}
     },
     h9s = {
-      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h9},
-      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h9},
-      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h9},
-      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h9},
-      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h9},
-      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h9}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: sDarkType,   l: lDarkType,   h: h9},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: sLightBack,  l: lLightBack,  h: h9},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: sLightBack2, l: lLightBack2, h: h9},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: sLightType,  l: lLightType,  h: h9},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: sDarkBack,   l: lDarkBack,   h: h9},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: sDarkBack2,  l: lDarkBack2,  h: h9},
+      'shadow'       : {mode: 'okhsl', alpha: 1, s: sShadow,     l: lShadow,     h: h9}
     },
     h10s = {
-      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h10},
-      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h10},
-      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h10},
-      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h10},
-      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h10},
-      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h10}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: sDarkType,   l: lDarkType,   h: h10},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: sLightBack,  l: lLightBack,  h: h10},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: sLightBack2, l: lLightBack2, h: h10},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: sLightType,  l: lLightType,  h: h10},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: sDarkBack,   l: lDarkBack,   h: h10},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: sDarkBack2,  l: lDarkBack2,  h: h10},
+      'shadow'       : {mode: 'okhsl', alpha: 1, s: sShadow,     l: lShadow,     h: h10}
     },
     h11s = {
-      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h11},
-      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h11},
-      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h11},
-      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h11},
-      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h11},
-      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h11}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: sDarkType,   l: lDarkType,   h: h11},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: sLightBack,  l: lLightBack,  h: h11},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: sLightBack2, l: lLightBack2, h: h11},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: sLightType,  l: lLightType,  h: h11},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: sDarkBack,   l: lDarkBack,   h: h11},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: sDarkBack2,  l: lDarkBack2,  h: h11},
+      'shadow'       : {mode: 'okhsl', alpha: 1, s: sShadow,     l: lShadow,     h: h11}
     },
     h12s = {
-      'dark-type'    : {mode: 'okhsl', alpha: 1, s: hueDarkTypeS,   l: hueDarkTypeL,   h: h12},
-      'light-back'   : {mode: 'okhsl', alpha: 1, s: hueLightBackS,  l: hueLightBackL,  h: h12},
-      'light-back-2' : {mode: 'okhsl', alpha: 1, s: hueLightBackS2, l: hueLightBackL2, h: h12},
-      'light-type'   : {mode: 'okhsl', alpha: 1, s: hueLightTypeS,  l: hueLightTypeL,  h: h12},
-      'dark-back'    : {mode: 'okhsl', alpha: 1, s: hueDarkBackS,   l: hueDarkBackL,   h: h12},
-      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: hueDarkBackS2,  l: hueDarkBackL2,  h: h12}
+      'dark-type'    : {mode: 'okhsl', alpha: 1, s: sDarkType,   l: lDarkType,   h: h12},
+      'light-back'   : {mode: 'okhsl', alpha: 1, s: sLightBack,  l: lLightBack,  h: h12},
+      'light-back-2' : {mode: 'okhsl', alpha: 1, s: sLightBack2, l: lLightBack2, h: h12},
+      'light-type'   : {mode: 'okhsl', alpha: 1, s: sLightType,  l: lLightType,  h: h12},
+      'dark-back'    : {mode: 'okhsl', alpha: 1, s: sDarkBack,   l: lDarkBack,   h: h12},
+      'dark-back-2'  : {mode: 'okhsl', alpha: 1, s: sDarkBack2,  l: lDarkBack2,  h: h12},
+      'shadow'       : {mode: 'okhsl', alpha: 1, s: sShadow,     l: lShadow,     h: h12}
     };
 
 // Create an array of the colors.
@@ -387,6 +402,34 @@ darkBack2Swatches += ');';
 console.log(darkBack2Swatches);
 
 /*
+** Create shadow swatches SCSS.
+*/
+
+let shadowSwatches = '';
+
+shadowSwatches = '$shadow-colors: (\n';
+
+for (let i = 0; i < colors.length; i++) {
+
+  var hue = i+1,
+      color = culori.formatHex(colors[i]['shadow']),
+      colorH = colors[i]['shadow']['h'],
+      colorS = colors[i]['shadow']['s'],
+      colorL = colors[i]['shadow']['l'],
+      line = [];
+
+  var line = `"s${hue}" : ${color}, // [okhsl: ${colorH}, ${colorS}, ${colorL}]`;
+
+  shadowSwatches += line;
+
+  shadowSwatches += '\n';
+}
+
+shadowSwatches += ');';
+
+console.log(shadowSwatches);
+
+/*
 ** Merge light and dark swatches.
 */
 
@@ -403,6 +446,8 @@ swatches += '\n';
 swatches += darkBackSwatches;
 swatches += '\n';
 swatches += darkBack2Swatches;
+swatches += '\n';
+swatches += shadowSwatches;
 
 /*
 ** Download the color swatches as a SVG file.

@@ -9,7 +9,7 @@ body {
   background-color: $background-color;
 }
 
-@each $number, $shade, $back-1-0, $back-1-1, $type-1-0, $back-2-0, $back-2-1, $type-2-0 in $colors {
+@each $number, $shade, $back-1-0, $back-1-1, $type-1-0, $back-2-0, $back-2-1, $type-2-0, $shadow in $colors {
 
   $background: $back-1-0;
   $light-background: $back-1-1;
@@ -148,7 +148,7 @@ body {
   }
 }
 
-@each $number, $shade, $back-1-0, $back-1-1, $type-1-0, $back-2-0, $back-2-1, $type-2-0 in $colors {
+@each $number, $shade, $back-1-0, $back-1-1, $type-1-0, $back-2-0, $back-2-1, $type-2-0, $shadow in $colors {
 
   $background: $back-1-0;
   $light-background: $back-1-1;
@@ -160,7 +160,7 @@ body {
 
   .cp#{$number} {
     &:before {
-      background-color: $background;
+      background-color: $shadow;
     }
     .post {
       color: $foreground;
