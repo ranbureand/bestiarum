@@ -35,9 +35,20 @@ $code-background-color:         rgba(map-get($l-back-colors, "s10"), 0.25);
 ** Buttons
 */
 
-$button-type-color:                 $white;
-$button-background-color:           rgba(map-get($d-type-colors, "s10"), 1.00);
-$button-background-color-hovered:   rgba(darken(map-get($d-type-colors, "s10"), 50%), 0.25);
+$button-filled-type-color:                      $white;
+$button-filled-border-color:                    rgba(map-get($d-type-colors, "s10"), 1.00);
+$button-filled-background-color:                rgba(map-get($d-type-colors, "s10"), 1.00);
+$button-filled-background-color-hovered:        rgba(darken(map-get($d-type-colors, "s10"), 50%), 0.25);
+
+$button-outlined-type-color:                    rgba(map-get($d-type-colors, "s10"), 1.00);
+$button-outlined-border-color:                  rgba(map-get($d-type-colors, "s10"), 1.00);
+$button-outlined-background-color:              transparent;
+$button-outlined-background-color-hovered:      rgba(map-get($d-type-colors, "s10"), 0.10);
+
+$button-colored-type-color:                     map-get($d-type-colors, "s10");
+$button-colored-border-color:                   map-get($l-back-colors, "s7");
+$button-colored-background-color:               map-get($l-back-colors, "s7");
+$button-colored-background-color-hovered:       rgba(map-get($d-type-colors, "s10"), 0.10);
 
 /*
 ** Swatches

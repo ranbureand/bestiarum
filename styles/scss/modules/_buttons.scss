@@ -4,7 +4,7 @@
 ** Buttons
 */
 
-[class^="button"] {
+[class*="button"] {
   font-weight: $bold;
 
   position: relative;
@@ -13,13 +13,9 @@
   overflow: hidden;
 
   width: fit-content;
-  margin-right: auto;
-  margin-left: auto;
 
   transition-timing-function: ease-in-out, ease-in-out;
   transition-property: color, background-color;
-
-  background-color: $button-background-color;
 
   @include face(sans);
 
@@ -42,7 +38,6 @@
 
     opacity: 0;
     border-radius: 50%;
-    background-color: $button-background-color-hovered;
   }
 
   a {
@@ -53,11 +48,11 @@
 
     text-decoration: none;
 
-    color: $button-type-color;
+    border-style: solid;
+    border-width: 0;
 
     &:hover,
     &:active {
-      color: $button-type-color;
       background-color: transparent;
     }
   }
@@ -81,7 +76,7 @@
       transform: scale(1.0);
 
       opacity: 1.0;
-      background-color: $button-background-color-hovered;
+      
     }
   }
   @include min-screen(col(8)) {
@@ -91,15 +86,91 @@
   }
 }
 
+.button-filled {
+  background-color: $button-filled-background-color;
+  &:before {
+    background-color: $button-filled-background-color-hovered;
+  }
+  &:active {
+    &:before {
+      background-color: $button-filled-background-color-hovered;
+    }
+  }
+  a {
+    color: $button-filled-type-color;
+    border-color: $button-filled-border-color;
+    &:hover,
+    &:active {
+      color: $button-filled-type-color;
+    }
+  }
+  svg {
+    fill: $button-filled-type-color;
+    path {
+      fill: $button-filled-type-color;
+    }
+  }
+}
+
+.button-outlined {
+  background-color: $button-outlined-background-color;
+  &:before {
+    background-color: $button-outlined-background-color-hovered;
+  }
+  &:active {
+    &:before {
+      background-color: $button-outlined-background-color-hovered;
+    }
+  }
+  a {
+    color: $button-outlined-type-color;
+    border-color: $button-outlined-border-color;
+    &:hover,
+    &:active {
+      color: $button-outlined-type-color;
+    }
+  }
+  svg {
+    fill: $button-outlined-type-color;
+    path {
+      fill: $button-outlined-type-color;
+    }
+  }
+}
+
+.button-colored {
+  background-color: $button-colored-background-color;
+  &:before {
+    background-color: $button-colored-background-color-hovered;
+  }
+  &:active {
+    &:before {
+      background-color: $button-colored-background-color-hovered;
+    }
+  }
+  a {
+    color: $button-colored-type-color;
+    border-color: $button-colored-border-color;
+    &:hover,
+    &:active {
+      color: $button-colored-type-color;
+    }
+  }
+  svg {
+    fill: $button-colored-type-color;
+    path {
+      fill: $button-colored-type-color;
+    }
+  }
+}
 
 /*
 ** Buttons => sizes
 */
 
-.button-m {
-  margin-top: em($m-medium-line);
-  margin-bottom: em($m-medium-line);
+// Medium button
 
+.button-m {
   border-radius: em($m-medium-line);
 
   &:before {
@@ -108,12 +179,11 @@
   a {
     padding: em($m-medium-line/2, $m-medium-size) em($m-gut/2*3, $m-medium-size);
 
+    border-radius: em($m-medium-line);
+
     @include font-size($m-medium-size, $m-medium-line);
   }
   @include min-screen(col(8)) {
-    margin-top: em($d-medium-line);
-    margin-bottom: em($d-medium-line);
-
     border-radius: em($d-medium-line);
 
     &:before {
@@ -122,8 +192,222 @@
     a {
       padding: em($d-medium-line/2, $d-medium-size) em($d-gut, $d-medium-size);
 
+      border-radius: em($d-medium-line);
+
       @include font-size($d-medium-size, $d-medium-line);
     }
   }
 }
 
+.button-m-left {
+  svg {
+    float: left;
+
+    margin-right: em($m-gut/2, $m-medium-size);
+    margin-left: em(-$m-gut/2, $m-medium-size);
+
+    @include min-screen(col(8)) {
+      margin-right: em($d-gut/2, $d-medium-size);
+      margin-left: em(-$d-gut/2, $d-medium-size);
+    }
+  }
+}
+
+.button-m-right {
+  svg {
+    float: right;
+
+    margin-right: em(-$m-gut/2, $m-medium-size);
+    margin-left: em($m-gut/2, $m-medium-size);
+
+    @include min-screen(col(8)) {
+      margin-right: em(-$d-gut/2, $d-medium-size);
+      margin-left: em($d-gut/2, $d-medium-size);
+    }
+  }
+}
+
+[class*="button-m"].button-outlined {
+  a {
+    border-width: 4px;
+  }
+}
+
+// Small button
+
+.button-s {
+  border-radius: em($m-small-line);
+
+  &:before {
+    margin-top: calc(-50% + #{em($m-small-line)});
+  }
+  a {
+    padding: em($m-small-line/2, $m-small-size) em($m-gut/2*3, $m-small-size);
+
+    border-radius: em($m-small-line);
+
+    @include font-size($m-small-size, $m-small-line);
+  }
+  @include min-screen(col(8)) {
+    border-radius: em($d-small-line);
+
+    &:before {
+      margin-top: calc(-50% + #{em($d-small-line)});
+    }
+    a {
+      padding: em($d-small-line/2, $d-small-size) em($d-gut, $d-small-size);
+
+      border-radius: em($d-small-line);
+
+      @include font-size($d-small-size, $d-small-line);
+    }
+  }
+}
+
+.button-s-left {
+  svg {
+    float: left;
+
+    margin-right: em($m-gut/2, $m-small-size);
+    margin-left: em(-$m-gut/2, $m-small-size);
+
+    @include min-screen(col(8)) {
+      margin-right: em($d-gut/2, $d-small-size);
+      margin-left: em(-$d-gut/2, $d-small-size);
+    }
+  }
+}
+
+.button-s-right {
+  svg {
+    float: right;
+
+    margin-right: em(-$m-gut/2, $m-small-size);
+    margin-left: em($m-gut/2, $m-small-size);
+
+    @include min-screen(col(8)) {
+      margin-right: em(-$d-gut/2, $d-small-size);
+      margin-left: em($d-gut/2, $d-small-size);
+    }
+  }
+}
+
+[class*="button-s"].button-outlined {
+  a {
+    border-width: 3px;
+  }
+}
+
+// Extra small button
+
+[class*="button-xs"] {
+  border-radius: em($m-extra-small-line);
+
+  &:before {
+    margin-top: calc(-50% + #{em($m-extra-small-line)});
+  }
+  a {
+    padding: em($m-extra-small-line/4, $m-extra-small-size) em($m-gut/2, $m-extra-small-size);
+
+    border-radius: em($m-extra-small-line);
+
+    @include font-size($m-extra-small-size, $m-extra-small-line);
+  }
+  svg {
+    width: em($m-extra-small-line, $m-extra-small-size);
+    height: em($m-extra-small-line, $m-extra-small-size);
+  }
+  @include min-screen(col(8)) {
+    border-radius: em($d-extra-small-line);
+
+    &:before {
+      margin-top: calc(-50% + #{em($d-extra-small-line)});
+    }
+    a {
+      padding: em($d-extra-small-line/4, $d-extra-small-size) em($d-gut/2, $d-extra-small-size);
+
+      border-radius: em($d-extra-small-line);
+
+      @include font-size($d-extra-small-size, $d-extra-small-line);
+    }
+    svg {
+      width: em($d-extra-small-line, $d-extra-small-size);
+      height: em($d-extra-small-line, $d-extra-small-size);
+    }
+  }
+}
+
+.button-xs-left {
+  svg {
+    float: left;
+
+    margin-right: em($m-gut/4, $m-extra-small-size);
+    //margin-left: em(-$m-gut/2, $m-extra-small-size);
+
+    @include min-screen(col(8)) {
+      margin-right: em($d-gut/4, $d-extra-small-size);
+      //margin-left: em(-$d-gut/2, $d-extra-small-size);
+    }
+  }
+}
+
+.button-xs-right {
+  svg {
+    float: right;
+
+    margin-right: em(-$m-gut/2, $m-extra-small-size);
+    margin-left: em($m-gut/2, $m-extra-small-size);
+
+    @include min-screen(col(8)) {
+      margin-right: em(-$d-gut/2, $d-extra-small-size);
+      margin-left: em($d-gut/2, $d-extra-small-size);
+    }
+  }
+}
+
+[class*="button-xs"].button-outlined {
+  a {
+    border-width: 2px;
+  }
+}
+
+/*
+** Typography
+*/
+
+[class*="typo"] {
+  [class*="button"] {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+[class*="typo"] .button-m {
+  margin-top: em($m-medium-line);
+  margin-bottom: em($m-medium-line);
+
+  @include min-screen(col(8)) {
+    margin-top: em($d-medium-line);
+    margin-bottom: em($d-medium-line);
+  }
+}
+
+[class*="typo"] .button-s {
+  margin-top: em($m-small-line);
+  margin-bottom: em($m-small-line);
+
+  @include min-screen(col(8)) {
+    margin-top: em($d-small-line);
+    margin-bottom: em($d-small-line);
+  }
+}
+
+[class*="typo"] .button-xs {
+  margin-top: em($m-extra-small-line);
+  margin-bottom: em($m-extra-small-line);
+
+  @include min-screen(col(8)) {
+    margin-top: em($d-extra-small-line);
+    margin-bottom: em($d-extra-small-line);
+  }
+}
