@@ -6,9 +6,11 @@ subtitle: Bai Ze
 categories: [mythology]
 description: Bai Ze Çin Mitolojisinde yer alan efsanevi insan başlı ve öküz gövdeli yaratıktır. Başının iki yanında ve bir tane de ortada olmak üzere üç gözü ve sırtında boynuzları vardır. Sadece erdemli liderlere görünür.
 date: '2021-06-04 13:40:00'
+
 language: 'tr'
 language_reference: 'baize'
-publish: 'yes'
+
+published: true
 ---
 
 Bai Ze (Japonca: Hakutaku) Çin Mitolojisinde yer alan efsanevi insan başlı ve öküz gövdeli yaratıktır. Başının iki yanında ve bir tane de ortada olmak üzere üç gözü ve sırtında boynuzları vardır. Sadece erdemli liderlere görünür.

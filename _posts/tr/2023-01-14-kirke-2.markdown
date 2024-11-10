@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Kirke Nasıl Kirke Oldu?
 subtitle: Kirke
 categories: [magic, mythology]
 description: Kirke tüm tanrılara kafa tutacak ve bir adada tek başına yaşayacak kadar güçlü bir cadıdır.
 date: '2023-01-14 13:40:00'
+
 language: 'tr'
 language_reference: 'kirke2'
-publish: 'yes'
+
+published: true
 ---
+
 12/Mart
 Bugün eve dönerken liseden beri görmediğim bir arkadaşımla karşılaştım. Bu milyonluk şehirde iki kişinin karşılaşma ihtimali nedir ki? Çok acayipti.
 Lisede yanıma bile yaklaşamayan o sümsük Caner gitmiş yerine bambaşka biri gelmiş. Ayrıca ceketinin altından bile abdominallerini sayabildim. (Tamam uslu duruyorum) Ayak üstü lafladık, telefonlarımızı verdik birbirimize falan, öyle işte.

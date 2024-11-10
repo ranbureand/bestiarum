@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Süper-güç Olarak Uçan Vajina?
 subtitle: Kohe Lele
 categories: [beast, mythology]
 description: Kohe Lele Hawaii Mitoloji’nde geçer ve anlamı “Uçan Vajina”dır.
 date: '2022-01-08 13:40:00'
+
 language: 'tr'
 language_reference: 'kohelele'
-publish: 'yes'
+
+published: true
 ---
+
 Sahip olmak istediğiniz süper güç ne olabilir? Hayal gücünüz ne kadar ileriye gidebilir? Hayır Marvel’den kopya çekmek yok. Size hayal gücünüzün sınırlarını zorlayacak bir önerim var: Uçan Vajina!
 
 Kohe Lele Hawaii Mitoloji’nde geçer ve anlamı “Uçan Vajina”dır.

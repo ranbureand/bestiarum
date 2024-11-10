@@ -5,10 +5,13 @@ title: Female Joker
 subtitle: Kuchisake Onna
 description: Kuchisake Onna, is a myth in far-east countries, who is generally said to attack kids returning home from school. She wears red clothes, her eyes are like a fox and her voice is like a cat.
 date: '2021-07-31 13:40:00'
+
 language: 'en'
 language_reference: 'kuchisake'
-publish: 'yes'
+
+published: true
 ---
+
 “According to the local newsletter of Gifu, in a late winter night of 1978, H.S. (17) met a woman with a mask on the street. The young woman stopped H.S. and asked, "Am I pretty?". Surprised by this event, H.S. wanted to continue on his way by telling the woman that she was beautiful.
  
 But the young woman did not allow him to pass and she took off the mask covering his face and asked again, "Am I beautiful?" H.S. didn't know what to say because he was out of his mind with fear. Her mouth was slitted across her cheeks from ear to ear. H.S. was disgusted with her too. The young woman went mad, injured H.S. to death with 12 knife strokes and disappeared.

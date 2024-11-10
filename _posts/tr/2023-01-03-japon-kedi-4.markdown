@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Maneki Neko–Selamlayan Kedi
 subtitle: Japonya Kedi Hikayeleri IV
 categories: [magic, mythology]
 description: Olağanüstü Japonya Kedileri, yokai, nekomata ve bekanekolar
 date: '2023-01-03 13:40:00'
+
 language: 'tr'
 language_reference: 'japonkediIV'
-publish: 'yes'
+
+published: true
 ---
+
 Japonya’nın kedilerinden bahsedip de meşhur Maneki Neko yani “selamlayan” ya da “davet eden” kediden bahsetmeden olmaz.
 Bu kedi bir yokai olmasa da Japonya’nın en meşhur kedi figürüdür. Nasıl ortaya çıktığına dair kesin bir bilgi olmamakla beraber ilk hikayenin 1600’lü yıllardan itibaren anlatıldığı düşünülmektedir. Bir eliyle altın bir para tutan öbür eliyle de davet eden kediciğe ait pek çok hikaye vardır. Ama en bilineni şudur:
 

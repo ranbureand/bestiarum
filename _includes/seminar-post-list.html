@@ -1,5 +1,5 @@
         <ul class="seminar-posts">
-          {%- assign seminars = site.seminars | where: 'publish', 'yes' | where: 'language', page.language | sort: 'date' | reverse %}
+          {%- assign seminars = site.seminars | where: 'published', true | where: 'language', page.language | sort: 'date' | reverse %}
           {%- for seminar in seminars %}
             <li class="canvas-seminar-post">
               <a

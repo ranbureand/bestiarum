@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Perileri Nasıl Görebiliriz?
 subtitle: Periler II
 categories: [magic]
 description: Peri masallarına karnımız tok, biz ille de peri görmek istiyoruz derseniz size bir kaç önerim var. Tabi eğer hali hazırda doğuştan gelen bir peri görme yeteneğiniz ya da sihirli sözcükleriniz yoksa.
 date: '2023-02-23 13:40:00'
+
 language: 'tr'
 language_reference: 'perilerigorme'
-publish: 'yes'
+
+published: true
 ---
+
 Peri masallarına karnımız tok, biz ille de peri görmek istiyoruz derseniz size bir kaç önerim var. Tabi eğer hali hazırda doğuştan gelen bir peri görme yeteneğiniz ya da sihirli sözcükleriniz yoksa.
 
 

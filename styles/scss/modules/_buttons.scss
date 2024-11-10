@@ -342,11 +342,11 @@
     float: left;
 
     margin-right: em($m-gut/4, $m-extra-small-size);
-    //margin-left: em(-$m-gut/2, $m-extra-small-size);
+    margin-left: em(-$m-gut/8, $m-extra-small-size);
 
     @include min-screen(col(8)) {
       margin-right: em($d-gut/4, $d-extra-small-size);
-      //margin-left: em(-$d-gut/2, $d-extra-small-size);
+      margin-left: em(-$d-gut/8, $d-extra-small-size);
     }
   }
 }
@@ -355,12 +355,12 @@
   svg {
     float: right;
 
-    margin-right: em(-$m-gut/2, $m-extra-small-size);
-    margin-left: em($m-gut/2, $m-extra-small-size);
+    margin-right: em(-$m-gut/8, $m-extra-small-size);
+    margin-left: em($m-gut/4, $m-extra-small-size);
 
     @include min-screen(col(8)) {
-      margin-right: em(-$d-gut/2, $d-extra-small-size);
-      margin-left: em($d-gut/2, $d-extra-small-size);
+      margin-right: em(-$d-gut/8, $d-extra-small-size);
+      margin-left: em($d-gut/4, $d-extra-small-size);
     }
   }
 }

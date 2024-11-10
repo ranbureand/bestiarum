@@ -10,7 +10,7 @@ date: '2020-11-04 13:40:00'
 language: 'tr'
 language_reference: 'milky-way'
 
-publish: 'yes'
+published: true
 ---
 
 Ortamlarda sizi bir adım ileriye taşıyacak ve yıldızlara bakarken anlatılacak romantizmin doruklarında bir hikaye ile karşınızdayım.

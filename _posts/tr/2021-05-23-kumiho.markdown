@@ -10,7 +10,7 @@ date: '2021-05-04 13:40:00'
 language: 'tr'
 language_reference: 'kumiho'
 
-publish: 'yes'
+published: true
 ---
 
 Kumiho Kore Efsanelerinde geçen dokuz kuyruklu tilkidir. Göz alıcı güzellikte bir kadın kılığına girerek erkekleri baştan çıkartabilir. Geceleri mezarlıklarda gezip insan kalbi yediği söylenir.  Kalıcı olarak kadın formunda kalabilmesi için 100 insan kalbi yemesi gerekir. Fakat bu lanetin bir devamı olarak da insan formuna geçtikten sonra her 1000 gece de bir tekrar ava çıkıp insan kalbi yemesi gerekmektedir.

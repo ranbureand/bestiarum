@@ -9,7 +9,7 @@ date: 2014-06-15 18:55:00 +0300
 language: 'en'
 language_reference: ''
 
-publish: 'no'
+published: false
 ---
 
 # This is a heading 1

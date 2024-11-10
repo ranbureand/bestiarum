@@ -5,9 +5,11 @@ title: Simya Türleri
 description: Yoksa simyanın sadece herşeyi altına dönüştüren Felsefe Taşı’nı aradığını mı sanıyorsunuz?
 categories: [alchemy]
 date: '2023-12-24 00:00:00'
+
 language: 'tr'
 language_reference: 'simyaturleri'
-publish: 'yes'
+
+published: true
 ---
 
 Yoksa simyanın sadece herşeyi altına dönüştüren Felsefe Taşı’nı aradığını mı sanıyorsunuz?

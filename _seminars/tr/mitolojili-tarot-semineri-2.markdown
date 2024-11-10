@@ -19,7 +19,7 @@ payment_button_name: ''
 language: 'tr'
 language_reference: 'tarot-seminar'
 
-publish: 'no'
+published: false
 ---
 
 Mitolojinin derin hikayelerini Tarot’un görselliğiyle birleştirmeye ne dersin?

@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Absinthe–Yeşil İlham Perisi
 subtitle: Periler VIII
 categories: [magic]
 description: Changeling, periler tarafından gizlice değiştirilen çocuğa verilen isimdir.
 date: '2023-03-15 13:40:00'
+
 language: 'tr'
 language_reference: 'osuruk'
-publish: 'yes'
+
+published: true
 ---
+
 Yeşil Peri ya da daha bilinen adıyla Absinthe bir mitolojiden çok popüler kültür sonucunda oluşturulmuş bir inanıştır.
 1800’lü yılların sonuna doğru üretilmiş Absinthe anasonlu bir likördür. İçinde pek çok bitkinin yanı sıra rezene ve halüsinasyon gördürmesiyle ünlü pelinotu bulunmaktadır.
 Aslında ilk başta bir tür ilaç olarak üretilen Absinthe tadından dolayı özellikle Paris’te hızla popüler olmuştur. O zamanın yazarları ve her sınıftan sanatçıları arasında renginden ve içerdiği yüksek alkol dolayısıyla hızla uçurmasından dolayı “yeşil ilham perisi” olarak anılmaya başlamıştır.

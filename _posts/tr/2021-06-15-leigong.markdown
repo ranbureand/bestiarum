@@ -10,7 +10,7 @@ date: '2021-06-15 13:40:00'
 language: 'tr'
 language_reference: 'leigong'
 
-publish: 'yes'
+published: true
 ---
 
 Leigong Çin Mitolojisinde gök gürültüsü Tanrısıdır. Davul ve tokmağını kullanarak gök gürültüsü yapar ve ardından da baltasıyla hem gizlice suçlar işleyen günahkar insanları hem de Taoism bilgeliğini kötüye kullanan ruhları cezalandırır.

@@ -8,7 +8,7 @@ date: '2021-04-14 13:40:00'
 language: 'en'
 language_reference: 'tulpa'
 
-publish: 'yes'
+published: true
 ---
 
 Tulpa (Tibetan: Trulpa) is a kind of "fantasy/thought entity" created as a result of meditative work done with intense thinking. According to Tibetan Mysticism, thought is a form of energy that carries the reflection of the soul. With the right techniques, a living form can be created with the power of thought.

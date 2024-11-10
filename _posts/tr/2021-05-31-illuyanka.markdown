@@ -10,7 +10,7 @@ date: '2021-05-31 13:40:00'
 language: 'tr'
 language_reference: 'illuyanka'
 
-publish: 'yes'
+published: true
 ---
 
 İlluyanka Hitit Mitolojisinde adı geçen dev su yılanı/ejderhasıdır. Hititlerin fırtına tanrısı Teşup’u yenince kalbini ve gözlerini alıp götürür. Teşup da İlluyanka’dan intikamını almak için bir kehanet üstüne yoksul bir adamın kızıyla evlenir.

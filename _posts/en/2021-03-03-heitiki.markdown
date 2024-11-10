@@ -9,7 +9,7 @@ date: '2021-03-03 13:40:00'
 language: 'en'
 language_reference: 'hei-tiki'
 
-publish: 'yes'
+published: true
 ---
 
 The hei tiki is a small personal adornment, carved by hand, and is worn around the neck mostly in Polynasia. Hei Tiki has a humanoid appearance with its enlarged head (about one-third the size of the figure) and prominent eyes. (It is a little bit creepy too.)

@@ -6,10 +6,13 @@ subtitle: Kuchisake Onna
 categories: [beast, mythology]
 description: Genel olarak okuldan eve dönmekte olan çocuklara saldırdığı söylenen Kuchisake Onna bir uzakdoğu mitidir. Kırmızı kıyafetler giyer, gözleri tilkiye ve sesi kediye benzer.
 date: '2021-07-31 13:40:00'
+
 language: 'tr'
 language_reference: 'kuchisake'
-publish: 'yes'
+
+published: true
 ---
+
 “Gifu’dan Haberler gazetesine göre 1978 yılının bir kış gecesinde geç saatte evine dönen H.S. (17) sokakta ağzı maskeli bir kadınla karşılaştı. Genç kadın H.S.’yi durdurup “Ben güzel miyim?” diye sordu. Bu olaya çok şaşıran H.S. kadına güzel olduğunu söyleyerek yoluna devam etmek istedi.
 
 Fakat genç kadın buna izin vermedi.  Yüzünü kapatan maskeyi çıkartıp tekrar “Ben güzel miyim?” diye sorduğunda H.S. korkudan ne diyeceğini bilemedi. Kadının ağzı bir kulağından diğer kulağına kadar kesilmişti. H.S.’nin kendisinden tiksindiğini gören genç kadın H.S.’yi 12 bıçak darbesiyle öldüresiye yaralayıp ortadan kayboldu.

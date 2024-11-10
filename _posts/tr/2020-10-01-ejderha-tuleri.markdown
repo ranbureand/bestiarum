@@ -10,7 +10,7 @@ date: '2020-10-01 13:40:00'
 language: 'tr'
 language_reference: 'dragon-types'
 
-publish: 'yes'
+published: true
 ---
 
 Ejderha türlerinin sayısı ve tanımı tamamen hayal gücümüz ile sınırlı. Ama hayal gücü dediysek ejderhalara inanmadığımdan değil. Sonuçta “Hayal edebildiğiniz her şey gerçektir.”

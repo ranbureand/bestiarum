@@ -6,10 +6,11 @@ subtitle:
 categories: [alchemy]
 description: Element kelimesini ilk kez kullanan Aristo’dur.
 date: '2023-12-17 00:00:00'
+
 language: 'tr'
 language_reference: 'elementsembolleri'
 
-publish: 'yes'
+published: true
 ---
 
 Aristo’ya göre maddenin birincil özelliği ıslak ya da kuru olmasıdır. Islaklık ya da nem, akışkanlığın ya da esnekliğin göstergesidir. Örneğin ıslak/nemli maddeler daha değişken/kırılgan ve yayılım gösteren bir yapıdayken, kuru maddeler sabit, düzenli ve kendi şekillerini koruyan sert bir yapıya sahiptirler.

@@ -9,7 +9,7 @@ date: '2020-10-26 13:40:00'
 language: 'en'
 language_reference: 'karakoncolos'
 
-publish: 'yes'
+published: true
 ---
 
 Karakoncolos is a malevolent winter goblin.He wanders the streets at the coldest time of the winter.He has the size of a child, cat or monkey. His body is black and covered with hair. Although it is believed to be harmless in most places, he gives people fear with his ugliness. When you come across Karakoncolos on the street, he stops you and asks you questions."Where are you coming from?" "Where are you going?" like. Your life depends on your answers. All answers must include the word “Kara”. For example, you should say "I am coming from Karaköy" "I am going to Karaburun".Otherwise, he could injure you or -even worse- kill you with a huge comb in his hand (Well, shouldn’t he be harmless!?).That's why combs are locked up in the houses in winter.

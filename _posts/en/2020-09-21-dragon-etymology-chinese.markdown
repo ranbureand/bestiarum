@@ -9,7 +9,7 @@ date: '2020-09-21 00:00:00'
 language: 'en'
 language_reference: 'dragon-etymology-chinese'
 
-publish: 'yes'
+published: true
 ---
 
 Since the dragons appear in many mythologies, the sources of their etymology vary from language to language. In the previous post, I wrote that the oldest known dragon was found in China. So let's first look at Chinese history. In Traditional Chinese, “dragon” is written as 龍 and pronounced as "Lóng". As you can see better in the picture and the video above, this form consists of two shapes: the dragon's body, and the head. The body on right (tail at upper right, legs on right), whiskered/fanged mouth at lower left, and eyes/crown at upper left. The same character means also emperor, sovereign, king, hero, thunder, or sound of thunder.

@@ -6,10 +6,11 @@ subtitle:
 categories: [alchemy]
 description: Molibdomansi ya da bizdeki adıyla Kurşun dökme ritüeli Antik Yunan’da da olan oldukça popüler bir temizlik ve kehanet yöntemidir.  
 date: '2024-01-17 00:00:00'
+
 language: 'tr'
 language_reference: 'kursundokme'
 
-publish: 'yes'
+published: true
 ---
 
 Molibdomansi ya da bizdeki adıyla Kurşun dökme ritüeli Antik Yunan’da da olan oldukça popüler bir temizlik ve kehanet yöntemidir.  En basit tabiriyle eritilmiş kurşun ya da kalayın soğuk suya atılmasıyla gerçekleştirilir. Soğuk suya atılan metalin çıkardığı ses, oluşturduğu form ve ritüel boyunca gözlenen sonuçlarla birlikte kurşun dökülen kişiye ait teşhislerde ve kehanetlerde bulunulur.

@@ -10,7 +10,7 @@ date: '2020-09-25 15:30:00'
 language: 'tr'
 language_reference: 'dragon-etymology-turkish'
 
-publish: 'yes'
+published: true
 ---
 
 Etimoloji serisinin son postu benim de en favori olanım. Çünkü hikayesi çok güzel.

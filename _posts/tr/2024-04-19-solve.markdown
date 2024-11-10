@@ -6,11 +6,13 @@ subtitle:
 categories: [alchemy]
 description: Simya işinin ve dolayısıyla ruhun işinin özetidir “Solve et Coagula”.
 date: '2024-04-19 00:00:00'
+
 language: 'tr'
 language_reference: 'solve'
 
-publish: 'yes'
+published: true
 ---
+
 Simya işinin ve dolayısıyla ruhun işinin özetidir “Solve et Coagula”.
 
 Çünkü maddeyi önce en küçük birimlerine kadar ayrıştırır, saflaştırır ve geriye kalan arındırılmış parçalarını yeniden birleştiririz. Ruhumuzdaki yansımasına da buna çok benzerdir.

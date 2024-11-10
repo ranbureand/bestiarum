@@ -6,11 +6,13 @@ subtitle:
 categories: [alchemy]
 description: Simya’da Aslan sembolizması genel olarak eril ilkeye yani kükürt elementine karşılık gelir. 
 date: '2024-04-22 00:00:00'
+
 language: 'tr'
 language_reference: 'aslanlar'
 
-publish: 'yes'
+published: true
 ---
+
 Simya’da Aslan sembolizması genel olarak eril ilkeye yani kükürt elementine karşılık gelir. Simya prosesinde bulunduğu aşamaya ya da işleme bağlı olarak rengi değişir. Örneğin siyah aslanlar maddenin saflaştırılmamış halini anlatır. Kırmızı aslan da kandaki yaşam enerjisidir. 
 
 Yeşil aslan, sonunda yeşil renk ortaya çıkaran farklı metal alaşımları anlatabildiği gibi, bazen de fotosentezi anlatabilir. Örneğin bitkilerle çalışıyorsanız, bitkinin içindeki yaşam enerjisi yeşil aslan ile tasvir edilir. Güneşi yiyen yeşil aslan da aslında fotosentezdir. 

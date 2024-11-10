@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Sümerli Esra Erol Gururla Sunar
 subtitle: İnanna Ile Tammuz
 categories: [mythology]
 description: Tammuz’un yeryüzüne gelip tekrar İnanna ile birleştikleri zaman bahardır, paskalyadır, nevruzdur, hıdrellezdir. Yeraltına döndüğü zaman ise kışın başlangıcıdır.
 date: '2022-03-05 13:40:00'
+
 language: 'tr'
 language_reference: 'inannatammuz'
-publish: 'yes'
+
+published: true
 ---
+
 M.Ö. 3000’ler civarında Sümerlerin güzeller güzeli Tanrıçası İnanna’nın başının bağlanma zamanı geldiğine inanan Sümerli “Gelinim Olur Musun?” ekibi, zamanın önde gelen şehri Uruk’un Kralı Tammuz’u u(ydu)ruktan bir Tanrı yaparak, eline de bir kaç kıymetli hediye tutuşturarak İnanna’ya -tabir yerindeyse- kakalarlar.
 
 İnanna Tammuz ile evlenir. Gel zaman git zaman, yeraltı Tanrıçası olduğundan düğüne gelemeyen kızkardeşi Ereşkigal’e nikah şekeri götürmeye karar verir. Yeraltında zaten yalnızlıktan kafayı sıyıran Ereşkigal paranoya yapıp İnanna’nın yeraltına sahip olmak istediği için geldiğini sanarak onu bir cesede çevirip yeraltına hapseder.

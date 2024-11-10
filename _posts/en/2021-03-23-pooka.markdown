@@ -9,7 +9,7 @@ date: '2021-03-23 13:40:00'
 language: 'en'
 language_reference: 'pooka'
 
-publish: 'yes'
+published: true
 ---
 
 The Pooka, or in Irish Puca, (goblin) is a phantom fairy creature that features in Celtic folklore and fairytales of Ireland. Pooka is a shape-changer and can take an animal or human form; like a horse, donkey, cat, dog, bull, young man, or even a voluptuous young woman. The mountains and hills are this creature’s domains. Depending on the region, The púca may be regarded as being either menacing or beneficial.

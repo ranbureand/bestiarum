@@ -1,6 +1,8 @@
 ---
 type: page
 layout: page
+
+published: true
 navigation: true
 navigation_order: 2
 

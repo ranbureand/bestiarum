@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: En Hüzünlü Nekomata
 subtitle: Japonya Kedi Hikayeleri II
 categories: [magic, mythology]
 description: Olağanüstü Japonya Kedileri, yokai, nekomata ve bekanekolar
 date: '2022-12-29 13:40:00'
+
 language: 'tr'
 language_reference: 'japonkediII'
-publish: 'yes'
+
+published: true
 ---
+
 Yerel bir Japon çalgısı olan Shamisen çalan bu hüzünlü kediciğin hikayesinden önce size “Nekomata”lardan biraz bahsetmek isterim.
 Nekomata, Japon folklorunda yer alan bir tür kedi yōkai (doğaüstü canavarlar, ruhlar ve iblisler)'dir. Güçlü, kötücül ve çok zekidirler. Ancak Nekomata'nın en karakteristik özelliği, iki kuyruğa ya da çatal kuyruğa sahip olmasıdır.
 

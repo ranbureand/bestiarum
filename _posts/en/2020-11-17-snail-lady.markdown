@@ -9,7 +9,7 @@ date: '2020-11-17 13:40:00'
 language: 'en'
 language_reference: 'snail-lady'
 
-publish: 'yes'
+published: true
 ---
 
 Today I am here to brighten up your day with a Korean fairy tale. There are many versions of this tale, but as a hopeless fun of romantic stories, I certainly chose the one with a "happy ending".

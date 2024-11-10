@@ -10,7 +10,7 @@ date: '2021-03-06 13:40:00'
 language: 'tr'
 language_reference: 'aumakua'
 
-publish: 'yes'
+published: true
 ---
 
 Aumakua Polinezya Mitolojisinde ve halen de yerli halkın inanışında yer alan “Gözcü Ruh”a verilen isimdir. Gözcü Ruhun ölen bir kişinin kendinden sonra gelenlere yol göstermek, onları kötülüklerden korumak için çoğunlukla hayvan formunda kendini gösterdiğine inanılır.

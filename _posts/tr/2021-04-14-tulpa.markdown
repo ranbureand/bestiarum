@@ -10,7 +10,7 @@ date: '2021-04-14 13:40:00'
 language: 'tr'
 language_reference: 'tulpa'
 
-publish: 'yes'
+published: true
 ---
 
 Tulpa (Tibetçe: Trulpa), mistisizmde yoğun düşünme ile yapılan meditatif çalışmalar sonucu yaratılan bir tür “düşlem/düşünce varlığı”dır. Tibet Mistisizmine göre düşünce, ruhun yansımasını taşıyan bir enerji formudur. Doğru tekniklerle düşünce gücünden canlılık belirtisi gösteren bir varlık yaratılabilir.

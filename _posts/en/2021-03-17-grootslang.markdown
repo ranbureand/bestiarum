@@ -9,7 +9,7 @@ date: '2021-03-17 13:40:00'
 language: 'en'
 language_reference: 'grootslang'
 
-publish: 'yes'
+published: true
 ---
 
 The Grootslang is a legendary cryptid which was created as a mistake by the Gods. The gods were new to the art of creating life and they didn’t yet understand the dangers of making something as powerful as Grootslang that could coil its body around any creature and crush the life out of it in seconds.

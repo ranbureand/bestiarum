@@ -10,7 +10,7 @@ date: '2020-11-02 13:40:00'
 language: 'tr'
 language_reference: 'nekomata'
 
-publish: 'yes'
+published: true
 ---
 
 Nekomata, Çin'de ve sonrasında Japon folklorunda yer alan bir tür kedi yōkai (doğaüstü canavarlar, ruhlar ve iblisler)'dir. Güçlü, kötücül ve çok zekidirler. Ancak Nekomata'nın en karakteristik özelliği, iki kuyruğa ya da çatal kuyruğa sahip olmasıdır. Diğer kedilerle aynı şekilde doğarlar, ancak yalnızca en yaşlı, en büyük ve en uzun kuyruklu (ve dolayısıyla en güçlü ve zeki olan) kediler Nekomata’ya dönüşür. Bu canavar kediler arka ayakları üzerinde yürürler ve insan dillerini konuşabilirler. Dağlarda yaşayanlar ve yaşlanıp Nekomata'ya dönüşmüş evcil kediler olmak üzere iki farklı türü vardır. (Fazla büyük kedi sahipleri: geceleri kediniz siz uyuduktan sonra neler yapıyor, bir daha düşünün)

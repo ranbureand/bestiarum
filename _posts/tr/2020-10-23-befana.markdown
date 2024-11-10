@@ -10,7 +10,7 @@ date: '2020-10-23 13:40:00'
 language: 'tr'
 language_reference: 'befana'
 
-publish: 'yes'
+published: true
 ---
 
 Befana, İtalya'nın tüm çocuklarını Epifani Bayramı (5-6 Ocak gecesi) arifesinde ziyaret edip iyi çocukların çoraplarını şekerle ve hediyeyle dolduran, kötü çocuklara ise kömür ya da hiçbirşey getirmeyen yaşlı bir cadıdır. İtalya'nın bazı bölgelerinde çorabın içine kömür yerine saman yerleştirdiğine inanılır. Bazen de Befana’nın evden ayrılmadan önce yerleri süpürdüğüne inanılır. Bu süpürme işinin tüm yıl içinde olan sorunların süpürülmesi ve ortadan kalkması olduğu kabul edilir. Aynı gece yatmadan önce Befana için küçük bir bardak şarap ve biraz yiyecek olan bir tabak bırakılır (Tanıdık geldi mi? :).

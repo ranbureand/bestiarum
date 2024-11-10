@@ -10,7 +10,7 @@ date: '2021-03-17 13:40:00'
 language: 'tr'
 language_reference: 'grootslang'
 
-publish: 'yes'
+published: true
 ---
 
 Grootslang Tanrıların yaratıma ilk başladıklarında yanlışlıkla yaratıldığına inanılan fil-yılan karışımı efsanevi yaratıktır. Tanrılar ilk yaratımlarına acemilikle Grootslang kadar güçlü bir canavar yaratmışlardır. O kadar güçlüdür ki, vücudunu etrafına doladığı herhangi bir canlıyı anında öldürebilir. Tanrılar hatalarına anladıklarında yarattıkları tüm Grootslangların güçlerini bölüp iki hayvana vermişlerdir: yılan ve fil. Fakat her nasılsa bir Grootslang kaçmayı başarmış ve tarihteki tüm mitolojik canavarları dünyaya getirmiştir.

@@ -10,7 +10,7 @@ date: '2021-05-01 13:40:00'
 language: 'tr'
 language_reference: 'babayaga'
 
-publish: 'yes'
+published: true
 ---
 
 Babayaga, Slav mitolojisinden (ya da John Wick’ten) tanıdığımız ormanın derinliklerinde tavuk bacaklı kulubesinde yaşayan ve rastladığı gezginleri ve özellikle çocukları yiyen çirkin ve yaşlı bir cadıdır. Fakat Babayaga her zaman böyle değildi. (Ne oldu da bu hale geldi?)

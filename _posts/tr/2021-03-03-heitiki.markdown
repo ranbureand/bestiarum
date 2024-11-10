@@ -10,7 +10,7 @@ date: '2021-03-03 13:40:00'
 language: 'tr'
 language_reference: 'hei-tiki'
 
-publish: 'yes'
+published: true
 ---
 
 Hei Tiki, Polinezya’da boyna takılan el yapımı küçük takıya Maori dilinde verilen isimdir. Hei Tiki, orantısal olarak büyük kafası (figürün yaklaşık üçte biri kadar) ve belirgin gözleri ile insansı bir görünüme sahiptir. (Aslında baya da ürkütücüdür.)

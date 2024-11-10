@@ -2,10 +2,10 @@
 layout: base
 ---
 
-{%- if page.publish == 'yes' %}
-{%- assign posts = site.posts | where: 'publish', 'yes' | where: 'language', page.language %}
+{%- if page.published == true %}
+{%- assign posts = site.posts | where: 'published', true | where: 'language', page.language %}
 {%- else %}
-{%- assign posts = site.posts | where: 'publish', 'no' | where: 'language', page.language %}
+{%- assign posts = site.posts | where: 'published', false | where: 'language', page.language %}
 {%- endif %}
 
       <div class="canvas-article-post {% for this_post in posts %}{% if this_post.title == page.title and this_post.date == page.date and this_post.language == page.language %} c{{ posts | size | minus: forloop.index | modulo: site.colors }}{% endif %}{% endfor %}">

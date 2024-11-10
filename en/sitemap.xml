@@ -12,32 +12,7 @@ sitemap:
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  {%- assign posts = site.posts | sort: 'date' | where: 'publish', 'yes' | where: 'language', 'en' %}
-
-  {%- for post in posts reversed %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {%- if post.sitemap.lastmod %}
-        <lastmod>{{ post.sitemap.lastmod | date: '%Y-%m-%d' }}</lastmod>
-      {%- elsif post.date %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {%- else %}
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-      {%- endif %}
-      {%- if post.sitemap.changefreq %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {%- else %}
-        <changefreq>monthly</changefreq>
-      {%- endif %}
-      {%- if post.sitemap.priority %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {%- else %}
-        <priority>0.5</priority>
-      {%- endif %}
-    </url>
-  {%- endfor %}
-
-  {%- assign pages = site.pages | where: 'language', 'en' %}
+  {%- assign pages = site.pages | where: 'language', 'en' | where: 'published', true %}
 
   {%- for page in pages %}
     {%- unless page.sitemap.exclude == 'yes' or page.name == 'feed.xml' %}
@@ -63,4 +38,55 @@ sitemap:
     </url>
     {%- endunless %}
   {%- endfor %}
+
+  {%- assign seminars = site.seminars | sort: 'date' | where: 'language', 'en' | where: 'published', 'true' %}
+
+  {%- for seminar in seminars reversed %}
+    <url>
+      <loc>{{ site.url }}{{ seminar.url }}</loc>
+      {%- if seminar.sitemap.lastmod %}
+        <lastmod>{{ post.sitemap.lastmod | date: '%Y-%m-%d' }}</lastmod>
+      {%- elsif seminar.date %}
+        <lastmod>{{ seminar.date | date_to_xmlschema }}</lastmod>
+      {%- else %}
+        <lastmod>{{ seminar.time | date_to_xmlschema }}</lastmod>
+      {%- endif %}
+      {%- if seminar.sitemap.changefreq %}
+        <changefreq>{{ seminar.sitemap.changefreq }}</changefreq>
+      {%- else %}
+        <changefreq>monthly</changefreq>
+      {%- endif %}
+      {%- if seminar.sitemap.priority %}
+        <priority>{{ seminar.sitemap.priority }}</priority>
+      {%- else %}
+        <priority>0.5</priority>
+      {%- endif %}
+    </url>
+  {%- endfor %}
+
+  {%- assign posts = site.posts | sort: 'date' | where: 'language', 'en' | where: 'published', 'true' %}
+
+  {%- for post in posts reversed %}
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      {%- if post.sitemap.lastmod %}
+        <lastmod>{{ post.sitemap.lastmod | date: '%Y-%m-%d' }}</lastmod>
+      {%- elsif post.date %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {%- else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {%- endif %}
+      {%- if post.sitemap.changefreq %}
+        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+      {%- else %}
+        <changefreq>monthly</changefreq>
+      {%- endif %}
+      {%- if post.sitemap.priority %}
+        <priority>{{ post.sitemap.priority }}</priority>
+      {%- else %}
+        <priority>0.5</priority>
+      {%- endif %}
+    </url>
+  {%- endfor %}
+
 </urlset>

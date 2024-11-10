@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Yuki Onna
 subtitle: Ünlü Cadılar V
 categories: [magic, mythology]
 description: Yuki Onna, yani “Karların Kadını”, Japon mitlerinde geçen bir çeşit ‘yokai’dir. Kar fırtınaları sırasında ortaya çıkar ve büyüleyici bir güzelliğe sahiptir
 date: '2023-01-23 13:40:00'
+
 language: 'tr'
 language_reference: 'yukionna'
-publish: 'yes'
+
+published: true
 ---
+
 Yuki Onna, yani “Karların Kadını”, Japon mitlerinde geçen bir çeşit ‘yokai’dir. Kar fırtınaları sırasında ortaya çıkar ve büyüleyici bir güzelliğe sahiptir. Genellikle uzun siyah saçlıdır ve beyaz bir kimono giyer. Teni kar kadar beyaz ve buz kadar incedir. Fakat bu hanım kızımızın kötü bir alışkanlığı vardır: karşılaştığı insanları kafasına göre öldürebilir.
 
 Nefesi o kadar soğuktur ki, üzerinize üflediğinde soğuktan donarak ölebilirsiniz. Ya da nefesiyle sizin yaşam enerjinizi kendine çektiğini de söyleyen anlatılar vardır.

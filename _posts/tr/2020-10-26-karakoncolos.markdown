@@ -10,7 +10,7 @@ date: '2020-10-26 13:40:00'
 language: 'tr'
 language_reference: 'karakoncolos'
 
-publish: 'yes'
+published: true
 
 ---
 

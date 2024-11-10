@@ -1,13 +1,17 @@
 ---
 layout: post
+
 title: Scottish Ghost Rider
 subtitle: Nuckelavee
 description: The Nuckelavee is an underwater creature originally from Northern Scotland that lives in the ocean during the summer.
 date: '2022-02-15 13:40:00'
+
 language: 'en'
 language_reference: 'nuckelavee'
-publish: 'yes'
+
+published: true
 ---
+
 If you ever go to Scotland, I highly recommend you to go during the summer months. Otherwise, you might run into Nuckelavee. And the last thing you see might be his not-so-friendly red eyes.
 
 The Nuckelavee is an underwater creature originally from Northern Scotland that lives in the ocean during the summer. So no one knows what it looks like when it's in the water. But when the summer ends, it comes ashore, and turns into one of the most malevolent creatures, as the Scots call it.

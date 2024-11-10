@@ -10,7 +10,7 @@ date: '2021-05-04 13:40:00'
 language: 'tr'
 language_reference: 'curupira'
 
-publish: 'yes'
+published: true
 ---
 
 Brezilya folklorunda yer alan saçları turuncu-kırmızı, derisi yeşil renkte olan orman iblisidir. Brezilya ormanlarında yaşar ve ormana zarar verenleri kovalar, lanetler ya da öldürür. Bu iblisin en korkunç yanı çocukluğumuzda anlatılan cin hikayelerindeki cinler gibi ayaklarının ters oluşudur.

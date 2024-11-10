@@ -1,0 +1,134 @@
+/* Copyright (c) 2019 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Functions
+*/
+
+/*
+** Strip units
+*/
+
+@function strip($number) {
+  @return $number / ($number * 0 + 1);
+}
+
+/*
+** Convert pxs to ems
+*/
+
+@function em($px, $base: $base-font-size) {
+  @return strip($px / $base) * 1em;
+}
+
+/*
+** Column-width function, in ems
+*/
+
+@function col($number-columns, $base: $base-font-size) {
+  @return em($column-width * $number-columns, $base);
+}
+
+/*
+** Column-width function, in pxs
+*/
+
+@function col-px($number-columns) {
+  @return $column-width * $number-columns * 1px;
+}
+
+/*
+** Typefaces
+*/
+
+@mixin font-face($type-name, $file-name, $weight, $style) {
+  @font-face {
+    font-family: "#{$type-name}";
+    src: url("../../fonts/woff2/#{$file-name}.woff2") format("woff2"),
+         url("../../fonts/woff/#{$file-name}.woff") format("woff");
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
+
+@mixin face($status: sans) {
+  @if $status == "sans" {
+  font-family: "Faune", "Helvetica Neue", Arial, sans-serif;
+  } @else if $status == "serif" {
+  font-family: "Faune", Georgia, serif;
+  } @else if $status == "mono" {
+  font-family: "Roboto Mono", "Andale Mono", "Monaco", monospace;
+  }
+}
+
+/*
+** Font size
+*/
+
+@mixin font-size($to-size, $lines: auto, $from-size: $base-font-size) {
+  font-size: em($to-size, $from-size);
+  @if $lines != auto {
+    line-height: em($lines, $to-size);
+  }
+}
+
+@mixin fluid-font-size($min-font-size, $font-size-scaler, $max-font-size, $line-height) {
+  font-size: clamp(#{$min-font-size}, #{$font-size-scaler}, #{$max-font-size});
+  line-height: $line-height;
+}
+
+/*
+** Adjust the width of an element (to accomodate for CSS Comb)
+*/
+
+@mixin adjust-dimension($dimension, $to-gut, $from-size: $base-font-size) {
+  #{$dimension}: calc(100% - #{em($to-gut*2, $from-size)});
+}
+
+/*
+** Math
+*/
+
+@function ssqrt($r) {
+  $x0: 1; // initial value
+  $solution: false;
+
+  @for $i from 1 through 10 {
+    @if abs(2 * $x0) < 0,00000000000001 { // Don't want to divide by a number smaller than this
+      $solution: false;
+    }
+
+    $x1: $x0 - ($x0 * $x0 - abs($r)) / (2 * $x0) !global;
+
+    @if ( abs($x1 - $x0) / abs($x1)) < 0,0000001 { // 7 digit accuracy is desired
+      $solution: true;
+    }
+
+    $x0: $x1;
+  }
+
+  @if $solution == true {
+    // If $r is negative, then the output will be multiplied with <a href="http://en.wikipedia.org/wiki/Imaginary_number">i = √-1</a>
+    // (√xy = √x√y) => √-$r = √-1√$r
+    @if $r < 0 {
+      @return $x1 #{i};
+    }
+    @else {
+      @return $x1;
+    }
+  }
+  @else {
+    @return "No solution";
+  }
+}
+
+@function sqrt($r) {
+  $x0: 1;
+  $x1: $x0;
+
+  @for $i from 1 through 10 {
+    $x1: $x0 - ($x0 * $x0 - abs($r)) / (2 * $x0);
+    $x0: $x1;
+  }
+
+  @return $x1;
+}

@@ -10,7 +10,7 @@ date: '2020-10-19 16:40:00'
 language: 'tr'
 language_reference: 'house-elf'
 
-publish: 'yes'
+published: true
 ---
 
 Ev İyesi Türk Mitolojisinde evlerin koruyucu ruhudur. Her evin kendi iyesi vardır. Orta boylu, uzun ve dağınık saçlı, yaşlı bir erkek olarak anlatılsa da başka kılıklara girebilir. Bazen gözleri kor gibi yanan bir yılan olarak görünür. Bu nedenle evde görülen yılanın bereket getireceğine inanılır. Yılanı öldürmeden dışarıya atmanız gerekir. Yoksa beraberinde bereketi de götürür. Eve her girdiğinizde Ev İyesi’ne selam vermelisiniz. Çünkü O hep evdedir.

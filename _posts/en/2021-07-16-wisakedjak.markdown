@@ -5,9 +5,11 @@ title: Why is the moon feminine and the sun masculine?
 subtitle: Wisakedjak
 description: Wisakedjak is the trickster God responsible for many important events in Native American mythologies such as the creation of animals, the great flood, and the creation of the moon. He is not evil like other trickster gods and is sometimes depicted as a great hero in some stories.
 date: '2021-07-16 13:40:00'
+
 language: 'en'
 language_reference: 'wisakedjak'
-publish: 'yes'
+
+published: true
 ---
 
 Wisakedjak is the trickster God responsible for many important events in Native American mythologies such as the creation of animals, the great flood, and the creation of the moon. He is not evil like other trickster gods and is sometimes depicted as a great hero in some stories.

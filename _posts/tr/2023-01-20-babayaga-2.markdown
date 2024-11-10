@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Baba Yaga
 subtitle:  Ünlü Cadılar IV
 categories: [magic, mythology]
 description: Bizim buralarda bir Nostradamus ya da Baba Vanga kadar bilinmese de, Mother Shipton ya da Shipton Ana İngiltere’nin en meşhur kahini ve cadısıdır.
 date: '2023-01-20 13:40:00'
+
 language: 'tr'
 language_reference: 'babayaga2'
-publish: 'yes'
+
+published: true
 ---
+
 Baba Yaga, Slav mitolojisinden (ya da John Wick’ten) tanıdığımız ormanın derinliklerinde tavuk bacaklı kulübesinde yaşayan ve rastladığı gezginleri ve özellikle çocukları yiyen çirkin ve yaşlı bir cadıdır. Tokmağı ile sürdüğü dev bir ‘havan’ın içinde uçarak seyahat eder. Evinin etrafındaki çitler insan kafatasından yapılmıştır. Bazı kaynaklar ise Baba Yaga’nın aslında bir kişi değil üç kız kardeş olduğunu söyler.
 Fakat Baba Yaga’nın ilk anlatılan hikayesi aslında böyle değil.
 Peki ne oldu da çocukları yiyen korkunç bir cadı haline geldi?

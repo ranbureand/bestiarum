@@ -5,9 +5,11 @@ title: Your destiny is "really" on their hands
 subtitle: Moirai
 description: The Moiras are three sisters who are the incarnation of destiny in Greek myths. They are above all other known Greek gods. The first sister's name is Clotho, meaning "spinner". The second sister's name is Lachesis, which means "allotter". The last sister's name is Atropos, meaning "the unturnable".
 date: '2021-07-5 13:40:00'
+
 language: 'en'
 language_reference: 'moirai'
-publish: 'yes'
+
+published: true
 ---
 
 The Moiras are three sisters who are the incarnation of destiny in Greek myths. They are above all other known Greek gods. The first sister's name is Clotho, meaning "spinner". The second sister's name is Lachesis, which means "allotter". The last sister's name is Atropos, meaning "the unturnable".

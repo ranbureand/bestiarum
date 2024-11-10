@@ -9,7 +9,7 @@ date: '2020-11-24 13:40:00'
 language: 'en'
 language_reference: 'xuan-wu'
 
-publish: 'yes'
+published: true
 ---
 
 Xuan Wu (Eng: Black Warrior), one of the four important symbols of Chinese Constellation, is also a deity in Taoism.

@@ -9,7 +9,7 @@ date: '2021-06-09 13:40:00'
 language: 'en'
 language_reference: 'io'
 
-publish: 'yes'
+published: true
 ---
 
 In Greek Mythology, Io is a very beautiful girl and daughter of Inachus, the God of River. She was a priestess of the Goddess Hera. Could being a priestess in his wife’s temple keep Zeus’s satyriasis away? I don’t think so and it could not.

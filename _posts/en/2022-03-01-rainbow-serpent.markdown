@@ -1,13 +1,17 @@
 ---
 layout: post
+
 title: The most colorful God
 subtitle: Rainbow Serpent
 description: The Rainbow Serpent is the first ancestral spirit or god in the creation story of the Aborigines culture of 50,000 years.
 date: '2022-03-01 13:40:00'
+
 language: 'en'
 language_reference: 'rainbowserpent'
-publish: 'yes'
+
+published: true
 ---
+
 The Giant Rainbow Serpent wanted to emerge from the darkness below the ground. He was so powerful that as he pushed the ground and created mountains, hills, and valleys. He brought life to the earth out of the water. The color blue on his back brought winter, red for summer, yellow for spring and orange brought autumn.
 
 The Rainbow Serpent is still with us. Sometimes he moves from one well to another. That is when the rainbow appears in the sky as the trace of him.

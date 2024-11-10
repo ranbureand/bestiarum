@@ -10,7 +10,7 @@ date: '2020-11-24 13:40:00'
 language: 'tr'
 language_reference: 'xuan-wu'
 
-publish: 'yes'
+published: true
 ---
 
 Çin Mitoloji’nin dört önemli sembolünden biri olan Xuan Wu (Tr: Kara Savaşçı, Eng:Black Warrior) aynı zamanda Taozim’deki tanrılardan biridir.

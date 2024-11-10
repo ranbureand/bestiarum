@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Peri Takvimi
 subtitle: Periler III
 categories: [magic]
 description: Perileri en çok göründüğü zamanlar
 date: '2023-02-27 13:40:00'
+
 language: 'tr'
 language_reference: 'peritakvimi'
-publish: 'yes'
+
+published: true
 ---
+
 Bir önceki postta bahsettiğim gibi periler dünyalar arasında yaşadıkları için en aktif oldukları zamanlar da yine mevsim geçişleri ve de mevsim ortalarıdır. Hayvanları koruyan, çiçeklerin açmasına yardım eden periler de bu tarihlerde oldukça yoğun ve hareketlidirler.
 Doğanın ve canlıların hareketlerini gözlemleyerek yapılan eski takvimlerden biri Kelt Takvimidir. Kelt takvimindeki günler toprak ve güneşin konumuyla ilgili mevsim döngülerini gösterir. Günümüzde de bu günler hala farklı isimler altında kutlanır.  
 Örneğin bizim topraklarımızda 21 Martta kutlanan Nevruz, Kuzeyde Ostara, 21 Aralık’taki Nardugan Bayramı, Kuzey ülkelerde Yule Bayramıdır.

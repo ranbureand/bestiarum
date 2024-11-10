@@ -5,10 +5,11 @@ title: Tarot ve Simya
 description: Tarot sembolizmasnın en derininde yatar Simya.
 categories: [alchemy, tarot]
 date: '2024-02-20 00:00:00'
+
 language: 'tr'
 language_reference: 'tarotvesimya'
 
-publish: 'yes'
+published: true
 ---
 
 Thoth Tarot destesi en çok kullanılan ilk üç deste arasındadır. 14 Numaralı Majör Arkana kartının bu destede adı ‘Sanat’tır (En çok bilinen RWS destesinde bu kart Temperance yani Denge kartıdır.)

@@ -6,10 +6,11 @@ subtitle:
 categories: [alchemy]
 description: Yazılı kaynaklarda geçen ilk ejderha öldürülen kocasının intikamını almak için ejderhalardan bir ordu kuran ve kendisi de ejderha görünümüne bürünen Tiamat'tır.
 date: '2024-01-19 00:00:00'
+
 language: 'tr'
 language_reference: 'gozyaslari'
 
-publish: 'yes'
+published: true
 ---
 
 

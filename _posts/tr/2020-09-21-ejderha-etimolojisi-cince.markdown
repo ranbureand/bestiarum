@@ -10,7 +10,7 @@ date: '2020-09-21 00:00:00'
 language: 'tr'
 language_reference: 'dragon-etymology-chinese'
 
-publish: 'yes'
+published: true
 ---
 
 Ejderhalar pek çok mitolojide karşımıza çıktıklarından etimolojilerinin kaynakları dilden dile farklılık gösterir. Bilinen en yaşlı ejderhanın Çin’de bulunduğunu bir önceki postta yazmıştım. Bu nedenle etimoloji için ilk olarak Çince’ye bakalım. Ejderha kelimesi Geleneksel Çince’de 龍 olarak yazılır ve “Lóng” olarak okunur. Bu form ejderhanın vücudu ve kafası olmak üzere iki şekilden oluşur. Ejderhanın vücudu sağda (kuyruğu üst sağda ve bacakları sağda), sivri dişli/bıyıklı ağzı sol altta ve gözleri/başın üst kısmı üst soldadır. Bu karakter aynı zamanda imparator, hükümdar, kral, kahraman, gök gürültüsü veya gök gürültüsü sesi anlamına gelmektedir.

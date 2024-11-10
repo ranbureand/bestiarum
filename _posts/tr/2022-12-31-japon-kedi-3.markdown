@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Tren İstasyonu Müdüresi Tama
 subtitle: Japonya Kedi Hikayeleri III
 categories: [magic, mythology]
 description: Olağanüstü Japonya Kedileri, yokai, nekomata ve bekanekolar
 date: '2022-12-31 13:40:00'
+
 language: 'tr'
 language_reference: 'japonkediIII'
-publish: 'yes'
+
+published: true
 ---
+
 Tama, Japonya Kinokawa’da Kishi Elektrikli Tren istasyonunun müdüresi olarak görev yapmış olan dünyalar güzeli bir kedidir.
 Tama, 2004 yılında 5 yaşındayken istasyon müdürü tarafından sahiplenilmiş. 2007 yılında ise resmi olarak istasyon şefi olarak atanmış. Maaş olarak ise yıllık mama verilmiş. Tama için ayrıca özel olarak şef şapkası ve altından isim künyesi tasarlanmış. Hatta yazın kullanması için ayrı bir şapka bile  tasarlanmış.
 

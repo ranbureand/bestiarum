@@ -6,11 +6,13 @@ subtitle:
 categories: [alchemy]
 description: Element kelimesini ilk kez kullanan Aristo’dur.
 date: '2023-12-15 00:00:00'
+
 language: 'tr'
 language_reference: 'elementler'
 
-publish: 'yes'
+published: true
 ---
+
 Element kelimesini ilk kez kullanan Aristo’dur.  Kendinden önceki filozofların teorilerini genişleterek 4 elementi “sıcak”-”soğuk” ve “ıslak”-”kuru” olmak üzere iki setli karşıt niteliklerin birleşimi olarak açıklamıştır. Ve “Quintessence” yani 5 element ya da Ether’i de bu teorisine ekleyerek Batı Simyası ile Çin ve Hindistan gibi Doğu Simyasını birleştirmiştir. 
 
 Her elementin bu iki setli dört tanımdan kendine ait iki özelliği vardır:

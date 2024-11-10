@@ -10,7 +10,7 @@ date: '2021-06-09 13:40:00'
 language: 'tr'
 language_reference: 'io'
 
-publish: 'yes'
+published: true
 ---
 
 Yunan Mitolojisinde yer alan İo, nehir Tanrısı İnakhos’un güzeller güzeli kızıdır. Aynı zamanda Baş Tanrıça ve ölümüne kıskanç Hera’nın tapınağında bir rahibedir. Tabi rahibe olması Zeus’u engeller mi? Tabii ki hayır.

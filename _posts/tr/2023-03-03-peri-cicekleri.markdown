@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Peri Çiçekleri
 subtitle: Periler IV
 categories: [magic]
 description: Perilerin en sevdiği çiçekleri bir araya topladım.
 date: '2023-03-03 13:40:00'
+
 language: 'tr'
 language_reference: 'pericicekleri'
-publish: 'yes'
+
+published: true
 ---
+
 **Çuha Çiçeği (Primula Veris)**
 
 Baharın ilk gülü, Mart Çiçeği ya da Tütiye diye de bilinen çuha çiçeği perilerin şapka yapıp taktıkları ya da içinde uyudukları çiçektir. Anahtar Çiçeği olarak da bilinir çünkü cebinde taşıyana periler diyarının kapıları açılır. Shakespeare'in Fırtına oyunundaki peri, “Arının konduğu yere konarım ben,Çuha Çiçeğinin çanında yatarım” der.

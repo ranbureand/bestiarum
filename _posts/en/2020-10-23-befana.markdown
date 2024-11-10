@@ -9,7 +9,7 @@ date: '2020-10-23 13:40:00'
 language: 'en'
 language_reference: 'befana'
 
-publish: 'yes'
+published: true
 ---
 
 Befana is a old witch who visits all the children of Italy on the eve of the Feast of the Epiphany (The night between the 5th and 6th of January) to fill their socks with candy and presents if they are good, while leaving bad kids empty-handed and sadly staring at a lump of coal. In some parts of Italy a stick or straw in a stocking was placed instead of coal. Being a good housekeeper, many say she will sweep the floor before she leaves. To some the sweeping meant the sweeping away of the problems of the year. The child's family typically leaves a small glass of wine and a plate with a few morsels of food, often regional or local, for the Befana (familiar right?:).

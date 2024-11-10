@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Mari
 subtitle: Ünlü Cadılar VIII
 categories: [magic, mythology]
 description: Mari, Bask Mitolojisindeki en önemli Tanrıçadır. Cadı olarak da bilinmektedir.
 date: '2023-02-14 13:40:00'
+
 language: 'tr'
 language_reference: 'mari'
-publish: 'yes'
+
+published: true
 ---
+
 Mari, Bask Mitolojisindeki en önemli Tanrıçadır. Cadı olarak da bilinmektedir. Yine bir tanrıçanın nasıl cadıya dönüştüğünü anlatmadan önce Bask Mitolojisinden biraz bahsetmek isterim.
 Bask Mitleri matriarkal yani anaerkil mitlerdir. Güçlü Tanrıçalar ve kadın figürleri ile oldukça zengin bir mitolojidir. Örneğin Amalur en güçlü Tanrıçadır ve her şeyin üstündedir. Mari ise onun tezahürü olarak geçer ve mitlerdeki ana tanrıçadır.
 Dağlardaki mağaralarda yaşar. Güçlü bir ejderha olan kocası Sugaar ile cuma günleri bir araya gelir.

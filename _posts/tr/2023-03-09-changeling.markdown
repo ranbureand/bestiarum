@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Changeling–Perilerin Değiştirdiği Çocuk
 subtitle: Periler V
 categories: [magic]
 description: Changeling, periler tarafından gizlice değiştirilen çocuğa verilen isimdir.
 date: '2023-03-09 13:40:00'
+
 language: 'tr'
 language_reference: 'changeling'
-publish: 'yes'
+
+published: true
 ---
+
 Changeling, periler tarafından gizlice değiştirilen çocuğa verilen isimdir. Periler gizlice gelir ve çoğunlukla yeni doğmuş olan bebeğinizi kaçırıp yerine kendi bebeklerini ya da tahta, çorap, keçeden yapılmış oyuncak bebekleri bırakırlar. Bu bir Avrupa inanışı olsa da bu tarz hikayelerle Anadolu’da da sıkça karşılaşırız. Şimdi ilk olarak Avrupa’ya bakalım.
 Kendi çocuklarının yerine konduğuna inanılan peri çocukları genelde zayıf, hastalıklı, hiç ya da çok zor konuşan, engelli ya da devamlı ağlayan yani kısacası genel “bebek nasıl olur” kavramına uymayan çocuklardır. Aileler böyle bir bebeğe sahip olduklarında perilerin kendi “normal” çocuklarını alıp yerine peri çocuğu bıraktıklarını düşünürler.
 Perilerin kaçırıp, bebeğin yerine bıraktıkları cansız nesne her ne ise onu ateşe atmanın kendi çocuklarını geri getireceğini düşünürler. Ama eğer peri çocuğu gerçek bir bebekse onun üzerinde -burada anlatmayacağım- çeşitli işkence yolları denerler ki, periler dayanamayıp bebekleri tekrar geri değiştirsinler. Bazı anneler de bırakılan peri çocuğuna kendi çocuğuymuş gibi iyi bakar, böylece periler de onun çocuğuna iyi bakacaktır.

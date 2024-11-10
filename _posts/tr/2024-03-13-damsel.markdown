@@ -6,11 +6,13 @@ subtitle:
 categories: [symbolism]
 description: Tarot Güç Kartını anlatırken Kirene'den örnek veririm.
 date: '2024-03-13 00:00:00'
+
 language: 'tr'
 language_reference: 'damsel'
 
-publish: 'yes'
+published: true
 ---
+
 Damsel filmi tam olarak o çok da bilmediğimiz hatta görmek dahi istemediğimiz içimizdeki ejderhalar ve onların saklandıkları karanlık mağaralarla ilgili.
 
 Mağaralar Ana Tanrıça demektir. Mağara Ana Tanrıça’nın rahmidir. Mağara’dan çıkış -çıkabilirsek- erginlenmedir, inisiyasyondur ve yeniden doğuştur. Ama bu yeniden doğuşun bedeli ağırdır. O yüzden bu mağaraları ejderhalar korur. Yeniden doğmaya cesaret edemeyenleri, korkanları bir lokmada yutar bu ejderhalar.

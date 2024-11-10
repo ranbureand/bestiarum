@@ -8,7 +8,7 @@ date: '2020-10-09 15:30:00'
 language: 'en'
 language_reference: 'toe-number'
 
-publish: 'yes'
+published: true
 ---
 
 Did you know that the number of toes is very important in Dragon images/drawings?

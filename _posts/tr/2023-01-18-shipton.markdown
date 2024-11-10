@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Shipton Ana
 subtitle: Ünlü Cadılar III
 categories: [magic, mythology]
 description: Bizim buralarda bir Nostradamus ya da Baba Vanga kadar bilinmese de, Mother Shipton ya da Shipton Ana İngiltere’nin en meşhur kahini ve cadısıdır.
 date: '2023-01-18 13:40:00'
+
 language: 'tr'
 language_reference: 'shipton'
-publish: 'yes'
+
+published: true
 ---
+
 Bizim buralarda bir Nostradamus ya da Baba Vanga kadar bilinmese de, Mother Shipton ya da Shipton Ana İngiltere’nin en meşhur kahini ve cadısıdır.
 
 Asıl adıyla Ursula, 1488 yılında İngiltere’de dünyaya gelmiş. Bu dönem çok önemlidir çünkü bu dönem merhem hazırlayan erkeklere “şifacı” dendiği, ama kadınların mahkemeler kurulup “cadı” diye yakıldığı dönemdir. Hatta hiçbir delile ihtiyaç duymadan sadece söz beyanı (çoğu zaman da iftira) ile tüm şüpheli kadınlar cadı diye yakalanabilir.

@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: La Lechuza
 subtitle: Ünlü Cadılar VI
 categories: [magic, mythology]
 description: La Lechuza, peçeli baykuş demektir.Meksika mitlerinde La Lechuza aynı zamanda çok bilinen ve karanlık güçleri olan bir cadıdır.
 date: '2023-01-31 13:40:00'
+
 language: 'tr'
 language_reference: 'lalechuza'
-publish: 'yes'
+
+published: true
 ---
+
 La Lechuza, peçeli baykuş demektir. Hani Harry Potter’daki baykuşlar gibi olan türden.
 Meksika mitlerinde La Lechuza aynı zamanda çok bilinen ve karanlık güçleri olan bir cadıdır. Aslında istediği şekle girebilen bir cadı olsa da yüzü yaşlı bir kadın yüzü olan dev bir baykuş olarak tasvir edilir.
 Bu korkunç yaratığın ne gibi kötülükler yapabildiğine geçmeden önce hikayesini anlatalım.

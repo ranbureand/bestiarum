@@ -6,10 +6,11 @@ subtitle: Noel Canavaları I
 categories: [beast, magic]
 description: Noel keçisi Krampus
 date: '2023-12-25 00:00:00'
+
 language: 'tr'
 language_reference: 'krampus'
 
-publish: 'yes'
+published: true
 ---
 
 Her yerde tonton yanaklı Noel Baba görmekten içiniz şiştiyse size yeni bir seri ile geldim: Noel Canavarları!

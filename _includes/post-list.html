@@ -1,5 +1,5 @@
         <ul class="posts">
-          {%- assign posts = site.posts | where: 'publish', 'yes' | where: 'language', page.language | sort: 'date' | reverse %}
+          {%- assign posts = site.posts | where: 'published', true | where: 'language', page.language | sort: 'date' | reverse %}
           {%- for post in posts %}
             <li class="canvas-post cp{{ posts | size | minus: forloop.index | modulo: site.colors }}">
               <a

@@ -6,10 +6,11 @@ subtitle: Noel Canavaları IV
 categories: [beast, magic]
 description: Yule Kedisi, orjinal adı ile Jólakötturinn, 13 Yule Beyinin dev annesi Gryla'nın kedisidir. Noel kedisi, jilet gibi bıyıkları, parlak gözleri ve korkunç pençeleriyle dev, kambur ve vahşi bir kedidir. 
 date: '2023-12-28 00:00:00'
+
 language: 'tr'
 language_reference: 'yulekedisi'
 
-publish: 'yes'
+published: true
 ---
 
 Yule Kedisi, orjinal adı ile Jólakötturinn, 13 Yule Beyinin dev annesi Gryla'nın kedisidir. Noel kedisi, jilet gibi bıyıkları, parlak gözleri ve korkunç pençeleriyle dev, kambur ve vahşi bir kedidir. Noel arifesinde çocukların hediye olarak yeni kıyafetler alıp almadıklarını görmek için pencerelerinden bakarak kasabada sinsice dolaşır.

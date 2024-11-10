@@ -9,7 +9,7 @@ date: '2021-04-09 13:40:00'
 language: 'en'
 language_reference: 'toyol'
 
-publish: 'yes'
+published: true
 ---
 
 Toyol is an undead infant in Southeast Asian folklore. Having a childhood with the deep fear of Chucky movies, it might be the the most chilling beast I've ever written here. Toyol can be summoned by a Shaman with black magic. Its master uses it to steal the things or to do mischief.

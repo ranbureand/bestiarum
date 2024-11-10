@@ -1,5 +1,5 @@
         <ul class="posts">
-          {%- assign posts = site.posts | where: 'publish', 'no' %}
+          {%- assign posts = site.posts | where: 'published', false %}
           {% for post in posts %}
             <li class="canvas-post">
               <a

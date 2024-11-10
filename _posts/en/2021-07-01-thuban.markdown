@@ -9,7 +9,7 @@ date: '2021-07-01 13:40:00'
 language: 'en'
 language_reference: 'thuban'
 
-publish: 'yes'
+published: true
 ---
 
 Did you know that the pole star (originally called Polaris) is not always the same star? The pole star, pointing to the north of the earth and standing still in the sky, is actually not that stable. About 3800 years ago, the pole star was not the current Polaris star, but Thuban, a.k.a Alpha Draconis, in the Draco Constellation.

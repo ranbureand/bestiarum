@@ -9,7 +9,7 @@ date: '2021-03-29 13:40:00'
 language: 'en'
 language_reference: 'familiar'
 
-publish: 'yes'
+published: true
 ---
 
 Familiars (or familiar spirits) are supernatural spirits often assuming animal form, supposed to attend and aid a witch, wizard, and cunning folks in their practice of magic in European folklore of the Medieval and Early Modern periods.

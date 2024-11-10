@@ -10,7 +10,7 @@ date: '2020-11-17 13:40:00'
 language: 'tr'
 language_reference: 'snail-lady'
 
-publish: 'yes'
+published: true
 ---
 
 Bizdeki Keloğlan masallarına benzer bir Kore masalıyla gününüzü şenlendirmeye geldim. Masalın pek çok versiyonu var ama ben iflah olmaz bir Yeşilcam aşığı olarak pek tabi “mutlu sonlu” o lanını seçtim.

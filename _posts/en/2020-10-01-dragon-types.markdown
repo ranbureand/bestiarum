@@ -9,7 +9,7 @@ date: '2020-10-01 13:40:00'
 language: 'en'
 language_reference: 'dragon-types'
 
-publish: 'yes'
+published: true
 ---
 
 The number and definition of dragon species are as limited as your imagination.But saying so, it's not that I believe the dragons are imaginary. After all, "Everything you can imagine is real."

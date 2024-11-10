@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Brownie–Her Eve Lazım Hamarat Peri
 subtitle: Periler VII
 categories: [magic]
 description: Brownie, yani kahverengimsiler, İskoçya ve Kuzey İngiltere Folklöründe ev halkı uyuduktan sonra ortaya çıkan ve yapılması gereken ya da yarım kalmış ev işlerini yapan ev cini/perisidir.
 date: '2023-03-13 13:40:00'
+
 language: 'tr'
 language_reference: 'brownie'
-publish: 'yes'
+
+published: true
 ---
+
 Bizim kültürümüz de dahil pek çok kültürde ev işlerine yardım eden periler vardır. Brownie, yani kahverengimsiler, İskoçya ve Kuzey İngiltere Folklöründe ev halkı uyuduktan sonra ortaya çıkan ve yapılması gereken ya da yarım kalmış ev işlerini yapan ev cini/perisidir. Çoğunlukla kahverengi ve eski-püskü kıyafetler giydikleri için bu isimle anılmaktadırlar.
 Türk ve Anadolu kültüründeki karşılığı Ev İyesi’dir. Her ikisi de belli bir ev halkına ya da eve bağlıdır. Fakat Brownie, Ev İyesi’nin aksine yaptığı işler karşılığında ev halkı tarafından herhangi bir şey sunulduğunda alınabilir ya da kızabilir.
 

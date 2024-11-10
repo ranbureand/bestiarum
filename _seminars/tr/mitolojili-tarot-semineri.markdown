@@ -25,7 +25,7 @@ installment_payment_button_name: 'Taksitli Öde'
 language: 'tr'
 language_reference: 'tarot-seminar'
 
-publish: 'yes'
+published: true
 ---
 
 Merhabalar,

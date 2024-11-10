@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Hikayeyi Bir De Ondan Dinleyelim
 subtitle: Lilith
 categories: [magic, mythology]
 description: Lilith günümüzde ne yapıyor
 date: '2023-01-06 13:40:00'
+
 language: 'tr'
 language_reference: 'lilith'
-publish: 'yes'
+
+published: true
 ---
+
 En güçlü kadınların bile büküldükleri bir nokta vardır.  O noktada gecenin üçünde çoğunlukla ‘güzel’ kafayla kısa bir “Özledim…” mesajı atılır ya da arama motorlarına eski sevgilinin ismi yazılıp aratılır. Bu hep böyledir, ne olmuş olursa olsun, üstünden ne kadar zaman geçerse geçsin farketmez, kadınlar asla unutmaz. Ve o akşam nedendir bilinmez Lilith için işte bu noktalardan biriydi. Her kadın gibi Lilith de eski kocasının sosyal medya hesabına şöyle bir göz atmak istedi. Ademoğlu’nun ‘like’ üstüne ‘like’ attığı, altına binbir övgüler düzdüğü o “parlak” hayatı böyle fotoğraflarla görmek midesini yine bulandırsa da bakmaya devam etti. “Neden yaşlanmıyordu ki bu adam? Kahretsin!”
 
 Karısıyla bir fotoğrafını buldu: belli ki çok ünlü bir olayı kutluyorlar. Belli belirsiz de olsa karısından daha önde, karısı ona, o kameraya bakıyor.  Altındaki açıklama: “Her başarılı erkeğin arkasında bir kadın vardır” #canımkarım #kadınlarcicektir #azim #Ilovemylife

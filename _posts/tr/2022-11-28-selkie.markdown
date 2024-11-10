@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Kelt Mitolojisi
 subtitle: Selkie
 categories: [mythology]
 description: Yarı insan yarı fok balığı Selkie
 date: '2022-11-28 13:40:00'
+
 language: 'tr'
 language_reference: 'selkie'
-publish: 'yes'
+
+published: true
 ---
+
 Selkie, Kelt Mitolojisinde kendilerini insana dönüştürebilen fok balıklarına verilen isimdir. Genellikle eşsiz güzellikte bir kadın olarak insana dönüştükleri söylenir. Ve tabiki bu kadar güzel bir kadın olmak beraberinde trajik aşk hikayelerini getirir.
 Yalnız bir balıkçı bir gün kayaların üzerinde kürklerini çıkarıp güneşlenen bir grup Selkie görür ve gizlice kürklerden birini çalar.
 

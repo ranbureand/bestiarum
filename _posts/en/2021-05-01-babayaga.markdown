@@ -1,13 +1,17 @@
 ---
 layout: post
+
 title: The most misunderstood grandma
 subtitle: Babayaga
 description: Babayaga as we know in Slavic mhythology (or in John Wick) is an ugly old witch who lives in a hut with chicken legs in the depths of the forest and threatens to eat travelers and children. But Babayaga was not always a villain.
 date: '2021-05-01 13:40:00'
+
 language: 'en'
 language_reference: 'babayaga'
-publish: 'yes'
+
+published: true
 ---
+
 Babayaga as we know in Slavic mhythology (or in John Wick) is an ugly old witch who lives in a hut with chicken legs in the depths of the forest and threatens to eat travelers and children. But Babayaga was not always a villain.
 .In fact, in ancient Russian fairy tales Babayaga is a healer, protector of clans, folks and travelers. According to one of the theories, she was the beautiful, kind and wise Slavic goddess Yaginya who showed people the right path. Some legends say she was the wife of Veles, the God of Magic, Wisdom, and the Three Worlds.
 

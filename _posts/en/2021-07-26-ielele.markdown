@@ -5,10 +5,13 @@ title: The last thing you see will be their hora dance
 subtitle: Ielele
 description: Ielele (or Iele) are fascinatingly beautiful feminine creatures in Romanian Mythology. They wear bells around their ankles and are usually naked, although in some areas they are said to be wearing white clothes. They usually dance in groups of 3, 5, 7 and 9, rarely in larger numbers.
 date: '2021-07-26 13:40:00'
+
 language: 'en'
 language_reference: 'ielele'
-publish: 'yes'
+
+published: true
 ---
+
 Ielele (or Iele) are fascinatingly beautiful feminine creatures in Romanian Mythology. They wear bells around their ankles and are usually naked, although in some areas they are said to be wearing white clothes. They usually dance in groups of 3, 5, 7 and 9, rarely in larger numbers.
 
 They dance naked in the moonlight with their breasts almost covered by their disheveled hair, with candles on their hands. They live in desolate places such as forests, meadows or mountain cliffs. They are visible to human only when they dance.

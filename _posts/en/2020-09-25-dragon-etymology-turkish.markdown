@@ -9,7 +9,7 @@ date: '2020-09-25 15:30:00'
 language: 'en'
 language_reference: 'dragon-etymology-turkish'
 
-publish: 'yes'
+published: true
 ---
 
 Here is the last post of the etymology series is also my favorite one. Because the story behind is very beautiful.

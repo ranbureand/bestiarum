@@ -9,7 +9,7 @@ date: '2021-03-06 13:40:00'
 language: 'en'
 language_reference: 'aumakua'
 
-publish: 'yes'
+published: true
 ---
 
 Aumakua is "Guardian Spirit" in Polynesian Mythology. It is believed that a deceased person manifests himself mostly in animal form to guide his/her descendants protect them from evil.

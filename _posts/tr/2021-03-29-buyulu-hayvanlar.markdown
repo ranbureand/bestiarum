@@ -10,7 +10,7 @@ date: '2021-03-29 13:40:00'
 language: 'tr'
 language_reference: 'familiar'
 
-publish: 'yes'
+published: true
 ---
 
 Büyülü hayvanlar (İng: *Familiars*), Orta Çağ ve Erken Modern dönemlerinde Avrupa folklorunda genellikle hayvan biçiminde görülen ve bir cadıya, büyücüye veya bir şifacıya büyü ve sihirlerinde yardım eden doğa üstü ruhlardır.  

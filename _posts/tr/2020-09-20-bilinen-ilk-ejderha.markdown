@@ -10,7 +10,7 @@ date: '2020-09-21 00:00:00'
 language: 'tr'
 language_reference: 'oldest-dragon'
 
-publish: 'yes'
+published: true
 ---
 
 Ejderhalar insanlık tarihi kadar eski. Pek çok mitolojide değişik isim ve/veya şekillerde ejderhalara rastlamak mümkün. Peki bilinen en eski ejderha mitolojisi nerede ve ne zaman ortaya çıktı?

@@ -5,11 +5,13 @@ title: A vampire older than Dracula
 subtitle: Strigoi
 description: Strigoi are evil spirits in Romanian Mythology who rise from the grave and terrorize people. They can take any animal form, be invisible, and live by drinking the blood and gaining the vitality of their victims.
 date: '2021-05-28 13:40:00'
+
 language: 'en'
 language_reference: 'strigoi'
 
-publish: 'yes'
+published: true
 ---
+
 Strigoi are evil spirits in Romanian Mythology who rise from the grave and terrorize people. They can take any animal form, be invisible, and live by drinking the blood and gaining the vitality of their victims. (Sound familiar?)
 
 Strigoi is the inspiration for vampires which have never lost their popularity over time. Likewise, the Dracula novel, which is the holy book of vampirism in popular culture, is a modern strigoi interpretation of Bram Stoker.

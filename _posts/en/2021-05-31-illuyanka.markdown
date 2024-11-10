@@ -5,9 +5,11 @@ title: Another poor dragon killed by Gods
 subtitle: İlluyanka
 description: Illuyanka is the giant sea serpent / dragon mentioned in Hittite Mythology. When he defeats Teshup, the god of storm and sky of the Hittites, he takes his heart and eyes. Based on a prophecy Teshup learned, he marries the daughter of a poor man To avenge himself upon the dragon Illuyanka.
 date: '2021-05-31 13:40:00'
+
 language: 'en'
 language_reference: 'illuyanka'
-publish: 'yes'
+
+published: true
 ---
 
 Illuyanka is the giant sea serpent / dragon mentioned in Hittite Mythology. When he defeats Teshup, the god of storm and sky of the Hittites, he takes his heart and eyes. Based on a prophecy Teshup learned, he marries the daughter of a poor man To avenge himself upon the dragon Illuyanka.

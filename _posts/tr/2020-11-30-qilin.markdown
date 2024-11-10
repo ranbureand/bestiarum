@@ -10,7 +10,7 @@ date: '2020-11-30 13:40:00'
 language: 'tr'
 language_reference: 'qilin'
 
-publish: 'yes'
+published: true
 ---
 
 Qilin Unicorn ya da tek boynuzlu atların Çin’de yaşayan büyükbüyükbüyük kuzenidir.

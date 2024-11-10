@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: En Renkli Aborjin Tanrısı
 subtitle: Gökkuşağı Yılanı
 categories: [beast, mythology]
 description: Gökkuşağı Yılanı, 50.000 yıllık kültüre sahip olan Aborjinlerin yaratılış hikayesindeki ilk kutsal ruh ya da tanrıdır.
 date: '2022-03-01 13:40:00'
+
 language: 'tr'
 language_reference: 'rainbowserpent'
-publish: 'yes'
+
+published: true
 ---
+
 Dev Gökkuşağı Yılanı yerin altındaki karanlıktan çıkmak istedi. O kadar güçlüydü ki yeri ittirdikçe dağlar ve tepeler yükseldi, aralarında vadiler açıldı. Sudan yaşamı çıkarttı ve yeryüzüne hayat verdi. Sırtındaki mavi renk kışı, kırmızı yazı, sarı ilkbaharı ve turuncu sonbaharı getirdi.
 
 Gökkuşağı Yılanı halen aramızdadır. Bazen bir su kuyusundan başka bir kuyusuna hareket eder. İşte gökyüzündeki gökkuşağı hareket eden bu kutsal ruhun izidir.

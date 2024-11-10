@@ -6,10 +6,11 @@ subtitle: Noel Canavaları III
 categories: [beast, magic]
 description: Efsaneye göre Père Fouettard yani Kırbaçlı Baba, Noel Baba'ya gezilerinde eşlik eder, Krampus'a benzer şekilde, kötü davrananları kırbaçlayarak ve kaçırarak cezalandırır.
 date: '2023-12-27 00:00:00'
+
 language: 'tr'
 language_reference: 'kirbaclibaba'
 
-publish: 'yes'
+published: true
 ---
 
 Efsaneye göre Père Fouettard yani Kırbaçlı Baba, Noel Baba'ya gezilerinde eşlik eder, Krampus'a benzer şekilde, kötü davrananları kırbaçlayarak ve kaçırarak cezalandırır. Dağınık sakallı, koyu renk cübbeli, dayak atmaya hazır uzun sopalı kırbaç taşıyan yaşlı bir adam olarak anlatılır. 

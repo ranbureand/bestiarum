@@ -9,7 +9,7 @@ date: '2021-04-01 13:40:00'
 language: 'en'
 language_reference: 'bulgasari'
 
-publish: 'yes'
+published: true
 ---
 
 Bulgasari (Chinese: bu ke sha = cannot be killed) is one of the rare monsters in Korean folk tales. The monster grew with every needle he ate. According to the story, Songdo's evil governor ordered all Buddhist monks to be imprisoned. A monk who escaped from the governor's soldiers hid in a closet in his sister's house.

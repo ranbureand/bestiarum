@@ -5,9 +5,11 @@ title: The Wikipedia of Demons
 subtitle: Bai Ze
 description: Bai Ze Çin Mitolojisinde yer alan efsanevi insan başlı ve öküz gövdeli yaratıktır. Başının iki yanında ve bir tane de ortada olmak üzere üç gözü ve sırtında boynuzları vardır. Sadece erdemli liderlere görünür.
 date: '2021-06-04 13:40:00'
+
 language: 'en'
 language_reference: 'baize'
-publish: 'yes'
+
+published: true
 ---
 
 Bai Ze (Japanese: Hakutaku) is a mythical creature with the head of a man and the body of an ox, often with three eyes on each flank and horns on its back. The creature is said only to appear to leaders who are virtuous

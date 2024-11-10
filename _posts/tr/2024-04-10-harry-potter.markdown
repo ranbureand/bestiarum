@@ -6,10 +6,11 @@ subtitle:
 categories: [alchemy]
 description: Dünyaca ünlü Harry Potter kitaplarının yazarı J.K. Rowling’in simyadan çokça alıntı yaptığını biliyor muydunuz?
 date: '2024-04-10 00:00:00'
+
 language: 'tr'
 language_reference: 'harrypotter'
 
-publish: 'yes'
+published: true
 ---
 Dünyaca ünlü Harry Potter kitaplarının yazarı J.K. Rowling’in simyadan çokça alıntı yaptığını biliyor muydunuz?
 

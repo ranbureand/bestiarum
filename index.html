@@ -13,7 +13,7 @@ language_reference: 'index'
 
 {%- assign counter = 0 %}
 {%- for post in site.posts %}
-  {%- unless post.publish == 'no' %}
+  {%- unless post.published == false %}
     {%- assign counter=counter | plus:1 %}
   {%- endunless %}
 {%- endfor %}

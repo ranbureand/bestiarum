@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Cecile Fatiman
 subtitle: Ünlü Cadılar VII
 categories: [magic, mythology]
 description: Cecile 1771-1883 yılları arasında yaşamış Haitili bir Vudu Rahibesidir.
 date: '2023-02-02 13:40:00'
+
 language: 'tr'
 language_reference: 'cecilefatiman'
-publish: 'yes'
+
+published: true
 ---
+
 Cecile 1771-1883 yılları arasında yaşamış Haitili bir Vudu Rahibesidir. Kimlerine göre Cecile bir cadıdır ama bu ona hangi taraftan baktığınıza göre değişir.
 Cecile, Korsikalı, soylu bir aileden gelen beyaz bir baba ve köle olarak esir edilmiş Afrikalı bir annenin kızıdır. Siyah uzun saçları ve yeşil gözleri olan oldukça güzel bir siyahidir.
 Cecile annesi ile birlikte Haiti’de köle olarak diğer iki erkek kardeşi gibi satılır. Haiti o tarihte bir fransız kolonisidir ve yerel halk fransız boyunduğundaki kölelerdir.

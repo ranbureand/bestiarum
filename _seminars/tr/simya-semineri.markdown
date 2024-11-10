@@ -23,7 +23,7 @@ payment_button_name: 'Şimdi Öde'
 language: 'tr'
 language_reference: 'alchemy-seminar'
 
-publish: 'yes'
+published: true
 ---
 
 Sembolleriyle içimize işleyen ve binlerce yıllık geçmişiyle baş döndüren simyanın altına dönüşme ve dönüştürme sanatına hoşgeldiniz.

@@ -1,13 +1,17 @@
 ---
 layout: post
+
 title: Another unfortunate sibling rivalry
 subtitle: Coyolxāuhqui
 description: Coyolxāuhqui is the Moon Goddess in Aztec Mythology. However, she was killed, dismembered, and decapitated by her brother Huitzilopochtli who is the God of War.
 date: '2021-08-31 13:40:00'
+
 language: 'en'
 language_reference: 'Coyolxauhqui'
-publish: 'yes'
+
+published: true
 ---
+
 Coyolxāuhqui  [kojoɬˈʃaːʍkʷi] is the Moon Goddess in Aztec Mythology. However, she was killed, dismembered, and decapitated by her brother Huitzilopochtli [wiːt͡siloːˈpoːt͡ʃt͡ɬi] who is the God of War.
 
 One day Coatlicue [/kwɑːtˈliːkweɪ/], while the mother of all gods, was sweeping the porch of her shrine on the summit of the Serpent Mountain, a ball of hummingbird feathers fell from the sky. Coatlicue took the ball of feathers and placed them in her apron. Then, miraculously, she became pregnant with Huitzilopochtli.

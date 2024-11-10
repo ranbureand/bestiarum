@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Lilith
 subtitle: Ünlü Cadılar I
 categories: [magic, mythology]
 description: Ünlü Cadıların hikayesi Lilith
 date: '2023-01-05 13:40:00'
+
 language: 'tr'
 language_reference: 'lilith'
-publish: 'yes'
+
+published: true
 ---
+
 Lilith Havva’dan da önce yaratılan ilk kadındır. Ademin ilk eşidir. Adı üstüne de “eş” yaratılmıştır fakat Adem ona biat etmesini istediği için hem Adem’den hem de cennetten kaçarak ortadan yok olmuştur.
 Lilith’in ilk izleri M.Ö. 3000’lerde Sümerlerde rastlanır. Fakat günümüzde en fazla anlatılan hikayesi Yahudi folklöründendir.
 

@@ -10,7 +10,7 @@ date: '2021-03-23 13:40:00'
 language: 'tr'
 language_reference: 'pooka'
 
-publish: 'yes'
+published: true
 ---
 
 Pooka veya İrlandaca Pùca, Kelt folklorunda ve İrlanda masallarında yer alan hayalet-peri karışımı bir varlıktır. Pooka bir şekil değiştiricidir ve bir at, eşek, kedi, köpek, boğa, genç bir adam ve hatta şehvetli bir genç kadın şekline girebilir. Bölgeye bağlı olarak, Pooka’nın kötü, tehlikeli veya iyi olduğuna inanılır.

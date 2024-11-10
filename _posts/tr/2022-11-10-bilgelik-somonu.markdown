@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Süper Güçler Veren Omega Yağı
 subtitle: Bilgelik Somonu
 categories: [mythology]
 description: Bilgelik Somon’u İrlanda Mitolojisinde yakalayıp yiyene bilgelik vereceğine inanılan bir balıktır.
 date: '2022-11-10 13:40:00'
+
 language: 'tr'
 language_reference: 'bilgeliksomonu'
-publish: 'yes'
+
+published: true
 ---
+
 Bilgelik Somon’u İrlanda Mitolojisinde yakalayıp yiyene bilgelik vereceğine inanılan bir balıktır.
 Mitolojiye göre Keltlerin ünlü kahramanı şair Finn Eces (a.k.a Finegas) bu balığı yakalamak için azmedip yedi yıl boyunca aynı yerde balık tutmuştur. Bir gün tuttuğu balığın Bilgelik Somon’u olduğunu bilmeden yardımcısı Fionn’dan balığı pişirmesini ister. Fionn da balığı pişirmeye başlar.
 

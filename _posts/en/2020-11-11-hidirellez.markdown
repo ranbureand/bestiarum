@@ -9,7 +9,7 @@ date: '2020-11-11 13:40:00'
 language: 'en'
 language_reference: 'hidirellez'
 
-publish: 'yes'
+published: true
 ---
 
 Hıdrellez is one of the oldest spring festivals. The night between the 5th and 6th of May is accepted as the end of the winter-the beginning of summer and is celebrated with ceremonies. Hıdrellez is the combination of the names of two immortal prophets: Khidr & Elijah (Orig. Hızır & Ilyas). And it is believed that they come together every year on that day. Hızır is the protector and helper of those who live on the land whereas Elijah comes to the rescue of those who have difficulty in the sea. (Yeah kind of like a superhero). In other words, Khidr is earth, Elijah is water. On the night of Hıdrellez, water meets the soil and brings abundance to it.

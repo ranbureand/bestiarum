@@ -10,7 +10,7 @@ date: '2020-10-09 15:30:00'
 language: 'tr'
 language_reference: 'toe-number'
 
-publish: 'yes'
+published: true
 ---
 
 Ejderha resimlerinde ya da çizimlerinde parmak sayısının çok önemli olduğunu biliyor muydunuz?

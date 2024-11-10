@@ -7,7 +7,7 @@ date: '2020-09-20 00:00:00'
 language: 'en'
 language_reference: 'oldest-dragon'
 
-publish: 'yes'
+published: true
 ---
 
 The dragons as ancient as the history of mankind. They are in many mythologies in different places and/or with different names. However when and where did the earliest known myth of "dragons" originate?

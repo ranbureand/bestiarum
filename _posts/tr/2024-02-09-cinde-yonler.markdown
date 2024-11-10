@@ -1,13 +1,16 @@
 ---
 layout: post
+
 title: Çin Simyasında Yönler
 subtitle:
 categories: [alchemy]
 description: Çin’de ise demir oksit yerine daha canlı kırmızılıkta olan zincifre (doğal civa sülfür) kullanılırdı.
 date: '2024-02-09 13:40:00'
+
 language: 'tr'
 language_reference: 'cindeyonler'
-publish: 'yes'
+
+published: true
 ---
 
 Geleneksel Çin düşüncesinde beş temel element vardır. Bu elementlerin herbiri bir yön, duyu, renk ve gezegen ile ilgilidir.

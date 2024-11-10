@@ -6,10 +6,13 @@ subtitle: Coyolxāuhqui
 categories: [beast, mythology]
 description: Coyolxāuhqui (Koyolşawki) Aztek Mitolojisinde Ay Tanrıçasıdır. Fakat kardeşi savaş tanrısı Huitzilopochtli (Vitzilopotçli) tarafından kurbanlık deve gibi parçalara ayrılarak öldürülür.
 date: '2021-08-31 13:40:00'
+
 language: 'tr'
 language_reference: 'Coyolxauhqui'
-publish: 'yes'
+
+published: true
 ---
+
 Coyolxāuhqui (Koyolşawki) Aztek Mitolojisinde Ay Tanrıçasıdır. Fakat kardeşi savaş tanrısı Huitzilopochtli (Vitzilopotçli) tarafından kurbanlık deve gibi parçalara ayrılarak öldürülür.
 
 Tüm tanrıların annesi olan Coatlicue (Koatlikue) Yılan Dağı’ndaki tapınağında bir gün verandayı süpürürken gökten bir tomar sinek kuşu tüyü düşer ve Coatlicue de tüy topağını alıp önlüğünün cebine koyar. Sonra da mucizevi bir şekilde Huitzilopochtli’ye hamile kalır.

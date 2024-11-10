@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Cadı Bahçesinin Olmazsa Olmazları
 subtitle: Sihirli Bitkiler
 categories: [magic]
 description: Sihirli güçleri olduğuna inanılan bitkiler, cadı bitkileri
 date: '2023-01-25 13:40:00'
+
 language: 'tr'
 language_reference: 'sihirlibitkiler'
-publish: 'yes'
+
+published: true
 ---
+
 ŞEYTAN OTU (Datura Stramonium)
 Bilinen diğer isimleri Boru Çiçeği, Şeytan Elması Otu, Kahkaha Otu ve Tatuladır.
 Psikedelik bitkidir. Halüsinasyon gördürür.

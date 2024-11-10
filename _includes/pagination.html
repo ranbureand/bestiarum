@@ -1,4 +1,4 @@
-      {%- assign posts = site.posts | where: 'publish', include.publish %}
+      {%- assign posts = site.posts | where: 'published', include.publish %}
       {%- for post in posts %}
         {%- if page.url == '/' %}
           {%- assign currentPostIndex = 1 %}

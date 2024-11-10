@@ -1,13 +1,16 @@
 ---
 layout: post
+
 title: Antik Yunan/Mısır Mitolojisi
 subtitle: Halcyon
 categories: [mythology]
 description: Kuşa dönüşen iki aşık
 date: '2022-12-05 13:40:00'
+
 language: 'tr'
 language_reference: 'halcyon'
-publish: 'yes'
+
+published: true
 ---
 
 Halcyon (Halsiyon) Rüzgarın Efendisi Aeolus’un dünyalar güzeli kızıdır. Sabah Yıldızı’nın oğlu Ceyx’e dut gibi aşık olur, Ceyx de Halsiyon’a boş değildir. Ve sonunda evlenirler.

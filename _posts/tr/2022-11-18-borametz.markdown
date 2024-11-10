@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Bitkisel Koyun
 subtitle: Borametz
 categories: [beast, magic]
 description: Dalından tazecik kuzu eti
 date: '2022-11-18 13:40:00'
+
 language: 'tr'
 language_reference: 'borametz'
-publish: 'yes'
+
+published: true
 ---
+
 Barometz, diğer adıyla Tataristan’ın Bitkisel Koyunu bitki gibi tohumdan yetişen bir bitki-hayvandır.
 Kavun çekirdeğine benzeyen çekirdekleri vardır ve boyu 80 cm’e kadar uzayabilir. Bitkinin meyvesi de çiçek gibi en tepesinde bulunan koyundur (Evet bildiğimiz koyun).
 Sadece bu koyunun boynuz olması gereken yerde iki top kürk bulunur.

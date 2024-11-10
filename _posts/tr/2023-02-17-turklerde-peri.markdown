@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Türklerde Peri
 subtitle: Periler I
 categories: [magic, mythology]
 description: Peri deyince aklınıza gelen ışıltı saçan minik kanatlı yaratıklar aslında daha çok Kuzey Avrupa mitlerinden gelmektedir. Bizdeki periler biraz farklı olsa da farsça kökenli olan “peri” kelimesi ile Latin kökenli “fairy” kelimeleri oldukça benzeşir. Dolayısıyla anlatılan peri hikayelerinde de benzer noktalar vardır.
 date: '2023-02-17 13:40:00'
+
 language: 'tr'
 language_reference: 'turklerdeperi'
-publish: 'yes'
+
+published: true
 ---
+
 Peri deyince aklınıza gelen ışıltı saçan minik kanatlı yaratıklar aslında daha çok Kuzey Avrupa mitlerinden gelmektedir. Bizdeki periler biraz farklı olsa da farsça kökenli olan “peri” kelimesi ile Latin kökenli “fairy” kelimeleri oldukça benzeşir. Dolayısıyla anlatılan peri hikayelerinde de benzer noktalar vardır.
 Avrupa mitlerinde perilerin goblinden denizkızına pek çok farklı formu vardır. Biz Türklerdeki genel inanış ise cinlerin dişi olanlarına peri demektir.
 

@@ -1,6 +1,8 @@
 ---
 type: home
 layout: base
+
+published: true
 navigation: false
 navigation_order: 1
 
@@ -15,7 +17,7 @@ language_reference: 'nest'
 
 {%- assign counter = 0 %}
 {%- for post in site.posts %}
-  {%- unless post.publish == 'no' %}
+  {%- unless post.published == false %}
     {%- assign counter=counter | plus:1 %}
   {%- endunless %}
 {%- endfor %}

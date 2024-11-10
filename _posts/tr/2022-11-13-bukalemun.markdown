@@ -1,14 +1,18 @@
 ---
 layout: post
+
 title: Zulu Mitolojisi
 subtitle: Bukalemun
 categories: [mythology]
 description: İnsanların ölümsüz olmamasının tek sorumlusu olan Zulu Mitolojisi'ndeki Bukalemun.
 date: '2022-11-13 13:40:00'
+
 language: 'tr'
 language_reference: 'bukalemun'
-publish: 'yes'
+
+published: true
 ---
+
 Dünya yeni yaratılmıştı. Karadan sular halen çekilmeye devam ediyordu, o yüzden her yer yumuşak çamur ve balçıkla kaplıydı.
 Tanrı Ukulunkulu ilk olarak bukalemunu yarattı. Bukalemunun bu çamurlu toprakta batmadan yaşayabilmesi için önce yavaş ve neredeyse tembel denecek kadar ağır ağır yürümeyi öğrenmesi gerekiyordu. O da öğrendi.
 

@@ -5,10 +5,11 @@ title: A nine-tailed beauty
 subtitle: Kumiho
 description: umiho is the nine-tailed fox that is mentioned in Korean Legends. She seduces men by transforming into a beautiful woman. It is said that she wanders the cemeteries at night and eats human hearts.
 date: '2021-05-04 13:40:00'
+
 language: 'en'
 language_reference: 'kumiho'
 
-publish: 'yes'
+published: true
 ---
 
 Kumiho is the nine-tailed fox that is mentioned in Korean Legends. She seduces men by transforming into a beautiful woman. It is said that she wanders the cemeteries at night and eats human hearts. In order to stay in human form permanently, she needs to eat 100 human hearts. However, she still must go out to hunt and eat a human heart every 1000 nights after she becomes human.

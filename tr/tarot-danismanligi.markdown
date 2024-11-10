@@ -1,7 +1,9 @@
 ---
 type: page
 layout: page
-navigation: true
+
+published: false
+navigation: false
 navigation_order: 3
 
 title: 'Bireysel Tarot danışmanlığı'

@@ -10,7 +10,7 @@ date: '2020-09-25 13:40:00'
 language: 'tr'
 language_reference: 'dragon-etymology-english'
 
-publish: 'yes'
+published: true
 ---
 
 Dragon kelimesi İngilizceye 13. yüzyıl ortalarında eski Fransızcadan alınarak girmiştir. Kökeni Latincede “büyük yılan” anlamına gelen “draconem” ve Eski Yunancada “büyük yılan, dev balık” anlamına gelen δράκων (drákōn) kelimeleridir. Eski Yunancadaki δράκων (drákōn) kelimesinin “görmek” ya da daha doğrusu “gözlerini dikip bakan” anlamına gelen δέρκομαι (dérkomai) kelimesinden geldiği tahmin edilmektedir.
