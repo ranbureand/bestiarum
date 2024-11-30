@@ -27,8 +27,11 @@ img::selection {
 */
 
 ::focus {
-  outline-style: none;
-  outline-color: transparent;
+  outline: none;
+}
+
+:focus-visible {
+  @include focus;
 }
 
 /*
@@ -122,15 +125,18 @@ a {
   color: inherit;
   background-color: transparent; // normalize.css
   &:hover {
-    outline: 0; // normalize.css
+    outline: none; // normalize.css
   }
   &:active {
     transition-duration: 0.0s;
 
-    outline: 0; // normalize.css
+    outline: none; // normalize.css
   }
   &:focus {
-    outline: 0;
+    outline: none; // normalize.css
+  }
+  &:focus-visible {
+    @include focus;
   }
 }
 a[href^="mailto"] {

@@ -10,7 +10,6 @@
   position: relative;
 
   display: block;
-  overflow: hidden;
 
   width: fit-content;
 
@@ -23,12 +22,14 @@
     position: absolute;
     z-index: 2;
     top: 0;
+    right: 0;
+    bottom: 0;
     left: 0;
 
     display: block;
 
     width: 100%;
-    padding-bottom: 100%;
+    height: 100%;
 
     content: "";
     transition-timing-function: ease-in, ease-in;
@@ -48,8 +49,8 @@
 
     text-decoration: none;
 
-    border-style: solid;
     border-width: 0;
+    border-style: solid;
 
     &:hover,
     &:active {
@@ -76,7 +77,6 @@
       transform: scale(1.0);
 
       opacity: 1.0;
-      
     }
   }
   @include min-screen(col(8)) {
@@ -174,7 +174,7 @@
   border-radius: em($m-medium-line);
 
   &:before {
-    margin-top: calc(-50% + #{em($m-medium-line)});
+    border-radius: em($m-medium-line);
   }
   a {
     padding: em($m-medium-line/2, $m-medium-size) em($m-gut/2*3, $m-medium-size);
@@ -187,7 +187,7 @@
     border-radius: em($d-medium-line);
 
     &:before {
-      margin-top: calc(-50% + #{em($d-medium-line)});
+      border-radius: em($d-medium-line);
     }
     a {
       padding: em($d-medium-line/2, $d-medium-size) em($d-gut, $d-medium-size);
@@ -205,8 +205,9 @@
 
     margin-right: em($m-gut/2, $m-medium-size);
     margin-left: em(-$m-gut/2, $m-medium-size);
-
-    @include min-screen(col(8)) {
+  }
+  @include min-screen(col(8)) {
+    svg {
       margin-right: em($d-gut/2, $d-medium-size);
       margin-left: em(-$d-gut/2, $d-medium-size);
     }
@@ -219,8 +220,9 @@
 
     margin-right: em(-$m-gut/2, $m-medium-size);
     margin-left: em($m-gut/2, $m-medium-size);
-
-    @include min-screen(col(8)) {
+  }
+  @include min-screen(col(8)) {
+    svg {
       margin-right: em(-$d-gut/2, $d-medium-size);
       margin-left: em($d-gut/2, $d-medium-size);
     }
@@ -239,7 +241,7 @@
   border-radius: em($m-small-line);
 
   &:before {
-    margin-top: calc(-50% + #{em($m-small-line)});
+    border-radius: em($m-small-line);
   }
   a {
     padding: em($m-small-line/2, $m-small-size) em($m-gut/2*3, $m-small-size);
@@ -252,7 +254,7 @@
     border-radius: em($d-small-line);
 
     &:before {
-      margin-top: calc(-50% + #{em($d-small-line)});
+      border-radius: em($d-small-line);
     }
     a {
       padding: em($d-small-line/2, $d-small-size) em($d-gut, $d-small-size);
@@ -270,8 +272,9 @@
 
     margin-right: em($m-gut/2, $m-small-size);
     margin-left: em(-$m-gut/2, $m-small-size);
-
-    @include min-screen(col(8)) {
+  }
+  @include min-screen(col(8)) {
+    svg {
       margin-right: em($d-gut/2, $d-small-size);
       margin-left: em(-$d-gut/2, $d-small-size);
     }
@@ -284,8 +287,9 @@
 
     margin-right: em(-$m-gut/2, $m-small-size);
     margin-left: em($m-gut/2, $m-small-size);
-
-    @include min-screen(col(8)) {
+  }
+  @include min-screen(col(8)) {
+    svg {
       margin-right: em(-$d-gut/2, $d-small-size);
       margin-left: em($d-gut/2, $d-small-size);
     }
@@ -304,7 +308,7 @@
   border-radius: em($m-extra-small-line);
 
   &:before {
-    margin-top: calc(-50% + #{em($m-extra-small-line)});
+    border-radius: em($m-extra-small-line);
   }
   a {
     padding: em($m-extra-small-line/4, $m-extra-small-size) em($m-gut/2, $m-extra-small-size);
@@ -321,7 +325,7 @@
     border-radius: em($d-extra-small-line);
 
     &:before {
-      margin-top: calc(-50% + #{em($d-extra-small-line)});
+      border-radius: em($d-extra-small-line);
     }
     a {
       padding: em($d-extra-small-line/4, $d-extra-small-size) em($d-gut/2, $d-extra-small-size);
@@ -343,8 +347,9 @@
 
     margin-right: em($m-gut/4, $m-extra-small-size);
     margin-left: em(-$m-gut/8, $m-extra-small-size);
-
-    @include min-screen(col(8)) {
+  }
+  @include min-screen(col(8)) {
+    svg {
       margin-right: em($d-gut/4, $d-extra-small-size);
       margin-left: em(-$d-gut/8, $d-extra-small-size);
     }
@@ -357,8 +362,9 @@
 
     margin-right: em(-$m-gut/8, $m-extra-small-size);
     margin-left: em($m-gut/4, $m-extra-small-size);
-
-    @include min-screen(col(8)) {
+  }
+  @include min-screen(col(8)) {
+    svg {
       margin-right: em(-$d-gut/8, $d-extra-small-size);
       margin-left: em($d-gut/4, $d-extra-small-size);
     }

@@ -4,7 +4,7 @@
 ** Reference animation on mouse out
 */
 
-let references = document.querySelectorAll('.post-canvas');
+let references = document.querySelectorAll('.reference');
 
 for (let i = 0; i < references.length; i++) {
   references[i].addEventListener('mouseout', function() {

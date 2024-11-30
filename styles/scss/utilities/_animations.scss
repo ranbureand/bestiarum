@@ -39,28 +39,7 @@
   }
 }
 
-/*@keyframes element-zoom-in {
-  0% {
-    transform: perspective(200px) translate3d(0px, 0px, 0px);
-    z-index: 0;
-    filter: drop-shadow(0px 0px 0px $zoom-in-shadow-start);
-  }
-  99% {
-    transform: perspective(200px) translate3d(0px, 0px, 16px);
-    z-index: 2;
-    filter: drop-shadow(0px 0px em($base-unit*3) $zoom-in-shadow-end);
-  }
-  100% {
-    transform: perspective(200px) translate3d(0px, 0px, 16px);
-    z-index: 2;
-    filter: drop-shadow(0px 0px em($base-unit*3) $zoom-in-shadow-end);
-  }
-}*/
-
 :root {
-  --zoom-shadow-start-color: #{$zoom-shadow-start-color};
-  --zoom-shadow-end-color:  #{$zoom-shadow-end-color};
-
   --initial-offset-x: 0px;
   --initial-offset-y: 0px;
   --initial-rotation: 0deg;

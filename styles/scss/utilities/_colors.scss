@@ -12,11 +12,8 @@ $white:                         #fff;
 ** Typography
 */
 
-//$strong-type-color:             rgba($black, 0.8);
 $strong-type-color:             rgba(map-get($d-type-colors, "s10"), 1.0);
-//$type-color:                    rgba($black, 0.8);
 $type-color:                    rgba(map-get($d-type-colors, "s10"), 1.0);
-//$light-type-color:              rgba($black, 0.4);
 $light-type-color:              rgba(map-get($d-type-colors, "s10"), 0.6);
 
 $type-color-selected:           inherit;
@@ -100,14 +97,11 @@ $colors:    (0,  "light", map-get($l-back-colors, "s1"),  map-get($l-back-2-colo
 ** Borders
 */
 
-//$border-color:                  rgba($black, 0.4);
 $border-color:                  rgba(map-get($d-type-colors, "s10"), 1.0);
 
 /*
 ** Shadows
 */
 
-//$zoom-in-shadow-start:          rgba($black, 0.0);
 $zoom-shadow-start-color:          rgba(map-get($d-type-colors, "s10"), 0.0);
-//$zoom-in-shadow-end:            rgba($black, 0.3);
 $zoom-shadow-end-color:            rgba(map-get($d-type-colors, "s10"), 0.5);

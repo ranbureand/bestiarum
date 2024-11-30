@@ -6,18 +6,20 @@ subtitle: Maddi ve manevi dönüşüm sanatı
 description: Simya maddi ve manevi dönüşüm sanatıdır. Anlaşılması güç bir felsefe gibi görünse de aslında temeli belli başlı ilkelere daynır.
 date: 2024-10-21 00:00:00
 
-status: open
-introduction: Simyacılar kurşunu altına dönüştürebilirler mi? Kusursuz Felsefe Taşı'nı aramak aslında nedir? Peki bu dönüşüm ile insan ruhunun yetkinleştirilmesi arasında nasıl bir bağ var?<br/>Bu seminer size gerçek simyacılığın kapılarını açacak. Hem de çok sade ve basit bir anlatımla.
+status: closed
+introduction: Simyacılar kurşunu altına dönüştürebilirler mi? Kusursuz Felsefe Taşı'nı aramak aslında nedir? Peki bu dönüşüm ile insan ruhunun yetkinleştirilmesi arasında nasıl bir bağ var? Bu seminer size gerçek simyacılığın kapılarını açacak. Hem de çok sade ve basit bir anlatımla.
 dates:
   start: 2024-12-01
   end: 2024-12-22
 hours: 21:00–23:00 (TSİ)
 duration: Haftada 2 saat, 4 hafta
 
-form_link: 'https://forms.gle/mDvFZvCR8rAZkzgK7'
+preview: alchemy_00.jpg
+
+form_link: ''
 form_button_name: 'Kayıt Formu'
 
-payment_link: 'https://checkout.revolut.com/pay/742781b7-30c7-4fc0-bf12-0cb727c9c927'
+payment_link: ''
 payment_button_name: 'Şimdi Öde'
 
 language: 'tr'
@@ -112,25 +114,12 @@ Her bir simya işlemi şu detayda anlatılacak:
 
 Her buluşma *Zoom* üzerinden canlı olarak yapılacaktır. Her bir buluşmanın hemen sonrasında *Zoom* kaydı katılımcılarla paylaşılacaktır.
 
-## Ücret
-
-**3.800 TL**  
-Kredi kartı ile tek seferde nakit ödeme gerçekleştirebilirsiniz.
-
-Daha önceki eğitimlerimden herhangi birine katıldıysanız %5 indirim vardır.
-
-Bu seminerler için yerimiz kısıtlıdır. 
-
-## Nasıl kayıt olacaksınız?
-
-Kaydınızı oluşturmak için ücreti ödemeden önce lütfen aşağıdaki linkten kısa iletişim formunu doldurun.
-
-<span class="form-button"><noscript>turn on Javascript to see the form button</noscript></span>
-
-Kayıt formunu doldurduktan sonra kesin kaydınız için ödeme yapmanızı rica ederiz. Ödemenizi aşağıdaki linkten kredi kartınız ya da banka kartınız ile gerçekleştirebilirsiniz.
-
 ---
 
-<span class="payment-button"><noscript>turn on Javascript to see the payment button</noscript></span>
+**Bu seminer için kayıtlarımız kapalıdır**.
 
-Ödeme ya da kayıtla ilgili her türlü sorunuz için benimle **<span class="phone"><noscript>{{ site.data.snippets.phone_placeholder[page.language] }}</noscript></span>** no'lu telefondan ya da **<span class="email"><noscript>{{ site.data.snippets.email_placeholder[page.language] }}</noscript></span>** e-mail adresi üzerinden iletişime geçebilirsiniz.
+Her türlü sorunuz için **<span class="phone"><noscript>{{ site.data.snippets.phone_placeholder[page.language] }}</noscript></span>** no’lu telefondan Whatsapp üzerinden ya da **<span class="email"><noscript>{{ site.data.snippets.email_placeholder[page.language] }}</noscript></span>** e-mail adresinden benimle iletişime geçebilirsiniz.
+
+Sevgiler,
+
+Dilek

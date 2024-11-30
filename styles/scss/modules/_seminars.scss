@@ -1,85 +1,145 @@
 /* Copyright (c) 2019 Andrea Buran [www.andreaburan.com] All rights reserved */
 
 /*
-** Post list
+** Seminar list
 */
 
-.canvas-seminar-posts {
+.canvas-seminars {
   padding-top: em($m-base-rhythm*2);
+  padding-bottom: em($m-base-rhythm*2);
 
-  grid-column: 1 / 9;
   @include min-screen(col(8)) {
     padding-top: em($d-base-rhythm*2);
+    padding-bottom: em($d-base-rhythm*2);
   }
 }
 
-.seminar-posts {
+.seminars {
   display: flex;
 
-  padding-right: 0;
-  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: em($m-gut);
+  padding-left: em($m-gut);
 
   animation-name: element-up;
   animation-duration: $duration*4;
 
-  grid-column: 1 / 9;
-  align-content: flex-start;
+  align-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
-  justify-content: flex-start;
+  justify-content: center;
   animation-fill-mode: both;
+  column-gap: em($m-gut*2);
+  row-gap: em($m-gut*2);
 
-  li {
-    width: 100/1*1%;
-    margin-bottom: em($m-base-rhythm);
+  > li {
+    position: relative;
+
+    width: 100%;
 
     flex-grow: 0;
     flex-shrink: 1;
+    -webkit-font-smoothing: subpixel-antialiased;
+
+    &:hover {
+      animation-name: element-zoom-in;
+      animation-duration: $duration/4*3;
+
+      animation-fill-mode: forwards;
+      &:before {
+        animation-name: element-shadow-zoom-in;
+        animation-duration: $duration/4*3;
+
+        background-color: $zoom-shadow-end-color;
+
+        animation-fill-mode: forwards;
+      }
+    }
+
+    &:active {
+      animation-name: element-zoom-out;
+      animation-duration: $duration/8;
+
+      animation-fill-mode: forwards;
+      &:before {
+        animation-name: element-shadow-zoom-out;
+        animation-duration: $duration/8;
+
+        animation-fill-mode: forwards;
+      }
+    }
+    &:before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+      content: "";
+      transition: background-color 0.3s ease;
+
+      opacity: 0;
+
+      filter: blur(em($base-unit*4));
+    }
   }
   > li:last-child {
     margin-bottom: 0;
   }
   @include min-screen(col(8)) {
-    li {
-      margin-bottom: em($d-base-rhythm);
+    padding-right: em($d-gut);
+    padding-left: em($d-gut);
+
+    column-gap: em($d-gut*2);
+    row-gap: em($d-gut*2);
+    > li {
+      width: col(6);
     }
   }
 }
 
-.seminar-post {
-  border-radius: $base-unit;
+.seminar {
   display: flex;
+  overflow: hidden;
   flex-direction: column;
 
   animation-name: element-in;
   animation-duration: $duration*4;
   text-align: center;
 
+  border-width: 2px;
+  border-style: solid;
+  border-color: $background-color-hovered;
+  border-radius: em($m-gut/2);
+  background-color: $background-color;
+
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   animation-fill-mode: both;
-  padding-bottom: em($m-base-rhythm/2);
-  padding-top: em($m-base-rhythm/2);
-  padding-right: em($m-gut);
-  padding-left: em($m-gut);
-  &:hover {
-    background-color: $background-color-hovered;
+
+  .preview {
+    display: block;
+  }
+  .body {
+    padding-top: em($m-base-rhythm/2);
+    padding-right: em($m-gut);
+    padding-bottom: em($m-base-rhythm);
+    padding-left: em($m-gut);
   }
   .title {
     font-weight: $bold;
 
     display: block;
-
-    text-decoration: underline;
-
-    @include font-size($m-large-size, $m-large-line);
   }
   .subtitle {
     font-weight: $normal;
     font-style: italic;
-
-    @include font-size($m-large-size, $m-large-line);
+  }
+  .title,
+  .subtitle {
+    @include font-size($m-medium-size, $m-medium-line);
   }
   .caption {
     display: flex;
@@ -107,18 +167,21 @@
     @include font-size($m-extra-small-size, $m-extra-small-line);
   }
   .introduction {
+    text-align: left;
+
     @include font-size($m-medium-size, $m-medium-line);
   }
   @include min-screen(col(8)) {
-    padding-bottom: em($d-base-rhythm/2);
-    padding-top: em($d-base-rhythm/2);
-    padding-right: em($d-gut);
-    padding-left: em($d-gut);
-    .title {
-      @include font-size($d-large-size, $d-large-line);
+    border-radius: em($d-gut/2);
+    .body {
+      padding-top: em($d-base-rhythm/2);
+      padding-right: em($d-gut);
+      padding-bottom: em($d-base-rhythm);
+      padding-left: em($d-gut);
     }
+    .title,
     .subtitle {
-      @include font-size($d-large-size, $d-large-line);
+      @include font-size($d-medium-size, $d-medium-line);
     }
     .caption {
       margin-top: em($d-small-line/2);
@@ -139,7 +202,7 @@
       @include font-size($d-extra-small-size, $d-extra-small-line);
     }
     .introduction {
-      @include font-size($d-medium-size, $d-medium-line);
+      @include font-size($d-small-size, $d-small-line);
     }
   }
 }
@@ -154,7 +217,7 @@
 }
 
 @for $i from 1 through 96 {
-  .seminar-posts {
+  .seminars {
     li:nth-child(#{$i}n) {
       .seminar-post {
         animation-delay: #{$i * $duration/12};

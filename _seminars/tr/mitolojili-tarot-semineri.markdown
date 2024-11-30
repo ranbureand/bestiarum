@@ -7,11 +7,13 @@ description: Kartları sana tanrılar ve tanrıçalar anlatsın
 date: 2024-07-29 00:00:00
 
 status: closed
-introduction: İster Tarot kartlarını okumak istiyor ol, ister mitolojik hikaye çözümlemeyi seviyor ol, bu eğitimde her ikisi de var!
+introduction: İster Tarot kartlarını okumak istiyor ol, ister mitolojik hikaye çözümlemeyi seviyor ol, bu eğitimde her ikisi de var! Kartları ezberlemek zorunda kalmadan, en kadim hikayeler olan mitolojilerle kartların anlattıkları ruhunuza işleyecek.
 dates:
   start: 2024-09-01
   end: 2024-11-10
 duration: Haftada 2 saat, 10+1 hafta
+
+preview: tarots_00.jpg
 
 form_link: ''
 form_button_name: 'Kayıt Formu'

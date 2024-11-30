@@ -1,14 +1,14 @@
 /* Copyright (c) 2019 Andrea Buran [www.andreaburan.com] All rights reserved */
 
 /*
-** Post list
+** Posts
 */
 
 .canvas-posts {
-  margin-bottom: em($m-base-rhythm*2);
+  padding-bottom: em($m-base-rhythm*2);
 
   @include min-screen(col(8)) {
-    margin-bottom: em($d-base-rhythm*2);
+    padding-bottom: em($d-base-rhythm*2);
   }
 }
 
@@ -24,7 +24,7 @@
   animation-duration: $duration*4;
 
   align-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: row wrap;
   justify-content: center;
   animation-fill-mode: both;
@@ -97,13 +97,6 @@
   }
 }
 
-.zoom-out {
-  animation-name: element-zoom-out;
-  animation-duration: $duration/4*3;
-
-  animation-fill-mode: forwards;
-}
-
 .post {
   position: absolute;
   z-index: 1;
@@ -168,6 +161,10 @@
     padding-left: em($d-gut/2);
 
     border-radius: em($d-gut/2);
+    .title,
+    .subtitle {
+      @include font-size($d-medium-size, $d-medium-line - $base-unit);
+    }
     .categories {
       bottom: em($d-small-line/2);
 
@@ -182,12 +179,6 @@
       border-radius: em($d-tiny-line, $d-tiny-size);
 
       @include font-size($d-tiny-size, $d-tiny-line);
-    }
-  }
-  @include min-screen(col(12)) {
-    .title,
-    .subtitle {
-      @include font-size($d-medium-size, $d-medium-line - $base-unit);
     }
   }
 }

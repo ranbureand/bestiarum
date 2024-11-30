@@ -1,0 +1,20 @@
+/* Copyright (c) 2019 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Mixins
+*/
+
+@mixin focus {
+  z-index: 1000;
+  //position: relative;
+
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: $strong-type-color;
+  outline-offset: 2px;
+}
+
+@mixin no-focus {
+  outline-width: 0;
+  outline-color: transparent;
+}
