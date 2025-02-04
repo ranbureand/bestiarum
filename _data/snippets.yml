@@ -82,9 +82,17 @@ payment_button:
   en: Pay Now
   tr: Şimdi Öde
 
+payment_button_placeholder:
+  en: enable Javascript to view the installment payment button
+  tr: ödeme butonunu göremiyorsanız JavaScript’i etkinleştirin
+
 installment_payment_button:
   en: Pay in Installments
   tr: Taksitli Öde
+
+installment_payment_button_placeholder:
+  en: enable Javascript to view the installment payment button
+  tr: ödeme butonunu göremiyorsanız JavaScript’i etkinleştirin
 
 follow_social:
   en: Follow on
@@ -97,3 +105,4 @@ email_placeholder:
 phone_placeholder:
   en: enable JavaScript to view my phone number
   tr: telefon numaramı görmek için JavaScript’i etkinleştirin
+

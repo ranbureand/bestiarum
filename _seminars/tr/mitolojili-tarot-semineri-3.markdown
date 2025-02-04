@@ -4,31 +4,30 @@ layout: seminar
 title: Mitolojili Tarot
 subtitle: Kartları sana tanrılar ve tanrıçalar anlatsın
 description: Kartları sana tanrılar ve tanrıçalar anlatsın
-date: 2025-02-04 00:00:00
+date: 2024-07-29 00:00:00
 
-status: open
+status: closed
 introduction: İster Tarot kartlarını okumak istiyor ol, ister mitolojik hikaye çözümlemeyi seviyor ol, bu eğitimde her ikisi de var! Kartları ezberlemek zorunda kalmadan, en kadim hikayeler olan mitolojilerle kartların anlattıkları ruhunuza işleyecek.
 dates:
-  start: 2025-03-09
-  end: 2025-05-18
-hours: 21:00–23:00 (TSİ)
+  start: 2024-09-01
+  end: 2024-11-10
 duration: Haftada 2 saat, 10+1 hafta
 
 preview: tarots_00.jpg
 
-form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSdvH1u_taiegY8fCgpL4TQfWd-N8QGpXWmOnmpKfVfU0E6Yrw/viewform?usp=sharing'
+form_link: ''
 form_button_name: 'Kayıt Formu'
 
-payment_link: 'https://checkout.revolut.com/pay/dfc02140-9841-4019-b0aa-ae9959ba17fa'
+payment_link: ''
 payment_button_name: 'Şimdi Öde'
 
-installment_payment_link: 'https://checkout.revolut.com/pay/ba5aefd1-ff91-4ea5-8691-7fe27890e604'
+installment_payment_link: ''
 installment_payment_button_name: 'Taksitli Öde'
 
 language: 'tr'
 language_reference: 'tarot-seminar'
 
-published: true
+published: false
 ---
 
 Merhabalar,
@@ -50,7 +49,7 @@ Bu buluşmalardaki amacım sizi Tarot kartlarının sembolizmasını okuyabilece
 
 ## 1. Bölüm: Majör Arkana: <br/>22 Kart 22 Mitolojik Hikaye
 
-22 Majör Arkana Kartı–22 Mitolojik Hikaye’yi kapsayan 1. Bölüm, 9 Mart–27 Nisan 2025 tarihleri arasında gerçekleşecektir.
+22 Majör Arkana Kartı–22 Mitolojik Hikaye’yi kapsayan 1. Bölüm, 1 Eylül–20 Ekim 2024 tarihleri arasında gerçekleşecektir.
 
 Dersler 8 Hafta boyunca, her Pazar akşamı TR Saatiyle 21:00–23:00 saatleri arasında Zoom üzerinden online ve canlı olarak yapılacaktır.
 
@@ -74,19 +73,19 @@ Her bir karta karşılık gelen mitolojik hikayesine geçmeden önce tüm kartla
 
 | Hafta | Tarih | İçerik |
 | - | - | - |
-| 1 | 9&nbsp;Mart | Tarot’un Kısa Tarihçesi, Başlıca Tarot Desteleri, Tarot Arketipleri, Numeroloji, Elementler ve Semboller, Renkler, Kahramanın Yolculuğu ve Tarot, Dionysos ve Apollo: Tragedya’nın Doğuşu, Tarot Kartlarıyla Yapılabilecek Şifa Çalışmaları <br/>Joker Kartı ve Büyücü Kartı ile Rüya Çalışması |
-| 2 | 16&nbsp;Mart | **0 Joker**: Momus & Dionysos <br/>**1 Büyücü**: Hermes & Apollo <br/>**2 Azize**: İsis ve Osiris & Persephone |
-| 3 | 23&nbsp;Mart | **3 İmparatoriçe**: Demeter <br/>**4 İmparator**: Kral Arthur <br/>**5 Aziz**: Şifacı Kiron |
-| 4 | 30&nbsp;Mart | **6 Aşıklar**: Castor ve Pollux & Perseus ve Andromeda <br/>**7 Araba**: Tripura ve Şiva <br/>**8 Güç**: Cyrene & Parvati |
-| 5 | 6&nbsp;Nisan | **9 Ermiş**: Persival ve Kutsal Kase <br/>**10 Kader Çarkı**: Tanrıça Fortuna ve Carmina Burana <br/>**11 Adalet**: Tanrıça Ma’at |
-| 6 | 13&nbsp;Nisan | **12 Asılan Adam**: Odin <br/>**13 Ölüm**: Herakles <br/>**14 Denge**: Trimurti |
-| 7 | 20&nbsp;Nisan | **15 Şeytan**: Aziz Theofilus <br/>**16 Kule**: Rapunzel Masalı <br/>**17 Yıldız**: Nut |
-| 8 | 27&nbsp;Nisan | **18 Ay**: Hekate <br/>**19 Güneş**: Amaterasu <br/>**20 Mahkeme**: Uyuyan Güzel Masalı <br/>**21 Dünya**: Brahman/Atman & Kozmik Dans |
+| 1 | 1&nbsp;Eylül | Tarot’un Kısa Tarihçesi, Başlıca Tarot Desteleri, Tarot Arketipleri, Numeroloji, Elementler ve Semboller, Renkler, Kahramanın Yolculuğu ve Tarot, Dionysos ve Apollo: Tragedya’nın Doğuşu, Tarot Kartlarıyla Yapılabilecek Şifa Çalışmaları <br/>Joker Kartı ve Büyücü Kartı ile Rüya Çalışması |
+| 2 | 8&nbsp;Eylül | **0 Joker**: Momus & Dionysos <br/>**1 Büyücü**: Hermes & Apollo <br/>**2 Azize**: İsis ve Osiris & Persephone |
+| 3 | 15&nbsp;Eylül | **3 İmparatoriçe**: Demeter <br/>**4 İmparator**: Kral Arthur <br/>**5 Aziz**: Şifacı Kiron |
+| 4 | 22&nbsp;Eylül | **6 Aşıklar**: Castor ve Pollux & Perseus ve Andromeda <br/>**7 Araba**: Tripura ve Şiva <br/>**8 Güç**: Cyrene & Parvati |
+| 5 | 29&nbsp;Eylül | **9 Ermiş**: Persival ve Kutsal Kase <br/>**10 Kader Çarkı**: Tanrıça Fortuna ve Carmina Burana <br/>**11 Adalet**: Tanrıça Ma’at |
+| 6 | 6&nbsp;Ekim | **12 Asılan Adam**: Odin <br/>**13 Ölüm**: Herakles <br/>**14 Denge**: Trimurti |
+| 7 | 13&nbsp;Ekim | **15 Şeytan**: Aziz Theofilus <br/>**16 Kule**: Rapunzel Masalı <br/>**17 Yıldız**: Nut |
+| 8 | 20&nbsp;Ekim | **18 Ay**: Hekate <br/>**19 Güneş**: Amaterasu <br/>**20 Mahkeme**: Uyuyan Güzel Masalı <br/>**21 Dünya**: Brahman/Atman & Kozmik Dans |
 {: .table }
 
 ## 2. Bölüm: Minör Arkana <br/>ve Tarot Açılım Pratikleri
 
-Majör Arkana kartlarıyla olan yolculuğumuzun hemen ardından başlayacak olan Minör Arkana ve Açılım Pratikleri Bölümü 4 Mayıs–18 Mayıs 2025 tarihleri arasında gerçekleşecektir. Dersler 3 Hafta boyunca, her Pazar akşamı TR Saatiyle 21:00–23:00 saatleri arasında Zoom üzerinden online ve canlı olarak yapılacaktır.
+Majör Arkana kartlarıyla olan yolculuğumuzun hemen ardından başlayacak olan Minör Arkana ve Açılım Pratikleri Bölümü 27 Ekim–10 Kasım 2024 tarihleri arasında gerçekleşecektir. Dersler 3 Hafta boyunca, her Pazar akşamı TR Saatiyle 21:00–23:00 saatleri arasında Zoom üzerinden online ve canlı olarak yapılacaktır.
 
 Bu bölümde 56 Minör Arkana Kartını anlatacağım ve farklı açılım teknikleriyle beraberce bol bol Tarot Açılımları yapacağız.
 
@@ -107,8 +106,8 @@ Her bir kartın tek tek anlamını anlatmaya geçmeden önce tüm kartların num
 
 | Hafta | Tarih | İçerik |
 | - | - | - |
-| 9,&nbsp;10 | 4&nbsp;Mayıs,<br/>11&nbsp;Mayıs | {::nomarkdown}<p>Minör Arkana Kartları Genel Bilgiler: Elementler, Numerolojiler, Renkler ve Anlamları ve Astrolojideki karşılıkları</p><ul><li>Değnek Serisi</li><li>Kupa Serisi</li><li>Kılıç Serisi</li><li>Tılsım Serisi</li><li>Saraylı Kartlar</li></ul>{:/} |
-| 11 | 18&nbsp;Mayıs | Tarot Açılım Pratikleri |
+| 9,&nbsp;10 | 27&nbsp;Ekim,<br/>3&nbsp;Kasım | {::nomarkdown}<p>Minör Arkana Kartları Genel Bilgiler: Elementler, Numerolojiler, Renkler ve Anlamları ve Astrolojideki karşılıkları</p><ul><li>Değnek Serisi</li><li>Kupa Serisi</li><li>Kılıç Serisi</li><li>Tılsım Serisi</li><li>Saraylı Kartlar</li></ul>{:/} |
+| 11 | 10&nbsp;Kasım | Tarot Açılım Pratikleri |
 {: .table }
 
 En çok bilinen ve kullanılan Tarot destesi olan Rider Waite Smith Tarot Destesini kullanacağız.
@@ -121,32 +120,7 @@ Dersten önce, ders esnasında not tutmayı kolaylaştırması için ilgili kart
 
 ---
 
-## Nasıl kayıt olacaksınız?
-
-Kaydınızı oluşturmak için ücreti ödemeden önce lütfen aşağıdaki linkten kısa iletişim formunu doldurun.
-
-<span class="form-button"><noscript>turn on Javascript to see the form button</noscript></span>
-
----
-
-## Ücret
-
-Ödemenizi iki şekilde gerçekleştirebilirsiniz:
-
-**6.000 TL**  
-Kredi kartı ya da banka kartı ile tek seferde nakit ödeme gerçekleştirebilirsiniz.
-
-<span class="payment-button"><noscript>{{ site.data.snippets.payment_button_placeholder[page.language] }}</noscript></span>
-
-**2.000 TL × 3**  
-Kredi kartı ya da banka kartına 3 Taksitle ödeyebilirsiniz (İlk ödeme 7 Mart’a kadar olmak üzere toplam 3 Taksitte ödeme yapabilirsiniz).
-
-<span class="installment-payment-button"><noscript>{{ site.data.snippets.installment_payment_button_placeholder[page.language] }}</noscript></span>
-
-+ Farklı bir ödeme planına ihtiyaç duyarsanız bana yazabilirsiniz.
-+ **Kesin kayıt** için ödemenizi **7 Mart’a** kadar gerçekleştirmenizi rica ederim.
-
----
+**Bu seminer için kayıtlarımız kapalıdır**.
 
 Her türlü sorunuz için **<span class="phone"><noscript>{{ site.data.snippets.phone_placeholder[page.language] }}</noscript></span>** no’lu telefondan Whatsapp üzerinden ya da **<span class="email"><noscript>{{ site.data.snippets.email_placeholder[page.language] }}</noscript></span>** e-mail adresinden benimle iletişime geçebilirsiniz.
 
