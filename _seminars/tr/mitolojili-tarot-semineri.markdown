@@ -117,7 +117,7 @@ Dersler Zoom üzerinden online ve canlı olarak gerçekleştirilecektir.
 
 Her dersin hemen bitiminde katılımcılarla dersin kaydı paylaşılır. Ders kayıtlarına buluşmaların bitiminden sonra 2 ay süreyle online olarak ulaşılabilir.
 
-Dersten önce, ders esnasında not tutmayı kolaylaştırması için ilgili kartların ders notu paylaşılacaktır. Tüm notlar kitapçık olarak eğitim sonunda da paylaşılır.
+Dersten önce, ders esnasında not tutmayı kolaylaştırması için ilgili kartların özet ders notu ve kitapçığı paylaşılacaktır.
 
 ---
 
