@@ -3,7 +3,7 @@ layout: post
 
 title: Tanrılara Kurban Verme
 subtitle: 
-categories: [mitoloji]
+categories: [mythology]
 description: Bitişler ve başlangıçlar birdir. Bu, nereden baktığınıza göre değişir.
 date: '2025-01-20 00:00:00'
 
