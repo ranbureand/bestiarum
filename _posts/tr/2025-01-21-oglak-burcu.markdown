@@ -3,7 +3,7 @@ layout: post
 
 title: Oğlak Burcu
 subtitle: 
-categories: [mitoloji, astroloji]
+categories: [mythology, symbolism]
 description: “Su Keçisi” Oğlak burcunun sembolüdür
 date: '2025-01-21 00:00:00'
 
