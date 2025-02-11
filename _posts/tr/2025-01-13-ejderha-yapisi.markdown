@@ -3,7 +3,7 @@ layout: post
 
 title: Ejderha Tasviri Nereden Gelir?
 subtitle: 
-categories: [mitoloji]
+categories: [mythology]
 description: Ejderhanın bu hibrit yapısı mitin anlatıldığı bölgeye göre değişir.
 date: '2025-01-13 00:00:00'
 
