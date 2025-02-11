@@ -1,0 +1,23 @@
+---
+layout: post
+
+title: İlk Doğum Günü Pastası
+subtitle: 
+categories: [mitoloji]
+description: Doğum günlerini ilk kutlayanlar Antik Mısırlılardır. 
+date: '2025-01-23 00:00:00'
+
+language: 'tr'
+language_reference: 'hekate'
+
+published: true
+---
+
+Doğum günlerini ilk kutlayanlar Antik Mısırlılardır. Ama bu doğumgünü partileri sadece Firavunlar içindir. Diğer faniler için doğum günü kutlaması Antik Roma zamanına kadar yapılmaz.
+
+Antik Yunan’da Tanrı ve Tanrıçaların doğumgünleri çeşitli ritüellerle kutlanır. İçinde kekler, ekmek ve meyveler gibi yiyeceklerin olduğu sunaklar hazırlanır.
+
+Pasta üzerine mum dikme geleneğinin de Hekate ve Artemis ile başladığı kabul edilir. Yuvarlak çörekler üstüne dikilen ‘parlayan şeyler’ Ay’ın parlaklığını anlatır.
+Sonraki dönemlerde devam eden bu gelenekte mumların üflenmesi, dilenen dileklerin uçarak Tanrılara ulaşması içindir.
+
+Günümüzdeki kutlamaların ilk versiyonu ise 16. yy’da Almanya’da ‘Çocuk Şenliği’ adı altında yapılmaya başlanır. Çocukların kötücül ruhlara karşı daha savunmasız olduğunu düşünüldüğü için, mumlar kötülükleri kovma amaçlıdır. Her yaş için bir mum ve de gelecek yılda da koruma sağlamak için ekstradan bir mum daha konur. Dilekler dilenir, mumlar üflenir.
