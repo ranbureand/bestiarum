@@ -3,7 +3,7 @@ layout: post
 
 title: İlk Doğum Günü Pastası
 subtitle: 
-categories: [mitoloji]
+categories: [mythology]
 description: Doğum günlerini ilk kutlayanlar Antik Mısırlılardır. 
 date: '2025-01-23 00:00:00'
 
