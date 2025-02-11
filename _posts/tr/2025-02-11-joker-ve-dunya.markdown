@@ -8,7 +8,7 @@ description: Bitişler ve başlangıçlar birdir. Bu, nereden baktığınıza g�
 date: '2025-02-11 00:00:00'
 
 language: 'tr'
-language_reference: 'joker-ve-dunya'
+language_reference: 'jokervedunya'
 
 published: true
 ---
