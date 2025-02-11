@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Bitişler ve Başlangıçlar 
-subtitle: Dünya ve Joker Kartı
+title: Dünya ve Joker Kartı
+subtitle: Bitişler ve Başlangıçlar
 categories: [tarot]
 description: Bitişler ve başlangıçlar birdir. Bu, nereden baktığınıza göre değişir.
 date: '2025-02-11 00:00:00'
