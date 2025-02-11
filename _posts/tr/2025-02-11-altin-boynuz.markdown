@@ -3,7 +3,7 @@ layout: post
 
 title: Altın Boynuz Adı Nereden Gelir?
 subtitle: 
-categories: [mitoloji]
+categories: [mythology]
 description: Sadece güneş vurduğu zaman altın gibi parlayan bir boynuz olduğu için değil.
 date: '2025-01-16 00:00:00'
 
