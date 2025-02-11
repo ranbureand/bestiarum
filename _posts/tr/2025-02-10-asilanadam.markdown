@@ -3,7 +3,7 @@ layout: post
 
 title: Asılan Adam Kartı
 subtitle: Odin ve Buz Sarkıtları
-categories: [tarot]
+categories: [tarot, mythology]
 description: sılan Adam kartı bu nedenle gönüllü bir fedakarlıktır.
 date: '2025-02-10 00:00:00'
 
