@@ -6,7 +6,7 @@ subtitle: Kartları sana tanrılar ve tanrıçalar anlatsın
 description: Kartları sana tanrılar ve tanrıçalar anlatsın
 date: 2025-02-04 00:00:00
 
-status: open
+status: closed
 introduction: İster Tarot kartlarını okumak istiyor ol, ister mitolojik hikaye çözümlemeyi seviyor ol, bu eğitimde her ikisi de var! Kartları ezberlemek zorunda kalmadan, en kadim hikayeler olan mitolojilerle kartların anlattıkları ruhunuza işleyecek.
 dates:
   start: 2025-03-09
@@ -16,13 +16,13 @@ duration: Haftada 2 saat, 10+1 hafta
 
 preview: tarots_00.jpg
 
-form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSdvH1u_taiegY8fCgpL4TQfWd-N8QGpXWmOnmpKfVfU0E6Yrw/viewform?usp=sharing'
+form_link: ''
 form_button_name: 'Kayıt Formu'
 
-payment_link: 'https://checkout.revolut.com/pay/dfc02140-9841-4019-b0aa-ae9959ba17fa'
+payment_link: ''
 payment_button_name: 'Şimdi Öde'
 
-installment_payment_link: 'https://checkout.revolut.com/pay/ba5aefd1-ff91-4ea5-8691-7fe27890e604'
+installment_payment_link: ''
 installment_payment_button_name: 'Taksitli Öde'
 
 language: 'tr'
@@ -121,30 +121,7 @@ Dersten önce, ders esnasında not tutmayı kolaylaştırması için ilgili kart
 
 ---
 
-## Nasıl kayıt olacaksınız?
-
-Kaydınızı oluşturmak için ücreti ödemeden önce lütfen aşağıdaki linkten kısa iletişim formunu doldurun.
-
-<span class="form-button"><noscript>turn on Javascript to see the form button</noscript></span>
-
----
-
-## Ücret
-
-Ödemenizi iki şekilde gerçekleştirebilirsiniz:
-
-**6.000 TL**  
-Kredi kartı ya da banka kartı ile tek seferde nakit ödeme gerçekleştirebilirsiniz.
-
-<span class="payment-button"><noscript>{{ site.data.snippets.payment_button_placeholder[page.language] }}</noscript></span>
-
-**2.000 TL × 3**  
-Kredi kartı ya da banka kartına 3 Taksitle ödeyebilirsiniz (İlk ödeme 7 Mart’a kadar olmak üzere toplam 3 Taksitte ödeme yapabilirsiniz).
-
-<span class="installment-payment-button"><noscript>{{ site.data.snippets.installment_payment_button_placeholder[page.language] }}</noscript></span>
-
-+ Farklı bir ödeme planına ihtiyaç duyarsanız bana yazabilirsiniz.
-+ **Kesin kayıt** için ödemenizi **7 Mart’a** kadar gerçekleştirmenizi rica ederim.
+**Bu seminer için kayıtlarımız kapalıdır**.
 
 ---
 
