@@ -78,6 +78,10 @@ form_button:
   en: Register Now
   tr: Kayıt Formu
 
+form_button_placeholder:
+  en: enable Javascript to view the registration form button
+  tr: kayıt formu butonunu göremiyorsanız JavaScript’i etkinleştirin
+
 payment_button:
   en: Pay Now
   tr: Şimdi Öde
