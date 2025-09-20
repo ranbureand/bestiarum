@@ -6,7 +6,7 @@ subtitle: Maddi ve manevi dönüşüm sanatı
 description: Simya maddi ve manevi dönüşüm sanatıdır. Anlaşılması güç bir felsefe gibi görünse de aslında temeli belli başlı ilkelere daynır.
 date: 2025-08-10 00:00:00
 
-status: open
+status: closed
 introduction: Simyacılar kurşunu altına dönüştürebilirler mi? Kusursuz Felsefe Taşı'nı aramak aslında nedir? Peki bu dönüşüm ile insan ruhunun yetkinleştirilmesi arasında nasıl bir bağ var? Bu seminer size gerçek simyacılığın kapılarını açacak. Hem de çok sade ve basit bir anlatımla.
 dates:
   start: 2025-09-21
@@ -16,10 +16,10 @@ duration: Haftada 2 saat, 4 hafta
 
 preview: alchemy_00.jpg
 
-form_link: 'https://forms.gle/1JXe6WvjGU4FdEmV7'
+form_link: ''
 form_button_name: 'Kayıt Formu'
 
-payment_link: 'https://checkout.revolut.com/pay/5a0900c8-aa73-40b8-a465-376004b74491'
+payment_link: ''
 payment_button_name: 'Şimdi Öde'
 
 language: 'tr'
@@ -114,30 +114,12 @@ Her bir simya işlemi şu detayda anlatılacak:
 
 Her buluşma *Zoom* üzerinden canlı olarak yapılacaktır. Her bir buluşmanın hemen sonrasında *Zoom* kaydı katılımcılarla paylaşılacaktır.
 
-## Ücret
-
-**4.700 TL**  
-Kredi kartı ile tek seferde nakit ödeme gerçekleştirebilirsiniz.
-
-Daha önceki eğitimlerimden herhangi birine katıldıysanız %5 indirim vardır.
-
-Bu seminerler için yerimiz kısıtlıdır.
-
-## Nasıl kayıt olacaksınız?
-
-Kaydınızı oluşturmak için lütfen önce kayıt formunu doldurun ardından ödemenizi gerçekleştirin.
-
-<span class="form-button"><noscript>{{ site.data.snippets.form_button_placeholder[page.language] }}</noscript></span>
-
 ---
 
-Kayıt formunu doldurduktan sonra kesin kaydınız için ödeme yapmanızı rica ederiz. Ödemenizi aşağıdaki linkten kredi kartınız ya da banka kartınız ile gerçekleştirebilirsiniz.
+**Bu seminer için kayıtlarımız kapalıdır**.
 
----
+Her türlü sorunuz için **<span class="phone"><noscript>{{ site.data.snippets.phone_placeholder[page.language] }}</noscript></span>** no’lu telefondan Whatsapp üzerinden ya da **<span class="email"><noscript>{{ site.data.snippets.email_placeholder[page.language] }}</noscript></span>** e-mail adresinden benimle iletişime geçebilirsiniz.
 
-<span class="payment-button"><noscript>{{ site.data.snippets.payment_button_placeholder[page.language] }}</noscript></span>
-
-Ödeme ya da kayıtla ilgili her türlü sorunuz için benimle **<span class="phone"><noscript>{{ site.data.snippets.phone_placeholder[page.language] }}</noscript></span>** no'lu telefondan ya da **<span class="email"><noscript>{{ site.data.snippets.email_placeholder[page.language] }}</noscript></span>** e-mail adresi üzerinden iletişime geçebilirsiniz.
 
 Sevgiler,
 
