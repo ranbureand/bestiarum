@@ -119,7 +119,7 @@ Kaydınızı oluşturmak için lütfen **önce kayıt formunu doldurun** ardınd
 
 ---
 
-Kayıt formunu doldurduktan sonra kesin kaydınız için ödeme yapmanızı rica ederiz. Ödemenizi aşağıdaki linkten kredi kartınız ya da banka kartınız ile gerçekleştirebilirsiniz.
+Kayıt formunu doldurduktan sonra kesin kaydınız için ödeme yapmanızı rica ederiz. Ödemenizi aşağıdaki linkten **3 Mart’a kadar** kredi kartınız ya da banka kartınız ile gerçekleştirebilirsiniz.
 
 Çıkan ekranda, üzerinde “Pay with card” yazan pembe yere tıklayın.
 
