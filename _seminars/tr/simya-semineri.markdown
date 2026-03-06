@@ -120,7 +120,6 @@ Her buluşma *Zoom* üzerinden canlı olarak yapılacaktır. Her bir buluşmanı
 
 Her türlü sorunuz için **<span class="phone"><noscript>{{ site.data.snippets.phone_placeholder[page.language] }}</noscript></span>** no’lu telefondan Whatsapp üzerinden ya da **<span class="email"><noscript>{{ site.data.snippets.email_placeholder[page.language] }}</noscript></span>** e-mail adresinden benimle iletişime geçebilirsiniz.
 
-
 Sevgiler,
 
 Dilek

@@ -6,7 +6,7 @@ subtitle: Söyleyeceklerini dinlemeye hazır mısınız?
 description: Tanrıçalara atfedilen tüm bildik hikayeleri unutun. Ben size hikayenin aslında nasıl yazıldığını ve ilk versiyonlarını anlatacağım.
 date: 2026-01-22 00:00:00
 
-status: open
+status: closed
 introduction: Tanrıçalara atfedilen tüm bildik hikayeleri unutun. Ben size hikayenin aslında nasıl yazıldığını ve ilk versiyonlarını anlatacağım.
 dates:
   start: 2026-03-05
@@ -16,10 +16,10 @@ duration: Haftada 2 saat, 5 hafta
 
 preview: goddesses_00.jpg
 
-form_link: 'https://forms.gle/JvMHgVzx6AGgojYaA'
+form_link: ''
 form_button_name: 'Kayıt Formu'
 
-payment_link: 'https://checkout.revolut.com/pay/35e031b1-5326-4103-a558-917228246afa'
+payment_link: ''
 payment_button_name: 'Şimdi Öde'
 
 language: 'tr'
@@ -104,34 +104,15 @@ Her daim bir Tanrı’nın ya da kahramanın karısı-kızı-annesi olmaya zorla
 
 ---
 
-## Ücret
-
-**5.700 TL**  
-Kredi kartı  ya da banka karı ile tek seferde nakit ödeme gerçekleştirebilirsiniz.
-
-Bu seminer için yerimiz kısıtlıdır.
-
-## Nasıl kayıt olacaksınız?
-
-Kaydınızı oluşturmak için lütfen **önce kayıt formunu doldurun** ardından ödemenizi gerçekleştirin.
-
-<span class="form-button"><noscript>{{ site.data.snippets.form_button_placeholder[page.language] }}</noscript></span>
-
----
-
-Kayıt formunu doldurduktan sonra kesin kaydınız için ödeme yapmanızı rica ederiz. Ödemenizi aşağıdaki linkten **3 Mart’a kadar** kredi kartınız ya da banka kartınız ile gerçekleştirebilirsiniz.
-
-Çıkan ekranda, üzerinde “Pay with card” yazan pembe yere tıklayın.
-
-<span class="payment-button"><noscript>{{ site.data.snippets.payment_button_placeholder[page.language] }}</noscript></span>
-
----
-
 Her buluşma online ve canlı yapılacaktır. Her bir buluşmanın hemen sonrasında buluşmanın kaydı katılımcılarla paylaşılacaktır.
 
 Zorunluluk olmamakla birlikte; ilgili Ay fazıyla eş zamanlı ritüel ve çalışmalar yapacağımız için canlı katılım önerilir.
 
 Kaçırdığınız veya tekrar izlemek istediğiniz dersler için; her buluşmanın hemen sonrasında buluşma kaydı tüm katılımcılarla paylaşılacaktır.
+
+---
+
+**Bu seminer için kayıtlarımız kapalıdır**.
 
 Her türlü sorunuz için **<span class="phone"><noscript>{{ site.data.snippets.phone_placeholder[page.language] }}</noscript></span>** no’lu telefondan Whatsapp üzerinden ya da **<span class="email"><noscript>{{ site.data.snippets.email_placeholder[page.language] }}</noscript></span>** e-mail adresinden benimle iletişime geçebilirsiniz.
 
