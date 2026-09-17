@@ -4,15 +4,15 @@ layout: seminar
 title: Mitolojili Tarot
 subtitle: Kartları sana tanrılar ve tanrıçalar anlatsın
 description: Kartları sana tanrılar ve tanrıçalar anlatsın
-date: 2025-02-04 00:00:00
+date: 2026-09-17 00:00:00
 
 status: closed
-introduction: İster Tarot kartlarını okumak istiyor ol, ister mitolojik hikaye çözümlemeyi seviyor ol, bu eğitimde her ikisi de var! Kartları ezberlemek zorunda kalmadan, en kadim hikayeler olan mitolojilerle kartların anlattıkları ruhunuza işleyecek.
+introduction: İster Tarot sembollerinin dilini çözmek, ister mitolojik hikayeleri incelemek istiyor olun; bu eğitimde her ikisine de yer var. Kartların anlamlarını ezberletmek yerine, her birini kadim mitolojik hikayelerle eşleştirerek analitik bir yöntemle ele alacağız.
 dates:
-  start: 2025-03-09
-  end: 2025-05-18
+  start: 2026-10-28
+  end: 2027-01-20
 hours: 21:00–23:00 (TSİ)
-duration: Haftada 2 saat, 10+1 hafta
+duration: Haftada 2 saat, 13 hafta
 
 preview: tarots_00.jpg
 
@@ -28,12 +28,12 @@ installment_payment_button_name: 'Taksitli Öde'
 language: 'tr'
 language_reference: 'tarot-seminar'
 
-published: true
+published: false
 ---
 
 Merhabalar,
 
-Öncelikle ilginiz için teşekkür ederim. 10+1 Hafta sürecek bu Tarot yolculuğu iki bölümden oluşur. Bölümlerin içeriklerini aşağıda bulabilirsiniz.
+Öncelikle ilginiz için teşekkür ederim. 13 Hafta sürecek bu Tarot yolculuğu iki bölümden oluşur. Bölümlerin içeriklerini aşağıda bulabilirsiniz.
 
 {% include image.html
   h="1" w="2"
@@ -42,17 +42,15 @@ Merhabalar,
   color="#b8c6ec"
 %}
 
-**Neden 10+1 Hafta?**
+**Neden 13 Hafta?**
 
-Çünkü 10 sayısı tamamlanmanın, 1 sayısı yeni başlangıçların sayısıdır. 10’dan sonra gelen 1 ise üst oktavdan başlangıçlardır. Biz de bu eğitim boyunca her kartın anlamının içinden geçerken, kendi içimize de sihirli bir yolculuk yapacağız. Ve bu 10+1 haftanın sonunda 'yeni bir ben'e merhaba diyeceğiz. 
-
-Bu buluşmalardaki amacım sizi Tarot kartlarının sembolizmasını okuyabilecek düzeye getirmek ve de kendinize ya da bir başkasına rahat bir şekilde Tarot açılımı yapabilmenizi sağlamaktır. Bu yüzden kartların anlamlarına olduğu kadar bol bol açılım pratiği yapmak için de zaman ayırdım. 
+Çünkü Tarot sembolizmasını ve arkasındaki binlerce yıllık mitolojik mirası gerçekten içselleştirmek, aceleye getirilmeyecek bir süreçtir. Bu eğitimdeki amacım sizi kartların ezberlenmiş anlamlarına hapsolmaktan kurtarıp, Tarot’un mitolojik ve kültürel dilini akıcı bir şekilde okuyabilecek düzeye getirmektir. Bu yüzden 8 haftamızı Majör Arkana'nın derinliklerine, geri kalan tam 5 haftamızı ise Minör Arkana'ya ve bol bol okuma (açılım) pratiği yapmaya ayırdım. Eh, bir de 13 güzel bir sayı :) 
 
 ## 1. Bölüm: Majör Arkana: <br/>22 Kart 22 Mitolojik Hikaye
 
-22 Majör Arkana Kartı–22 Mitolojik Hikaye’yi kapsayan 1. Bölüm, 9 Mart–27 Nisan 2025 tarihleri arasında gerçekleşecektir.
+22 Majör Arkana Kartı ve onların 22 Mitolojik Hikayesi’ni kapsayan 1. Bölümümüz, 28 Ekim Çarşamba günü başlayacaktır.
 
-Dersler 8 Hafta boyunca, her Pazar akşamı TR Saatiyle 21:00–23:00 saatleri arasında Zoom üzerinden online ve canlı olarak yapılacaktır.
+Dersler 8 Hafta boyunca, her Çarşamba akşamı TR Saatiyle 21:00–23:00 saatleri arasında online ve canlı olarak yapılacaktır.
 
 Bu eğitimde her bir Majör Arkana Kartına ait:
 
@@ -61,12 +59,11 @@ Bu eğitimde her bir Majör Arkana Kartına ait:
 + Astrolojik Bağlantılar
 + Ve diğer Ezoterik Bilgileri paylaştıktan sonra
 
-Kartın bize ne söylediğini anlatan bazen bildik bazen de pek bilinmedik mitolojik hikayesini anlatacağım.
+Kartın bize ne söylediğini anlatan, bazen bildik bazen de pek bilinmedik mitolojik hikayesini anlatacağım. 
 
-Size anlatacaklarım karttaki sembollerin değil kartın tamamının ne dediğini anlatan hikayeler olacak. Böylelikle kartları daha kolay bir şekilde içselleştirebilecek ve anlamlarını ezberlemek zorunda kalmadan anlayabileceksiniz.
+Size anlatacaklarım sadece sembollerin değil, kartın bütünsel olarak ne anlattığını gösteren hikayeler olacak. 
 
-Ayrıca kartlarla nasıl meditasyon ve şifa çalışması yapabileceğinizi de anlatacağım.
-
+Böylelikle kartları daha kolay bir şekilde içselleştirebilecek ve anlamlarını ezberlemek zorunda kalmadan anlayabileceksiniz.
 
 ### Hafta Hafta 1. Bölüm İçeriği
 
@@ -74,14 +71,14 @@ Her bir karta karşılık gelen mitolojik hikayesine geçmeden önce tüm kartla
 
 | Hafta | Tarih | İçerik |
 | - | - | - |
-| 1 | 9&nbsp;Mart | Tarot’un Kısa Tarihçesi, Başlıca Tarot Desteleri, Tarot Arketipleri, Numeroloji, Elementler ve Semboller, Renkler, Kahramanın Yolculuğu ve Tarot, Dionysos ve Apollo: Tragedya’nın Doğuşu, Tarot Kartlarıyla Yapılabilecek Şifa Çalışmaları <br/>Joker Kartı ve Büyücü Kartı ile Rüya Çalışması |
-| 2 | 16&nbsp;Mart | **0 Joker**: Momus & Dionysos <br/>**1 Büyücü**: Hermes & Apollo <br/>**2 Azize**: İsis ve Osiris & Persephone |
-| 3 | 23&nbsp;Mart | **3 İmparatoriçe**: Demeter <br/>**4 İmparator**: Kral Arthur <br/>**5 Aziz**: Şifacı Kiron |
-| 4 | 30&nbsp;Mart | **6 Aşıklar**: Castor ve Pollux & Perseus ve Andromeda <br/>**7 Araba**: Tripura ve Şiva <br/>**8 Güç**: Cyrene & Parvati |
-| 5 | 6&nbsp;Nisan | **9 Ermiş**: Persival ve Kutsal Kase <br/>**10 Kader Çarkı**: Tanrıça Fortuna ve Carmina Burana <br/>**11 Adalet**: Tanrıça Ma’at |
-| 6 | 13&nbsp;Nisan | **12 Asılan Adam**: Odin <br/>**13 Ölüm**: Herakles <br/>**14 Denge**: Trimurti |
-| 7 | 20&nbsp;Nisan | **15 Şeytan**: Aziz Theofilus <br/>**16 Kule**: Rapunzel Masalı <br/>**17 Yıldız**: Nut |
-| 8 | 27&nbsp;Nisan | **18 Ay**: Hekate <br/>**19 Güneş**: Amaterasu <br/>**20 Mahkeme**: Uyuyan Güzel Masalı <br/>**21 Dünya**: Brahman/Atman & Kozmik Dans |
+| 1 | 28&nbsp;Ekim | Tarot’un Kısa Tarihçesi, Başlıca Tarot Desteleri, Tarot Arketipleri, Numeroloji, Elementler ve Semboller, Renkler, Kahramanın Yolculuğu ve Tarot, Dionysos ve Apollo: Tragedya’nın Doğuşu, Tarot Kartlarıyla Yapılabilecek Şifa Çalışmaları <br/>Joker Kartı ve Büyücü Kartı ile Rüya Çalışması |
+| 2 | 4&nbsp;Kasım | **0 Joker**: Momus & Dionysos <br/>**1 Büyücü**: Hermes & Apollo <br/>**2 Azize**: İsis ve Osiris & Persephone |
+| 3 | 11&nbsp;Kasım | **3 İmparatoriçe**: Demeter <br/>**4 İmparator**: Kral Arthur <br/>**5 Aziz**: Şifacı Kiron |
+| 4 | 18&nbsp;Kasım | **6 Aşıklar**: Castor ve Pollux & Perseus ve Andromeda <br/>**7 Araba**: Tripura ve Şiva <br/>**8 Güç**: Cyrene & Parvati |
+| 5 | 25&nbsp;Kasım | **9 Ermiş**: Persival ve Kutsal Kase <br/>**10 Kader Çarkı**: Tanrıça Fortuna ve Carmina Burana <br/>**11 Adalet**: Tanrıça Ma’at |
+| 6 | 2&nbsp;Aralık | **12 Asılan Adam**: Odin <br/>**13 Ölüm**: Herakles <br/>**14 Denge**: Trimurti |
+| 7 | 9&nbsp;Aralık | **15 Şeytan**: Aziz Theofilus <br/>**16 Kule**: Rapunzel Masalı <br/>**17 Yıldız**: Nut |
+| 8 | 16&nbsp;Aralık | **18 Ay**: Hekate <br/>**19 Güneş**: Amaterasu <br/>**20 Mahkeme**: Uyuyan Güzel Masalı <br/>**21 Dünya**: Brahman/Atman & Kozmik Dans |
 {: .table }
 
 ## 2. Bölüm: Minör Arkana <br/>ve Tarot Açılım Pratikleri
@@ -107,17 +104,19 @@ Her bir kartın tek tek anlamını anlatmaya geçmeden önce tüm kartların num
 
 | Hafta | Tarih | İçerik |
 | - | - | - |
-| 9,&nbsp;10 | 4&nbsp;Mayıs,<br/>11&nbsp;Mayıs | {::nomarkdown}<p>Minör Arkana Kartları Genel Bilgiler: Elementler, Numerolojiler, Renkler ve Anlamları ve Astrolojideki karşılıkları</p><ul><li>Değnek Serisi</li><li>Kupa Serisi</li><li>Kılıç Serisi</li><li>Tılsım Serisi</li><li>Saraylı Kartlar</li></ul>{:/} |
-| 11 | 18&nbsp;Mayıs | Tarot Açılım Pratikleri |
+| 9, 10, 11 | 23 Aralık,<br/>30 Aralık, <br/>2 Ocak | {::nomarkdown}<p>Minör Arkana Kartları Genel Bilgiler: Elementler, Numerolojiler, Renkler ve Anlamları ve Astrolojideki karşılıkları</p><ul><li>Değnek Serisi</li><li>Kupa Serisi</li><li>Kılıç Serisi</li><li>Tılsım Serisi</li><li>Saraylı Kartlar</li><li>Tarot Açılım Pratikleri</li></ul>{:/}  |
+| 11, 12 | 68&nbsp;Ocak,<br/>20 Ocak| Tarot Açılım Pratikleri |
 {: .table }
 
 En çok bilinen ve kullanılan Tarot destesi olan Rider Waite Smith Tarot Destesini kullanacağız.
 
-Dersler Zoom üzerinden online ve canlı olarak gerçekleştirilecektir.
+Dersler online ve canlı olarak gerçekleştirilecektir.
 
 Her dersin hemen bitiminde katılımcılarla dersin kaydı paylaşılır. Ders kayıtlarına buluşmaların bitiminden sonra 2 ay süreyle online olarak ulaşılabilir.
 
-Dersten önce, ders esnasında not tutmayı kolaylaştırması için ilgili kartların özet ders notu ve kitapçığı paylaşılacaktır.
+Dersten önce, ders esnasında not tutmayı kolaylaştırması için ilgili kartların özet ders notu ve kitapçığı PDF olarak paylaşılacaktır.
+
+Daha önce Tarot'un Gerçek Tarihi Semineri'ne katılanlara %10 indirim vardır, lütfen benimle iletişime geçin. 
 
 ---
 
