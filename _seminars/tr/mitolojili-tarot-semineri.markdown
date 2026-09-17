@@ -6,7 +6,7 @@ subtitle: Kartları sana tanrılar ve tanrıçalar anlatsın
 description: Kartları sana tanrılar ve tanrıçalar anlatsın
 date: 2026-09-17 00:00:00
 
-status: closed
+status: open
 introduction: İster Tarot sembollerinin dilini çözmek, ister mitolojik hikayeleri incelemek istiyor olun; bu eğitimde her ikisine de yer var. Kartların anlamlarını ezberletmek yerine, her birini kadim mitolojik hikayelerle eşleştirerek analitik bir yöntemle ele alacağız.
 dates:
   start: 2026-10-28
@@ -16,10 +16,10 @@ duration: Haftada 2 saat, 13 hafta
 
 preview: tarots_00.jpg
 
-form_link: ''
+form_link: 'https://forms.gle/psutCjRaH86m2g4e9'
 form_button_name: 'Kayıt Formu'
 
-payment_link: ''
+payment_link: 'https://checkout.revolut.com/pay/be119ecf-5447-4c3e-bb5f-ff465066f75e'
 payment_button_name: 'Şimdi Öde'
 
 installment_payment_link: ''
@@ -28,7 +28,7 @@ installment_payment_button_name: 'Taksitli Öde'
 language: 'tr'
 language_reference: 'tarot-seminar'
 
-published: false
+published: true
 ---
 
 Merhabalar,
@@ -44,7 +44,7 @@ Merhabalar,
 
 **Neden 13 Hafta?**
 
-Çünkü Tarot sembolizmasını ve arkasındaki binlerce yıllık mitolojik mirası gerçekten içselleştirmek, aceleye getirilmeyecek bir süreçtir. Bu eğitimdeki amacım sizi kartların ezberlenmiş anlamlarına hapsolmaktan kurtarıp, Tarot’un mitolojik ve kültürel dilini akıcı bir şekilde okuyabilecek düzeye getirmektir. Bu yüzden 8 haftamızı Majör Arkana'nın derinliklerine, geri kalan tam 5 haftamızı ise Minör Arkana'ya ve bol bol okuma (açılım) pratiği yapmaya ayırdım. Eh, bir de 13 güzel bir sayı :) 
+Çünkü Tarot sembolizmasını ve arkasındaki binlerce yıllık mitolojik mirası gerçekten içselleştirmek, aceleye getirilmeyecek bir süreçtir. Bu eğitimdeki amacım sizi kartların ezberlenmiş anlamlarına hapsolmaktan kurtarıp, Tarot’un mitolojik ve kültürel dilini akıcı bir şekilde okuyabilecek düzeye getirmektir. Bu yüzden 8 haftamızı Majör Arkana’nın derinliklerine, geri kalan tam 5 haftamızı ise Minör Arkana’ya ve bol bol okuma (açılım) pratiği yapmaya ayırdım. Eh, bir de 13 güzel bir sayı :) 
 
 ## 1. Bölüm: Majör Arkana: <br/>22 Kart 22 Mitolojik Hikaye
 
@@ -83,8 +83,6 @@ Her bir karta karşılık gelen mitolojik hikayesine geçmeden önce tüm kartla
 
 ## 2. Bölüm: Minör Arkana <br/>ve Tarot Açılım Pratikleri
 
-Majör Arkana kartlarıyla olan yolculuğumuzun hemen ardından başlayacak olan Minör Arkana ve Açılım Pratikleri Bölümü 4 Mayıs–18 Mayıs 2025 tarihleri arasında gerçekleşecektir. Dersler 3 Hafta boyunca, her Pazar akşamı TR Saatiyle 21:00–23:00 saatleri arasında Zoom üzerinden online ve canlı olarak yapılacaktır.
-
 Bu bölümde 56 Minör Arkana Kartını anlatacağım ve farklı açılım teknikleriyle beraberce bol bol Tarot Açılımları yapacağız.
 
 Her bir Minör Arkana Kartına ait:
@@ -104,8 +102,8 @@ Her bir kartın tek tek anlamını anlatmaya geçmeden önce tüm kartların num
 
 | Hafta | Tarih | İçerik |
 | - | - | - |
-| 9, 10, 11 | 23 Aralık,<br/>30 Aralık, <br/>2 Ocak | {::nomarkdown}<p>Minör Arkana Kartları Genel Bilgiler: Elementler, Numerolojiler, Renkler ve Anlamları ve Astrolojideki karşılıkları</p><ul><li>Değnek Serisi</li><li>Kupa Serisi</li><li>Kılıç Serisi</li><li>Tılsım Serisi</li><li>Saraylı Kartlar</li><li>Tarot Açılım Pratikleri</li></ul>{:/}  |
-| 11, 12 | 68&nbsp;Ocak,<br/>20 Ocak| Tarot Açılım Pratikleri |
+| 9, 10, 11 | 23&nbsp;Aralık,<br/>30&nbsp;Aralık, <br/>6&nbsp;Ocak | {::nomarkdown}<p>Minör Arkana Kartları Genel Bilgiler: Elementler, Numerolojiler, Renkler ve Anlamları ve Astrolojideki karşılıkları</p><ul><li>Değnek Serisi</li><li>Kupa Serisi</li><li>Kılıç Serisi</li><li>Tılsım Serisi</li><li>Saraylı Kartlar</li><li>Tarot Açılım Pratikleri</li></ul>{:/}  |
+| 11, 12 | 13&nbsp;Ocak,<br/>20&nbsp;Ocak| Tarot Açılım Pratikleri |
 {: .table }
 
 En çok bilinen ve kullanılan Tarot destesi olan Rider Waite Smith Tarot Destesini kullanacağız.
@@ -116,11 +114,37 @@ Her dersin hemen bitiminde katılımcılarla dersin kaydı paylaşılır. Ders k
 
 Dersten önce, ders esnasında not tutmayı kolaylaştırması için ilgili kartların özet ders notu ve kitapçığı PDF olarak paylaşılacaktır.
 
-Daha önce Tarot'un Gerçek Tarihi Semineri'ne katılanlara %10 indirim vardır, lütfen benimle iletişime geçin. 
+Daha önce Tarot’un Gerçek Tarihi Semineri’ne katılanlara %10 indirim vardır, lütfen benimle iletişime geçin. 
 
 ---
 
-**Bu seminer için kayıtlarımız kapalıdır**.
+## Ücret
+
+Ödemeler 4 derste 1 olmak üzere 3 taksitledir.
+
+**4.000 TL** × **3** (KDV Dahil)
+
+Ödemelerinizi dilerseniz aşağıdaki linkten kredi kartı ya da banka kart ile, dilerseniz hesaba havale yaparak gerçekleştirebilirsiniz.
+
+## Nasıl kayıt olacaksınız?
+
+Kaydınızı oluşturmak için lütfen **önce kayıt formunu doldurun** ardından ödemenizi gerçekleştirin.
+
+<span class="form-button"><noscript>{{ site.data.snippets.form_button_placeholder[page.language] }}</noscript></span>
+
+---
+
+Kayıt formunu doldurduktan sonra kesin kaydınız için 26 Ekim’e kadar ödeme yapmanızı rica ederiz.
+
+Çıkan ekranda, üzerinde “Pay with card” yazan pembe yere tıklayın.
+
+<span class="payment-button"><noscript>{{ site.data.snippets.payment_button_placeholder[page.language] }}</noscript></span>
+
+Havale yoluyla ödemek için IBAN:  
+**TR65 0004 6000 5488 8000 2880 46**  
+**Dilek Dilaver Buran** / **Akbank**
+
+Ödemenizi yaptıktan sonra ekran görüntüsünü ya da dekontu bana iletmenizi rica ederim. 
 
 ---
 
